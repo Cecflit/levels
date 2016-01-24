@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "8+8")
+  (description "No description so far.")
+)

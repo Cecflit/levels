@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Pedro's Milestone")
+  (description "My Milestone")
+)

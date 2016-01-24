@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Min sin")
+  (description "No description so far.")
+)

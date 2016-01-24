@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Gir World")
+  (description "Yay Tux!")
+)

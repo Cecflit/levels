@@ -1,0 +1,55 @@
+(supertux-sprite
+ (action
+  (name "normal")
+  (hitbox 2 3 0 0)
+  (images "left-0.png"
+          "left-1.png"))
+
+ (action
+  (name "down")
+  (hitbox 2 11 0 0)
+  (images "down.png"))
+
+ (action
+  (name "iced")
+  (hitbox 2 3 31.8 31.8)
+  (images "iced-left.png"))
+
+ (action
+  (name "iced-down")
+  (hitbox 2 11 31.8 31.8)
+  (images "iced-down.png"))
+ (action
+  (name "burning-left")
+  (hitbox 2 11 0 0)
+  (fps 15.0)
+  (images
+   "laving-0.png"
+   "laving-1.png"
+   "laving-2.png"
+   "laving-3.png"
+   "laving-4.png"
+   "laving-5.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"
+   "lava-droplet.png"))
+ (action
+  (name "burning-right")
+  (hitbox 2 11 0 0)
+  (mirror-action "burning-left"))
+)
+

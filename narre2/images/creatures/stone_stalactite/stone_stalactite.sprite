@@ -1,0 +1,9 @@
+(supertux-sprite
+	(action
+	  (name "normal")
+	  (hitbox 4 0 28 45)
+	  (images "default.png"))
+	(action
+	  (name "squished")
+	  (hitbox 12 0 28 45)
+	  (images "crashed.png")))

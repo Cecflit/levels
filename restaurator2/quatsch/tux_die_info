@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Tux Die!")
+  (description "Please die ... Xer(Noloks helper!)")
+)

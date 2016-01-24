@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Trot Like a Fox")
+  (description "Some more difficult levels")
+)

@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Amateurs Need Not Apply")
+  (description "For Professional Tuxers Only")
+)

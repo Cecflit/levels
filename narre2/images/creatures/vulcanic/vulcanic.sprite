@@ -1,0 +1,67 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 0 7 35 20)
+    (images "crystallo-left-0.png"
+            "crystallo-left-1.png"
+            "crystallo-left-0.png"
+            "crystallo-left-2.png")
+  )
+  (action
+    (hitbox 0 7 35 20)
+    (name "right")
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 0 7 35 20)
+    (images "shattered-left.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 0 7 35 20)
+    (mirror-action "squished-left")
+  )
+ (action
+  (name "burning-left")
+  (hitbox 0 7 35 20)
+  (fps 15.0)
+  (images "whatevering-0.png"
+   "whatevering-1.png"
+   "whatevering-2.png"
+   "whatevering-3.png"
+   "whatevering-4.png"
+   "whatevering-5.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"
+   "whatevered-transformed-dust.png"))
+ (action
+  (name "burning-right")
+  (hitbox 0 7 35 20)
+  (mirror-action "burning-left"))
+ (action
+    (name "iced-left")
+    (hitbox 0 7 35 20)
+    (images "frozen.png")
+  )
+  (action
+    (name "iced-right")
+    (hitbox 0 7 35 20)
+    (mirror-action "iced-left")
+    )
+)

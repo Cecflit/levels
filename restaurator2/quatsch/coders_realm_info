@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Coders Realm")
+  (description "Just some misc levels")
+)

@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Mosiworld")
+  (description "Levels made by mosi")
+)

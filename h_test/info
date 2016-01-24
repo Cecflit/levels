@@ -1,0 +1,5 @@
+(supertux-level-subset
+  (title (_ "Blb-test"))
+  (description "371830")
+  (levelset #t)
+)

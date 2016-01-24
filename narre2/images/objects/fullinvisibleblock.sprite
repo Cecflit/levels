@@ -1,0 +1,8 @@
+(supertux-sprite
+      (action
+        (name "empty")
+        (images "../../../../images/background/transparent_up.png"))
+(action
+        (name "normal")
+        (images "../../../../images/background/transparent_up.png"))
+)

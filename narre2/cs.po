@@ -1,0 +1,625 @@
+# Czech translations for SuperTux Add-On (Narre's Multiworld)
+# Copyright (C) 2015 Jirka Paleček ("Narre") <nrrstttpt@gmail.com>
+# This file is distributed under the same license as SuperTux.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-08 18:36+0200\n"
+"PO-Revision-Date: 2015-12-12 12:30+0100\n"
+"Last-Translator: Jiří 'Narre' Paleček <nrrstttpt@gmail.com>\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/levels/narre2/info:2
+msgid "Narre's Multiworld"
+msgstr "Narreho Multisvět"
+
+#: data/levels/narre2/iceberg_introduction.stl:3
+msgid "Introduction"
+msgstr "Představení"
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "Welcome to Narre's Multiworld!"
+msgstr "Vítej v Narreho Multisvětě!"
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "If you have seen my previous world,\nNarre Land, then I'm really sorry for that."
+msgstr "Pokud jsi viděl můj předchozí svět,\nNarreovskou Zemi, pak se Ti opravdu\nomlouvám."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "And if you haven't, then, please, avoid it.\nI can tell that Narre Land is the worst\nSuperTux world ever made."
+msgstr "A pokud ne, pak se tomu, prosím, vyvaruj.\nMohu říci, že Narreovská Země je nejhorší\nsvět do SuperTuxe, jež byl kdy vytvořen."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "Narre Land's levels were my first levels for\nSuperTux Milestone 2. I've experimented\nwith scripts and other functions and\nI didn't concentrate to levels quality."
+msgstr "Úrovně Narreovské Země byly moje první\núrovně do nového SuperTuxe. Experimentoval\njsem se skripty a jinými funkcemi a\nnesoustředil jsem se na kvalitu úrovní."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "But this world is absolutelly different,\nI swear. These levels are not based on\n'Just make some level', but they are\nbased on their quality and look."
+msgstr "Ale tento svět je naprosto odlišný,\npřísahám. Tyto úrovně nejsou založeny na\n'Prostě udělat nějakou úroveň', ale jsou\nzaloženy na jejich vzhledu a hratelnosti."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "This world has 18 environments. In every\nenvironment, there are 20 levels and one\nsecret level. In every environment, there is\nmain building (Castles, fortresses, temples, etc.)"
+msgstr "Tento svět má 18 prostředí. V každém\nprostředí je 20 úrovní a jedna tajná\núroveň. V každém prostředí je hlavní\nbudova (hrady, pevnosti, chrámy apod.)"
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "At the end of this Add-On, there are some\nbonus levels. In total, this world has\n400 levels, so you won't complete it in one day."
+msgstr "Na konci tohoto doplňku jsou nějaké\nbonusové úrovně. Celkem se tento svět\nskládá ze čtyř set úrovní, takže ho\nnedokončíš za jeden den."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "You need to pass through the main building to\nget to the next environment. To unlock\nthe main building, you have to complete\nall non-secret levels in the environment."
+msgstr "Aby ses dostal do dalšího prostředí, musíš\nprojít hlavní budovou. Pro odemčení hlavní\nbudovy musíš dokončit všechny netajné\núrovně v prostředí."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "There are also some informations in the levels.\nYou should remember or write\nthese informations, because you'll\nneed them in the final joust."
+msgstr "V úrovních se nacházejí také různé\ninformace. Tyto informace by sis měl\nzapamatovat nebo napsat, protože je\nbudeš potřebovat ve finálním souboji."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "That was some info about this world.\nNow, let's start with the story..."
+msgstr "Tolik k informacím o světě.\nTeď začneme s příběhem..."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "Creatures are being kidnapped!\nSomebody must investigate that,\nbut everyone's afraid!"
+msgstr "Stvoření jsou unášena!\nNěkdo to musí vyšetřit,\nale každý se bojí!"
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "One day, Penny has been kidnapped too!\nSo, Tux made his decision and started\nto prepare to his journey."
+msgstr "Jednoho dne byla unesena i Penny!\nTakže, Tux učinil své rozhodnutí a začal\nse připravovat na svou výpravu."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "Journey to Matrix, the only thing which can\ndo this. But Matrix is really far away and\nto destroy it, Tux will has to win a\njoust in question answering. Against the Matrix!"
+msgstr "Výpravu do Matrixu, jediné věci, která tohle\nmůže udělat. Ale Matrix je opravdu daleko\na aby ho Tux zničil, bude muset vyhrát\nsouboj v odpovídání na otázky. Proti Matrixu!"
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "So, Tux has prepared his boat, his supplies and\nthe journey begun. He must defeat\nthe Matrix an release every living creature \nfrom its virtual reality before Matrix\nwill kidnap him."
+msgstr "Takže si Tux připravil svoji loď, své\nzásoby a výprava začala. Musí porazit\nMatrix a osvobodit každé živé stvoření z\njeho virtuální reality dřive, než ho\nMatrix také unese."
+
+#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "And you, player, you will help Tux\nin every situation. You have been choosen.\nThere's no way back."
+msgstr "A ty, hráči, ty pomůžeš Tuxovi\nv každé situaci. Byl jsi vybrán.\nNení cesty zpět."
+
+#: data/levels/narre2/mountains_welcome_to_narres_mountains.stl:WhoKnows
+msgid ""
+"-Icicles\n"
+"#You have just entered really frosty mountains in high altitude. Icicles in these heights are firmly fixed to the ceiling, so they won't fall on your head. But they are still very sharp, so don't disregard them. You can still force them to fall by shooting them by ice bullet or warming them by fire bullet."
+msgstr "-Rampouchy\n#Právě jsi vstoupil do opravdu mrazivých hor vysoko nd mořem. Rampouchy jsou v těchto výškách pevně přimrzlé ke stropu, takže ti nespadnou na hlavu. Ale pořád jsou dost ostré, takže je nepodceňuj. Pořád je můžeš shodit sestřelením ledovou střelou nebo ohřátím ohnivou střelou."
+
+#: data/levels/narre2/iceberg_welcome_to_narres_iceberg.stl:3
+msgid "Welcome to Narre's Iceberg"
+msgstr "Vítej na Narreho ledovci"
+
+#: data/levels/narre2/iceberg_welcome_to_narres_iceberg.stl:111
+msgid "#All fullboxes are not full!"
+msgstr "#Všechny bonusové bloky nejsou plné!"
+
+#: data/levels/narre2/iceberg_frozen_hills.stl:3
+msgid "Frozen Hills"
+msgstr "Zmrzlé kopce"
+
+#: data/levels/narre2/iceberg_down_the_frozen_cave.stl:3
+msgid "Down the Frozen Cave"
+msgstr "Dolů zmrzlou jeskyní"
+
+#: data/levels/narre2/iceberg_just_another_snowy_day.stl:3
+msgid "Just Another Snowy Day"
+msgstr "Jen další sněžný den"
+
+#: data/levels/narre2/iceberg_a_icy_path.stl:3
+msgid "A Icy Path"
+msgstr "Namrzlá cesta"
+
+#: data/levels/narre2/forest_welcome_to_narres_forest.stl:3
+msgid "Welcome to Narre's Forest"
+msgstr "Vítej v Narreho lese"
+
+#: data/levels/narre2/volcano_welcome_to_narres_volcano.stl:3
+msgid "Welcome to Narre's Volcano"
+msgstr "Vítej v Narreho vulkánu"
+
+#: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:3
+msgid "Welcome to Narre's Swamp"
+msgstr "Vítej v Narreho bažině"
+
+#: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:77
+msgid ""
+"-Green Wisps\n"
+"!images/creatures/willowisp/idle-0.png\n"
+"#Green Wisps are not dangerous, but they can warp you back and make your journey longer!"
+msgstr "-Zelené bludičky\n!images/creatures/willowisp/idle-0.png\n#Zelené bludičky nejsou nebezpečné, ale mohou vás přenést zpátky a učinit tak vaší výpravu delší!"
+
+#: data/levels/narre2/desert_welcome_to_narres_desert.stl:3
+msgid "Welcome to Narre's Desert"
+msgstr "Vítej na Narreho poušti"
+
+#: data/levels/narre2/desert_welcome_to_narres_desert.stl:111
+msgid ""
+"-Quicksand\n"
+"#You can find some quicksand in the desert. If you'll fall into quicksand, you'll die in it. There are also a badguy which lives in quicksand. It is called Skelehand. It cannot be killed because it's already dead. But it can kill you very easily.\n"
+"*So, be careful!"
+msgstr "-Tekutý písek\n#V poušti můžete najít nějaký tekutý písek. Pokud do něj spadnete, zemřete v něm. Také zde je nepřítel, který v tekutém písku žije. Říká se mu Kostiruka. Nemůžete ho zabít, protože už je mrtvý. Ale on Vás zabije velice jednoduše.\n*Takže, buďte opatrní!"
+
+#: data/levels/narre2/worldmap.stwm:15
+msgid "You are now travelling to the Iceberg"
+msgstr "Právě cestuješ na ledovec"
+
+#: data/levels/narre2/worldmap.stwm:23
+msgid "You have just arrived to the Iceberg"
+msgstr "Právě jsi dorazil na ledovec"
+
+#: data/levels/narre2/worldmap.stwm:31
+msgid "You have just arrived to the Forest"
+msgstr "Právě jsi dorazil do lesa"
+
+#: data/levels/narre2/worldmap.stwm:39
+msgid "You are now travelling to the Forest"
+msgstr "Právě cestuješ do lesa"
+
+#: data/levels/narre2/worldmap.stwm:47
+msgid "You have just arrived to the Forest"
+msgstr "Právě jsi dorazil do lesa"
+
+#: data/levels/narre2/worldmap.stwm:55
+msgid "You are now travelling to the Jungle"
+msgstr "Právě cestuješ do džungle"
+
+#: data/levels/narre2/worldmap.stwm:63
+msgid "You have just arrived to the Jungle"
+msgstr "Právě jsi dorazil do džungle"
+
+#: data/levels/narre2/worldmap.stwm:71
+msgid "You are now travelling to the Forest"
+msgstr "Právě cestuješ do lesa"
+
+#: data/levels/narre2/worldmap.stwm:79
+msgid "You have just arrived to the Jungle"
+msgstr "Právě jsi dorazil do džungle"
+
+#: data/levels/narre2/worldmap.stwm:87
+msgid "You are now travelling to the Underground"
+msgstr "Právě cestuješ do podzemí"
+
+#: data/levels/narre2/worldmap.stwm:111
+msgid "You have just arrived to the Underground"
+msgstr "Právě jsi dorazil do podzemí"
+
+#: data/levels/narre2/worldmap.stwm:119
+msgid "You are now travelling to the Jungle"
+msgstr "Právě cestuješ do džungle"
+
+#: data/levels/narre2/worldmap.stwm:143
+msgid "You have just arrived to the Underground"
+msgstr "Právě jsi dorazil do podzemí"
+
+#: data/levels/narre2/worldmap.stwm:151
+msgid "You are now travelling to the Mountains"
+msgstr "Právě cestuješ do hor"
+
+#: data/levels/narre2/worldmap.stwm:159
+msgid "You have just arrived to the Mountains"
+msgstr "Právě jsi dorazil do hor"
+
+#: data/levels/narre2/worldmap.stwm:167
+msgid "You are now travelling to the Underground"
+msgstr "Právě cestuješ do podzemí"
+
+#: data/levels/narre2/worldmap.stwm:175
+msgid "You have just arrived to the Mountains"
+msgstr "Právě jsi dorazil do hor"
+
+#: data/levels/narre2/worldmap.stwm:183
+msgid "You are now travelling to the IceCave"
+msgstr "Právě cestuješ do ledové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:207
+msgid "You are now travelling to the Mountains"
+msgstr "Právě cestuješ do hor"
+
+#: data/levels/narre2/worldmap.stwm:215
+msgid "You have just arrived to the IceCave"
+msgstr "Právě jsi dorazil do ledové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:239
+msgid "You have just arrived to the IceCave"
+msgstr "Právě jsi dorazil do ledové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:247
+msgid "You are now travelling to the CrystalCave"
+msgstr "Právě cestuješ do krystalové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:271
+msgid "You have just arrived to the CrystalCave"
+msgstr "Právě jsi dorazil do krystalové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:279
+msgid "You are now travelling to the IceCave"
+msgstr "Právě cestuješ do ledové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:303
+msgid "You have just arrived to the CrystalCave"
+msgstr "Právě jsi dorazil do krystalové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:311
+msgid "You are now travelling to the Rocks"
+msgstr "Právě cestuješ do skal"
+
+#: data/levels/narre2/worldmap.stwm:319
+msgid "You are now travelling to the CrystalCave"
+msgstr "Právě cestuješ do krystalové jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:327
+msgid "You have just arrived to the Rocks"
+msgstr "Právě jsi dorazil do skal"
+
+#: data/levels/narre2/worldmap.stwm:335
+msgid "You have just arrived to the Rocks"
+msgstr "Právě jsi dorazil do skal"
+
+#: data/levels/narre2/worldmap.stwm:343
+msgid "You are now travelling to the Rocks"
+msgstr "Právě cestuješ do skal"
+
+#: data/levels/narre2/worldmap.stwm:351
+msgid "You have just arrived to the Swamp"
+msgstr "Právě jste dorazlili do bažiny"
+
+#: data/levels/narre2/worldmap.stwm:359
+msgid "You are now travelling to the IceCanyon"
+msgstr "Právě cestuješ do ledového kaňónu"
+
+#: data/levels/narre2/worldmap.stwm:367
+msgid "You have just arrived to the Swamp"
+msgstr "Právě jsi dorazil do bažiny"
+
+#: data/levels/narre2/worldmap.stwm:375
+msgid "You are now travelling to the Desert"
+msgstr "Právě cestuješ do pouště"
+
+#: data/levels/narre2/worldmap.stwm:383
+msgid "You have just arrived to the Desert"
+msgstr "Právě jsi dorazil do pouště"
+
+#: data/levels/narre2/worldmap.stwm:391
+msgid "You are now travelling to the Swamp"
+msgstr "Právě cestuješ do bažiny"
+
+#: data/levels/narre2/worldmap.stwm:399
+msgid "You are now travelling to the Volcano"
+msgstr "Právě cestuješ do vulkánu"
+
+#: data/levels/narre2/worldmap.stwm:407
+msgid "You have just arrived to the Desert"
+msgstr "Právě jsi dorazil do pouště"
+
+#: data/levels/narre2/worldmap.stwm:415
+msgid "You are now travelling to the Desert"
+msgstr "Právě cestuješ do pouště"
+
+#: data/levels/narre2/worldmap.stwm:423
+msgid "You have just arrived to the Volcano"
+msgstr "Právě jsi dorazil do vulkánu"
+
+#: data/levels/narre2/worldmap.stwm:431
+msgid "You have just arrived to the Volcano"
+msgstr "Právě jsi dorazil do vulkánu"
+
+#: data/levels/narre2/worldmap.stwm:439
+msgid "You are now travelling to the River"
+msgstr "Právě cestuješ do řeky"
+
+#: data/levels/narre2/worldmap.stwm:447
+msgid "You have just arrived to the River"
+msgstr "Právě jsi dorazil do řeky"
+
+#: data/levels/narre2/worldmap.stwm:455
+msgid "You are now travelling to the Volcano"
+msgstr "Právě cestuješ do vulkánu"
+
+#: data/levels/narre2/worldmap.stwm:463
+msgid "You are now travelling to the StoneCave"
+msgstr "Právě cestuješ do kamenné jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:471
+msgid "You have just arrived to the River"
+msgstr "Právě jsi dorazil do řeky"
+
+#: data/levels/narre2/worldmap.stwm:479
+msgid "You are now travelling to the River"
+msgstr "Právě cestuješ do řeky"
+
+#: data/levels/narre2/worldmap.stwm:487
+msgid "You have just arrived to the StoneCave"
+msgstr "Právě jsi dorazil do kamenné jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:527
+msgid "You have just arrived to the StoneCave"
+msgstr "Právě jsi dorazil do kamenné jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:535
+msgid "You are now travelling to the Meadows"
+msgstr "Právě cestuješ do luk"
+
+#: data/levels/narre2/worldmap.stwm:543
+msgid "You are now travelling to the StoneCave"
+msgstr "Právě cestuješ do kamenné jeskyně"
+
+#: data/levels/narre2/worldmap.stwm:551
+msgid "You have just arrived to the Meadows"
+msgstr "Právě jsi dorazil do luk"
+
+#: data/levels/narre2/worldmap.stwm:559
+msgid "You are now travelling to the Geysers"
+msgstr "Právě cestuješ do gejzírů"
+
+#: data/levels/narre2/worldmap.stwm:567
+msgid "You have just arrived to the Meadows"
+msgstr "Právě jsi dorazil do luk"
+
+#: data/levels/narre2/worldmap.stwm:575
+msgid "You have just arrived to the Geysers"
+msgstr "Právě jsi dorazil do gejzírů"
+
+#: data/levels/narre2/worldmap.stwm:583
+msgid "You are now travelling to the Meadows"
+msgstr "Právě cestuješ do luk"
+
+#: data/levels/narre2/worldmap.stwm:591
+msgid "You have just arrived to the Geysers"
+msgstr "Právě jsi dorazil do gejzírů"
+
+#: data/levels/narre2/worldmap.stwm:599
+msgid "You are now travelling to the Fortress"
+msgstr "Právě cestuješ do pevnosti"
+
+#: data/levels/narre2/worldmap.stwm:607
+msgid "You have just arrived to the Fortress"
+msgstr "Právě jsi dorazil do pevnosti"
+
+#: data/levels/narre2/worldmap.stwm:615
+msgid "You are now travelling to the Geysers"
+msgstr "Právě cestuješ do gejzírů"
+
+#: data/levels/narre2/worldmap.stwm:623
+msgid "You have just arrived to the Fortress"
+msgstr "Právě jsi dorazil do pevnosti"
+
+#: data/levels/narre2/worldmap.stwm:631
+msgid "You are now travelling to the Matrix"
+msgstr "Právě cestuješ do Matrixu"
+
+#: data/levels/narre2/worldmap.stwm:647
+msgid "You have just arrived to the Matrix"
+msgstr "Právě jsi dorazil do Matrixu"
+
+#: data/levels/narre2/worldmap.stwm:655
+msgid "You are now travelling to the Fortress"
+msgstr "Právě cestuješ do pevnosti"
+
+#: data/levels/narre2/worldmap.stwm:663
+msgid "You have just arrived to the IceCanyon"
+msgstr "Právě jsi dorazil do ledového kaňónu"
+
+#: data/levels/narre2/worldmap.stwm:671
+msgid "You are now travelling to the IceCanyon"
+msgstr "Právě cestuješ do ledového kaňónu"
+
+#: data/levels/narre2/worldmap.stwm:679
+msgid "You have just arrived to the IceCanyon"
+msgstr "Právě jsi dorazil do ledového kaňónu"
+
+#: data/levels/narre2/worldmap.stwm:687
+msgid "You are now travelling to the Swamp"
+msgstr "Právě cestuješ do bažiny"
+
+#: data/levels/narre2/worldmap.stwm:639
+msgid ""
+"Wow! It seems you have just completed whole Narre's Multiworld!\n"
+"And you have defeated the Matrix! So, you can warp home now.\n"
+"Or do you want to go the whole way back?"
+msgstr "Wow! Vypadá to, že jsi právě dokončil celý Narreho Multisvět!\nA porazil jsi Matrix! Takže, nyní se můžeš přenést domů.\nNebo chceš jít celou cestou zpátky?"
+
+#: data/levels/narre2/rocks_welcome_to_narres_rocks.stl:3
+msgid "Welcome to Narre's Rocks"
+msgstr "Vítej v Narreho skalách"
+
+#: data/levels/narre2/rocks_welcome_to_narres_rocks.stl:161
+msgid ""
+"-Information\n"
+"*Narre's favourite number is 363."
+msgstr "-Informace\n*Narreho nejoblíbenější číslo je 363."
+
+#: data/levels/narre2/crystalcave_welcome_to_narres_crystalcave.stl:3
+msgid "Welcome to Narre's CrystalCave"
+msgstr "Vítej v Narreho krystalové jeskyni"
+
+#: data/levels/narre2/iceberg_a_icy_path.stl:80
+msgid ""
+"-Information\n"
+"*Binary number '1010011010' in decimal means '666'."
+msgstr "-Informace\n*Binární číslo '1010011010' znamená v decimální soustavě '666'."
+
+#: data/levels/narre2/icecanyon_welcome_to_narres_icecanyon.stl:173
+msgid ""
+"-Information\n"
+"*This information was written 852 minutes after midnight."
+msgstr "-Informace\n*Tato informace byla napsána 852 minut po půlnoci."
+
+#: data/levels/narre2/icecave_welcome_to_narres_icecave.stl:3
+msgid "Welcome to Narre's IceCave"
+msgstr "Vítej v Narreho ledové jeskyni"
+
+#: data/levels/narre2/mountains_welcome_to_narres_mountains.stl:3
+msgid "Welcome to Narre's Mountains"
+msgstr "Vítej na Narreho horách"
+
+#: data/levels/narre2/underground_welcome_to_narres_underground.stl:3
+msgid "Welcome to Narre's Underground"
+msgstr "Vítej v Narreho podzemí"
+
+#: data/levels/narre2/underground_welcome_to_narres_underground.stl:334
+msgid ""
+"-Information\n"
+"*Typical lenght for Narre's Multiworld's levels is 512."
+msgstr "-Informace\n*Typická délka úrovní v Narreho Multisvětě je 512."
+
+#: data/levels/narre2/jungle_welcome_to_narres_jungle.stl:3
+msgid "Welcome to Narre's Jungle"
+msgstr "Vítej v Narreho džungli"
+
+#: data/levels/narre2/river_welcome_to_narres_river.stl:3
+msgid "Welcome to Narre's River"
+msgstr "Vítej v Narreho řece"
+
+#: data/levels/narre2/stonecave_welcome_to_narres_stonecave.stl:3
+msgid "Welcome to Narre's StoneCave"
+msgstr "Vítej v Narreho kamenné jeskyni"
+
+#: data/levels/narre2/meadows_welcome_to_narres_meadows.stl:3
+msgid "Welcome to Narre's Meadows"
+msgstr "Vítej na Narreho loukách"
+
+#: data/levels/narre2/geysers_welcome_to_narres_geysers.stl:3
+msgid "Welcome to Narre's Geysers"
+msgstr "Vítej v Narreho gejzírech"
+
+#: data/levels/narre2/fortress_welcome_to_narres_fortress.stl:3
+msgid "Welcome to Narre's Fortress"
+msgstr "Vítej v Narreho pevnosti"
+
+#: data/levels/narre2/matrix_welcome_to_narres_matrix.stl:3
+msgid "Welcome to Narre's Matrix"
+msgstr "Vítej v Narreho Matrixu"
+
+#: data/levels/narre2/forest_over_the_glade.stl:3
+msgid "Over the Glade"
+msgstr "Přes mýtinu"
+
+#: data/levels/narre2/jungle_the_bridges.stl:3
+msgid "The Bridges"
+msgstr "Lávky"
+
+#: data/levels/narre2/underground_chasm_ot_eternal_fall.stl:3
+msgid "The Chasm of Eternal Fall"
+msgstr "Propast věčného pádu"
+
+#: data/levels/narre2/icecanyon_welcome_to_narres_icecanyon.stl:3
+msgid "Welcome to Narre's IceCanyon"
+msgstr "Vítej v Narreho ledovém kaňónu"
+
+#: data/levels/narre2/mountains_a_really_high_mountain.stl:3
+msgid "A Really High Mountain"
+msgstr "Vskutku vysoká hora"
+
+#: data/levels/narre2/icecave_the_frozen_depth.stl:3
+msgid "The Frozen Depth"
+msgstr "Zmrzlá hloubka"
+
+#: data/levels/narre2/crystalcave_cave_of_emeralds.stl:3
+msgid "Cave of Emeralds"
+msgstr "Jeskyně smaragdů"
+
+#: data/levels/narre2/rocks_a_rocky_landscape.stl:3
+msgid "A Rocky Landscape"
+msgstr "Skalnatá krajina"
+
+#: data/levels/narre2/icecanyon_unstable_bridges.stl:3
+msgid "Unstable Bridges"
+msgstr "Nestabilní mosty"
+
+#: data/levels/narre2/swamp_the_wisp_world.stl:3
+msgid "The Wisp World"
+msgstr "Svět bludiček"
+
+#: data/levels/narre2/swamp_the_wisp_world.stl:94
+msgid ""
+"-Red Wisps\n"
+"!levels/narre2/images/creatures/redwisp/idle-0.png\n"
+"#Red Wisps are much deadlier than the green ones. They cannot warp you, but they can hurt you to death!\n"
+"#But don't worry, there is also one positive new. You can only see them during the day, otherwise they're not going out."
+msgstr "-Červené bludičky\n!levels/narre2/images/creatures/redwisp/idle-0.png\n#Červené bludičky jsou mnohem smrtelnější než ty zelené. Nemohou vás přenést, ale mohou vás smrtelně zranit!\n#Ale nebojte se, byla by tu i jedna pozitivní zpráva. Uvídíte je jen během dne. Jindy nevylézají."
+
+#: data/levels/narre2/desert_a_sandy_fields.stl:3
+msgid "A Sandy Fields"
+msgstr "Písečná pole"
+
+#: data/levels/narre2/worldmap.stwm:Multiple lines
+msgid "You found a secret place!"
+msgstr "Našel jsi tajné místo"
+
+#: data/levels/narre2/volcano_overheated_lands.stl:3
+msgid "Overheated Lands"
+msgstr "Přehřáté kraje"
+
+#: data/levels/narre2/river_boat_world.stl:3
+msgid "Boat World"
+msgstr "Svět lodiček"
+
+#: data/levels/narre2/stonecave_ceiling_collapse.stl:3
+msgid "Ceiling Collapse"
+msgstr "Řítící se strop"
+
+#: data/levels/narre2/stonecave_ceiling_collapse.stl:405
+msgid ""
+"-Warning!\n"
+"#Ceiling in this cave is not very stable. It can block your way or, worse, fall on your head.\n"
+"#So, don't be furious and watch your steps!"
+msgstr "-Varování!\n#Strop v této jeskyni není moc stabilní. Může vám zablokovat cestu, nebo, hůře, spadnout vám na na hlavu,\n#Takže, nebuďte zbrklí a dívejte se, kam šlapete!"
+
+#: data/levels/narre2/underground_welcome_to_narres_underground.stl:-WhoKnows-
+msgid ""
+"-Dödleytree\n"
+"#Dödleytree is a rare kind of tree.\n"
+"#If you are lucky, you can find a dödleytree in underground, but it's not probable.\n"
+"#But as dödleytree is rare, its leaves are present everywhere.\n"
+"#They look like ordinary dead leaves, but they are alive and very nasty. Plus, you can't freeze them, they are frost-resistant."
+msgstr "-Dödleystrom\n#Dödleystrom je vzácný druh stromu.\n#Budeš-li mít štěstí, nějaký můžeš najít v podzemí, ale není to pravděpodobné.\n#Ale jak je dödleystrom vzácný, jeho listy jsou všude.\n#Vypadají jako běžné uschlé listy, ale jsou až dost živé a nepříjemné. Navíc je nemůžeš zmrazit, jsou mrazuvzdorné."
+
+#: data/levels/narre2/meadows_a_wavy_terrain.stl:3
+msgid "A Wavy Terrain"
+msgstr "Vlnitý terén"
+
+#: data/levels/narre2/geysers_all_that_sulphur.stl:3
+msgid "All That Sulphur"
+msgstr "Všechna ta síra"
+
+#: data/levels/narre2/fortress_spacious_dungeons.stl:3
+msgid "Spacious Dungeons"
+msgstr "Rozsáhlá sklepení"
+
+#: data/levels/narre2/matrix_lasertraps.stl:3
+msgid "Lasertraps"
+msgstr "Laserpasti"
+
+#: data/levels/narre2/forest_a_moist_tunnel.stl:3
+msgid "A Moist Tunnel"
+msgstr "Zvlhlý tunel"
+
+#: data/levels/narre2/jungle_a_sneaky_cliff.stl:3
+msgid "A Sneaky Cliff"
+msgstr "Záludný útes"
+
+#: data/levels/narre2/jungle_a_sneaky_cliff.stl:666
+msgid ""
+"-This is sneaky...\n"
+"#This cliff is too high.\n"
+"#It seems that the only way leads through the near cave."
+msgstr "-Tohle je záludné...\n#Tento útes je příliš vysoký.\n#Vypadá to, že jediná cesta vede skrz nedalekou jeskyni."
+
+#: data/levels/narre2/underground_a_narrow_tunnel.stl:3
+msgid "A Narrow Tunnel"
+msgstr "Úzký tunel"
+
+#: data/levels/narre2/mountains_from_one_mountain_to_another.stl:3
+msgid "From One Mountain to Another"
+msgstr "Z jedné hory na druhou"
+
+#: data/levels/narre2/icecave_iciclefall.stl:3
+msgid "Iciclefall"
+msgstr "Rampouší!"
+
+#: data/levels/narre2/icecave_the_diamonds_sector.stl:3
+msgid "The Diamonds' Sector"
+msgstr "Sektor diamantů"

@@ -1,0 +1,12 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 4 0 32 32)
+  (fps 5)
+  (images 
+   "state_0.png"
+   "state_1.png"
+  )
+ )
+)
+

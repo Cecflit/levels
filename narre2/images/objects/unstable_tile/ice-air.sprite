@@ -1,0 +1,31 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (images 
+      "ice-air-0.png"
+    )
+  )
+  (action
+    (name "shake")
+    (fps 20)
+    (images 
+      "ice-air-0.png"
+      "ice-air-1.png"
+      "ice-air-2.png"
+      "ice-air-1.png"
+      "ice-air-0.png"
+      "ice-air-1.png"
+      "ice-air-2.png"
+      "ice-air-1.png"
+      "ice-air-0.png"
+      "ice-air-1.png"
+    )
+  )
+  (action
+    (name "fall-down")
+    (fps 1)
+    (images 
+      "ice-air-0.png"
+    )
+  )
+)

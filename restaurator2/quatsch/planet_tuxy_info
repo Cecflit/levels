@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Planet tuxy")
+  (description "No description so far.")
+)

@@ -1,0 +1,14 @@
+(supertux-text
+(background "oiltux.jpg")
+(music "music/intro.ogg")
+(text "
+-Welcome in Restaurated Island I!
+
+* It is legally a derived copy, so while the original author does legally still own the idea, the resulting level is so different that it is legally classed as separate work, making all of this perfectly legal.
+
+-Restaured what?
+#These levels were previously on SuperTux Fan Site, but noone carried about them. They were in the old format and were just hardly playable in SuperTux 0.3.0 and newer. The fan site has gone and noone played these levels for a long time. Hume2 has restaured them, so they are well playable.
+
+#So what you have to do there? Find five keys and unlock the path to the final level. The keys are in the castles on this island. There is one extra castle, that doesn't contain any key, but contains another reward.
+
+"))

@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Grass Alert")
+  (description "Nolok is hiding in the grassy lands")
+)

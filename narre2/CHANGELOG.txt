@@ -1,0 +1,228 @@
+SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
+
+BETA 28
+
+-added level 'The Diamonds' Sector'
+
+BETA 27
+
+-changed new Darksnow tiles on IceCave background to the old ones
+-changed old Darksnow tiles on IceCave foreground to the new ones
+-added level 'Iciclefall'
+
+BETA 26
+
+-added level 'A Sneaky Cliff' to the Jungle
+-added level 'A Narrow Tunnel' to the Underground
+-added level 'From One Mountain to Another' to the Mountains
+-added information about the environment to 'added level' news in CHANGELOG.txt
+
+BETA 25
+
+-changed 'ntiles.strf' to be compatible with SuperTux 0.4.0 (object creating tiles, unisolid tiles attributes (2 => 3))
+-at least SuperTux 0.4.0 is now required
+-added burning/melting and frozen actions to all added badguys sprites
+-walkingleafs in 'Underground' environment are no longer freezable since there are stalactites with stone sprite
+-fixed gravity problem in level 'Welcome to Narre's Matrix' (1 => 10)
+-completely redone introduction level since script texts are now translatable
+-added infoblock to level 'Welcome to Narre's Underground'
+-MrRockys are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
+-added infoblock to level 'Welcome to Narre's Mountains'
+-stalactites in Mountains now cannot fall without shooting them
+-removed 'Snake' sprite from images
+-removed 'WalkingLeaf' sprite from images
+-removed useless images from other sprites
+-changed all 'Jumpys' to 'Wooden Jumpys' ('SnowJumpys' kept)
+-renamed this file (0-CHANGES => CHANGELOG.txt) (openable also on OM (Operating Mess) Windows (it needs that *.txt))
+-replaced some fireflowers with iceflowers
+-fixed bug in worldmap - Rocks Main Building is now present
+-added secret place to Volcano
+-added background tiles to holes in level 'A Wavy Terrain'
+-fixed bug in level 'Welcome to Narre's CrystalCave' - Crystallos are no longer falling to the holes with spikes
+-changed old spikes to new unisolid spikes in all tiles.strf using levels (IceSpikes and IceFortressSpikes kept)
+-added level 'A Moist Tunnel' to the Forest
+-updated Czech translations
+
+BETA 24
+
+-added level 'Spacious Dungeons' to the Fortress
+-added level 'Lasertraps' to the Matrix
+
+BETA 23
+
+-added level 'All That Sulphur' to the Geysers
+-added Geysers Worldmap tiles
+
+BETA 22
+
+-added level 'A Wavy Terrain' to the Meadows
+
+BETA 21
+
+-changed content of infoblock in level 'The Wisp World'
+-added level 'Ceiling Collapse' to the StoneCave
+-updated Czech translations
+
+BETA 20
+
+-added Fire tiles for 'Volcano' environment
+-added level 'Overheated Lands' to the Volcano
+-added level 'Boat World' to the River
+
+BETA 19
+
+-added secret places to Iceberg and Forest
+-added level 'A Sandy Fields' to the Desert
+
+BETA 18
+
+-added infoblock to level 'Welcome to Narre's Swamp'
+-added level 'The Wisp World' to the Swamp
+
+BETA 17
+
+-added level 'A Rocky Landscape' to the Rocks
+-added level 'Unstable Bridge' to the IceCanyon
+
+BETA 16
+
+-fixed bugs in level 'A Really High Mountain' - Secret area is no longer making problems, stalactites are now visible, bonusblock sprites are now working
+-added level 'The Frozen Depth' to the IceCave
+-added level 'Cave of Emeralds' to the CrystalCave
+-All spikes are now deadly on one touch [Tux.kill(true)]
+
+BETA 15
+
+-replaced most 1ups with coin-explodes
+-at least SuperTux 0.3.5 is now required
+-added level 'A Really High Mountain' to the Mountains
+
+BETA 14
+
+-added level 'The Chasm of Eternal Fall' to the Underground
+-improved graphics of 'Snowmountain' environment
+-added world 'IceCanyon'
+-decreased size of 'The Rocks' island
+-fixed some bugs in worldmap
+-improved graphics of 'Geysers' environment
+-added level 'Welcome to Narre's IceCanyon' to the IceCanyon
+-added more colours of pipes
+-added opened pipes
+
+BETA 13
+
+-removed 'Snake' sprite from all bombs in Jungle
+-added level 'The Bridges' to the Jungle
+-increased width of level 'Welcome to Narre's Jungle' to the left side
+
+BETA 12
+
+-added paralax background to all 'Forest' levels
+-added tile paralax background to all 'Iceberg' levels
+-added level 'Over the Glade' to the Forest
+
+BETA 11
+
+-fixed bugs in level 'Welcome to Narre's Matrix - Top blocks of the long laser pass are no longer reachable, ducking is no longer making problems
+-fixed bugs in level 'A Icy Path' - Clouds are now rendered correctly, information has now blue font
+-added Snow game tiles for slippery ice
+-removed Danger signs from level 'A Icy Path' - slippery ice is now recognizable
+-added new sprite for WalkingLeaf for Underground world
+-added tile paralax background to level 'Frozen Hills'
+-fixed bugs in the second secret area of level 'Frozen Hills'
+
+BETA 10
+
+-added level 'Welcome to Narre's Fortress' to the Fortress
+-added music 'The Virtuality'
+-added Matrix game tiles
+-added level 'Welcome to Narre's Matrix' to the Matrix
+
+BETA 9
+
+-changed music in 'Welcome to Narre's Forest' from 'forest.ogg' to 'forest2.ogg' - 'forest.ogg' will be now used as Meadows music
+-added level 'Welcome to Narre's Meadows' to the Meadows
+-added music 'Steam World'
+-added level 'Welcome to Narre's Geysers' to the Geysers
+
+BETA 8
+
+-fixed some bugs in new worldmap
+-decreased size of 'The Rocks' island
+-fixed bugs in level 'Welcome to Narre's Jungle' - All enemies are now killable, all trees are now connected to the treetops.
+-added level 'Welcome to Narre's StoneCave' to the StoneCave
+-increased height of level "Frozen Hills"
+
+BETA 7
+
+-worldmap completely redone - Tux is now spawned exactly where he left the world
+-added stone stalactite sprite
+-added Geysers game tiles
+-changed content of secret area in level 'Welcome to Narre's Desert'
+-added background tiles to holes in the Iceberg levels
+-added new powerup 'Fireup'
+-changed sprite of stalactites to stone stalactites in level 'Welcome to Narre's Underground'
+-added level 'Welcome to Narre's River to the River
+-fixed bugs in level 'Welcome to Narre's Jungle' - Path images are now present, all vines are now climbable
+
+BETA 6
+
+-removed all images, which can be found in main 'images' folder. They are now loaded from there.
+-added some images for 'Geysers'
+-added Volcano and Desert background
+
+BETA 5
+
+-fixed some graphical bugs
+-added information to level 'A Icy Path'
+-added level 'Welcome to Narre's Jungle' to the Jungle
+-added level 'Welcome to Narre's Underground' to the Underground
+
+BETA 4
+
+-added level 'Welcome to Narre's Mountains' to the Mountains
+-added level 'Welcome to Narre's IceCave' to the IceCave
+-added World 'Meadows'
+-added World 'Geysers', but the worldmap isn't done yet.
+
+BETA 3
+
+-added level 'Welcome to Narre's CrystalCave' to the CrystalCave
+
+BETA 2
+
+-added level 'Welcome to Narre's Swamp' to the Swamp
+
+BETA 1
+
+-added level 'Introduction' to the Iceberg
+-added level 'Welcome to Narre's Iceberg' to the Iceberg
+-added level 'Frozen Hills' to the Iceberg
+-added level 'Down the Frozen Cave' to the Iceberg
+-added level 'Just another snowy day' to the Iceberg
+-added level 'A Icy Path' to the Iceberg
+-added level 'Welcome to Narre's Forest' to the Forest
+-added level 'Welcome to Narre's Volcano' to the Volcano
+-added level 'Welcome to Narre's Desert' to the Desert
+
+ALPHA 4
+
+-Worldmap complete (15 worlds)
+-Added new worldmap tiles (volcano, desert, rocks, fortress)
+-Added new music 'The NXR Desert'
+-Added new music 'Vulcan Theme'
+
+ALPHA 3
+
+-all 'ice-world.strf' worlds are done (worldmap)
+
+ALPHA 2
+
+-all 'worldmap.strf' worlds are done (worldmap)
+
+ALPHA 1
+
+-images created
+-added new tiles (ghostwood, volcano, desert, rocks)
+-added World 'Iceberg'
+-at least SuperTux 0.3.4 is required

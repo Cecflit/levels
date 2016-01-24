@@ -1,0 +1,5 @@
+(supertux-level-subset
+  (title (_ "Kradené úrovně 1"))
+  (description "371830")
+  (levelset #t)
+)

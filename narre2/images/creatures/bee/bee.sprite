@@ -1,0 +1,57 @@
+; Zeekling-bee sprite
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 0 0 32 20)
+  (images "left-0.png"
+   "left-0.png"
+   "left-1.png"
+   "left-1.png"))
+ (action
+  (name "right")
+  (hitbox 0 0 32 20)
+  (mirror-action "left"))
+ (action
+  (name "squished-left")
+  (hitbox 0 0 0 0)
+  (images "squished.png"))
+ (action
+  (name "squished-right")
+  (hitbox 0 0 0 0)
+  (mirror-action "squished-left"))
+ (action
+  (name "diving-left")
+  (hitbox 0 0 32 30)
+  (images "diving.png"))
+ (action
+  (name "diving-right")
+  (hitbox 0 0 32 30)
+  (mirror-action "diving-left")
+ )
+ (action
+  (name "burning-left")
+  (hitbox 0 0 32 20)
+  (fps 15.0)
+  (images "burning-0.png"
+   "burning-0.png"
+   "burning-1.png"
+   "burning-2.png"
+   "burning-3.png"
+   "burning-4.png"
+   "burning-5.png"
+   "burning-6.png"))
+ (action
+  (name "burning-right")
+  (hitbox 0 0 32 20)
+  (mirror-action "burning-left"))
+ (action
+  (name "iced-left")
+  (hitbox 0 0 32 20)
+  (images "frozen.png"))
+ 
+ (action
+  (name "iced-right")
+  (hitbox 0 0 32 20)
+  (mirror-action "iced-left"))
+)
+

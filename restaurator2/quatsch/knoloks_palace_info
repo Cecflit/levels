@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Knoloks Palace")
+  (description "The Place of Nolok made by Knolok")
+)
