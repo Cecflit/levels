@@ -1,8 +1,14 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 29
+
+-fixed typo in cs.po
+-added level 'Still Getting Higher'
+
 BETA 28
 
 -added level 'The Diamonds' Sector'
+-Narre's Multiworld is now on GitHub
 
 BETA 27
 

@@ -620,6 +620,10 @@ msgstr "Z jedné hory na druhou"
 msgid "Iciclefall"
 msgstr "Rampouší!"
 
-#: data/levels/narre2/icecave_the_diamonds_sector.stl:3
+#: data/levels/narre2/crystalcave_the_diamonds_sector.stl:3
 msgid "The Diamonds' Sector"
 msgstr "Sektor diamantů"
+
+#: data/levels/narre2/rocks_still_getting_higher.stl:3
+msgid "Still Getting Higher"
+msgstr "Stále výš a výš"
