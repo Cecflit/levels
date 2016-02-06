@@ -689,7 +689,7 @@
     )
     (infoblock
       (message (_ "-Be patient please!
-#This passage is not builded so far.
+#This passage is not built so far.
 #Opening is planned in the year 2304."))
       (x 256)
       (y 6624)
