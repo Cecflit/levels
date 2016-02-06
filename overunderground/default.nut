@@ -39,7 +39,7 @@ if(! ("overunderground" in state))
 	
 local keys = state.overunderground;
 foreach(name in ["underground", "forest", "sky", "jungle",
-                 "underground_gate", "forest_gate", "sky_gate", "jungle_gate"])
+                 "underground_gate", "forest_gate", "sky_gate", "jungle_gate", "secret"])
 {
   if(! (name in keys))
     keys[name] <- false;
