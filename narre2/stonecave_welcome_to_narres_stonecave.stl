@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Welcome to Narre's StoneCave"))
+  (name (_ "Welcome to the Narrow Cave"))
   (author "Narre")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)

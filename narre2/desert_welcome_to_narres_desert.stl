@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Welcome to Narre's Desert"))
+  (name (_ "Welcome to the Desert of Dryness"))
   (author "Narre")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
@@ -155,46 +155,6 @@
     (mrbomb
       (x 13061)
       (y 744)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 1219)
-      (y 772)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 2115)
-      (y 612)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 6659)
-      (y 644)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 5891)
-      (y 740)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 8547)
-      (y 708)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 9987)
-      (y 740)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 11843)
-      (y 836)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 13763)
-      (y 868)
     )
     (scripttrigger
       (script "Tux.kill(true)")
@@ -525,6 +485,46 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 1219)
+      (y 772)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 2115)
+      (y 612)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 6659)
+      (y 644)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 5891)
+      (y 740)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 8547)
+      (y 708)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 9987)
+      (y 740)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 11843)
+      (y 836)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 13763)
+      (y 868)
     )
     (wind
       (name "quick")

@@ -1,20 +1,27 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 30
+
+-fixed incorrect layer of Rocks Main Building in the worldmap
+-added ground decorations to level 'The Wisp World'
+-added level 'A Friendly Enemy' to the Swamp
+-renamed all worlds
+
 BETA 29
 
 -fixed typo in cs.po
--added level 'Still Getting Higher'
+-added level 'Still Getting Higher' to the Rocks
 
 BETA 28
 
--added level 'The Diamonds' Sector'
+-added level 'The Diamonds' Sector' to the CrystalCave
 -Narre's Multiworld is now on GitHub
 
 BETA 27
 
 -changed new Darksnow tiles on IceCave background to the old ones
 -changed old Darksnow tiles on IceCave foreground to the new ones
--added level 'Iciclefall'
+-added level 'Iciclefall' to the IceCave
 
 BETA 26
 
@@ -29,12 +36,12 @@ BETA 25
 -at least SuperTux 0.4.0 is now required
 -added burning/melting and frozen actions to all added badguys sprites
 -walkingleafs in 'Underground' environment are no longer freezable since there are stalactites with stone sprite
--fixed gravity problem in level 'Welcome to Narre's Matrix' (1 => 10)
+-fixed gravity bug in level 'Welcome to Narre's Matrix' (1 => 10)
 -completely redone introduction level since script texts are now translatable
 -added infoblock to level 'Welcome to Narre's Underground'
 -MrRockys are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
 -added infoblock to level 'Welcome to Narre's Mountains'
--stalactites in Mountains now cannot fall without shooting them
+-stalactites in Mountains and IceCanyon now cannot fall without shooting them
 -removed 'Snake' sprite from images
 -removed 'WalkingLeaf' sprite from images
 -removed useless images from other sprites

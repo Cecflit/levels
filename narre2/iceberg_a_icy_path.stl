@@ -78,7 +78,7 @@
     )
     (infoblock
       (message (_ "-Information
-*Binary number '1010011010' in decimal means '666'."))
+*Binary number '1010011010' means '666' in decimal."))
       (x 5840)
       (y 800)
     )

@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Welcome to Narre's Underground"))
+  (name (_ "Welcome to the Mouldy Underground"))
   (author "Narre")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
