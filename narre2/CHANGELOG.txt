@@ -1,5 +1,10 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 31
+
+-fixed typo in Czech translation file
+-added level "Three Layers"
+
 BETA 30
 
 -fixed incorrect layer of Rocks Main Building in the worldmap

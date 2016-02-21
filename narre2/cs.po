@@ -513,4 +513,8 @@ msgid ""
 "-Blue Wisps\n"
 "!levels/narre2/images/creatures/bluewisp/idle-0.png\n"
 "#Blue Wisps are another kind of wisps. They may seem like a hostile creature, but in fact, they are exact opposite of hostiles. They can give you some coins or bonuses. They are dark, so you can easily miss them in these dark swamps. They are not exactly rare, but you cannot find them everywhere. They are often hiding in some secret areas."
-msgstr "-Modré bludičky\n!levels/narre2/images/creatures/bluewisp/idle-0.png\n#Modré bludičky jsou další typ bludiček. Mohou vypadat, jako nepřátelé, ale ve skutečnosti jsou opakem nepřátel. Mohou vám dát nějaké bonusy či mince. Jsou tmavé, takže je v těchto tmavých bažinách můžete snadno přehlédnout. Nejsou přímo vzácné, ale všude na ně taky nenarazíte. Často se schovávají v nějakých tajných skrýších."
+msgstr "-Modré bludičky\n!levels/narre2/images/creatures/bluewisp/idle-0.png\n#Modré bludičky jsou další typ bludiček. Mohou vypadat jako nepřátelé, ale ve skutečnosti jsou opakem nepřátel. Mohou vám dát nějaké bonusy či mince. Jsou tmavé, takže je v těchto tmavých bažinách můžete snadno přehlédnout. Nejsou přímo vzácné, ale všude na ně taky nenarazíte. Často se schovávají v nějakých tajných skrýších."
+
+#: data/levels/narre2/icecanyon_three_layers.stl:3
+msgid "Three Layers"
+msgstr "Tři vrstvy"
