@@ -4785,7 +4785,7 @@
 )
   (tiles
     (width 1) (height 2)
-    (image "tiles/colortrack.png")
+    (image "tiles/colourtrack.png")
     (ids
 	3476
 	3477)

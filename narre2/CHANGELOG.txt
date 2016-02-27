@@ -1,9 +1,16 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 32
+
+-added level 'Sandstone Cave' to the Desert
+-added tiny cave to the Desert
+-added some wooden boxes to level 'Three Layers'
+-added Sandstone Stalactite sprite
+
 BETA 31
 
 -fixed typo in Czech translation file
--added level "Three Layers"
+-added level "Three Layers" to the IceCanyon
 
 BETA 30
 

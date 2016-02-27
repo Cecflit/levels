@@ -8,6 +8,7 @@ function go_underground(under){
   CoveringDecorationsFG.fade(under ? 0 : 1, 1);
   AroundDarkness.fade(under ? 1 : 0, 1);
   InnerDarkness.fade(under ? 1 : 0, 1);
+  SNDCave.fade(under ? 0.5 : 1, 1);
   state.underground <- under;
 }
 

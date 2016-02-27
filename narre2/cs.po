@@ -518,3 +518,7 @@ msgstr "-Modré bludičky\n!levels/narre2/images/creatures/bluewisp/idle-0.png\n
 #: data/levels/narre2/icecanyon_three_layers.stl:3
 msgid "Three Layers"
 msgstr "Tři vrstvy"
+
+#: data/levels/narre2/desert_sandstone_cave.stl:3
+msgid "Sandstone Cave"
+msgstr "Pískovcová jeskyně"
