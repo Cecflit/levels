@@ -38,8 +38,8 @@
       (y 1745.465)
     )
     (firefly
-      (x 8006.888)
-      (y 2488.52)
+      (x 8000)
+      (y 2496)
     )
     (flyingsnowball
       (x 3494.031)
@@ -189,9 +189,30 @@
       (x 6048)
       (y 1856)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 8000)
+      (y 2496)
+    )
     (secretarea
       (fade-tilemap "secret1")
-      (script "")
+      (script "if(!state.w1_ldownfrozencave_s1){
+state.w1_ldownfrozencave_s1 <- true;}
+//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
+//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+//Text.fade_in(1);
+//wait(2);
+//Text.fade_out(1);
+//}")
       (message "")
       (width 241)
       (height 217)
@@ -199,7 +220,14 @@
       (y 1546.15)
     )
     (secretarea
-      (script "")
+      (script "if(!state.w1_ldownfrozencave_s2){
+state.w1_ldownfrozencave_s2 <- true;}
+//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
+//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+//Text.fade_in(1);
+//wait(2);
+//Text.fade_out(1);
+//}")
       (message "")
       (width 471.6846)
       (height 417)

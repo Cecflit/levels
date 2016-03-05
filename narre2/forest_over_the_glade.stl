@@ -158,7 +158,7 @@
     )
     (firefly
       (x 9232)
-      (y 500)
+      (y 499.2929)
     )
     (gradient
       (top_color 0 0.3137255 1)
@@ -247,13 +247,34 @@
       (x 930)
       (y 548)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32.00006)
+      (x 9231.523)
+      (y 499.4224)
+    )
     (secretarea
-      (script "")
+      (script "if(!state.w2_loverglade_s1){
+state.w2_loverglade_s1 <- true;}
+//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
+//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+//Text.fade_in(1);
+//wait(2);
+//Text.fade_out(1);
+//}")
       (message "")
-      (width 15)
-      (height 4)
-      (x 8039)
-      (y 288)
+      (width 28)
+      (height 38)
+      (x 8034.5)
+      (y 253.5)
     )
     (sequencetrigger
       (sequence "endsequence")

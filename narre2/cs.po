@@ -18,75 +18,72 @@ msgstr ""
 msgid "Narre's Multiworld"
 msgstr "Narreho Multisvět"
 
-#: data/levels/narre2/iceberg_introduction.stl:3
-msgid "Introduction"
-msgstr "Představení"
-
 #: data/levels/narre2/iceberg_introduction.stl:WhoKnows
 msgid "Welcome to Narre's Multiworld!"
 msgstr "Vítej v Narreho Multisvětě!"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "If you have seen my previous world,\nNarre Land, then I'm really sorry for that."
-msgstr "Pokud jsi viděl můj předchozí svět,\nNarreovskou Zemi, pak se Ti opravdu\nomlouvám."
+msgid "If you have seen my previous world,\nNarre Land, then I'm really\nsorry for that."
+msgstr "Pokud jsi viděl můj předchozí svět,\nNarreovskou Zemi, pak se Ti\nopravdu omlouvám."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "And if you haven't, then, please, avoid it.\nI can tell that Narre Land is the worst\nSuperTux world ever made."
-msgstr "A pokud ne, pak se tomu, prosím, vyvaruj.\nMohu říci, že Narreovská Země je nejhorší\nsvět do SuperTuxe, jež byl kdy vytvořen."
+msgid "And if you haven't, then, please,\navoid it. I can tell Narre Land is the\nworst SuperTux world ever made."
+msgstr "A pokud ne, tak se tomu, prosím, vyvaruj.\nMohu říci, že Narreovská Země je nej-\nhorší kdy vytvořený svět do SuperTuxe."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "Narre Land's levels were my first levels for\nSuperTux Milestone 2. I've experimented\nwith scripts and other functions and\nI didn't concentrate to levels quality."
-msgstr "Úrovně Narreovské Země byly moje první\núrovně do nového SuperTuxe. Experimentoval\njsem se skripty a jinými funkcemi a\nnesoustředil jsem se na kvalitu úrovní."
+msgid "But this world is absolutely different,\nI swear. These levels are not based on\n'Just make some level',"
+msgstr "Ale tento svět je naprosto odlišný,\npřísahám. Tyto úrovně nejsou založeny\nna 'Prostě udělat nějakou úroveň',"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "But this world is absolutelly different,\nI swear. These levels are not based on\n'Just make some level', but they are\nbased on their quality and look."
-msgstr "Ale tento svět je naprosto odlišný,\npřísahám. Tyto úrovně nejsou založeny na\n'Prostě udělat nějakou úroveň', ale jsou\nzaloženy na jejich vzhledu a hratelnosti."
+msgid "but they are based on\ntheir quality and look."
+msgstr "ale jsou založeny na\njejich vzhledu a hratelnosti."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "This world has 18 environments. In every\nenvironment, there are 20 levels and one\nsecret level. In every environment, there is\nmain building (Castles, fortresses, temples, etc.)"
-msgstr "Tento svět má 18 prostředí. V každém\nprostředí je 20 úrovní a jedna tajná\núroveň. V každém prostředí je hlavní\nbudova (hrady, pevnosti, chrámy apod.)"
+msgid "This world has 18 environments.\nIn every environment, there\nare 20 levels and one secret level."
+msgstr "Tento svět má 18 prostředí.\nV každém prostředí je\n20 úrovní a jedna tajná úroveň."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "At the end of this Add-On, there are some\nbonus levels. In total, this world has\n400 levels, so you won't complete it in one day."
-msgstr "Na konci tohoto doplňku jsou nějaké\nbonusové úrovně. Celkem se tento svět\nskládá ze čtyř set úrovní, takže ho\nnedokončíš za jeden den."
+msgid "In every environment, there is\na main building\n(Castles, fortresses, temples, etc.)"
+msgstr "V každém prostředí je\nhlavní budova\n(Hrady, pevnosti, chrámy, atd.)"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "You need to pass through the main building to\nget to the next environment. To unlock\nthe main building, you have to complete\nall non-secret levels in the environment."
-msgstr "Aby ses dostal do dalšího prostředí, musíš\nprojít hlavní budovou. Pro odemčení hlavní\nbudovy musíš dokončit všechny netajné\núrovně v prostředí."
+msgid "At the end of this Add-On,\nthere are some bonus levels."
+msgstr "Na konci tohoto doplňku\njsou nějaké bonusové úrovně."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "There are also some informations in the levels.\nYou should remember or write\nthese informations, because you'll\nneed them in the final joust."
-msgstr "V úrovních se nacházejí také různé\ninformace. Tyto informace by sis měl\nzapamatovat nebo napsat, protože je\nbudeš potřebovat ve finálním souboji."
+msgid "In total, this world has 400 levels,\nso you won't complete it in one day."
+msgstr "Tento svět má celkem 400 úrovní,\ntakže ho nedokončíš za jeden den."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
+msgid "You need to pass through the main\nbuilding to get to the next environment."
+msgstr "Aby ses dostal do dalšího\nprostředí, musíš projít hlavní budovou."
+
+msgid "There are also some informations in\nthe levels. You should remember or\nwrite these informations,"
+msgstr "Také jsou tu v úrovních nějaké\ninformace. Tyto informace by sis\nměl zapamatovat nebo zapsat,"
+
+msgid "because you'll need them in\nthe final joust."
+msgstr "protože je budeš potřebovat\nve finálním souboji."
+
 msgid "That was some info about this world.\nNow, let's start with the story..."
 msgstr "Tolik k informacím o světě.\nTeď začneme s příběhem..."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
 msgid "Creatures are being kidnapped!\nSomebody must investigate that,\nbut everyone's afraid!"
-msgstr "Stvoření jsou unášena!\nNěkdo to musí vyšetřit,\nale každý se bojí!"
+msgstr "Všichni jsou postupně unášeni!\nNěkdo to musí vyšetřit, ale\nkaždý má strach!"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "One day, Penny has been kidnapped too!\nSo, Tux made his decision and started\nto prepare to his journey."
-msgstr "Jednoho dne byla unesena i Penny!\nTakže, Tux učinil své rozhodnutí a začal\nse připravovat na svou výpravu."
+msgid "One day, Penny has been kidnapped\ntoo! So, Tux made his decision\nand started to prepare to his journey."
+msgstr "Jednoho dne byla unesena i Penny!\nTux tedy učinil své rozhodnutí a\nzačal se připravovat na svou výpravu."
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "Journey to Matrix, the only thing which can\ndo this. But Matrix is really far away and\nto destroy it, Tux will has to win a\njoust in question answering. Against the Matrix!"
-msgstr "Výpravu do Matrixu, jediné věci, která tohle\nmůže udělat. Ale Matrix je opravdu daleko\na aby ho Tux zničil, bude muset vyhrát\nsouboj v odpovídání na otázky. Proti Matrixu!"
+msgid "Journey to Matrix, the only thing which\ncan do this. But Matrix is really\nfar away and to destroy it,"
+msgstr "Výpravu do Matrixu, jediné věci, která\ntohle může udělat. Ale Matrix je\nopravdu daleko a k jeho zničení"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "So, Tux has prepared his boat, his supplies and\nthe journey begun. He must defeat\nthe Matrix an release every living creature \nfrom its virtual reality before Matrix\nwill kidnap him."
-msgstr "Takže si Tux připravil svoji loď, své\nzásoby a výprava začala. Musí porazit\nMatrix a osvobodit každé živé stvoření z\njeho virtuální reality dřive, než ho\nMatrix také unese."
+msgid "Tux has to win a\njoust in question answering.\nAgainst the Matrix!"
+msgstr "bude muset Tux vyhrát souboj v\nodpovídání na otázky.\nProti Matrixu!"
 
-#: data/levels/narre2/iceberg_introduction.stl:WhoKnows
-msgid "And you, player, you will help Tux\nin every situation. You have been choosen.\nThere's no way back."
-msgstr "A ty, hráči, ty pomůžeš Tuxovi\nv každé situaci. Byl jsi vybrán.\nNení cesty zpět."
+msgid "So, Tux has prepared his boat, his\nsupplies and the journey begun."
+msgstr "Takže si Tux připravil svou loď,\nsvé zásoby, a výprava začala."
+
+msgid "He must defeat the Matrix an release\nevery living creature from its virtual\nreality before Matrix will kidnap him."
+msgstr "Musí porazit Matrix a osvobodit z\njeho virtuální reality každého dříve,\nnež ho Matrix unese také."
+
+msgid "And you, player, you will help Tux\nin every situation. You have been\nchoosen. There's no way back."
+msgstr "A ty, hráči, ty pomůžeš Tuxovi v\nkaždé situaci. Byl jsi vybrán.\nNení cesty zpět."
 
 #: data/levels/narre2/mountains_welcome_to_narres_mountains.stl:WhoKnows
 msgid ""
 "-Icicles\n"
 "#You have just entered really frosty mountains in high altitude. Icicles in these heights are firmly fixed to the ceiling, so they won't fall on your head. But they are still very sharp, so don't disregard them. You can still force them to fall by shooting them by ice bullet or warming them by fire bullet."
-msgstr "-Rampouchy\n#Právě jsi vstoupil do opravdu mrazivých hor vysoko nd mořem. Rampouchy jsou v těchto výškách pevně přimrzlé ke stropu, takže ti nespadnou na hlavu. Ale pořád jsou dost ostré, takže je nepodceňuj. Pořád je můžeš shodit sestřelením ledovou střelou nebo ohřátím ohnivou střelou."
+msgstr "-Rampouchy\n#Právě jsi vstoupil do opravdu mrazivých hor vysoko nad mořem. Rampouchy jsou v těchto výškách pevně přimrzlé ke stropu, takže ti nespadnou na hlavu. Ale pořád jsou dost ostré, takže je nepodceňuj. Pořád je můžeš shodit sestřelením ledovou střelou nebo ohřátím ohnivou střelou."
 
 #: data/levels/narre2/iceberg_welcome_to_narres_iceberg.stl:3
 msgid "Welcome to the Freezy Iceberg"
@@ -390,7 +387,7 @@ msgid "A Really High Mountain"
 msgstr "Vskutku vysoká hora"
 
 #: data/levels/narre2/icecave_the_frozen_depth.stl:3
-msgid "The Frozen Depth"
+msgid "Frozen Depth"
 msgstr "Zmrzlá hloubka"
 
 #: data/levels/narre2/crystalcave_cave_of_emeralds.stl:3
@@ -494,7 +491,7 @@ msgstr "Z jedné hory na druhou"
 
 #: data/levels/narre2/icecave_iciclefall.stl:3
 msgid "Iciclefall"
-msgstr "Rampouší!"
+msgstr "Rampouší"
 
 #: data/levels/narre2/crystalcave_the_diamonds_sector.stl:3
 msgid "The Diamonds' Sector"
@@ -513,7 +510,7 @@ msgid ""
 "-Blue Wisps\n"
 "!levels/narre2/images/creatures/bluewisp/idle-0.png\n"
 "#Blue Wisps are another kind of wisps. They may seem like a hostile creature, but in fact, they are exact opposite of hostiles. They can give you some coins or bonuses. They are dark, so you can easily miss them in these dark swamps. They are not exactly rare, but you cannot find them everywhere. They are often hiding in some secret areas."
-msgstr "-Modré bludičky\n!levels/narre2/images/creatures/bluewisp/idle-0.png\n#Modré bludičky jsou další typ bludiček. Mohou vypadat jako nepřátelé, ale ve skutečnosti jsou opakem nepřátel. Mohou vám dát nějaké bonusy či mince. Jsou tmavé, takže je v těchto tmavých bažinách můžete snadno přehlédnout. Nejsou přímo vzácné, ale všude na ně taky nenarazíte. Často se schovávají v nějakých tajných skrýších."
+msgstr "-Modré bludičky\n!levels/narre2/images/creatures/bluewisp/idle-0.png\n#Modré bludičky jsou další typ bludiček. Mohou vypadat jako nepřátelé, ale ve skutečnosti jsou opakem nepřátel. Mohou vám dát nějaké bonusy či mince. Jsou tmavé, takže je v těchto tmavých bažinách můžete snadno přehlédnout. Nejsou přímo vzácné, ale všude na ně taky nenarazíte. Často se schovávají v nějakých tajných oblastech."
 
 #: data/levels/narre2/icecanyon_three_layers.stl:3
 msgid "Three Layers"
@@ -522,3 +519,124 @@ msgstr "Tři vrstvy"
 #: data/levels/narre2/desert_sandstone_cave.stl:3
 msgid "Sandstone Cave"
 msgstr "Pískovcová jeskyně"
+
+#: Multiple Levels (Achievement)
+msgid "Bad luck! You dead-locked an achievement.\n\nI Won't Die Anyway"
+msgstr "Smůla! Trvale jsi uzamkl ocenění.\n\nStejně nezemřu"
+
+#: Introduction
+msgid ""
+"-Legend\n"
+"!images/tiles/signs/danger.png\n"
+"*This achievement is dead-locked"
+msgstr "-Legenda\n!images/tiles/signs/danger.png\n*Toto ocenění je trvale uzamčeno"
+
+msgid ""
+"-Legend\n"
+"!images/tiles/signs/color_cyan.png\n"
+"*This achievement is available"
+msgstr "-Legenda\n!images/tiles/signs/color_cyan.png\n*Toto ocenění je dostupné"
+
+msgid ""
+"-Legend\n"
+"!images/tiles/signs/color_yellow.png\n"
+"*You got this achievement"
+msgstr "-Legenda\n!images/tiles/signs/color_yellow.png\n*Toto ocenění je získané"
+
+msgid ""
+"-To Find a Needle in a Haystack\n"
+"#Find all secret levels and areas"
+msgstr "-Najít jehlu v kupce sena\n#Najdi všechny tajné skrýše a úrovně"
+
+msgid ""
+"-Immortality Confirmed\n"
+"#Finish the escaping challenge without single death"
+msgstr "-Nesmrtelnost potvrzena\n#Dokonči utíkací výzvu bez jediné smrti"
+
+msgid ""
+"-No Second Chances\n"
+"#Destroy the Matrix after releasing all kidnapped creatures"
+msgstr "-Žádné druhé šance\n#Po propuštění všech unesených znič Matrix"
+
+msgid ""
+"-I Won't Die Anyway\n"
+"#Avoid all checkpoints"
+msgstr "-Stejně nezemřu\n#Vyhni se všem uložovákům"
+
+msgid ""
+"-Lazy Engineer\n"
+"#Repair that damn lift and avoid the staircase"
+msgstr "-Líný inženýr\n#Oprav ten zatracený výtah a vyhni se schodišti"
+
+msgid ""
+"-More Sense than Luck\n"
+"#Win the final joust without single restart"
+msgstr "-Více rozumu než štěstí\n#Vyhraj finální souboj bez jediného restartu"
+
+msgid ""
+"-More Luck than Sense\n"
+"#Jump into the dangerous hole and survive"
+msgstr "-Více štěstí než rozumu\n#Skoč do nebezpečné díry a přežij"
+
+msgid ""
+"-Nobody's going to die today\n"
+"#Do not let anyone die during the whole story"
+msgstr "-Dnes nikdo nezemře\n#Nenech během celého příběhu nikoho zemřít"
+
+msgid ""
+"-All Roads Lead to the Arena\n"
+"#Try to avoid the Yeti"
+msgstr "-Všechny cesty vedou do arény\n#Zkus se vyhnout Yetimu"
+
+msgid ""
+"-Penguins Do Fly\n"
+"#Jump over that great hole without using a trampoline"
+msgstr "-Tučňáci létají\n#Přeskoč tu velkou díru bez použití trampolíny"
+
+msgid ""
+"-Just Do It\n"
+"#Jump through the lavafall in the Matrix"
+msgstr "-Prostě to udělej\n#Proskoč v Matrixu zkrz lávopád"
+
+msgid ""
+"-Classic Sidescroller\n"
+"#Find the red flower from original Mario game"
+msgstr "-Klasická plošinovka\n#Najdi červenou květinu z originální hry Mario"
+
+msgid ""
+"-Mercy\n"
+"#Spare the Tumbleweed boss as he gives up"
+msgstr "-Milost\n#Ušetři šéfa Plevele když se vzdá"
+
+msgid "Leave"
+msgstr "Odejít"
+
+msgid "Remind Me Introduction"
+msgstr "Připomenout představení"
+
+msgid "Let's Begin!"
+msgstr "Začněme!"
+
+msgid "Show Me My Achievements"
+msgstr "Ukázat moje ocenění"
+
+msgid "Go to Add-On Settings"
+msgstr "Jít do nastavení doplňku"
+
+msgid "Turn subtitles on"
+msgstr "Zapnout titulky"
+
+msgid "Turn subtitles off"
+msgstr "Vypnout titulky"
+
+msgid "Turn voice on"
+msgstr "Zapnout hlas"
+
+msgid "Turn voice off"
+msgstr "Vypnout hlas"
+
+msgid "You should see Introduction first"
+msgstr "Nejdřive by ses měl podívat na představení"
+
+msgid "Welcome to Narre's Multiworld"
+msgstr "Vítejte v Narreho Multisvětě"

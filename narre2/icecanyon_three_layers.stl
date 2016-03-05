@@ -136,6 +136,10 @@
       (x 6530)
       (y 197)
     )
+    (firefly
+      (x 8000)
+      (y 928)
+    )
     (flyingsnowball
       (x 740.5966)
       (y 885.4132)
@@ -480,6 +484,20 @@
     (smartball
       (x 1315)
       (y 1286)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 8000)
+      (y 928)
     )
     (sequencetrigger
       (sequence "endsequence")

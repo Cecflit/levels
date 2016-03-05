@@ -136,8 +136,8 @@
       (sprite "images/tiles/goal/exitfg.png")
     )
     (firefly
-      (x 8498.372)
-      (y 6252.363)
+      (x 8496)
+      (y 6272)
     )
     (flyingsnowball
       (x 882.1443)
@@ -374,6 +374,20 @@
     (smartball
       (x 15469.22)
       (y 820.5643)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 8496)
+      (y 6272)
     )
     (sequencetrigger
       (sequence "endsequence")

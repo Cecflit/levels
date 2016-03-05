@@ -1,5 +1,14 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 33
+
+-added achievements (WIP)
+-fixed incorrect layer of CrystalCave Main Building in the worldmap
+-fixed some typos in Czech translation file cs.po
+-added 'Show Achievements' and 'Add-On Settings' to the very first level
+-renamed 'Introduction' to 'Welcome th Narre's Multiworld'
+-changed the intorduction. Subtitles are now in the bottom, voice does not exist yet.
+
 BETA 32
 
 -added level 'Sandstone Cave' to the Desert

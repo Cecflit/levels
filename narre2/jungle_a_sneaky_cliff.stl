@@ -633,16 +633,16 @@
       (y 1280)
     )
     (firefly
-      (x 5904.92)
-      (y 2730.018)
+      (x 5904.67)
+      (y 2731.018)
     )
     (firefly
-      (x 7425.209)
-      (y 1339.378)
+      (x 7424)
+      (y 1344)
     )
     (firefly
-      (x 5737.883)
-      (y 495.1532)
+      (x 5760)
+      (y 480)
     )
     (haywire
       (x 8779.602)
@@ -955,8 +955,57 @@
       (x 9145.429)
       (y 1121.939)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 5903.978)
+      (y 2731.182)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7424)
+      (y 1344)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 5760)
+      (y 480)
+    )
     (secretarea
-      (script "")
+      (script "if(!state.w3_lsneakycliff_s1){
+state.w3_lsneakycliff_s1 <- true;}
+//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
+//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+//Text.fade_in(1);
+//wait(2);
+//Text.fade_out(1);
+//}")
       (message "")
       (width 136)
       (height 76)

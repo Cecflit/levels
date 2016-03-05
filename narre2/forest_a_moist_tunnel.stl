@@ -66,8 +66,8 @@
       (y 672)
     )
     (firefly
-      (x 8449.659)
-      (y 923.048)
+      (x 8448)
+      (y 928)
     )
     (goldbomb
       (x 11244.46)
@@ -196,9 +196,30 @@
       (x 6528)
       (y 1376)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 8448)
+      (y 928)
+    )
     (secretarea
       (fade-tilemap "SecretArea")
-      (script "")
+      (script "if(!state.w2_lmoisttunnel_s1){
+state.w2_lmoisttunnel_s1 <- true;}
+//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
+//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+//Text.fade_in(1);
+//wait(2);
+//Text.fade_out(1);
+//}")
       (message "")
       (width 32)
       (height 220)

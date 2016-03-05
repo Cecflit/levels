@@ -117,8 +117,8 @@
       (mode "normal")
     )
     (firefly
-      (x 7721)
-      (y 734)
+      (x 7712)
+      (y 736)
     )
     (fish
       (x 970.4853)
@@ -309,6 +309,20 @@
       (sprite "levels/narre2/images/creatures/rocky/mrrocky.sprite")
       (x 14370)
       (y 580)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7712)
+      (y 736)
     )
     (sequencetrigger
       (sequence "endsequence")

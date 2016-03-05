@@ -432,7 +432,7 @@
       (y 608)
     )
     (firefly
-      (x 7952)
+      (x 7936)
       (y 672)
     )
     (haywire
@@ -542,6 +542,20 @@
     (poisonivy
       (x 12866)
       (y 740)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7936)
+      (y 672)
     )
     (sequencetrigger
       (sequence "endsequence")

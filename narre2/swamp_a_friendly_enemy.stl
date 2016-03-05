@@ -101,8 +101,8 @@ wait(4);
       (mode "normal")
     )
     (firefly
-      (x 7690.787)
-      (y 988.4645)
+      (x 7680)
+      (y 960)
     )
     (particles-ghosts
       (z-pos -160)
@@ -182,6 +182,20 @@ wait(4);
       (x 14917)
       (y 648)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7680)
+      (y 960)
+    )
     (sequencetrigger
       (sequence "endsequence")
       (width 32)
@@ -203,8 +217,8 @@ wait(4);
     )
     (spawnpoint
       (name "check")
-      (x 7689.479)
-      (y 993.0929)
+      (x 7680)
+      (y 1024)
     )
     (spidermite
       (x 1476)

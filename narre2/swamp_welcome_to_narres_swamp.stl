@@ -123,6 +123,20 @@
       (x 12261)
       (y 616)
     )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 8416)
+      (y 288)
+    )
     (sequencetrigger
       (sequence "endsequence")
       (width 32)
@@ -145,7 +159,7 @@
     (spawnpoint
       (name "check")
       (x 8416)
-      (y 288)
+      (y 352)
     )
     (spidermite
       (x 2404)

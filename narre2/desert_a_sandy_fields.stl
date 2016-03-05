@@ -299,66 +299,6 @@
       (x 15365)
       (y 648)
     )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 707)
-      (y 838)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 2435)
-      (y 708)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 4387)
-      (y 676)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 6467)
-      (y 740)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 6531)
-      (y 740)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 6595)
-      (y 740)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 8195)
-      (y 708)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 10755)
-      (y 484)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 12355)
-      (y 548)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 13603)
-      (y 644)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 14787)
-      (y 772)
-    )
-    (walkingleaf
-      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
-      (x 15203)
-      (y 644)
-    )
     (scripttrigger
       (script "Tux.kill(true)")
       (button #f)
@@ -382,6 +322,20 @@
       (height 148.0001)
       (x 10144)
       (y 416)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7360)
+      (y 576)
     )
     (sequencetrigger
       (sequence "stoptux")
@@ -627,6 +581,66 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 707)
+      (y 838)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 2435)
+      (y 708)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 4387)
+      (y 676)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 6467)
+      (y 740)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 6531)
+      (y 740)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 6595)
+      (y 740)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 8195)
+      (y 708)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 10755)
+      (y 484)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 12355)
+      (y 548)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 13603)
+      (y 644)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 14787)
+      (y 772)
+    )
+    (walkingleaf
+      (sprite "levels/narre2/images/creatures/sandball/sandball.sprite")
+      (x 15203)
+      (y 644)
     )
     (wind
       (name "quick1")

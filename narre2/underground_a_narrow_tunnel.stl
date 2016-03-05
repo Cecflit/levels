@@ -322,8 +322,8 @@
       (y 1056)
     )
     (firefly
-      (x 7970.805)
-      (y 2356.779)
+      (x 7968)
+      (y 2368)
     )
     (haywire
       (x 13761.87)
@@ -532,6 +532,20 @@
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 15237.45)
       (y 1111.874)
+    )
+    (scripttrigger
+      (script "if(state.achievement_i_wont_die_anyway == 1){
+state.achievement_i_wont_die_anyway <- 3;
+Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.fade_in(1);
+wait(2);
+Text.fade_out(1);
+}")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 7968)
+      (y 2368)
     )
     (sequencetrigger
       (sequence "endsequence")
