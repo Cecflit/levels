@@ -10,6 +10,7 @@
     (ambient-light 1 1 1)
     (bonusblock
       (script "Tux.deactivate()
+sector.Effect.sixteen_to_nine(1);
 wait(2)
 signal.fade(0.75,1)
 wait(1)
@@ -22,6 +23,7 @@ wait(5)
 Camera.scroll_to(4003, 36, 6)
 wait(6)
 Camera.set_mode(\"normal\")
+sector.Effect.four_to_three(1);
 Tux.activate()")
       (contents "script")
       (sprite "images/objects/bonus_block/hiddenbonus.sprite")
@@ -219,6 +221,7 @@ Tux.add_bonus(\"fireflower\")")
 state.achievement_i_wont_die_anyway <- 3;
 Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
 Text.fade_in(1);
+play_sound(\"sounds/explosion.wav\");
 wait(2);
 Text.fade_out(1);
 }")
@@ -234,6 +237,7 @@ state.w16_lwelcomegeysers_s1 <- true;}
 //if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
 //Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
 //Text.fade_in(1);
+//play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
 //Text.fade_out(1);
 //}")

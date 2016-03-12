@@ -1,13 +1,31 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 34
+
+-improved the very first level
+-fixed typo in changelog
+-'Show Me My Achievements' is now working
+-added 'World Selection' to the worldmap
+-getting or dead-locking an achievement now plays sound
+-cutscenes are now played in wide aspect ratio
+-removed some redundant files
+-removed cuttrees in level 'Welcome to the Green Forest'
+-added checkpoint information to level 'Welcome to the Freezy Iceberg'
+-subtitle settings are now affecting subtitles
+-changed infoblock in level 'Welcome to the Desert of Dryness' to cutscene
+-changed infoblock in level 'Ceiling Collapse' to cutscene
+-voice is now playing sounds for testing purposes (only one sound still over and over)
+-added level 'Over an Erupting Volcano' to the Volcano
+-added level 'Weird Lampy Something' to the River
+
 BETA 33
 
 -added achievements (WIP)
 -fixed incorrect layer of CrystalCave Main Building in the worldmap
 -fixed some typos in Czech translation file cs.po
--added 'Show Achievements' and 'Add-On Settings' to the very first level
+-added 'Show Me My Achievements' and 'Get to Add-On Settings' to the very first level
 -renamed 'Introduction' to 'Welcome th Narre's Multiworld'
--changed the intorduction. Subtitles are now in the bottom, voice does not exist yet.
+-Changed the introduction. Subtitles are now in the bottom, voice does not exist yet.
 
 BETA 32
 
@@ -185,7 +203,7 @@ BETA 8
 -decreased size of 'The Rocks' island
 -fixed bugs in level 'Welcome to Narre's Jungle' - All enemies are now killable, all trees are now connected to the treetops.
 -added level 'Welcome to Narre's StoneCave' to the StoneCave
--increased height of level "Frozen Hills"
+-increased height of level 'Frozen Hills'
 
 BETA 7
 

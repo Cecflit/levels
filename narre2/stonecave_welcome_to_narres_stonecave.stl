@@ -478,6 +478,7 @@ Tux.add_coins(100)")
 state.achievement_i_wont_die_anyway <- 3;
 Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
 Text.fade_in(1);
+play_sound(\"sounds/explosion.wav\");
 wait(2);
 Text.fade_out(1);
 }")
@@ -493,6 +494,7 @@ state.w14_lwelcomenrwcave_s1 <- true;}
 //if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
 //Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
 //Text.fade_in(1);
+//play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
 //Text.fade_out(1);
 //}")

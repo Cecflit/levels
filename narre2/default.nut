@@ -1,3 +1,74 @@
+//First Level Info Check
+if (!("checkpointinformation" in state)) {
+ state.checkpointinformation <- false;
+}
+
+//Quicksand Info Check
+if (!("quicksandinfo" in state)) {
+ state.quicksandinfo <- false;
+}
+
+//Ceiling Collapse Info Check
+if (!("ceilinginfo" in state)) {
+ state.ceilinginfo <- false;
+}
+
+//Reached Worlds
+if (!("forest" in state)) {
+ state.forest <- false;
+}
+if (!("jungle" in state)) {
+ state.jungle <- false;
+}
+if (!("undergroundcheck" in state)) {
+ state.undergroundcheck <- false;
+}
+if (!("mountains" in state)) {
+ state.mountains <- false;
+}
+if (!("icecave" in state)) {
+ state.icecave <- false;
+}
+if (!("crystalcave" in state)) {
+ state.crystalcave <- false;
+}
+if (!("rocks" in state)) {
+ state.rocks <- false;
+}
+if (!("icecanyon" in state)) {
+ state.icecanyon <- false;
+}
+if (!("swamp" in state)) {
+ state.swamp <- false;
+}
+if (!("desert" in state)) {
+ state.desert <- false;
+}
+if (!("volcano" in state)) {
+ state.volcano <- false;
+}
+if (!("river" in state)) {
+ state.river <- false;
+}
+if (!("stonecave" in state)) {
+ state.stonecave <- false;
+}
+if (!("meadows" in state)) {
+ state.meadows <- false;
+}
+if (!("geysers" in state)) {
+ state.geysers <- false;
+}
+if (!("fortress" in state)) {
+ state.fortress <- false;
+}
+if (!("matrix" in state)) {
+ state.matrix <- false;
+}
+if (!("bonus" in state)) {
+ state.bonus <- false;
+}
+
 //Play Check
 if (!("played" in state)) {
  state.played <- false;
@@ -55,7 +126,7 @@ if (!("achievement_more_luck_than_sense" in state)) {
 
 //Nobody's going to die today (Do not let anybody die during the whole story)
 if (!("achievement_nobodys_going_to_die_today" in state)) {
- state.achievement_nobodys_going_to_die_today <- false;
+ state.achievement_nobodys_going_to_die_today <- 1;
 }
 
 //All Roads Lead to the Arena (Try to avoid the Yeti)
@@ -190,9 +261,19 @@ if (!("w12_lwelcomevolcano_s1" in state)) {
  state.w12_lwelcomevolcano_s1 <- false;
 }
 
+//Volcano, level Over an Erupting Volcano, secret area 1
+if (!("w12_lerupt_s1" in state)) {
+ state.w12_lerupt_s1 <- false;
+}
+
 //River, level Welcome to the Wild River, secret area 1
 if (!("w13_lwelcomeriver_s1" in state)) {
  state.w13_lwelcomeriver_s1 <- false;
+}
+
+//River, level Weird Lampy Something, secret area 1
+if (!("w13_lweird_s1" in state)) {
+ state.w13_lweird_s1 <- false;
 }
 
 //StoneCave, level Welcome to the Narrow Cave, secret area 1

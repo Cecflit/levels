@@ -108,13 +108,6 @@
         )
       )
     )
-    (infoblock
-      (message (_ "-Quicksand
-#You can find some quicksand in the desert. If you'll fall into quicksand, you'll die in it. There are also a badguy which lives in quicksand. It is called Skelehand. It cannot be killed because it's already dead. But it can kill you very easily.
-*So, be careful!"))
-      (x 4480)
-      (y 704)
-    )
     (invisible_wall
       (width 16380)
       (height 32)
@@ -169,6 +162,7 @@
 state.achievement_i_wont_die_anyway <- 3;
 Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
 Text.fade_in(1);
+play_sound(\"sounds/explosion.wav\");
 wait(2);
 Text.fade_out(1);
 }")
@@ -178,12 +172,54 @@ Text.fade_out(1);
       (x 8800)
       (y 640)
     )
+    (scripttrigger
+      (script "if(!state.quicksandinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+Camera.scroll_to(4740, 450, 2);
+wait(3);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"This is quicksand.\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_1.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(3);
+if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_2.ogg\"));}
+Text.set_text(_(\"You can find some quicksand in\\nthe desert. If you'll fall into the\\nquicksand, you'll die in it.\"));
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_3.ogg\"));}
+Text.set_text(_(\"But if you'll be quick, you can run\\na short distance in the quicksand.\\nBut be careful, there is also an enemy\"));
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_4.ogg\"));}
+Text.set_text(_(\"which lives in quicksand. It is called\\nSkelehand. You can't kill it, because\\nit is already dead, but it can kill you\"));
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_5.ogg\"));}
+Text.set_text(_(\"very easily.\"));
+wait(2);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+Camera.scroll_to(3492, 452, 2);
+wait(2);
+Camera.set_mode(\"normal\");
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.quicksandinfo <- true;
+Tux.activate();}
+")
+      (button #f)
+      (width 32)
+      (height 812)
+      (x 3968)
+      (y 0)
+    )
     (secretarea
       (script "if(!state.w11_lwelcomedesert_s1){
 state.w11_lwelcomedesert_s1 <- true;}
 //if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
 //Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
 //Text.fade_in(1);
+//play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
 //Text.fade_out(1);
 //}")

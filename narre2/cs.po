@@ -434,13 +434,6 @@ msgstr "Svět lodiček"
 msgid "Ceiling Collapse"
 msgstr "Řítící se strop"
 
-#: data/levels/narre2/stonecave_ceiling_collapse.stl:405
-msgid ""
-"-Warning!\n"
-"#Ceiling in this cave is not very stable. It can block your way or, worse, fall on your head.\n"
-"#So, don't be furious and watch your steps!"
-msgstr "-Varování!\n#Strop v této jeskyni není moc stabilní. Může vám zablokovat cestu, nebo, hůře, spadnout vám na na hlavu,\n#Takže, nebuďte zbrklí a dívejte se, kam šlapete!"
-
 #: data/levels/narre2/underground_welcome_to_narres_underground.stl:-WhoKnows-
 msgid ""
 "-Dödleytree\n"
@@ -520,9 +513,12 @@ msgstr "Tři vrstvy"
 msgid "Sandstone Cave"
 msgstr "Pískovcová jeskyně"
 
-#: Multiple Levels (Achievement)
+#: Multiple Levels (Achievements)
 msgid "Bad luck! You dead-locked an achievement.\n\nI Won't Die Anyway"
 msgstr "Smůla! Trvale jsi uzamkl ocenění.\n\nStejně nezemřu"
+
+msgid "Achievement get!\n\nTo Find a Needle in a Haystack"
+msgstr "Získáno ocenění!\n\nNajít jehlu v kupce sena"
 
 #: Introduction
 msgid ""
@@ -635,8 +631,209 @@ msgstr "Zapnout hlas"
 msgid "Turn voice off"
 msgstr "Vypnout hlas"
 
-msgid "You should see Introduction first"
-msgstr "Nejdřive by ses měl podívat na představení"
+msgid "You cannot leave\n\nYou should see Introduction first"
+msgstr "Teď nemůžeš odejít\nNejdřive by ses měl podívat na\npředstavení"
 
 msgid "Welcome to Narre's Multiworld"
-msgstr "Vítejte v Narreho Multisvětě"
+msgstr "Vítej v Narreho Multisvětě"
+
+#World Selection Strings
+msgid "Warp to World Selection"
+msgstr "Přenést do výběru světů"
+
+msgid "Warp to the Freezy Iceberg"
+msgstr "Přenést na Mrazivý Ledovec"
+
+msgid "Warp to the Green Forest"
+msgstr "Přenést do Zeleného Lesa"
+
+msgid "Warp to the Mysterious Jungle"
+msgstr "Přenést do Tajemné Džungle"
+
+msgid "Warp to the Mouldy Underground"
+msgstr "Přenést do Plesnivého Podzemí"
+
+msgid "Warp to the High Mountains"
+msgstr "Přenést do Vysokých Hor"
+
+msgid "Warp to the Chilly Cave"
+msgstr "Přenést do Chladné Jeskyně"
+
+msgid "Warp to the Cave of Crystals"
+msgstr "Přenést do Jeskyně Krystalů"
+
+msgid "Warp to the Vertiginous Rocks"
+msgstr "Přenést do Skal Závratí"
+
+msgid "Warp to the Canyon of Frost"
+msgstr "Přenést do Kaňónu Mrazu"
+
+msgid "Warp to the Swamp of Ghosts"
+msgstr "Přenést do Bažiny Duchů"
+
+msgid "Warp to the Desert of Dryness"
+msgstr "Přenést do Vyschlé Pouště"
+
+msgid "Warp to the Volcano of Death"
+msgstr "Přenést do Vulkánu Smrti"
+
+msgid "Warp to the Wild River"
+msgstr "Přenést do Divoké Řeky"
+
+msgid "Warp to the Narrow Cave"
+msgstr "Přenést do Úzké Jeskyně"
+
+msgid "Warp to the Beautiful Meadows"
+msgstr "Přenést do Překrásných Luk"
+
+msgid "Warp to the Sulphur Geysers"
+msgstr "Přenést do Sirných Gejzírů"
+
+msgid "Warp to the Dangerous Fortress"
+msgstr "Přenést do Nebezpečné Pevnosti"
+
+msgid "Warp to the Matrix"
+msgstr "Přenést do Matrixu"
+
+msgid "Warp to the Bonusland"
+msgstr "Přenést do Bonuslandu"
+
+msgid "levels/narre2/speech/intro_1.ogg"
+msgstr "levels/narre2/speech/intro_1_czech.ogg"
+
+msgid "levels/narre2/speech/intro_2.ogg"
+msgstr "levels/narre2/speech/intro_2_czech.ogg"
+
+msgid "levels/narre2/speech/intro_3.ogg"
+msgstr "levels/narre2/speech/intro_3_czech.ogg"
+
+msgid "levels/narre2/speech/intro_4.ogg"
+msgstr "levels/narre2/speech/intro_4_czech.ogg"
+
+msgid "levels/narre2/speech/intro_5.ogg"
+msgstr "levels/narre2/speech/intro_5_czech.ogg"
+
+msgid "levels/narre2/speech/intro_6.ogg"
+msgstr "levels/narre2/speech/intro_6_czech.ogg"
+
+msgid "levels/narre2/speech/intro_7.ogg"
+msgstr "levels/narre2/speech/intro_7_czech.ogg"
+
+msgid "levels/narre2/speech/intro_8.ogg"
+msgstr "levels/narre2/speech/intro_8_czech.ogg"
+
+msgid "levels/narre2/speech/intro_9.ogg"
+msgstr "levels/narre2/speech/intro_9_czech.ogg"
+
+msgid "levels/narre2/speech/intro_20.ogg"
+msgstr "levels/narre2/speech/intro_20_czech.ogg"
+
+msgid "levels/narre2/speech/intro_10.ogg"
+msgstr "levels/narre2/speech/intro_10_czech.ogg"
+
+msgid "levels/narre2/speech/intro_11.ogg"
+msgstr "levels/narre2/speech/intro_11_czech.ogg"
+
+msgid "levels/narre2/speech/intro_12.ogg"
+msgstr "levels/narre2/speech/intro_12_czech.ogg"
+
+msgid "levels/narre2/speech/intro_13.ogg"
+msgstr "levels/narre2/speech/intro_13_czech.ogg"
+
+msgid "levels/narre2/speech/intro_14.ogg"
+msgstr "levels/narre2/speech/intro_14_czech.ogg"
+
+msgid "levels/narre2/speech/intro_15.ogg"
+msgstr "levels/narre2/speech/intro_15_czech.ogg"
+
+msgid "levels/narre2/speech/intro_16.ogg"
+msgstr "levels/narre2/speech/intro_16_czech.ogg"
+
+msgid "levels/narre2/speech/intro_17.ogg"
+msgstr "levels/narre2/speech/intro_17_czech.ogg"
+
+msgid "levels/narre2/speech/intro_18.ogg"
+msgstr "levels/narre2/speech/intro_18_czech.ogg"
+
+msgid "levels/narre2/speech/intro_19.ogg"
+msgstr "levels/narre2/speech/intro_19_czech.ogg"
+
+msgid "levels/narre2/speech/checkpoint_information_1.ogg"
+msgstr "levels/narre2/speech/checkpoint_information_1_czech.ogg"
+
+msgid "levels/narre2/speech/checkpoint_information_2.ogg"
+msgstr "levels/narre2/speech/checkpoint_information_2_czech.ogg"
+
+msgid "levels/narre2/speech/checkpoint_information_3.ogg"
+msgstr "levels/narre2/speech/checkpoint_information_3_czech.ogg"
+
+msgid "levels/narre2/speech/checkpoint_information_4.ogg"
+msgstr "levels/narre2/speech/checkpoint_information_4_czech.ogg"
+
+msgid "levels/narre2/speech/quicksand_1.ogg"
+msgstr "levels/narre2/speech/quicksand_1_czech.ogg"
+
+msgid "levels/narre2/speech/quicksand_2.ogg"
+msgstr "levels/narre2/speech/quicksand_2_czech.ogg"
+
+msgid "levels/narre2/speech/quicksand_3.ogg"
+msgstr "levels/narre2/speech/quicksand_3_czech.ogg"
+
+msgid "levels/narre2/speech/quicksand_4.ogg"
+msgstr "levels/narre2/speech/quicksand_4_czech.ogg"
+
+msgid "levels/narre2/speech/quicksand_5.ogg"
+msgstr "levels/narre2/speech/quicksand_5_czech.ogg"
+
+msgid "levels/narre2/speech/ceiling_1.ogg"
+msgstr "levels/narre2/speech/ceiling_1_czech.ogg"
+
+msgid "levels/narre2/speech/ceiling_2.ogg"
+msgstr "levels/narre2/speech/ceiling_2_czech.ogg"
+
+msgid "levels/narre2/speech/ceiling_3.ogg"
+msgstr "levels/narre2/speech/ceiling_3_czech.ogg"
+
+msgid "This is checkpoint."
+msgstr "Tohle je uložovák."
+
+msgid "This is quicksand."
+msgstr "Tohle je tekutý písek."
+
+msgid "You can find some quicksand in\nthe desert. If you'll fall into the\nquicksand, you'll die in it."
+msgstr "Nějaký tekutý písek můžeš najít\nv poušti. Pokud do něj spadneš,\nzemřeš v něm."
+
+msgid "But if you'll be quick, you can run\na short distance in the quicksand.\nBut be careful, there is also an enemy"
+msgstr "Ale pokud budeš rychlý, můžeš v tekutém\npísku krátké vzdálenosti přeběhnout.\nAle buď opatrný, také existuje nepřítel,"
+
+msgid "which lives in quicksand. It is called\nSkelehand. You can't kill it, because\nit is already dead, but it can kill you"
+msgstr "který v tekutém písku žije. Říká se mu\nKostiruka. Nemůžeš ho zabít, protože\nuž je mrtvý, ale on tebe může zabít"
+
+msgid "very easily."
+msgstr "velice jednoduše."
+
+msgid "You can activate this checkpoint\nand then, if you'll die, you'll be\nrespawned here."
+msgstr "Pokud tento uložovák aktivuješ\na potom zemřeš, vrátíš se\nna tuto pozici."
+
+msgid "But if you want to get\nthe achievement for avoiding\ncheckpoints, you can't touch it,"
+msgstr "Ale pokud chceš získat\nocenění za vyhýbání se uložovákům,\nnemůžeš se ho dotknout,"
+
+msgid "otherwise you shall dead-lock\nthis achievement. So, decide."
+msgstr "jinak bys toto ocenění trvale\nuzamkl. Takže se rozhodni."
+
+msgid "Stop!"
+msgstr "Stůj!"
+
+msgid "Ceiling in this cave is not very stable.\nIt could block your way, or,\nworse, fall on your head."
+msgstr "Strop v této jeskyni není příliš pevný.\nMohl by ti zablokovat cestu, nebo,\nhůře, spadnout ti na hlavu."
+
+msgid "So, don't be furious and\nwatch your steps!"
+msgstr "Takže nebuď zbrklý a\ndívej se, kam šlapeš!"
+
+#: data/levels/narre2/volcano_over_an_erupting_volcano.stl:3
+msgid "Over an Erupting Volcano"
+msgstr "Přes aktivní sopku"
+
+#: data/levels/narre2/river_weird_lampy_something.stl:3
+msgid "Weird Lampy Something"
+msgstr "Divné lampové cosi"

@@ -126,8 +126,8 @@
       (mode "normal")
     )
     (firefly
-      (x 8717.442)
-      (y 540.6669)
+      (x 8704)
+      (y 544)
     )
     (flyingsnowball
       (x 5384.361)
@@ -324,14 +324,15 @@
 state.achievement_i_wont_die_anyway <- 3;
 Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
 Text.fade_in(1);
+play_sound(\"sounds/explosion.wav\");
 wait(2);
 Text.fade_out(1);
 }")
       (button #f)
       (width 32)
       (height 32)
-      (x 8716.5)
-      (y 543.25)
+      (x 8704)
+      (y 544)
     )
     (sequencetrigger
       (sequence "stoptux")
