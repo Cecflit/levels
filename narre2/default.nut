@@ -338,4 +338,3 @@ function go_underground(under){
 }
 
 go_underground(state.underground);
-

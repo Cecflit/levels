@@ -132,13 +132,6 @@ msgstr "-Zelené bludičky\n!images/creatures/willowisp/idle-0.png\n#Zelené blu
 msgid "Welcome to the Desert of Dryness"
 msgstr "Vítej na Vyschlé Poušti"
 
-#: data/levels/narre2/desert_welcome_to_narres_desert.stl:111
-msgid ""
-"-Quicksand\n"
-"#You can find some quicksand in the desert. If you'll fall into quicksand, you'll die in it. There are also a badguy which lives in quicksand. It is called Skelehand. It cannot be killed because it's already dead. But it can kill you very easily.\n"
-"*So, be careful!"
-msgstr "-Tekutý písek\n#V poušti můžete najít nějaký tekutý písek. Pokud do něj spadnete, zemřete v něm. Také zde je nepřítel, který v tekutém písku žije. Říká se mu Kostiruka. Nemůžete ho zabít, protože už je mrtvý. Ale on Vás zabije velice jednoduše.\n*Takže, buďte opatrní!"
-
 #: data/levels/narre2/worldmap.stwm:15
 msgid "You are now travelling to the Freezy Iceberg"
 msgstr "Právě cestuješ na Mrazivý Ledovec"
@@ -800,10 +793,10 @@ msgstr "Tohle je uložovák."
 msgid "This is quicksand."
 msgstr "Tohle je tekutý písek."
 
-msgid "You can find some quicksand in\nthe desert. If you'll fall into the\nquicksand, you'll die in it."
+msgid "You can find some quicksand in\nthe desert. If you fall into the\nquicksand, you'll die in it."
 msgstr "Nějaký tekutý písek můžeš najít\nv poušti. Pokud do něj spadneš,\nzemřeš v něm."
 
-msgid "But if you'll be quick, you can run\na short distance in the quicksand.\nBut be careful, there is also an enemy"
+msgid "But if you are quick, you can run\na short distance in the quicksand.\nBut be careful, there is also an enemy"
 msgstr "Ale pokud budeš rychlý, můžeš v tekutém\npísku krátké vzdálenosti přeběhnout.\nAle buď opatrný, také existuje nepřítel,"
 
 msgid "which lives in quicksand. It is called\nSkelehand. You can't kill it, because\nit is already dead, but it can kill you"
@@ -812,7 +805,7 @@ msgstr "který v tekutém písku žije. Říká se mu\nKostiruka. Nemůžeš ho 
 msgid "very easily."
 msgstr "velice jednoduše."
 
-msgid "You can activate this checkpoint\nand then, if you'll die, you'll be\nrespawned here."
+msgid "You can activate this checkpoint\nand then, if you die, you'll be\nrespawned here."
 msgstr "Pokud tento uložovák aktivuješ\na potom zemřeš, vrátíš se\nna tuto pozici."
 
 msgid "But if you want to get\nthe achievement for avoiding\ncheckpoints, you can't touch it,"
@@ -837,3 +830,7 @@ msgstr "Přes aktivní sopku"
 #: data/levels/narre2/river_weird_lampy_something.stl:3
 msgid "Weird Lampy Something"
 msgstr "Divné lampové cosi"
+
+#: data/levels/narre2/stonecave_deeper.stl:3
+msgid "Still Getting Deeper"
+msgstr "Stále hloub a hloub"

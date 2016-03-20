@@ -2,6 +2,7 @@
   (version 2)
   (name (_ "Still Getting Higher"))
   (author "Narre")
+  (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
@@ -198,8 +199,8 @@
     )
     (smartball
       (sprite "levels/narre2/images/creatures/rocky/mrrocky.sprite")
-      (x 831.1473)
-      (y 2949.866)
+      (x 834)
+      (y 2948)
     )
     (smartball
       (sprite "levels/narre2/images/creatures/rocky/mrrocky.sprite")

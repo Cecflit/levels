@@ -2,6 +2,7 @@
   (version 2)
   (name (_ "Welcome to the Desert of Dryness"))
   (author "Narre")
+  (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
@@ -185,10 +186,10 @@ if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_1.ogg\"));}
 if(state.subtitles){Text.fade_in(1);}
 wait(3);
 if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_2.ogg\"));}
-Text.set_text(_(\"You can find some quicksand in\\nthe desert. If you'll fall into the\\nquicksand, you'll die in it.\"));
+Text.set_text(_(\"You can find some quicksand in\\nthe desert. If you fall into the\\nquicksand, you'll die in it.\"));
 wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_3.ogg\"));}
-Text.set_text(_(\"But if you'll be quick, you can run\\na short distance in the quicksand.\\nBut be careful, there is also an enemy\"));
+Text.set_text(_(\"But if you are quick, you can run\\na short distance in the quicksand.\\nBut be careful, there is also an enemy\"));
 wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_4.ogg\"));}
 Text.set_text(_(\"which lives in quicksand. It is called\\nSkelehand. You can't kill it, because\\nit is already dead, but it can kill you\"));

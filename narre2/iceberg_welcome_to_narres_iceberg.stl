@@ -2,6 +2,7 @@
   (version 2)
   (name (_ "Welcome to the Freezy Iceberg"))
   (author "Narre")
+  (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
@@ -217,7 +218,7 @@ if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_1.ogg
 if(state.subtitles){Text.fade_in(1);}
 wait(3);
 if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_2.ogg\"));}
-Text.set_text(_(\"You can activate this checkpoint\\nand then, if you'll die, you'll be\\nrespawned here.\"));
+Text.set_text(_(\"You can activate this checkpoint\\nand then, if you die, you'll be\\nrespawned here.\"));
 wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_3.ogg\"));}
 Text.set_text(_(\"But if you want to get\\nthe achievement for avoiding\\ncheckpoints, you can't touch it,\"));

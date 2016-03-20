@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Welcome to Narre's Matrix"))
+  (name (_ "Narre's Multiworld's Matrix Environment Level Pattern"))
   (author "Narre")
+  (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector

@@ -4755,7 +4755,7 @@
 )
   (tiles
     (width 3) (height 3)
-    (image "tiles/matrcolor.png")
+    (image "tiles/matrcolour.png")
     (ids
 	3463 3464 3465
 	3466 3467 3468

@@ -1,5 +1,10 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 35
+
+-added contact to the levels
+-added level 'Still Getting Deeper' to the StoneCave
+
 BETA 34
 
 -improved the very first level

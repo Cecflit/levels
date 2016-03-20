@@ -2,6 +2,8 @@
   (version 2)
   (name (_ "Narre's MenuLevel (if Narre's Multiworld Add-On is installed)"))
   (author "Narre")
+  (contact "narre@protonmail.com")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
     (name "main")

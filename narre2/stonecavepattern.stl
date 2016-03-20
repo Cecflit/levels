@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Narre's StoneCave Pattern for StoneCave levels creation - Default Point"))
+  (name (_ "Narre's Multiworld's StoneCave Environment Level Pattern"))
   (author "Narre")
+  (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
