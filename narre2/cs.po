@@ -834,3 +834,7 @@ msgstr "Divné lampové cosi"
 #: data/levels/narre2/stonecave_deeper.stl:3
 msgid "Still Getting Deeper"
 msgstr "Stále hloub a hloub"
+
+#: data/levels/narre2/meadows_plains_of_flowers.stl:3
+msgid "Plain of Flowers"
+msgstr "Pláň květin"

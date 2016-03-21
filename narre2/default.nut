@@ -291,6 +291,11 @@ if (!("w15_lwavy_s1" in state)) {
  state.w14_lwavy_s1 <- false;
 }
 
+//Meadows, level Plain of Flowers, secret area 1
+if (!("w15_lplainflowers_s1" in state)) {
+ state.w15_lplainflowers_s1 <- false;
+}
+
 //Geysers, level Welcome to the Sulphur Geysers, secret area 1
 if (!("w16_lwelcomegeysers_s1" in state)) {
  state.w15_lwelcomegeysers_s1 <- false;

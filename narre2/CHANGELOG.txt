@@ -1,5 +1,9 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 36
+
+-added level 'Plain of Flowers' to the Meadows
+
 BETA 35
 
 -added contact to the levels
