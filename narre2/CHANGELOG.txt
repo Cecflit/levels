@@ -1,5 +1,9 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 37
+
+-added level 'Shallow Lakes' to the Geysers
+
 BETA 36
 
 -added level 'Plain of Flowers' to the Meadows
