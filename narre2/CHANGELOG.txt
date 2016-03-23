@@ -1,5 +1,17 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 38
+
+-added level 'Lava Flood' to the Fortress
+
+BETA 37
+
+-added level 'Shallow Lakes' to the Geysers
+
+BETA 36
+
+-added level 'Plain of Flowers' to the Meadows
+
 BETA 35
 
 -added contact to the levels
