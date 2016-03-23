@@ -842,3 +842,7 @@ msgstr "Pláň květin"
 #: data/levels/narre2/geysers_shallow_lakes.stl:3
 msgid "Shallow Lakes"
 msgstr "Mělká jezera"
+
+#: data/levels/narre2/fortress_lava_flood.stl:3
+msgid "Lava Flood"
+msgstr "Lávová záplava"

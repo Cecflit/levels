@@ -316,6 +316,11 @@ if (!("w17_lspacedng_s2" in state)) {
  state.w17_lspacedng_s2 <- false;
 }
 
+//Fortress, level Lava Flood, secret area 1
+if (!("w17_lflood_s1" in state)) {
+ state.w17_lflood_s1 <- false;
+}
+
 //Matrix, level Welcome to the Matrix, secret area 1
 if (!("w18_lwelcomematr_s1" in state)) {
  state.w18_lwelcomematr_s1 <- false;
