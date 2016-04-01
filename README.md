@@ -1,10 +1,6 @@
 # levels
 Kola do SuperTuxe
 
-Co je třeba udělat do Cecflitu:
-* Chceme nějaké logo, mělo by být nějaké výstižné a pokud možno ne sprosté.
-* Zavést Mengerejše nějak, aby se nedaly padělat.
-
 Pravidla Cecflitu; kdo je bude soustavně porušovat, bude předhozen k sežrání prasopsům:
 * Git push -f v hlavních větvích je zakázáno.
 * Každý má právo myslet před tím, než udělá git push.
