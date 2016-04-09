@@ -127,7 +127,7 @@
 	3475 0 3472 
 	3476
 	3477 0
-	3473))
+	3473 3980 3981))
 
   (tilegroup
     (name "Test")
@@ -3936,7 +3936,7 @@
       0  0  0  0  0  0  65 51
       0  0  0  0  0  0  0  0
     )
-    (image "../../../images/tiles/snow/slope-upper.png" )
+    (image "tiles/slope-upper.png")
   )
 
  (tiles
@@ -5081,6 +5081,15 @@
     (attributes
      0 0 0
      0 1024 0)
+    )
+  (tiles
+    (width 1) (height 2)
+    (image "tiles/orangebeam.png")
+    (ids
+	3980
+	3981)
+(attributes
+     3 3)
     )
     
 )

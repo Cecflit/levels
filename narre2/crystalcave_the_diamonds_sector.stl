@@ -1386,7 +1386,7 @@ state.w7_ldiamondssector_s1 <- true;}
       (width 32)
       (height 76)
       (x 11808)
-      (y 2676)
+      (y 2656)
     )
     (sequencetrigger
       (sequence "endsequence")

@@ -331,6 +331,11 @@ if (!("w18_llasertraps_s1" in state)) {
  state.w18_llasertraps_s1 <- false;
 }
 
+//Matrix, level Boxes of Beams, secret area 1
+if (!("w18_lboxbeam_s1" in state)) {
+ state.w18_lboxbeam_s1 <- false;
+}
+
 
 
 //Worldmap (underground, caves and tiny sandstone cave)

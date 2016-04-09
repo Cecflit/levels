@@ -846,3 +846,7 @@ msgstr "Mělká jezera"
 #: data/levels/narre2/fortress_lava_flood.stl:3
 msgid "Lava Flood"
 msgstr "Lávová záplava"
+
+#: data/levels/narre2/matrix_boxes_of_beams.stl:3
+msgid "Boxes of Beams"
+msgstr "Paprskové krabice"

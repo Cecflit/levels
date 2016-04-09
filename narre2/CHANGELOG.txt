@@ -1,5 +1,12 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 39
+
+-added lifts to the Matrix environment
+-added level 'Boxes of Beams' to the Matrix
+-fixed image loading error in ntiles.strf
+-fixed some bugs in 'Lava Flood'
+
 BETA 38
 
 -added level 'Lava Flood' to the Fortress
