@@ -9,12 +9,19 @@
     (name "main")
     (music "levels/narre2/music/geysers.ogg")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/geysers_middle.png")
+      (image-bottom "levels/narre2/images/background/geysers_bottom.png")
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0.6366369 1)
       (bottom_color 0.6285802 0.5422599 0.3159686)
+      (layer -2005)
     )
     (invisible_wall
       (width 16408)
@@ -24,12 +31,13 @@
     )
     (spawnpoint
       (name "main")
-      (x 160)
-      (y 640)
+      (x 32)
+      (y 576)
     )
     (tilemap
-      (solid #f)
-      (z-pos 0)
+      (solid #t)
+      (z-pos 100)
+      (name "Path")
       (width 512)
       (height 35)
       (tiles

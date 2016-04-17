@@ -1,5 +1,11 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 40
+
+-added Geysers background to all Geysers levels
+-removed tricky empty bonusblocks from 'Boxes of Beams'
+-added level 'Moles' Holes' to the Forest
+
 BETA 39
 
 -added lifts to the Matrix environment

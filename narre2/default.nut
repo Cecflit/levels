@@ -3,6 +3,11 @@ if (!("checkpointinformation" in state)) {
  state.checkpointinformation <- false;
 }
 
+//MoleHill Information Check
+if (!("molehillinformation" in state)) {
+ state.molehillinformation <- false;
+}
+
 //Quicksand Info Check
 if (!("quicksandinfo" in state)) {
  state.quicksandinfo <- false;
@@ -204,6 +209,11 @@ if (!("w2_loverglade_s1" in state)) {
 //Forest, level A Moist Tunnel, secret area 1
 if (!("w2_lmoisttunnel_s1" in state)) {
  state.w2_lmoisttunnel_s1 <- false;
+}
+
+//Forest, level Mole's Holes, secret area 1
+if (!("w2_lmolehole_s1" in state)) {
+ state.w2_lmolehole_s1 <- false;
 }
 
 //Jungle, level Welcome to the Mysterious Jungle, secret area 1

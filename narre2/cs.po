@@ -763,6 +763,18 @@ msgstr "levels/narre2/speech/checkpoint_information_3_czech.ogg"
 msgid "levels/narre2/speech/checkpoint_information_4.ogg"
 msgstr "levels/narre2/speech/checkpoint_information_4_czech.ogg"
 
+msgid "levels/narre2/speech/molehill_1.ogg"
+msgstr "levels/narre2/speech/molehill_1_czech.ogg"
+
+msgid "levels/narre2/speech/molehill_2.ogg"
+msgstr "levels/narre2/speech/molehill_2_czech.ogg"
+
+msgid "levels/narre2/speech/molehill_3.ogg"
+msgstr "levels/narre2/speech/molehill_3_czech.ogg"
+
+msgid "levels/narre2/speech/molehill_4.ogg"
+msgstr "levels/narre2/speech/molehill_4_czech.ogg"
+
 msgid "levels/narre2/speech/quicksand_1.ogg"
 msgstr "levels/narre2/speech/quicksand_1_czech.ogg"
 
@@ -823,6 +835,18 @@ msgstr "Strop v této jeskyni není příliš pevný.\nMohl by ti zablokovat ces
 msgid "So, don't be furious and\nwatch your steps!"
 msgstr "Takže nebuď zbrklý a\ndívej se, kam šlapeš!"
 
+msgid "There are some molehills throughout\nenvironments like forest, jungle, etc.."
+msgstr "V prostředích jako les, džungle,\napod. můžeš najít nějaké krtiny."
+
+msgid "There is a very narrow tunnel\nin each molehill."
+msgstr "V každé krtině je velmi\núzký tunel."
+
+msgid "But some of these tunnels are wide\nenough, so you can enter them."
+msgstr "Ale některé z těchto tunelů jsou\ndost široké, a tak do\nnich můžeš vlézt."
+
+msgid "Sometimes, you can widen\nthe tunnel by butt-jumping."
+msgstr "Někdy můžeš rozšířit tunel\ntím, že na krtinu tvrdě skočíš."
+
 #: data/levels/narre2/volcano_over_an_erupting_volcano.stl:3
 msgid "Over an Erupting Volcano"
 msgstr "Přes aktivní sopku"
@@ -850,3 +874,7 @@ msgstr "Lávová záplava"
 #: data/levels/narre2/matrix_boxes_of_beams.stl:3
 msgid "Boxes of Beams"
 msgstr "Paprskové krabice"
+
+#: data/levels/narre2/forest_moles_holes.stl:3
+msgid "Moles' Holes"
+msgstr "Krtiny"
