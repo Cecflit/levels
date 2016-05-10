@@ -1,5 +1,11 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 41
+
+-added Rocks background to all Rocks levels
+-all molehills are now in foreground (layer 99 or so)
+-added level 'Impenetrable Verdure' to the Jungle
+
 BETA 40
 
 -added Geysers background to all Geysers levels

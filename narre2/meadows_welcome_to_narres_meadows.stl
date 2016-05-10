@@ -108,6 +108,30 @@
     (camera
       (mode "normal")
     )
+    (decal
+      (x 2079.112)
+      (y 596.5266)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 5599.459)
+      (y 727.3183)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 9695.373)
+      (y 666.8608)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 11519.22)
+      (y 570.9167)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
     (firefly
       (x 7680)
       (y 576)

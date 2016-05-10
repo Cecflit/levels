@@ -323,6 +323,24 @@
       (x 10208)
       (y 416)
     )
+    (decal
+      (x 1375.685)
+      (y 826)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 9279.771)
+      (y 601.2528)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 13343.94)
+      (y 729.3741)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
     (firefly
       (x 7424)
       (y 544)

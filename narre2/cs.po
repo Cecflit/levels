@@ -878,3 +878,7 @@ msgstr "Paprskové krabice"
 #: data/levels/narre2/forest_moles_holes.stl:3
 msgid "Moles' Holes"
 msgstr "Krtiny"
+
+#: data/levels/narre2/jungle_impenetrable_verdure.stl:3
+msgid "Impenetrable Verdure"
+msgstr "Neprostupná zeleň"

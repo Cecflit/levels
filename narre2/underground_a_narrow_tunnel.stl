@@ -322,6 +322,42 @@
       (x 16128)
       (y 1056)
     )
+    (decal
+      (x 4458.863)
+      (y 1371.246)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 1324.25)
+      (y 1242.75)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 10145.4)
+      (y 2075.505)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 12099.58)
+      (y 1211.263)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 14204.85)
+      (y 1145.38)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 15373.15)
+      (y 1115.188)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
     (firefly
       (x 7968)
       (y 2368)
@@ -399,7 +435,7 @@
     )
     (mole
       (x 4477.732)
-      (y 1370.259)
+      (y 1370.759)
     )
     (mole
       (x 6690.732)
@@ -420,6 +456,14 @@
     (mole
       (x 15391.79)
       (y 1113.75)
+    )
+    (mole
+      (x 3258.965)
+      (y 1179.727)
+    )
+    (mole
+      (x 6690.732)
+      (y 2332.26)
     )
     (mrbomb
       (x 1201.037)

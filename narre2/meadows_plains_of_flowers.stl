@@ -96,6 +96,48 @@
     (camera
       (mode "normal")
     )
+    (decal
+      (x 653.5822)
+      (y 629.494)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 1766.215)
+      (y 630.201)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 2984.099)
+      (y 817.7985)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 6540.223)
+      (y 724.5043)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 11337.13)
+      (y 759.4916)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 12768.94)
+      (y 752.3461)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
+    (decal
+      (x 15269.98)
+      (y 823.764)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
     (firefly
       (x 6032)
       (y 608)
@@ -235,8 +277,8 @@
       (y 634.0019)
     )
     (mole
-      (x 673)
-      (y 628)
+      (x 673.3536)
+      (y 628.3535)
     )
     (mole
       (x 1785.466)

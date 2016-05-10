@@ -9,6 +9,12 @@
     (name "main")
     (music "music/darkforestkeep.ogg")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/stone-middle.png")
+      (image-bottom "levels/narre2/images/background/stone-bottom.png")
+    )
     (bonusblock
       (script "")
       (contents "script")
@@ -118,6 +124,7 @@
     (gradient
       (top_color 0.1991455 0.494255 0.8508126)
       (bottom_color 0.3870909 0.3870909 0.3870909)
+      (layer -2006)
     )
     (haywire
       (x 8517)
