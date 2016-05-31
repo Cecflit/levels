@@ -1,5 +1,10 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+B E T A   4 2
+
+- a d d e d   l e v e l   ' A   H i l l   U n d e r   t h e   G r o u n d '   t o   t h e   U n d e r g r o u n d
+- f i x e d   b u g   i n   l e v e l   ' A   N a r r o w   T u n n e l '
+
 BETA 41
 
 -added Rocks background to all Rocks levels

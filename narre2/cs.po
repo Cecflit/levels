@@ -882,3 +882,7 @@ msgstr "Krtiny"
 #: data/levels/narre2/jungle_impenetrable_verdure.stl:3
 msgid "Impenetrable Verdure"
 msgstr "Neprostupná zeleň"
+
+#: data/levels/narre2/underground_a_hill_under_the_ground.stl:3
+msgid "A Hill Under the Ground"
+msgstr "Kopec pod zemí"

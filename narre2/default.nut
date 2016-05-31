@@ -226,6 +226,11 @@ if (!("w3_lsneakycliff_s1" in state)) {
  state.w3_lsneakycliff_s1 <- false;
 }
 
+//Underground, level A Hill Under the Ground, secret area 1
+if (!("w4_lhillderground_s1" in state)) {
+ state.w3_lhillderground_s1 <- false;
+}
+
 //Mountains, level Welcome to the High Mountains, secret area 1
 if (!("w5_lwelcomemountains_s1" in state)) {
  state.w5_lwelcomemountains_s1 <- false;
