@@ -10,6 +10,12 @@
     (music "music/forest.ogg")
     (init-script "Doktor <- 121;")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/meadows-middle.png")
+      (image-bottom "levels/narre2/images/background/meadows-bottom.png")
+    )
     (bonusblock
       (script "")
       (contents "script")
@@ -176,6 +182,12 @@
       (layer 99)
       (sprite "images/creatures/mole/mole-0.png")
     )
+    (decal
+      (x 2083.655)
+      (y 2707.419)
+      (layer 99)
+      (sprite "images/creatures/mole/mole-0.png")
+    )
     (firefly
       (x 8384)
       (y 1568)
@@ -183,6 +195,7 @@
     (gradient
       (top_color 0 0.7504387 1)
       (bottom_color 0.7275044 1 0)
+      (layer -500)
     )
     (haywire
       (x 12133)
@@ -281,8 +294,8 @@
       (y 3080)
     )
     (mole
-      (x 2104.492)
-      (y 2706.22)
+      (x 2102.957)
+      (y 2707.279)
     )
     (mole
       (x 4983.155)
@@ -299,10 +312,6 @@
     (mole
       (x 16634.39)
       (y 3799.09)
-    )
-    (mole
-      (x 2104.492)
-      (y 2706.22)
     )
     (mole
       (x 15761.38)

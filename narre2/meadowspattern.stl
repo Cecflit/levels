@@ -9,6 +9,12 @@
     (name "main")
     (music "music/forest.ogg")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/meadows-middle.png")
+      (image-bottom "levels/narre2/images/background/meadows-bottom.png")
+    )
     (camera
       (mode "normal")
     )

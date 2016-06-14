@@ -9,6 +9,12 @@
     (name "main")
     (music "music/forest.ogg")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/meadows-middle.png")
+      (image-bottom "levels/narre2/images/background/meadows-bottom.png")
+    )
     (bonusblock
       (script "")
       (contents "script")
@@ -139,6 +145,7 @@
     (gradient
       (top_color 0 0.7504387 1)
       (bottom_color 0.7275044 1 0)
+      (layer -500)
     )
     (haywire
       (x 12229)

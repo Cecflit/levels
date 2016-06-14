@@ -513,6 +513,9 @@ msgstr "Smůla! Trvale jsi uzamkl ocenění.\n\nStejně nezemřu"
 msgid "Achievement get!\n\nTo Find a Needle in a Haystack"
 msgstr "Získáno ocenění!\n\nNajít jehlu v kupce sena"
 
+msgid "Achievement get!\n\nPenguins Do Fly"
+msgstr "Získáno ocenění!\n\nTučňáci létají"
+
 #: Introduction
 msgid ""
 "-Legend\n"
@@ -554,7 +557,7 @@ msgstr "-Stejně nezemřu\n#Vyhni se všem uložovákům"
 
 msgid ""
 "-Lazy Engineer\n"
-"#Repair that damn lift and avoid the staircase"
+"#Repair that bloody lift and avoid the staircase"
 msgstr "-Líný inženýr\n#Oprav ten zatracený výtah a vyhni se schodišti"
 
 msgid ""
@@ -690,6 +693,24 @@ msgstr "Přenést do Matrixu"
 
 msgid "Warp to the Bonusland"
 msgstr "Přenést do Bonuslandu"
+
+msgid "levels/narre2/speech/dodley_information_1.ogg"
+msgstr "levels/narre2/speech/dodley_information_1_czech.ogg"
+
+msgid "levels/narre2/speech/dodley_information_2.ogg"
+msgstr "levels/narre2/speech/dodley_information_2_czech.ogg"
+
+msgid "levels/narre2/speech/dodley_information_3.ogg"
+msgstr "levels/narre2/speech/dodley_information_3_czech.ogg"
+
+msgid "levels/narre2/speech/dodley_information_4.ogg"
+msgstr "levels/narre2/speech/dodley_information_4_czech.ogg"
+
+msgid "levels/narre2/speech/dodley_information_5.ogg"
+msgstr "levels/narre2/speech/dodley_information_5_czech.ogg"
+
+msgid "levels/narre2/speech/dodley_information_6.ogg"
+msgstr "levels/narre2/speech/dodley_information_6_czech.ogg"
 
 msgid "levels/narre2/speech/intro_1.ogg"
 msgstr "levels/narre2/speech/intro_1_czech.ogg"
@@ -847,6 +868,24 @@ msgstr "Ale některé z těchto tunelů jsou\ndost široké, a tak do\nnich mů�
 msgid "Sometimes, you can widen\nthe tunnel by butt-jumping."
 msgstr "Někdy můžeš rozšířit tunel\ntím, že na krtinu tvrdě skočíš."
 
+msgid "Dödleytrees are very rare trees."
+msgstr "Dödleyovníky jsou velice vzácné stromy"
+
+msgid "It's known that one of these trees\nis a boss of this island."
+msgstr "Je známo, že jeden z těchto stromů\nje šéf tohoto ostrova."
+
+msgid "It's on the other side of the island,\nso you won't meet it soon."
+msgstr "Nachází se na druhé straně ostrova,\ntakže ho v nejbližší době nepotkáš."
+
+msgid "But even though Dödleytrees are rare,\nthey produce a lot of leaves"
+msgstr "Ale i když jsou dödleyovníky vzácné,\nprodukují spoustu listí,"
+
+msgid "which can be found all over the island.\nThey look like ordinary dead leaves,"
+msgstr "které můžete nalézt po celém ostrově.\nVypadá jako obyčejné uschlé listí,"
+
+msgid "but they are very nasty and\nfrost-resistant. However, you\ncan still squis them."
+msgstr "ale dokáže být velmi nepříjemné a\nje imunní vůči mrazu.\nNicméně ho můžeš stále zašlápnout."
+
 #: data/levels/narre2/volcano_over_an_erupting_volcano.stl:3
 msgid "Over an Erupting Volcano"
 msgstr "Přes aktivní sopku"
@@ -886,3 +925,7 @@ msgstr "Neprostupná zeleň"
 #: data/levels/narre2/underground_a_hill_under_the_ground.stl:3
 msgid "A Hill Under the Ground"
 msgstr "Kopec pod zemí"
+
+#: data/levels/narre2/mountains_dont_fall_to_the_valley.stl:3
+msgid "Don't Fall to the Valley"
+msgstr "Nespadni do údolí"

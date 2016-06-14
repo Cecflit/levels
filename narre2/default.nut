@@ -1,3 +1,8 @@
+//Dödleytree Info Check
+if (!("dodleyinformation" in state)) {
+ state.dodleyinformation <- false;
+}
+
 //First Level Info Check
 if (!("checkpointinformation" in state)) {
  state.checkpointinformation <- false;
@@ -109,7 +114,7 @@ if (!("achievement_no_second_chances" in state)) {
  state.achievement_no_second_chances <- false;
 }
 
-//Lazy Engineer (Repair that damn lift and avoid the staircase)
+//Lazy Engineer (Repair that bloody lift and avoid the staircase)
 if (!("achievement_lazy_engineer" in state)) {
  state.achievement_lazy_engineer <- false;
 }
@@ -239,6 +244,11 @@ if (!("w5_lwelcomemountains_s1" in state)) {
 //Mountains, level A Really High Mountain, secret area 1
 if (!("w5_lreallyhigh_s1" in state)) {
  state.w5_lreallyhigh_s1 <- false;
+}
+
+//Mountains, level Don't Fall to the Valley, secret area 1
+if (!("w5_ldontvalley_s1" in state)) {
+ state.w5_ldontvalley_s1 <- false;
 }
 
 //IceCave, level Frozen Depth, secret area 1

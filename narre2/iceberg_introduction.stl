@@ -62,7 +62,7 @@ if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
     )
     (infoblock
       (message (_ "-Lazy Engineer
-#Repair that damn lift and avoid the staircase"))
+#Repair that bloody lift and avoid the staircase"))
       (x 3328)
       (y 896)
     )
