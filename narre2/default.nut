@@ -261,6 +261,11 @@ if (!("w6_lfrozendepth_s2" in state)) {
  state.w6_lfrozendepth_s2 <- false;
 }
 
+//IceCave, level Sharp Spikes, secret area 1
+if (!("w6_lspikes_s1" in state)) {
+ state.w6_lspikes_s1 <- false;
+}
+
 //CrystalCave, level Welcome to the Cave of Crystals, secret area 1
 if (!("w7_lwelcomecrystal_s1" in state)) {
  state.w7_lwelcomecrystal_s1 <- false;

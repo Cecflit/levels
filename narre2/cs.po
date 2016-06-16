@@ -929,3 +929,7 @@ msgstr "Kopec pod zemí"
 #: data/levels/narre2/mountains_dont_fall_to_the_valley.stl:3
 msgid "Don't Fall to the Valley"
 msgstr "Nespadni do údolí"
+
+#: data/levels/narre2/icecave_sharp_spikes.stl:3
+msgid "Sharp Spikes"
+msgstr "Ostré bodláky"
