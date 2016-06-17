@@ -933,3 +933,7 @@ msgstr "Nespadni do údolí"
 #: data/levels/narre2/icecave_sharp_spikes.stl:3
 msgid "Sharp Spikes"
 msgstr "Ostré bodláky"
+
+#: data/levels/narre2/crystalcave_crystal_bridges.stl:3
+msgid "Crystal Bridges"
+msgstr "Krystalové mosty"
