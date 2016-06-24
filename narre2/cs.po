@@ -937,3 +937,7 @@ msgstr "Ostré bodláky"
 #: data/levels/narre2/crystalcave_crystal_bridges.stl:3
 msgid "Crystal Bridges"
 msgstr "Krystalové mosty"
+
+#: data/levels/narre2/rocks_a_lake_in_the_valley.stl:3
+msgid "A Lake in the Valley"
+msgstr "Jezero v údolí"
