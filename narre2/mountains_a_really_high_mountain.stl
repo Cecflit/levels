@@ -823,8 +823,8 @@ state.w5_lreallyhigh_s1 <- true;}
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 2176)
-      (y 7140)
+      (x 2177.768)
+      (y 7146.011)
     )
     (stalactite
       (x 3648)

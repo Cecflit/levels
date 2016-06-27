@@ -564,9 +564,13 @@ Text.fade_out(1);
       (x 13518.87)
       (y 1720.855)
     )
+    (stalactite
+      (x 1442.031)
+      (y 562.3712)
+    )
     (tilemap
       (solid #t)
-      (z-pos 0)
+      (z-pos 20)
       (name "Path")
       (width 512)
       (height 63)

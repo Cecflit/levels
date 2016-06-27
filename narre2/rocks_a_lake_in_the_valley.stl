@@ -299,7 +299,7 @@ state.w8_llakevalley_s1 <- true;}
       (y 0)
     )
     (sequencetrigger
-      (sequence "endsequence")
+      (sequence "stoptux")
       (width 12)
       (height 3564)
       (x 16372)

@@ -1,0 +1,22 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 0 7 35 20)
+    (images "left-0.png"
+            "left-1.png"
+            "left-2.png")
+  )
+  (action
+    (hitbox 0 7 35 20)
+    (name "right")
+    (mirror-action "left")
+  )
+  (action
+    (name "shattered-left")
+    (images "shattered.png")
+  )
+  (action
+    (name "shattered-right")
+    (mirror-action "shattered-left")
+  )
+)

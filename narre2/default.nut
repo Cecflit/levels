@@ -281,6 +281,11 @@ if (!("w8_llakevalley_s1" in state)) {
  state.w8_llakevalley_s1 <- false;
 }
 
+//IceCanyon, level Tree Guardians, secret area 1
+if (!("w9_ltreeguards_s1" in state)) {
+ state.w8_ltreeguards_s1 <- false;
+}
+
 //Desert, level Welcome to the Desert of Dryness, secret area 1
 if (!("w11_lwelcomedesert_s1" in state)) {
  state.w11_lwelcomedesert_s1 <- false;

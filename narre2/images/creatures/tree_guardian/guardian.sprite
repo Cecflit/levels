@@ -1,0 +1,43 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 0 7 35 20)
+    (images "left-0.png"
+            "left-1.png"
+            "left-2.png"
+	    "left-0_v.png"
+            "left-1_v.png"
+            "left-2_v.png"
+	    "left-0_vd.png"
+            "left-1_vd.png"
+            "left-2_vd.png"
+	    "left-0_vd.png"
+            "left-1_vd.png"
+            "left-2_vd.png"
+	    "left-0_vd.png"
+            "left-1_vd.png"
+            "left-2_vd.png"
+	    "left-0_vd.png"
+            "left-1_vd.png"
+            "left-2_vd.png"
+	    "left-0_a.png"
+            "left-1_a.png"
+            "left-2_a.png"
+    	    "left-0.png"
+            "left-1.png"
+            "left-2.png")
+  )
+  (action
+    (hitbox 0 7 35 20)
+    (name "right")
+    (mirror-action "left")
+  )
+  (action
+    (name "shattered-left")
+    (images "shattered.png")
+  )
+  (action
+    (name "shattered-right")
+    (mirror-action "shattered-left")
+  )
+)

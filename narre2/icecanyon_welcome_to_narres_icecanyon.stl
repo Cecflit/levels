@@ -398,20 +398,20 @@ Text.fade_out(1);
       (y 842)
     )
     (stalactite
-      (x 2656)
-      (y 548)
+      (x 2654.5)
+      (y 561.5)
     )
     (stalactite
-      (x 5632)
-      (y 420)
+      (x 5633)
+      (y 435)
     )
     (stalactite
-      (x 6784)
-      (y 644)
+      (x 6782.939)
+      (y 658.1422)
     )
     (stalactite
-      (x 6240)
-      (y 420)
+      (x 6238.5)
+      (y 434.5)
     )
     (tilemap
       (solid #t)

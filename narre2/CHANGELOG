@@ -1,5 +1,13 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 47
+
+-fixed stalactite bugs in level 'Welcome to the Canyon of Frost'
+-added some stalactites to all IceCanyon levels
+-added badguy 'Tree Guardian'
+-added badguy 'Ice Guardian'
+-added level 'Tree Guardians' to the IceCanyon
+
 BETA 46
 
 -added level 'A Lake in the Valley' to the Rocks
@@ -85,7 +93,7 @@ BETA 33
 -fixed incorrect layer of CrystalCave Main Building in the worldmap
 -fixed some typos in Czech translation file cs.po
 -added 'Show Me My Achievements' and 'Get to Add-On Settings' to the very first level
--renamed 'Introduction' to 'Welcome th Narre's Multiworld'
+-renamed 'Introduction' to 'Welcome to Narre's Multiworld'
 -Changed the introduction. Subtitles are now in the bottom, voice does not exist yet.
 
 BETA 32
@@ -105,7 +113,7 @@ BETA 30
 -fixed incorrect layer of Rocks Main Building in the worldmap
 -added ground decorations to level 'The Wisp World'
 -added level 'A Friendly Enemy' to the Swamp
--renamed all worlds
+-nicknamed all worlds - renamed Welcome levels
 
 BETA 29
 
