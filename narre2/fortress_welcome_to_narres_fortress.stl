@@ -434,7 +434,7 @@
       (y 608)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
+      (script "Tux.kill(false);")
       (button #f)
       (width 348)
       (height 264)

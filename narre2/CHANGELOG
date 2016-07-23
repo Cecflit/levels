@@ -1,5 +1,21 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 48
+
+-swimming is now supported - levels with water have been changed to be playable with swimming
+-added level 'Muddy Lakes' to the Swamp
+-added a secret area to level 'Boat World'
+-fixed typo in level 'An Icy Path'
+-changed cutscene in level 'Welcome to the Desert of Dryness'
+-changed cutscene in level 'Moles' Holes'
+-added cutscene to level 'Tree Guardians'
+-added cutscene to level 'Welcome to the Swamp of Ghosts'
+-added cutscene to level 'The Wisp World'
+-added cutscene to level 'A Friendly Enemy'
+-added cutscene to level 'Muddy Lakes'
+-added cutscene to level 'A Sneaky Cliff'
+-updated Czech translations
+
 BETA 47
 
 -fixed stalactite bugs in level 'Welcome to the Canyon of Frost'
@@ -7,6 +23,7 @@ BETA 47
 -added badguy 'Tree Guardian'
 -added badguy 'Ice Guardian'
 -added level 'Tree Guardians' to the IceCanyon
+-improved Geysers graphics
 
 BETA 46
 
@@ -147,7 +164,7 @@ BETA 25
 -fixed gravity bug in level 'Welcome to Narre's Matrix' (1 => 10)
 -completely redone introduction level since script texts are now translatable
 -added infoblock to level 'Welcome to Narre's Underground'
--MrRockys are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
+-MrRockies are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
 -added infoblock to level 'Welcome to Narre's Mountains'
 -stalactites in Mountains and IceCanyon now cannot fall without shooting them
 -removed 'Snake' sprite from images
@@ -245,9 +262,9 @@ BETA 12
 BETA 11
 
 -fixed bugs in level 'Welcome to Narre's Matrix - Top blocks of the long laser pass are no longer reachable, ducking is no longer making problems
--fixed bugs in level 'A Icy Path' - Clouds are now rendered correctly, information has now blue font
+-fixed bugs in level 'An Icy Path' - Clouds are now rendered correctly, information has now blue font
 -added Snow game tiles for slippery ice
--removed Danger signs from level 'A Icy Path' - slippery ice is now recognizable
+-removed Danger signs from level 'An Icy Path' - slippery ice is now recognizable
 -added new sprite for WalkingLeaf for Underground world
 -added tile paralax background to level 'Frozen Hills'
 -fixed bugs in the second secret area of level 'Frozen Hills'
@@ -295,7 +312,7 @@ BETA 6
 BETA 5
 
 -fixed some graphical bugs
--added information to level 'A Icy Path'
+-added information to level 'An Icy Path'
 -added level 'Welcome to Narre's Jungle' to the Jungle
 -added level 'Welcome to Narre's Underground' to the Underground
 
@@ -321,7 +338,7 @@ BETA 1
 -added level 'Frozen Hills' to the Iceberg
 -added level 'Down the Frozen Cave' to the Iceberg
 -added level 'Just another snowy day' to the Iceberg
--added level 'A Icy Path' to the Iceberg
+-added level 'An Icy Path' to the Iceberg
 -added level 'Welcome to Narre's Forest' to the Forest
 -added level 'Welcome to Narre's Volcano' to the Volcano
 -added level 'Welcome to Narre's Desert' to the Desert

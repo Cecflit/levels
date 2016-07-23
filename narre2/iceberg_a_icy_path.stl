@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "A Icy Path"))
+  (name (_ "An Icy Path"))
   (author "Narre")
   (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")

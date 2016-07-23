@@ -181,22 +181,13 @@ Camera.scroll_to(4740, 450, 2);
 wait(3);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"This is quicksand.\"));
+Text.set_text(_(\"This, my dear friend, is quicksand.\\nIt's a home for creature known as\\nSkelehand, which can, surprisingly, kill\"));
 if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_1.ogg\"));}
 if(state.subtitles){Text.fade_in(1);}
-wait(3);
+wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_2.ogg\"));}
-Text.set_text(_(\"You can find some quicksand in\\nthe desert. If you fall into the\\nquicksand, you'll die in it.\"));
+Text.set_text(_(\"you. And the quicksand itself isn't very\\nfriendly either. It's pretty much a\\ndesert version of mud. So, be careful.\"));
 wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_3.ogg\"));}
-Text.set_text(_(\"But if you are quick, you can run\\na short distance in the quicksand.\\nBut be careful, there is also an enemy\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_4.ogg\"));}
-Text.set_text(_(\"which lives in quicksand. It is called\\nSkelehand. You can't kill it, because\\nit is already dead, but it can kill you\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_5.ogg\"));}
-Text.set_text(_(\"very easily.\"));
-wait(2);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 Camera.scroll_to(3492, 452, 2);

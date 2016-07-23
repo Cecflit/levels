@@ -631,7 +631,9 @@
       3161 3162 3163 3164
       3165 3166 3167 3168
       3169 3170 3171 3172
-      3173 3174 3175 3176)
+      3173 3174 3175 3176
+      3984 3985 3986 3987
+      3988 0    3989 3990)
   )
   (tilegroup
     (name "Block")
@@ -4740,7 +4742,7 @@
   (tile
     (id 3446)
     (images
-     "tiles/sulphur-water/center.png")
+     "tiles/sulphur-water/centre.png")
     (water #t)
     )
   (tiles
@@ -5112,6 +5114,52 @@
     )
     (water #t)
     (fps 10)
+  )
+(tiles
+    (width 4)
+    (height 1)
+    (ids
+      3984 3985 3986 3987
+    )
+    (attributes
+      512 512 512 512
+    )
+    (image
+      "tiles/muddy_water/w-1.png"
+      "tiles/muddy_water/w-2.png"
+      "tiles/muddy_water/w-3.png"
+      "tiles/muddy_water/w-4.png"
+      "tiles/muddy_water/w-5.png"
+      "tiles/muddy_water/w-6.png"
+      "tiles/muddy_water/w-7.png"
+      "tiles/muddy_water/w-8.png"
+    )
+    (fps 16)
+  )
+  (tile
+    (id 3988)
+    (images
+     "tiles/muddy_water/centre.png")
+    (water #t)
+    )
+
+  (tile
+	(id 3989)
+    (images "tiles/mud/mud_top_0.png"
+	    "tiles/mud/mud_top_1.png"
+	    "tiles/mud/mud_top_2.png"
+	    "tiles/mud/mud_top_3.png"
+	    "tiles/mud/mud_top_4.png"
+	   "tiles/mud/mud_top_5.png"
+		"tiles/mud/mud_top_6.png"
+		"tiles/mud/mud_top_7.png"
+		"tiles/mud/mud_top_8.png"
+		"tiles/mud/mud_top_9.png")
+    (fps 2)
+)
+  (tile
+    (id 3990)
+    (images "tiles/mud/mud_bottom.png")
   )
     
 )

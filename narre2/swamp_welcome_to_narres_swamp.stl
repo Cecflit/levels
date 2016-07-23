@@ -57,6 +57,12 @@
       (x 12640)
       (y 448)
     )
+    (bonusblock
+      (script "")
+      (contents "script")
+      (x 2880)
+      (y 352)
+    )
     (camera
       (mode "normal")
     )
@@ -70,17 +76,6 @@
     (haywire
       (x 7877)
       (y 456)
-    )
-    (haywire
-      (x 3685)
-      (y 456)
-    )
-    (infoblock
-      (message (_ "-Green Wisps
-!images/creatures/willowisp/idle-0.png
-#Green Wisps are not dangerous, but they can warp you back and make your journey longer!"))
-      (x 2880)
-      (y 352)
     )
     (invisible_wall
       (width 16396)
@@ -138,6 +133,33 @@ Text.fade_out(1);
       (height 32)
       (x 8416)
       (y 288)
+    )
+    (scripttrigger
+      (script "if(!state.greenwinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"This is a wisp. Wisps are pretty\\nunpleasant creatures. The green ones\\nare not really dangerous, but they can\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/green_wisp_1.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/green_wisp_2.ogg\"));}
+Text.set_text(_(\"warp you back and make your journey\\nlonger. Not very pleasant, is it? But do\\nnot worry, there are worse ones to come.\"));
+wait(7);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.greenwinfo <- true;
+Tux.activate();}")
+      (button #f)
+      (width 32)
+      (height 460)
+      (x 2912)
+      (y 32)
     )
     (sequencetrigger
       (sequence "endsequence")
@@ -358,8 +380,8 @@ Text.fade_out(1);
     )
     (walkingleaf
       (sprite "levels/narre2/images/creatures/swampivy/swampivy.sprite")
-      (x 2850)
-      (y 420)
+      (x 5378)
+      (y 612)
     )
     (walkingleaf
       (sprite "levels/narre2/images/creatures/swampivy/swampivy.sprite")
@@ -400,7 +422,7 @@ Text.fade_out(1);
       (sector "main")
       (spawnpoint "main")
       (name "kamos1")
-      (x 3296)
+      (x 3328)
       (y 288)
     )
     (willowisp

@@ -78,6 +78,13 @@
       (x 1152)
       (y 704)
     )
+    (bonusblock
+      (script "")
+      (contents "script")
+      (sprite "images/objects/bonus_block/bonusblock.sprite")
+      (x 1120)
+      (y 704)
+    )
     (camera
       (mode "normal")
     )
@@ -91,14 +98,6 @@
     (haywire
       (x 10213)
       (y 456)
-    )
-    (infoblock
-      (message (_ "-Red Wisps
-!levels/narre2/images/creatures/redwisp/idle-0.png
-#Red Wisps are much deadlier than the green ones. They cannot warp you, but they can hurt you to death!
-#But don't worry, there is also one positive new. You can only see them during the day, otherwise they're not going out."))
-      (x 1120)
-      (y 704)
     )
     (jumpy
       (sprite "images/creatures/jumpy/wooden.sprite")
@@ -164,6 +163,33 @@ Text.fade_out(1);
       (height 32)
       (x 8256)
       (y 544)
+    )
+    (scripttrigger
+      (script "if(!state.redwinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"Do you remember as I told you that\\nthere were worse wisps to come than the\\ngreen ones? Well, I think I can see one.\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/red_wisp_1.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/red_wisp_2.ogg\"));}
+Text.set_text(_(\"This is a red wisp. Okay, these can't\\nwarp you back, but they are a bit more\\ndangerous. How can I say it. THEY BITE.\"));
+wait(7);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+Camera.set_mode(\"normal\");
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.redwinfo <- true;
+Tux.activate();}")
+      (button #f)
+      (width 32)
+      (height 808)
+      (x 1120)
+      (y 32)
     )
     (sequencetrigger
       (sequence "endsequence")
@@ -454,8 +480,8 @@ Text.fade_out(1);
       (sector "main")
       (spawnpoint "main")
       (name "")
-      (x 1152)
-      (y 672)
+      (x 2784)
+      (y 608)
     )
     (willowisp
       (sector "")

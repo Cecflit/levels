@@ -504,7 +504,7 @@ if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_5.ogg\"))
 Text.set_text(_(\"which can be found all over the island.\\nThey look like ordinary dead leaves,\"));
 wait(5);
 if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_6.ogg\"));}
-Text.set_text(_(\"but they are very nasty and\\nfrost-resistant. However, you\\ncan still squis them.\"));
+Text.set_text(_(\"but they are very nasty and\\nfrost-resistant. However, you\\ncan still squish them.\"));
 wait(5);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}

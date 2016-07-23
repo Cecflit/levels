@@ -661,13 +661,6 @@
       (x 723.6016)
       (y 936.4854)
     )
-    (infoblock
-      (message (_ "-This is sneaky...
-#This cliff is too high.
-#It seems that the only way leads through the near cave."))
-      (x 2240)
-      (y 800)
-    )
     (invisible_wall
       (width 8.5)
       (height 19.5)
@@ -888,8 +881,8 @@
       (y 417.791)
     )
     (poisonivy
-      (x 1976.954)
-      (y 857.7503)
+      (x 1474)
+      (y 740)
     )
     (poisonivy
       (x 7537.983)
@@ -1000,6 +993,34 @@ Text.fade_out(1);
       (height 32)
       (x 5760)
       (y 480)
+    )
+    (scripttrigger
+      (script "if(!state.sneakyinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+Camera.scroll_to(1952, 320, 1);
+wait(2);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"Hmm, this doesn't seem like the right way.\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/sneaky_cliff.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(7);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+Camera.scroll_to(1443, 450, 1);
+wait(1);
+Camera.set_mode(\"normal\");
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.sneakyinfo <- true;
+Tux.activate();}")
+      (button #f)
+      (width 32)
+      (height 492)
+      (x 1952)
+      (y 436)
     )
     (secretarea
       (script "if(!state.w3_lsneakycliff_s1){

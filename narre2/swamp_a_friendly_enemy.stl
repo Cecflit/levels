@@ -98,6 +98,13 @@ wait(4);
       (x 1152)
       (y 672)
     )
+    (bonusblock
+      (script "")
+      (contents "script")
+      (sprite "images/objects/bonus_block/bonusblock.sprite")
+      (x 5600)
+      (y 512)
+    )
     (camera
       (mode "normal")
     )
@@ -111,13 +118,6 @@ wait(4);
     (haywire
       (x 11589)
       (y 648)
-    )
-    (infoblock
-      (message (_ "-Blue Wisps
-!levels/narre2/images/creatures/bluewisp/idle-0.png
-#Blue Wisps are another kind of wisps. They may seem like a hostile creature, but in fact, they are exact opposite of hostiles. They can give you some coins or bonuses. They are dark, so you can easily miss them in these dark swamps. They are not exactly rare, but you cannot find them everywhere. They are often hiding in some secret areas."))
-      (x 5600)
-      (y 512)
     )
     (jumpy
       (sprite "images/creatures/jumpy/wooden.sprite")
@@ -164,8 +164,8 @@ wait(4);
       (y 840)
     )
     (mrbomb
-      (x 3557)
-      (y 712)
+      (x 3109)
+      (y 744)
     )
     (mrbomb
       (x 5061)
@@ -197,6 +197,63 @@ Text.fade_out(1);
       (height 32)
       (x 7680)
       (y 960)
+    )
+    (scripttrigger
+      (script "if(!state.redwinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"Do you remember as I told you that\\nthere were worse wisps to come than the\\ngreen ones? Well, I think I can see one.\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/red_wisp_1.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/red_wisp_2.ogg\"));}
+Text.set_text(_(\"This is a red wisp. Okay, these can't\\nwarp you back, but they are a bit more\\ndangerous. How can I say it. THEY BITE.\"));
+wait(7);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+Camera.set_mode(\"normal\");
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.redwinfo <- true;
+Tux.activate();}")
+      (button #f)
+      (width 32)
+      (height 748)
+      (x 3552)
+      (y 52)
+    )
+    (scripttrigger
+      (script "if(!state.bluewinfo){
+Tux.deactivate();
+sector.Effect.sixteen_to_nine(1);
+Text.set_anchor_point(ANCHOR_BOTTOM);
+Text.set_pos(0,-78);
+Text.set_text(_(\"Do you remember as I told you that\\nwisps weren't pretty pleasant? Well, this\\nkind is. Although wisps aren't usually\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/blue_wisp_1.ogg\"));}
+if(state.subtitles){Text.fade_in(1);}
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/blue_wisp_2.ogg\"));}
+Text.set_text(_(\"very nice, the blue ones somewhat are.\\nThey can't warp you forward or kill\\nall your enemies, but they are pretty\"));
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/blue_wisp_3.ogg\"));}
+Text.set_text(_(\"useful. They can give you some coins or\\na flower. So come on, try it, what does\\nthis one have?\"));
+wait(7);
+if(state.subtitles){Text.fade_out(1);
+wait(1);}
+Camera.set_mode(\"normal\");
+sector.Effect.four_to_three(1);
+wait(1);
+Text.set_anchor_point(ANCHOR_MIDDLE);
+state.bluewinfo <- true;
+Tux.activate();}")
+      (button #f)
+      (width 32)
+      (height 620)
+      (x 5600)
+      (y 20)
     )
     (sequencetrigger
       (sequence "endsequence")
@@ -553,8 +610,8 @@ play_sound(\"sounds/grow.ogg\");}")
       (y 595)
     )
     (zeekling
-      (x 6056)
-      (y 339)
+      (x 8328)
+      (y 787)
     )
     (zeekling
       (x 10216)

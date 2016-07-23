@@ -247,19 +247,16 @@ sector.Effect.sixteen_to_nine(1);
 wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"There are some molehills throughout\\nenvironments like forest, jungle, etc..\"));
+Text.set_text(_(\"Whoops! This way seems to be blocked.\\nYou went so far and now, you can\\ngive it u... No, wait, there is a way.\"));
 if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_1.ogg\"));}
 if(state.subtitles){Text.fade_in(1);}
-wait(3);
+wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_2.ogg\"));}
-Text.set_text(_(\"There is a very narrow tunnel\\nin each molehill.\"));
+Text.set_text(_(\"Do you see the molehill? There is\\na tunnel in it. It should be wide\\nenough for you.\"));
 wait(7);
 if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_3.ogg\"));}
-Text.set_text(_(\"But some of these tunnels are wide\\nenough, so you can enter them.\"));
+Text.set_text(_(\"And if it wasn't, try to butt-jump\\nonto that molehill to widen it.\"));
 wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_4.ogg\"));}
-Text.set_text(_(\"Sometimes, you can widen\\nthe tunnel by butt-jumping.\"));
-wait(5);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);

@@ -1,3 +1,33 @@
+//Tree Guardians Info Check
+if (!("treeguardsinfo" in state)) {
+ state.treeguardsinfo <- false;
+}
+
+//Green Wisps Info Check
+if (!("greenwinfo" in state)) {
+ state.greenwinfo <- false;
+}
+
+//Red Wisps Info Check
+if (!("redwinfo" in state)) {
+ state.redwinfo <- false;
+}
+
+//Sneaky Cliff Info Check
+if (!("sneakyinfo" in state)) {
+ state.sneakyinfo <- false;
+}
+
+//Blue Wisps Info Check
+if (!("bluewinfo" in state)) {
+ state.bluewinfo <- false;
+}
+
+//Mud Info Check (OMG this is gonna be a whole encyclopaedia of checks)
+if (!("mudinfo" in state)) {
+ state.mudinfo <- false;
+}
+
 //Dödleytree Info Check
 if (!("dodleyinformation" in state)) {
  state.dodleyinformation <- false;
@@ -286,6 +316,16 @@ if (!("w9_ltreeguards_s1" in state)) {
  state.w8_ltreeguards_s1 <- false;
 }
 
+//Swamp, level Muddy Lakes, secret area 1
+if (!("w10_lmuddylakes_s1" in state)) {
+ state.w10_lmuddylakes_s1 <- false;
+}
+
+//Swamp, level Muddy Lakes, secret area 2
+if (!("w10_lmuddylakes_s2" in state)) {
+ state.w10_lmuddylakes_s2 <- false;
+}
+
 //Desert, level Welcome to the Desert of Dryness, secret area 1
 if (!("w11_lwelcomedesert_s1" in state)) {
  state.w11_lwelcomedesert_s1 <- false;
@@ -309,6 +349,11 @@ if (!("w12_lerupt_s1" in state)) {
 //River, level Welcome to the Wild River, secret area 1
 if (!("w13_lwelcomeriver_s1" in state)) {
  state.w13_lwelcomeriver_s1 <- false;
+}
+
+//River, level Boat World, secret area 1
+if (!("w13_lboatwrld_s1" in state)) {
+ state.w13_lboatwrld_s1 <- false;
 }
 
 //River, level Weird Lampy Something, secret area 1
@@ -388,7 +433,7 @@ function go_underground(under){
   CoveringDecorationsFG.fade(under ? 0 : 1, 1);
   AroundDarkness.fade(under ? 1 : 0, 1);
   InnerDarkness.fade(under ? 1 : 0, 1);
-  SNDCave.fade(under ? 0.5 : 1, 1);
+  SNDCave.fade(under ? 0.5 : 0.75, 1);
   state.underground <- under;
 }
 
