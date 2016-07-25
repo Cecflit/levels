@@ -108,6 +108,18 @@ if (!("matrix" in state)) {
 if (!("bonus" in state)) {
  state.bonus <- false;
 }
+if (!("pipeworld" in state)) {
+ state.pipeworld <- false;
+}
+if (!("industrialworld" in state)) {
+ state.industrialworld <- false;
+}
+if (!("lavacavern" in state)) {
+ state.lavacavern <- false;
+}
+if (!("crystalworld" in state)) {
+ state.crystalworld <- false;
+}
 
 //Play Check
 if (!("played" in state)) {

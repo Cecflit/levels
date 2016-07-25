@@ -111,6 +111,21 @@
      2907 2908))
 
   (tilegroup
+    (name "Penguins")
+    (tiles
+     4013 4014))
+
+  (tilegroup
+    (name "Map")
+    (tiles
+     3991 3992 3993 3994
+     3995 3996 3997 3998
+     3999 4000 4001 4002
+     4003 4004 4005 4006
+     4007 4008 4009 0
+     4010 4011))
+
+  (tilegroup
     (name "Flowers")
     (tiles
 	3447 3448 3449 3450
@@ -421,6 +436,7 @@
       3536 0 0 0
       0 3520 3521 0
       0 3522 3523 0
+      4012 0 0 0
     )
   )
   (tilegroup
@@ -5161,5 +5177,106 @@
     (id 3990)
     (images "tiles/mud/mud_bottom.png")
   )
+
+(tile
+    (id 3991)
+    (images "map/env1.png")
+  )
+(tile
+    (id 3992)
+    (images "map/env2.png")
+  )
+(tile
+    (id 3993)
+    (images "map/env3.png")
+  )
+(tile
+    (id 3994)
+    (images "map/env4.png")
+  )
+(tile
+    (id 3995)
+    (images "map/env5.png")
+  )
+(tile
+    (id 3996)
+    (images "map/env6.png")
+  )
+(tile
+    (id 3997)
+    (images "map/env7.png")
+  )
+(tile
+    (id 3998)
+    (images "map/env8.png")
+  )
+(tile
+    (id 3999)
+    (images "map/env9.png")
+  )
+(tile
+    (id 4000)
+    (images "map/env10.png")
+  )
+(tile
+    (id 4001)
+    (images "map/env11.png")
+  )
+(tile
+    (id 4002)
+    (images "map/env12.png")
+  )
+(tile
+    (id 4003)
+    (images "map/env13.png")
+  )
+(tile
+    (id 4004)
+    (images "map/env14.png")
+  )
+(tile
+    (id 4005)
+    (images "map/env15.png")
+  )
+(tile
+    (id 4006)
+    (images "map/env16.png")
+  )
+(tile
+    (id 4007)
+    (images "map/env17.png")
+  )
+(tile
+    (id 4008)
+    (images "map/env18.png")
+  )
+(tile
+    (id 4009)
+    (images "map/env19.png")
+  )
+
+(tile
+    (id 4010)
+    (images "map/with.png")
+  )
+
+(tile
+    (id 4011)
+    (images "map/without.png")
+  )
+
+(tile
+    (id 4012)
+    (images "tiles/igloo.png")
+  )
     
+(tile
+    (id 4013)
+    (images "../../../images/creatures/tux/big/stand-0.png")
+  )
+(tile
+    (id 4014)
+    (images "../../../images/creatures/penny/penny.png")
+  )
+
 )

@@ -1,5 +1,27 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 49
+
+-behaviour of lava is now the same in all levels (kill false, alpha 80%(fortress), swimmable)
+-changed cutscene in level 'Welcome to Narre's Multiworld' (Intro)
+-fixed several typos
+-fixed subtitles setting problem in the introduction
+-added Journey animation
+-added Vanishing Neighbours animation
+-added Vanishing Penny animation
+-added animations to the introduction (optimalised for 1360/1366 × 768, any resolution ≥ 1024 × 768 won't be a problem though)
+-added a lake into the Rocks
+-fixed the stalactites in level 'Down the Frozen Cave'
+-fixed several bugs throughout the whole Multiworld
+-improved the worldmap
+-added Bonusland
+-added world 'Mainland' to the Bonusland
+-added world 'Pipe World' to the Bonusland
+-added world 'Industrial World' to the Bonusland
+-added world 'Crystal World' to the Bonusland
+-added world 'Lava Cavern' to the Bonusland
+-updated Czech translations
+
 BETA 48
 
 -swimming is now supported - levels with water have been changed to be playable with swimming
@@ -14,6 +36,8 @@ BETA 48
 -added cutscene to level 'A Friendly Enemy'
 -added cutscene to level 'Muddy Lakes'
 -added cutscene to level 'A Sneaky Cliff'
+-added Muddy Water
+-added Mud
 -updated Czech translations
 
 BETA 47
@@ -161,7 +185,7 @@ BETA 25
 -at least SuperTux 0.4.0 is now required
 -added burning/melting and frozen actions to all added badguys sprites
 -walkingleaves in 'Underground' environment are no longer freezable since there are stalactites with stone sprite
--fixed gravity bug in level 'Welcome to Narre's Matrix' (1 => 10)
+-fixed gravity bug in level 'Welcome to Narre's Matrix' (1 → 10)
 -completely redone introduction level since script texts are now translatable
 -added infoblock to level 'Welcome to Narre's Underground'
 -MrRockies are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
@@ -239,7 +263,7 @@ BETA 14
 
 -added level 'The Chasm of Eternal Fall' to the Underground
 -improved graphics of 'Snowmountain' environment
--added world 'IceCanyon'
+-added world 'IceCanyon' to the Main Game
 -decreased size of 'The Rocks' island
 -fixed some bugs in worldmap
 -improved graphics of 'Geysers' environment
@@ -320,8 +344,8 @@ BETA 4
 
 -added level 'Welcome to Narre's Mountains' to the Mountains
 -added level 'Welcome to Narre's IceCave' to the IceCave
--added World 'Meadows'
--added World 'Geysers', but the worldmap isn't done yet.
+-added World 'Meadows' to the Main Game
+-added World 'Geysers' to the Main Game, but the worldmap isn't done yet.
 
 BETA 3
 
@@ -352,15 +376,15 @@ ALPHA 4
 
 ALPHA 3
 
--all 'ice-world.strf' worlds are done (worldmap)
+-all 'ice-world.strf' worlds in the Main Game are done (worldmap)
 
 ALPHA 2
 
--all 'worldmap.strf' worlds are done (worldmap)
+-all 'worldmap.strf' worlds in the Main Game are done (worldmap)
 
 ALPHA 1
 
 -images created
 -added new tiles (ghostwood, volcano, desert, rocks)
--added World 'Iceberg'
+-added World 'Iceberg' to the Main Game
 -at least SuperTux 0.3.4 is required

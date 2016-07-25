@@ -280,12 +280,12 @@ state.w1_ldownfrozencave_s2 <- true;}
       (y 2057.517)
     )
     (stalactite
-      (x 12361.84)
-      (y 3048.065)
+      (x 12366.58)
+      (y 3059.211)
     )
     (stalactite
-      (x 12773.83)
-      (y 2632.567)
+      (x 12783.73)
+      (y 2643.881)
     )
     (tilemap
       (solid #t)
