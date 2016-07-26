@@ -24,18 +24,20 @@
   (name "burning-left")
   (hitbox 2 4 31.8 31.8)
   (fps 15.0)
-  (images "burn-0.png"
-   "burn-0.png"
-   "burn-1.png"
-   "burn-2.png"
-   "burn-3.png"
-   "burn-4.png"
-   "burn-5.png"
-   "burn-6.png"
-   "burn-7.png"
-   "burn-8.png"
-   "burn-9.png"
-   "burn-A.png"))
+  (images
+   "whatevering-0.png"
+   "whatevering-0.png"
+   "whatevering-1.png"
+   "whatevering-2.png"
+   "whatevering-3.png"
+   "whatevering-4.png"
+   "whatevering-5.png"
+   "whatevering-6.png"
+   "whatevering-7.png"
+   "whatevering-8.png"
+   "whatevering-9.png"
+   "whatevering-A.png"
+   "whatevering-B.png"))
  (action
   (name "burning-right")
   (hitbox 2 4 31.8 31.8)

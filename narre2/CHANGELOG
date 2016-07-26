@@ -1,9 +1,24 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 50
+
+-renamed level 'Over the Glade' to 'Over a Glade'
+-improved slopes in level 'Just Another Snowy Day'
+-changed position of Rocks levels, so it now makes more sense
+-added level 'No Shade Anywhere' to the Desert
+-added new object sprite 'cutsceneblock' as a sprite for 'bonus_block'
+-changed information blocks from boring infoblocks to new cutsceneblocks
+-removed information from level 'Welcome to the Vertiginous Rocks'
+-added information to level 'A Rocky Landscape'
+-temporarily removed information from level 'Welcome to the Canyon of Frost', it'll be put back in another level
+-changed sprite of burning Mr.Rocky
+-added decorations to level 'Muddy Lakes'
+-updated Czech translations
+
 BETA 49
 
 -behaviour of lava is now the same in all levels (kill false, alpha 80%(fortress), swimmable)
--changed cutscene in level 'Welcome to Narre's Multiworld' (Intro)
+-changed cutscene in level 'Welcome to the Narre's Multiworld' (Intro)
 -fixed several typos
 -fixed subtitles setting problem in the introduction
 -added Journey animation

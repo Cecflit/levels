@@ -348,6 +348,11 @@ if (!("w11_lsandcave_s1" in state)) {
  state.w11_lsandcave_s1 <- false;
 }
 
+//Desert, level No Shade Anywhere, secret area 1
+if (!("w11_lnoshade_s1" in state)) {
+ state.w11_lnoshade_s1 <- false;
+}
+
 //Volcano, level Welcome to the Volcano of Death, secret area 1
 if (!("w12_lwelcomevolcano_s1" in state)) {
  state.w12_lwelcomevolcano_s1 <- false;

@@ -377,7 +377,7 @@ msgid "Welcome to the Matrix"
 msgstr "Vítej v Matrixu"
 
 #: data/levels/narre2/forest_over_the_glade.stl:3
-msgid "Over the Glade"
+msgid "Over a Glade"
 msgstr "Přes mýtinu"
 
 #: data/levels/narre2/jungle_the_bridges.stl:3
@@ -1029,3 +1029,7 @@ msgstr "Strážci stromů"
 #: data/levels/narre2/icecanyon_tree_guardians.stl:3
 msgid "Muddy Lakes"
 msgstr "Blátivá jezera"
+
+#: data/levels/narre2/icecanyon_tree_guardians.stl:3
+msgid "No Shade Anywhere"
+msgstr "Nikde žádný stín"
