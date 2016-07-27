@@ -363,6 +363,11 @@ if (!("w12_lerupt_s1" in state)) {
  state.w12_lerupt_s1 <- false;
 }
 
+//Volcano, level Burning Bridges, secret area 1
+if (!("w12_lburnbridge_s1" in state)) {
+ state.w12_lburnbridge_s1 <- false;
+}
+
 //River, level Welcome to the Wild River, secret area 1
 if (!("w13_lwelcomeriver_s1" in state)) {
  state.w13_lwelcomeriver_s1 <- false;

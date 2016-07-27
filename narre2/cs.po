@@ -966,6 +966,15 @@ msgstr "užitečné. Mohou ti dát nějaké mince či\ndokonce květinu. No tak,
 msgid "Hmm, this doesn't seem like the right way."
 msgstr "Hmm, tohle nevypadá jako správná cesta."
 
+msgid "Hmm.. I think I can smell some tasty\ninformation. This block is hiding it.\nLet me read it. It says: \"Some"
+msgstr "Hmm.. Myslím, že cítím nějakou\nchutnou informaci. Tenhle blok jí\nskrývá. Nech mne jí přečíst. Říká:"
+
+msgid "superstitious people believe, that 666\nis the devil's number.\" Okay, I bet\nyou've known this already, but it"
+msgstr "\"Někteří pověrčiví lidé věří, že 666\nje ďáblovo číslo.\" Fajn, vsadím se,\nže to už jsi věděl předtím, ale i tak"
+
+msgid "might be useful ayway."
+msgstr "by to mohlo být užitečné."
+
 #: data/levels/narre2/volcano_over_an_erupting_volcano.stl:3
 msgid "Over an Erupting Volcano"
 msgstr "Přes aktivní sopku"
@@ -1033,3 +1042,7 @@ msgstr "Blátivá jezera"
 #: data/levels/narre2/icecanyon_tree_guardians.stl:3
 msgid "No Shade Anywhere"
 msgstr "Nikde žádný stín"
+
+#: data/levels/narre2/icecanyon_tree_guardians.stl:3
+msgid "Burning Bridges"
+msgstr "Hořící mosty"

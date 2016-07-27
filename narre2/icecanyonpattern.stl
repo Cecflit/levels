@@ -13,12 +13,13 @@
       (alignment "bottom")
       (speed 0.5)
       (image "images/background/arcticskies2.png")
-      (layer -250)
+      (layer -102)
     )
     (background
       (alignment "bottom")
       (speed 0.75)
       (image "images/background/arcticskies3.png")
+      (layer -101)
     )
     (background
       (alignment "bottom")
@@ -31,6 +32,12 @@
       (speed 2)
       (image "images/background/arcticskies4.png")
       (layer 400)
+    )
+    (background
+      (speed 0.25)
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/icecanyon_middle.png")
+      (image-bottom "levels/narre2/images/background/icecanyon_bottom.png")
     )
     (camera
       (mode "normal")

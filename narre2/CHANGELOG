@@ -1,5 +1,16 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 51
+
+-added new powerup 'Iceup'
+-changed the image of 'Fireup'
+-added level 'Burning Bridges' to the Volcano
+-fixed Flame bug in Volcano
+-moved checkpoint in level 'Over an Erupting Volcano', so it's now easier to avoid it
+-removed some fire from level 'Overheated Lands', so it's now easier to avoid the checkpoint there
+-temporarily removed information from level 'Welcome to the Mouldy Underground', it'll be put back in another level
+-added background to all IceCanyon levels
+
 BETA 50
 
 -renamed level 'Over the Glade' to 'Over a Glade'

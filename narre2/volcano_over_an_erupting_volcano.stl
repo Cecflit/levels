@@ -20,8 +20,8 @@
       (mode "normal")
     )
     (firefly
-      (x 10560)
-      (y 3616)
+      (x 10752)
+      (y 3296)
     )
     (firefly
       (x 20192)
@@ -498,8 +498,8 @@ Text.fade_out(1);
       (button #f)
       (width 32)
       (height 32)
-      (x 10560)
-      (y 3616)
+      (x 10752)
+      (y 3296)
     )
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
@@ -554,7 +554,7 @@ state.w12_lerupt_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos 99)
+      (z-pos 199)
       (name "Lava")
       (width 1024)
       (height 256)
@@ -819,7 +819,7 @@ state.w12_lerupt_s1 <- true;}
     )
     (tilemap
       (solid #t)
-      (z-pos 100)
+      (z-pos 200)
       (name "Path")
       (width 1024)
       (height 256)
