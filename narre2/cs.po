@@ -867,6 +867,18 @@ msgstr "levels/narre2/speech/ceiling_2_czech.ogg"
 msgid "levels/narre2/speech/ceiling_3.ogg"
 msgstr "levels/narre2/speech/ceiling_3_czech.ogg"
 
+msgid "levels/narre2/speech/icicle_1.ogg"
+msgstr "levels/narre2/speech/icicle_1_czech.ogg"
+
+msgid "levels/narre2/speech/icicle_2.ogg"
+msgstr "levels/narre2/speech/icicle_2_czech.ogg"
+
+msgid "levels/narre2/speech/icicle_3.ogg"
+msgstr "levels/narre2/speech/icicle_3_czech.ogg"
+
+msgid "levels/narre2/speech/icicle_4.ogg"
+msgstr "levels/narre2/speech/icicle_4_czech.ogg"
+
 msgid "This is checkpoint."
 msgstr "Tohle je uložovák."
 
@@ -972,6 +984,18 @@ msgstr "Hmm.. Myslím, že cítím nějakou\nchutnou informaci. Tenhle blok jí\
 msgid "superstitious people believe, that 666\nis the devil's number.\" Okay, I bet\nyou've known this already, but it"
 msgstr "\"Někteří pověrčiví lidé věří, že 666\nje ďáblovo číslo.\" Fajn, vsadím se,\nže to už jsi věděl předtím, ale i tak"
 
+msgid "Do you see the icicle here? It might\nseem pretty dangerous, but these\nmountains are in fact so cold that"
+msgstr "Vidíš tady ten rampouch? Může vypadat\ndocela nebezpečně, ale ve skutečnosti\njsou tyto hory tak studené,"
+
+msgid "the icicles here are solidly frozen onto\nthe ceiling and they won't fall as\neasily as they would in warmer places."
+msgstr "že zde rampouchy pevně přimrzly ke\nstropu a rozhodně nespadnou tak\nsnadno, jak by spadly větším teple."
+
+msgid "That doesn't mean that they're not\nsharp though - if you want to get rid\nof them, you can force them to fall by"
+msgstr "To ale neznamená, že nejsou ostré -\njestliže se jich chceš zbavit, můžeš\nje shodit sestřelením ledovou"
+
+msgid "shooting them with ice or fire bullets."
+msgstr "nebo ohnivou střelou."
+
 msgid "might be useful ayway."
 msgstr "by to mohlo být užitečné."
 
@@ -1035,14 +1059,18 @@ msgstr "Jezero v údolí"
 msgid "Tree Guardians"
 msgstr "Strážci stromů"
 
-#: data/levels/narre2/icecanyon_tree_guardians.stl:3
+#: data/levels/narre2/swamp_muddy_lakes.stl:3
 msgid "Muddy Lakes"
 msgstr "Blátivá jezera"
 
-#: data/levels/narre2/icecanyon_tree_guardians.stl:3
+#: data/levels/narre2/desert_no_shade_anywhere.stl:3
 msgid "No Shade Anywhere"
 msgstr "Nikde žádný stín"
 
-#: data/levels/narre2/icecanyon_tree_guardians.stl:3
+#: data/levels/narre2/volcano_burning_bridges.stl:3
 msgid "Burning Bridges"
 msgstr "Hořící mosty"
+
+#: data/levels/narre2/river_spiky_blocks.stl:3
+msgid "Spiky Blocks"
+msgstr "Bodlákové bloky"

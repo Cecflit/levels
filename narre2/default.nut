@@ -1,3 +1,8 @@
+//Icicles Info Check
+if (!("icicleinformation" in state)) {
+ state.icicleinformation <- false;
+}
+
 //Tree Guardians Info Check
 if (!("treeguardsinfo" in state)) {
  state.treeguardsinfo <- false;
@@ -381,6 +386,11 @@ if (!("w13_lboatwrld_s1" in state)) {
 //River, level Weird Lampy Something, secret area 1
 if (!("w13_lweird_s1" in state)) {
  state.w13_lweird_s1 <- false;
+}
+
+//River, level Spiky Blocks, secret area 1
+if (!("w13_lspiky_s1" in state)) {
+ state.w13_lspiky_s1 <- false;
 }
 
 //StoneCave, level Welcome to the Narrow Cave, secret area 1

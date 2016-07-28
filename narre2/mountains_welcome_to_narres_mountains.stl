@@ -82,6 +82,12 @@
       (x 768)
       (y 1952)
     )
+    (bonusblock
+      (script "")
+      (contents "script")
+      (x 640)
+      (y 1952)
+    )
     (camera
       (mode "normal")
     )
@@ -137,12 +143,6 @@
       (x 11685)
       (y 1896)
     )
-    (infoblock
-      (message (_ "-Icicles
-#You have just entered really frosty mountains in high altitude. Icicles in these heights are firmly fixed to the ceiling, so they won't fall on your head. But they are still very sharp, so don't disregard them. You can still force them to fall by shooting them by ice bullet or warming them by fire bullet."))
-      (x 640)
-      (y 1952)
-    )
     (invisible_wall
       (width 16364)
       (height 32)
@@ -194,8 +194,8 @@
       (y 2152)
     )
     (mrbomb
-      (x 1445)
-      (y 2088)
+      (x 1797)
+      (y 1960)
     )
     (mriceblock
       (x 3713)
@@ -222,8 +222,8 @@
       (y 1574)
     )
     (smartball
-      (x 1155)
-      (y 2118)
+      (x 611)
+      (y 2022)
     )
     (smartball
       (x 3427)
@@ -305,31 +305,31 @@ sector.Effect.sixteen_to_nine(1);
 wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"This is checkpoint.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_1.ogg\"));}
+Text.set_text(_(\"Do you see the icicle here? It might\\nseem pretty dangerous, but these\\nmountains are in fact so cold that\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_1.ogg\"));}
 if(state.subtitles){Text.fade_in(1);}
-wait(3);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_2.ogg\"));}
-Text.set_text(_(\"You can activate this checkpoint\\nand then, if you die, you'll be\\nrespawned here.\"));
 wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_3.ogg\"));}
-Text.set_text(_(\"But if you want to get\\nthe achievement for avoiding\\ncheckpoints, you can't touch it,\"));
+if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_2.ogg\"));}
+Text.set_text(_(\"the icicles here are solidly frozen onto\\nthe ceiling and they won't fall as\\neasily as they would in warmer places.\"));
 wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_4.ogg\"));}
-Text.set_text(_(\"otherwise you shall dead-lock\\nthis achievement. So, decide.\"));
-wait(5);
+if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_3.ogg\"));}
+Text.set_text(_(\"That doesn't mean that they're not\\nsharp though - if you want to get rid\\nof them, you can force them to fall by\"));
+wait(7);
+if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_4.ogg\"));}
+Text.set_text(_(\"shooting them with ice or fire bullets.\"));
+wait(7);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);
 wait(1);
 Text.set_anchor_point(ANCHOR_MIDDLE);
-state.checkpointinformation <- true;
+state.icicleinformation <- true;
 Tux.activate();}")
       (button #f)
       (width 32)
       (height 2092)
       (x 1568)
-      (y 84)
+      (y 96)
     )
     (secretarea
       (script "if(!state.w5_lwelcomemountains_s1){
