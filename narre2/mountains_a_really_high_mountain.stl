@@ -8,12 +8,27 @@
   (sector
     (name "main")
     (music "music/voc-daytime.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/bluemountain-middle-night.png\",\"levels/narre2/images/background/night/bluemountain-bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "pozadi")
       (speed 0.5)
-      (image-top "images/background/bluemountain-top.png")
-      (image "images/background/bluemountain-middle.png")
+      (image-top "images/background/transparent_up.png")
+      (image "levels/narre2/images/background/night/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
+      (layer -60)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -70)
     )
     (bonusblock
       (script "")
@@ -223,6 +238,10 @@
     (goldbomb
       (x 9637)
       (y 1576)
+    )
+    (gradient
+      (top_color 0 0.5167315 1)
+      (bottom_color 0 0.8197757 1)
     )
     (haywire
       (x 11109)
@@ -736,8 +755,8 @@ Text.fade_out(1);
     (secretarea
       (script "if(!state.w5_lreallyhigh_s1){
 state.w5_lreallyhigh_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -916,7 +935,7 @@ state.w5_lreallyhigh_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos -199)
+      (z-pos -59)
       (name "Mountain")
       (width 512)
       (height 256)

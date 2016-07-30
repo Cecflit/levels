@@ -8,7 +8,19 @@
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+}")
     (ambient-light 1 1 1)
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -38)
+    )
     (bouncingsnowball
       (x 7029.479)
       (y 263.314)
@@ -137,8 +149,8 @@ Text.fade_out(1);
     (secretarea
       (script "if(!state.w1_ljustanothersnowyday_s2){
 state.w1_ljustanothersnowyday_s2 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -153,8 +165,8 @@ state.w1_ljustanothersnowyday_s2 <- true;}
     (secretarea
       (script "if(!state.w1_ljustanothersnowyday_s1){
 state.w1_ljustanothersnowyday_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -200,9 +212,6 @@ state.w1_ljustanothersnowyday_s1 <- true;}
       (x 11354.34)
       (y 537.4192)
     )
-    (particles-snow
-      (z-pos -100)
-    )
     (spawnpoint
       (name "main")
       (x 160)
@@ -227,7 +236,7 @@ state.w1_ljustanothersnowyday_s1 <- true;}
     (tilemap
       (solid #f)
       (speed 0.5)
-      (z-pos -130)
+      (z-pos -36)
       (width 512)
       (height 32)
       (tiles
@@ -268,7 +277,7 @@ state.w1_ljustanothersnowyday_s1 <- true;}
     (tilemap
       (solid #f)
       (speed 0.2)
-      (z-pos -170)
+      (z-pos -37)
       (width 512)
       (height 32)
       (tiles

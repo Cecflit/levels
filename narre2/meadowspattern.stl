@@ -8,12 +8,23 @@
   (sector
     (name "main")
     (music "music/forest.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/meadows-middle-night.png\",\"levels/narre2/images/background/night/meadows-bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/meadows-middle.png")
       (image-bottom "levels/narre2/images/background/meadows-bottom.png")
+      (layer -101)
+    )
+    (background
+      (speed 0)
+      (image "images/background/transparent_up.png")
+      (layer -102)
     )
     (camera
       (mode "normal")

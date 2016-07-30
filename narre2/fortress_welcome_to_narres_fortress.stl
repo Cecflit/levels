@@ -8,6 +8,8 @@
   (sector
     (name "main")
     (music "music/fortress.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.75,0.75,0.75);}")
     (ambient-light 1 1 1)
     (bonusblock
       (script "")
@@ -499,8 +501,8 @@ Text.fade_out(1);
       (fade-tilemap "secret")
       (script "if(!state.w17_lwelcomefort_s1){
 state.w17_lwelcomefort_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -625,7 +627,7 @@ state.w17_lwelcomefort_s1 <- true;}
     )
     (tilemap
       (solid #t)
-      (z-pos 100)
+      (z-pos 201)
       (name "Path")
       (width 512)
       (height 35)
@@ -670,7 +672,7 @@ state.w17_lwelcomefort_s1 <- true;}
     (tilemap
       (solid #f)
       (alpha 0.8)
-      (z-pos 99)
+      (z-pos 200)
       (name "Lava")
       (width 512)
       (height 35)
@@ -764,7 +766,7 @@ state.w17_lwelcomefort_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos 125)
+      (z-pos 202)
       (name "secret")
       (width 512)
       (height 35)
@@ -852,7 +854,7 @@ state.w17_lwelcomefort_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos 152)
+      (z-pos 203)
       (name "ExitFG")
       (width 512)
       (height 35)

@@ -8,7 +8,13 @@
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
-    (init-script "random <- 1;
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+pozadi.set_images(\"images/background/black_800px.png\",\"levels/narre2/images/background/night/ghostforest-night.jpg\",\"images/background/black_800px.png\")
+predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/ghostforest_para-night.png\",\"images/background/black_800px.png\")
+}
+
+random <- 1;
 while(true){
 random ++;
 wait(2);
@@ -44,16 +50,23 @@ play_sound(\"sounds/grow.ogg\");}
 */")
     (ambient-light 1 1 1)
     (background
-      (speed 0.5)
+      (speed 0.25)
       (image-top "images/background/black_800px.png")
       (image "images/background/ghostforest.jpg")
       (image-bottom "images/background/black_800px.png")
+      (layer -30)
+    )
+    (background
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image-bottom "images/background/black_800px.png")
+      (layer -25)
     )
     (camera
       (mode "normal")
     )
     (particles-ghosts
-      (z-pos -160)
+      (z-pos -20)
     )
     (spawnpoint
       (name "main")

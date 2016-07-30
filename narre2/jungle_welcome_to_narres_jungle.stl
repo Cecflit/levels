@@ -8,12 +8,27 @@
   (sector
     (name "main")
     (music "music/forest3.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/rolling-para-night.png\",\"levels/narre2/images/background/night/rolling-bottom-night.jpg\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "pozadi")
       (speed 0.5)
-      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
-      (image "images/background/BlueRock_Forest/rolling-middle.jpg")
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/BlueRock_Forest/rolling-para.png")
       (image-bottom "images/background/BlueRock_Forest/rolling-bottom.jpg")
+      (layer -100)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -101)
     )
     (bonusblock
       (script "")
@@ -362,6 +377,11 @@
       (x 226)
       (y 579)
     )
+    (gradient
+      (top_color 0 0.6366369 1)
+      (bottom_color 0 0.6779889 0.5241932)
+      (layer -102)
+    )
     (jumpy
       (sprite "images/creatures/jumpy/wooden.sprite")
       (x 3655)
@@ -493,8 +513,8 @@ Text.fade_out(1);
     (secretarea
       (script "if(!state.w3_lwelcomejungle_s1){
 state.w3_lwelcomejungle_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);

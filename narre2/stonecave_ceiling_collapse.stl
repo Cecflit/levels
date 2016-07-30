@@ -645,8 +645,8 @@ Tux.activate();
       (fade-tilemap "Secret0")
       (script "if(!state.w14_lceilcoll_s1){
 state.w14_lceilcoll_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);

@@ -58,6 +58,29 @@ if (!("ceilinginfo" in state)) {
  state.ceilinginfo <- false;
 }
 
+//Weather and daytime
+
+//Daytime - 0=day; 1=night
+if (!("daytime" in state)) {
+ state.daytime <- false;
+}
+
+//Weather - 0=clear; 1=cloudy; 2=snowy/rainy; 3=thunderstorm
+/*
+CLEAR = no particles (except ghosts in swamp); ambient light = 1,1,1(day) or 0.2,0.2,0.2(night)
+CLOUDY = clouds; cloudy.png(day) or nightcloudy.png(night); ambient light 0.8,0.8,0.8(day) or 0.15,0.15,0.15(night)
+SNOWY/RAINY = CLOUDY+snow/rain particles
+THUNDERSTORM = SNOWY/RAINY + thunderstorm
+*/
+if (!("weather" in state)) {
+ state.weather <- 0;
+}
+
+//Levels played before change
+if (!("beforechange" in state)) {
+ state.beforechange <- 0;
+}
+
 //Reached Worlds
 if (!("forest" in state)) {
  state.forest <- false;
@@ -453,20 +476,31 @@ if (!("w18_lboxbeam_s1" in state)) {
  state.w18_lboxbeam_s1 <- false;
 }
 
-
-
 //Worldmap (underground, caves and tiny sandstone cave)
 if(! ("underground" in state)){
 	state.underground <- false;
+}
+
+function random(max) {
+    local roll = (1.0 * math.rand() / RAND_MAX) * (max + 1);
+    return roll.tointeger();
+}
+
+function check_secretareas(){
+    Text.set_text("Function check_secretareas has\nbeen called, but doesn't\nknow what to do.");
+    Text.fade_in(0.5);
+    wait(5);
+    Text.fade_out(0.5);
 }
 
 function go_underground(under){
   Covering.fade(under ? 0 : 1, 1);
   CoveringDecorationsFG.fade(under ? 0 : 1, 1);
   AroundDarkness.fade(under ? 1 : 0, 1);
-  InnerDarkness.fade(under ? 1 : 0, 1);
   SNDCave.fade(under ? 0.5 : 0.75, 1);
+  InnerDarkness.fade(1, 1);
   state.underground <- under;
+  if(!state.daytime && !state.underground){InnerDarkness.fade(0,1)};
 }
 
 go_underground(state.underground);

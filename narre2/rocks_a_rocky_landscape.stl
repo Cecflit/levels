@@ -8,12 +8,27 @@
   (sector
     (name "main")
     (music "music/darkforestkeep.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/stone-middle-night.png\",\"levels/narre2/images/background/night/stone-bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "pozadi")
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/stone-middle.png")
       (image-bottom "levels/narre2/images/background/stone-bottom.png")
+      (layer -1)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -2)
     )
     (bonusblock
       (script "")

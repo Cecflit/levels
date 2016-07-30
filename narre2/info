@@ -1,5 +1,5 @@
 (supertux-level-subset
-  (title (_ "Narreho Multisvět"))
+  (title (_ "Narre's Multiworld"))
   (description (_ "Narre's Multi Environment World"))
   (levelset #f)
   (hide-from-contribs #f)

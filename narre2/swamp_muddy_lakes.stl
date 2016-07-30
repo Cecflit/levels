@@ -8,7 +8,13 @@
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
-    (init-script "random <- 1;
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+pozadi.set_images(\"images/background/black_800px.png\",\"levels/narre2/images/background/night/ghostforest-night.jpg\",\"images/background/black_800px.png\")
+predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/ghostforest_para-night.png\",\"images/background/black_800px.png\")
+}
+
+random <- 1;
 while(true){
 random ++;
 wait(2);
@@ -45,10 +51,20 @@ play_sound(\"sounds/grow.ogg\");}
 ")
     (ambient-light 1 1 1)
     (background
-      (speed 0.5)
+      (name "pozadi")
+      (speed 0.25)
       (image-top "images/background/black_800px.png")
       (image "images/background/ghostforest.jpg")
       (image-bottom "images/background/black_800px.png")
+      (layer -30)
+    )
+    (background
+      (name "predni")
+      (speed 0.5)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/ghostforest_para.png")
+      (image-bottom "images/background/black_800px.png")
+      (layer -25)
     )
     (bonusblock
       (script "")
@@ -156,7 +172,7 @@ play_sound(\"sounds/grow.ogg\");}
       (y 544)
     )
     (particles-ghosts
-      (z-pos -160)
+      (z-pos -20)
     )
     (haywire
       (x 9573)
@@ -339,8 +355,8 @@ Tux.activate();}")
     (secretarea
       (script "if(!state.w10_lmuddylakes_s1){
 state.w10_lmuddylakes_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -355,8 +371,8 @@ state.w10_lmuddylakes_s1 <- true;}
     (secretarea
       (script "if(!state.w10_lmuddylakes_s2){
 state.w10_lmuddylakes_s2 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);

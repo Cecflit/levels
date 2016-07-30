@@ -8,18 +8,23 @@
   (sector
     (name "main")
     (music "music/voc-daytime2.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/icecanyon_middle-night.png\",\"levels/narre2/images/background/night/icecanyon_bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
       (alignment "bottom")
       (speed 0.5)
       (image "images/background/arcticskies2.png")
-      (layer -102)
+      (layer -10)
     )
     (background
       (alignment "bottom")
       (speed 0.75)
       (image "images/background/arcticskies3.png")
-      (layer -101)
+      (layer -9)
     )
     (background
       (alignment "bottom")
@@ -34,10 +39,20 @@
       (layer 400)
     )
     (background
+      (name "pozadi")
       (speed 0.25)
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/icecanyon_middle.png")
       (image-bottom "levels/narre2/images/background/icecanyon_bottom.png")
+      (layer -11)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -12)
     )
     (bonusblock
       (script "")
@@ -482,8 +497,8 @@ Tux.activate();}
       (script "secret.fade(1,0.5);
 if(!state.w8_ltreeguards_s1){
 state.w8_ltreeguards_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -744,7 +759,7 @@ state.w8_ltreeguards_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos -100)
+      (z-pos -8)
       (name "Backice")
       (width 512)
       (height 63)

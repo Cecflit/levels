@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Over the Glade"))
+  (name (_ "Over a Glade"))
   (author "Narre")
   (contact "narre@protonmail.com")
   (license "GPL 2+ / CC-by-sa 3.0")
@@ -8,19 +8,36 @@
   (sector
     (name "main")
     (music "music/forest2.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/forest_para2-night.png\",\"levels/narre2/images/background/night/blue-bottom-night.jpg\")
+zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/forest_para3-night.png\",\"levels/narre2/images/background/night/forest_para3_bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "predni")
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para2.png")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
+      (layer -2)
     )
     (background
+      (name "zadni")
       (speed 0.2)
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para3.png")
       (image-bottom "images/background/forest_para3_bottom.png")
-      (layer -500)
+      (layer -3)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -4)
     )
     (bonusblock
       (script "")
@@ -266,8 +283,8 @@ Text.fade_out(1);
     (secretarea
       (script "if(!state.w2_loverglade_s1){
 state.w2_loverglade_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);
@@ -646,7 +663,7 @@ state.w2_loverglade_s1 <- true;}
     )
     (tilemap
       (solid #f)
-      (z-pos -100)
+      (z-pos -1)
       (name "DyryZadi")
       (width 512)
       (height 35)

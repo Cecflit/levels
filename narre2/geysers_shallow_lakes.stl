@@ -8,12 +8,25 @@
   (sector
     (name "main")
     (music "levels/narre2/music/geysers.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/geysers_middle-night.png\",\"levels/narre2/images/background/night/geysers_bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "pozadi")
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/geysers_middle.png")
       (image-bottom "levels/narre2/images/background/geysers_bottom.png")
+      (layer -101)
+    )
+    (background
+      (name "noc")
+      (speed 0)
+      (image "images/background/transparent_up.png")
+      (layer -102)
     )
     (camera
       (mode "normal")

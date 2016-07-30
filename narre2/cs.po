@@ -413,7 +413,7 @@ msgid "Unstable Bridges"
 msgstr "Nestabilní mosty"
 
 #: data/levels/narre2/swamp_the_wisp_world.stl:3
-msgid "The Wisp World"
+msgid "A Wispy Place"
 msgstr "Svět bludiček"
 
 #: data/levels/narre2/swamp_the_wisp_world.stl:94

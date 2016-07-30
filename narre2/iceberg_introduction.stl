@@ -706,7 +706,11 @@ if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
   (sector
     (name "intro")
     (music "music/intro.ogg")
-    (init-script "Text.fade_out(0.5);
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+}
+Text.fade_out(0.5);
 sector.Effect.sixteen_to_nine(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
@@ -714,6 +718,14 @@ if(!state.played){Tux.add_bonus(\"grow\");}
 Tux.deactivate();
 Tux.walk(100);")
     (ambient-light 1 1 1)
+    (background
+      (name "noc")
+      (speed 0)
+      (image-top "images/background/transparent_up.png")
+      (image "images/background/transparent_up.png")
+      (image-bottom "images/background/transparent_up.png")
+      (layer -15)
+    )
     (camera
       (mode "normal")
     )
@@ -875,7 +887,7 @@ Level.spawn(\"main\",\"intro\");")
     (tilemap
       (solid #f)
       (speed 0.5)
-      (z-pos -130)
+      (z-pos -13)
       (width 500)
       (height 50)
       (tiles
@@ -934,7 +946,7 @@ Level.spawn(\"main\",\"intro\");")
     (tilemap
       (solid #f)
       (speed 0.2)
-      (z-pos -170)
+      (z-pos -14)
       (width 500)
       (height 50)
       (tiles

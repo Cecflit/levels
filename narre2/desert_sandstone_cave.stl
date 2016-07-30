@@ -8,8 +8,14 @@
   (sector
     (name "main")
     (music "levels/narre2/music/desert.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
+pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/desert-middle-night.png\",\"levels/narre2/images/background/night/desert-bottom-night.png\")
+}")
     (ambient-light 1 1 1)
     (background
+      (name "pozadi")
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/desert-middle.png")
@@ -17,6 +23,7 @@
       (layer -101)
     )
     (background
+      (name "noc")
       (speed 0)
       (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
@@ -220,8 +227,8 @@ Text.fade_out(1);
       (fade-tilemap "Secret")
       (script "if(!state.w11_lsandcave_s1){
 state.w11_lsandcave_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack && Všechny SecretPlodby Získané Jsou, tudíž bez !){
-//Text.set_text(_(\"Achievement get!\\n\\nTo Find a Needle in a Haystack\"));
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
+
 //Text.fade_in(1);
 //play_sound(\"sounds/invincible_start.ogg\");
 //wait(2);

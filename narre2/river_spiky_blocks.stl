@@ -8,17 +8,22 @@
   (sector
     (name "main")
     (music "music/airship_remix.ogg")
+    (init-script "if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2);
+noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\");
+}")
     (ambient-light 1 1 1)
     (background
       (speed 0.25)
       (image-top "images/background/transparent_up.png")
-      (image "images/background/bridgeocean-fade.png")
+      (image "levels/narre2/images/background/bridgeocean-fade.png")
       (image-bottom "levels/narre2/images/background/bridgeocean-bottom.png")
       (layer -100)
     )
     (background
+      (name "noc")
       (speed 0)
-      (image "images/background/black_800px.png")
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
       (layer -300)
     )
     (bonusblock
@@ -206,9 +211,9 @@ Text.fade_out(1);
     (secretarea
       (script "if(!state.w13_lweird_s1){
 state.w13_lweird_s1 <- true;}
-//if(!state.achievement_to_find_a_needle_in_a_haystack){
-//Ono to ňák spustí tu funkci
-//}")
+if(!state.achievement_to_find_a_needle_in_a_haystack){
+check_secretareas();
+}")
       (message "")
       (width 424)
       (height 172)

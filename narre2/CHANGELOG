@@ -1,5 +1,18 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 53
+
+-added nighttime
+-added paralax background to all Swamp levels
+-added paralax background to all Mountains levels
+-added paralax background to all Jungle levels
+-added night backgrounds
+-changed background in all River levels
+-added worldmap decorations to the Volcano
+-added function check_secretareas to check whether the player has got the 'To Find a Needle In a Haystack' achievement or not
+-function check_secretareas doesn't know what to do yet
+-fixed a bug in the worldmap
+
 BETA 52
 
 -removed an extra pole from level 'Tree Guardians'
