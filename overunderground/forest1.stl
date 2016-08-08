@@ -9,6 +9,17 @@
     (name "main")
     (music "music/forest.ogg")
     (ambient-light 1 1 1)
+    (ambient_sound
+      (sample "sounds/rain.wav")
+      (distance_factor 0.5)
+      (distance_bias 0.5)
+      (volume 1000)
+      (name "hu")
+      (width 15132)
+      (height 1116)
+      (x 0)
+      (y 0)
+    )
     (angrystone
       (x 5194.655)
       (y 800.8019)
@@ -37,6 +48,14 @@
     (mole
       (x 7972.212)
       (y 724.1018)
+    )
+    (scripttrigger
+      (script "hu.set_pos(15104,1088);")
+      (button #f)
+      (width 32)
+      (height 780)
+      (x 192)
+      (y -12)
     )
     (sequencetrigger
       (sequence "endsequence")

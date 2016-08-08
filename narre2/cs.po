@@ -308,27 +308,9 @@ msgstr "Wow! Vypadá to, že jsi právě dokončil celý Narreho Multisvět!\nA 
 msgid "Welcome to the Vertiginous Rocks"
 msgstr "Vítej na Skalách Závratí"
 
-#: data/levels/narre2/rocks_welcome_to_narres_rocks.stl:161
-msgid ""
-"-Information\n"
-"*Narre's favourite number is 363."
-msgstr "-Informace\n*Narreho nejoblíbenější číslo je 363."
-
 #: data/levels/narre2/crystalcave_welcome_to_narres_crystalcave.stl:3
 msgid "Welcome to the Cave of Crystals"
 msgstr "Vítej v Jeskyni Krystalů"
-
-#: data/levels/narre2/iceberg_a_icy_path.stl:80
-msgid ""
-"-Information\n"
-"*Binary number '1010011010' means '666' in decimal."
-msgstr "-Informace\n*Binární číslo '1010011010' znamená v desítkové soustavě '666'."
-
-#: data/levels/narre2/icecanyon_welcome_to_narres_icecanyon.stl:173
-msgid ""
-"-Information\n"
-"*This information was written 852 minutes after midnight."
-msgstr "-Informace\n*Tato informace byla napsána 852 minut po půlnoci."
 
 #: data/levels/narre2/icecave_welcome_to_narres_icecave.stl:3
 msgid "Welcome to the Chilly Cave"
@@ -341,12 +323,6 @@ msgstr "Vítej na Vysokých Horách"
 #: data/levels/narre2/underground_welcome_to_narres_underground.stl:3
 msgid "Welcome to the Mouldy Underground"
 msgstr "Vítej v Plesnivém Podzemí"
-
-#: data/levels/narre2/underground_welcome_to_narres_underground.stl:334
-msgid ""
-"-Information\n"
-"*Typical lenght for Narre's Multiworld's levels is 512."
-msgstr "-Informace\n*Typická délka úrovní v Narreho Multisvětě je 512."
 
 #: data/levels/narre2/jungle_welcome_to_narres_jungle.stl:3
 msgid "Welcome to the Mysterious Jungle"
@@ -381,7 +357,7 @@ msgid "Over a Glade"
 msgstr "Přes mýtinu"
 
 #: data/levels/narre2/jungle_the_bridges.stl:3
-msgid "The Bridges"
+msgid "Bridges"
 msgstr "Lávky"
 
 #: data/levels/narre2/underground_chasm_ot_eternal_fall.stl:3
@@ -401,7 +377,7 @@ msgid "Frozen Depth"
 msgstr "Zmrzlá hloubka"
 
 #: data/levels/narre2/crystalcave_cave_of_emeralds.stl:3
-msgid "Cave of Emeralds"
+msgid "A Cave of Emeralds"
 msgstr "Jeskyně smaragdů"
 
 #: data/levels/narre2/rocks_a_rocky_landscape.stl:3
@@ -425,7 +401,7 @@ msgid ""
 msgstr "-Červené bludičky\n!levels/narre2/images/creatures/redwisp/idle-0.png\n#Červené bludičky jsou mnohem smrtelnější než ty zelené. Nemohou vás přenést, ale mohou vás smrtelně zranit!\n#Ale nebojte se, byla by tu i jedna pozitivní zpráva. Uvídíte je jen během dne. Jindy nevylézají."
 
 #: data/levels/narre2/desert_a_sandy_fields.stl:3
-msgid "A Sandy Fields"
+msgid "Sandy Fields"
 msgstr "Písečná pole"
 
 #: data/levels/narre2/worldmap.stwm:Multiple lines
@@ -520,11 +496,11 @@ msgid "Three Layers"
 msgstr "Tři vrstvy"
 
 #: data/levels/narre2/desert_sandstone_cave.stl:3
-msgid "Sandstone Cave"
+msgid "A Sandstone Cave"
 msgstr "Pískovcová jeskyně"
 
 #: Multiple Levels (Achievements)
-msgid "Bad luck! You dead-locked an achievement.\n\nI Won't Die Anyway"
+msgid "Bad luck! You dead-locked an\nachievement.\nI Won't Die Anyway"
 msgstr "Smůla! Trvale jsi uzamkl ocenění.\n\nStejně nezemřu"
 
 msgid "Achievement get!\n\nTo Find a Needle in a Haystack"
@@ -644,7 +620,7 @@ msgstr "Zapnout hlas"
 msgid "Turn voice off"
 msgstr "Vypnout hlas"
 
-msgid "You cannot leave\n\nYou should see Introduction first"
+msgid "You cannot leave now\n\nYou should see the Introduction first"
 msgstr "Teď nemůžeš odejít\nNejdřive by ses měl podívat na\npředstavení"
 
 msgid "Welcome to the Narre's Multiworld"
@@ -992,6 +968,12 @@ msgstr "že zde rampouchy pevně přimrzly ke\nstropu a rozhodně nespadnou tak\
 
 msgid "That doesn't mean that they're not\nsharp though - if you want to get rid\nof them, you can force them to fall by"
 msgstr "To ale neznamená, že nejsou ostré -\njestliže se jich chceš zbavit, můžeš\nje shodit sestřelením ledovou"
+
+msgid "Jop, another information block. This one\nsays: \"The code to the creator's\nbrain is 363.\". Interesting, that's my"
+msgstr "Jip, další blok s informací. Tenhleten\nříká: \"Kód do mozku Stvořitele je\n363.\". Zajímavé, to je moje oblíbené"
+
+msgid "favourite number."
+msgstr "číslo."
 
 msgid "shooting them with ice or fire bullets."
 msgstr "nebo ohnivou střelou."

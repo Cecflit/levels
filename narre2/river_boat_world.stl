@@ -6,12 +6,25 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (name "main")
     (music "music/airship_remix.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\");
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (speed 0.25)
@@ -418,7 +431,7 @@ f3b.goto_node(3);")
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);

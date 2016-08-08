@@ -8,11 +8,24 @@
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
-    (init-script "if(state.daytime){
-settings.set_ambient_light(0.2,0.2,0.2);
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
+    (init-script "   if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2); set_weather(true);
 pozadi.set_images(\"images/background/black_800px.png\",\"levels/narre2/images/background/night/ghostforest-night.jpg\",\"images/background/black_800px.png\")
 predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/ghostforest_para-night.png\",\"images/background/black_800px.png\")
-}
+}set_weather(1);
 
 random <- 1;
 while(true){

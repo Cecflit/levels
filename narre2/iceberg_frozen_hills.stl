@@ -7,11 +7,24 @@
   (target-time 0)
   (sector
     (name "main")
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-snow
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (music "music/chipdisko.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (speed 0)
@@ -204,7 +217,7 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
@@ -521,7 +534,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 0)
+      (z-pos 5)
       (name "spik")
       (width 512)
       (height 45)
@@ -575,7 +588,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 0)
+      (z-pos 5)
       (name "bonuses")
       (width 512)
       (height 45)
@@ -629,7 +642,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -50)
+      (z-pos 1)
       (name "cavebkg")
       (width 512)
       (height 45)
@@ -791,7 +804,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 500)
+      (z-pos 101)
       (name "sw")
       (width 512)
       (height 45)

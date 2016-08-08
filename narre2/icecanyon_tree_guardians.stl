@@ -8,23 +8,23 @@
   (sector
     (name "main")
     (music "music/voc-daytime2.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/icecanyon_middle-night.png\",\"levels/narre2/images/background/night/icecanyon_bottom-night.png\")
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (alignment "bottom")
       (speed 0.5)
       (image "images/background/arcticskies2.png")
-      (layer -10)
+      (layer -11)
     )
     (background
       (alignment "bottom")
       (speed 0.75)
       (image "images/background/arcticskies3.png")
-      (layer -9)
+      (layer -10)
     )
     (background
       (alignment "bottom")
@@ -44,7 +44,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/icecanyon_middle.png")
       (image-bottom "levels/narre2/images/background/icecanyon_bottom.png")
-      (layer -11)
+      (layer -12)
     )
     (background
       (name "noc")
@@ -52,7 +52,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
-      (layer -12)
+      (layer -13)
     )
     (bonusblock
       (script "")
@@ -165,6 +165,10 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (captainsnowball
       (x 15618)
       (y 997)
+    )
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos -7)
     )
     (crystallo
       (sprite "levels/narre2/images/creatures/tree_guardian/guardian.sprite")
@@ -451,7 +455,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
@@ -568,6 +572,10 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 10730)
       (y 1155)
     )
+    (particles-snow
+      (name "WEATH_2")
+      (z-pos -7)
+    )
     (spawnpoint
       (name "main")
       (x 160)
@@ -612,6 +620,11 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (stalactite
       (x 12323.18)
       (y 625.2911)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer -9)
     )
     (tilemap
       (solid #t)
@@ -687,7 +700,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -7)
+      (z-pos -6)
       (name "Poles")
       (width 512)
       (height 63)

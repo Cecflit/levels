@@ -8,23 +8,23 @@
   (sector
     (name "main")
     (music "music/voc-daytime2.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/icecanyon_middle-night.png\",\"levels/narre2/images/background/night/icecanyon_bottom-night.png\")
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (alignment "bottom")
       (speed 0.5)
       (image "images/background/arcticskies2.png")
-      (layer -53)
+      (layer -54)
     )
     (background
       (alignment "bottom")
       (speed 0.75)
       (image "images/background/arcticskies3.png")
-      (layer -52)
+      (layer -53)
     )
     (background
       (alignment "bottom")
@@ -43,14 +43,14 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (image-top "images/background/transparent_up.png")
       (image "levels/narre2/images/background/icecanyon_middle.png")
       (image-bottom "levels/narre2/images/background/icecanyon_bottom.png")
-      (layer -54)
+      (layer -55)
     )
     (background
       (speed 0)
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
-      (layer -55)
+      (layer -56)
     )
     (bonusblock
       (script "")
@@ -156,6 +156,9 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (captainsnowball
       (x 6530)
       (y 197)
+    )
+    (particles-clouds
+      (z-pos -50)
     )
     (firefly
       (x 8000)
@@ -509,7 +512,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
@@ -563,6 +566,9 @@ Text.fade_out(1);
       (x 13634.07)
       (y 1717.95)
     )
+    (particles-snow
+      (z-pos -50)
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -587,6 +593,11 @@ Text.fade_out(1);
     (stalactite
       (x 1442.031)
       (y 562.3712)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer -52)
     )
     (tilemap
       (solid #t)
@@ -662,7 +673,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos -50)
+      (z-pos -49)
       (name "BackPoles")
       (width 512)
       (height 63)

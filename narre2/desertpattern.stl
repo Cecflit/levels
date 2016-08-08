@@ -8,7 +8,7 @@
   (sector
     (name "main")
     (music "levels/narre2/music/desert.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/desert-middle-night.png\",\"levels/narre2/images/background/night/desert-bottom-night.png\")

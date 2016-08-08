@@ -1,5 +1,11 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 54
+
+-added weather
+-added NightCloudy background
+-renamed level 'The Bridges' to 'Bridges'
+
 BETA 53
 
 -added nighttime
@@ -11,6 +17,7 @@ BETA 53
 -added worldmap decorations to the Volcano
 -added function check_secretareas to check whether the player has got the 'To Find a Needle In a Haystack' achievement or not
 -function check_secretareas doesn't know what to do yet
+-renamed level 'The Wisp World' to 'A Wispy Place'
 -fixed a bug in the worldmap
 
 BETA 52

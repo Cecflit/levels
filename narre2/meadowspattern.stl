@@ -6,13 +6,26 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (name "main")
     (music "music/forest.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/meadows-middle-night.png\",\"levels/narre2/images/background/night/meadows-bottom-night.png\")
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (speed 0.5)

@@ -6,13 +6,26 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (name "main")
     (music "music/ghostforest2.ogg")
-    (init-script "if(state.daytime){
-settings.set_ambient_light(0.2,0.2,0.2);
+    (init-script "   if(state.daytime){
+settings.set_ambient_light(0.2,0.2,0.2); set_weather(true);
 pozadi.set_images(\"images/background/black_800px.png\",\"levels/narre2/images/background/night/ghostforest-night.jpg\",\"images/background/black_800px.png\")
 predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/ghostforest_para-night.png\",\"images/background/black_800px.png\")
-}
+}set_weather(1);
 
 random <- 1;
 while(true){
@@ -307,7 +320,7 @@ Tux.add_bonus(\"fireflower\");")
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
@@ -643,17 +656,18 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (sector "")
       (spawnpoint "")
       (name "thelittleone")
-      (hit-script "if(random==1){Tux.add_coins(50);
+      (hit-script "ran <- ((random(4)) + 1);
+if(ran==1){Tux.add_coins(50);
 wait(0.05);
 play_sound(\"sounds/coin.wav\");
 wait(0.05);
 play_sound(\"sounds/coin.wav\");}
-if(random==2){Tux.add_bonus(\"fireflower\");
+if(ran==2){Tux.add_bonus(\"fireflower\");
 play_sound(\"sounds/fire-flower.wav\");}
-if(random==3)Tux.add_coins(100);
-if(random==4){Tux.add_bonus(\"iceflower\");
+if(ran==3)Tux.add_coins(100);
+if(ran==4){Tux.add_bonus(\"iceflower\");
 play_sound(\"sounds/fire-flower.wav\");}
-if(random==5){Tux.add_bonus(\"grow\");
+if(ran==5){Tux.add_bonus(\"grow\");
 play_sound(\"sounds/grow.ogg\");}")
       (sprite "levels/narre2/images/creatures/bluewisp/bluewisp.sprite")
       (x 10944)

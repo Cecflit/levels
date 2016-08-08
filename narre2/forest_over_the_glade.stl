@@ -6,14 +6,27 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (name "main")
     (music "music/forest2.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/forest_para2-night.png\",\"levels/narre2/images/background/night/blue-bottom-night.jpg\")
 zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images/background/night/forest_para3-night.png\",\"levels/narre2/images/background/night/forest_para3_bottom-night.png\")
-}")
+}set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (name "predni")
@@ -268,7 +281,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an achievement.\\n\\nI Won't Die Anyway\"));
+Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
 Text.fade_in(1);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
@@ -437,7 +450,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 0)
+      (z-pos 4)
       (name "ExitBG")
       (width 512)
       (height 35)
@@ -663,7 +676,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -1)
+      (z-pos 1)
       (name "DyryZadi")
       (width 512)
       (height 35)

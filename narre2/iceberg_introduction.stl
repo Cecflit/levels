@@ -704,19 +704,33 @@ if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
     )
   )
   (sector
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos 0)
+    )
+    (particles-snow
+      (name "WEATH_2")
+      (z-pos 0)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer 0)
+    )
     (name "intro")
     (music "music/intro.ogg")
-    (init-script "if(state.daytime){
+    (init-script "   if(state.daytime){
 settings.set_ambient_light(0.2,0.2,0.2);
 noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\",\"images/background/nightsky_top.png\")
 }
-Text.fade_out(0.5);
+Text.fade_out(0.25);
 sector.Effect.sixteen_to_nine(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 if(!state.played){Tux.add_bonus(\"grow\");}
 Tux.deactivate();
-Tux.walk(100);")
+Tux.walk(100);
+set_weather(0);")
     (ambient-light 1 1 1)
     (background
       (name "noc")
@@ -2692,7 +2706,7 @@ if(!state.played){Text.set_text(_(\"Let's Begin!\"));}")
     )
     (scripttrigger
       (script "if(state.played){Text.set_text(_(\"Leave\"));}
-if(!state.played){Text.set_text(_(\"You cannot leave\\n\\nYou should see Introduction first\"));}")
+if(!state.played){Text.set_text(_(\"You cannot leave now\\n\\nYou should see the Introduction first\"));}")
       (button #f)
       (width 48.9707)
       (height 462.1213)

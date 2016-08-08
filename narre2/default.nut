@@ -68,15 +68,15 @@ if (!("daytime" in state)) {
 //Weather - 0=clear; 1=cloudy; 2=snowy/rainy; 3=thunderstorm
 /*
 CLEAR = no particles (except ghosts in swamp); ambient light = 1,1,1(day) or 0.2,0.2,0.2(night)
-CLOUDY = clouds; cloudy.png(day) or nightcloudy.png(night); ambient light 0.8,0.8,0.8(day) or 0.15,0.15,0.15(night)
-SNOWY/RAINY = CLOUDY+snow/rain particles
-THUNDERSTORM = SNOWY/RAINY + thunderstorm
+CLOUDY = clouds; cloudy.png(day) or nightcloudy.png(night); ambient light 0.9,0.9,0.9(day) or 0.2,0.2,0.2(night)
+SNOWY/RAINY = CLOUDY+snow/rain particles; ambient light 0.75,0.75,0.75(day) or 0.2,0.2,0.2(night)
+THUNDERSTORM = SNOWY/RAINY + thunderstorm; ambient light 0.75,0.75,0.75(day) or 0.2,0.2,0.2(night)
 */
 if (!("weather" in state)) {
  state.weather <- 0;
 }
 
-//Levels played before change
+//Levels played before daytime/weather change
 if (!("beforechange" in state)) {
  state.beforechange <- 0;
 }
@@ -476,14 +476,13 @@ if (!("w18_lboxbeam_s1" in state)) {
  state.w18_lboxbeam_s1 <- false;
 }
 
-//Worldmap (underground, caves and tiny sandstone cave)
+//Worldmap (underground and caves)
 if(! ("underground" in state)){
 	state.underground <- false;
 }
 
 function random(max) {
-    local roll = (1.0 * math.rand() / RAND_MAX) * (max + 1);
-    return roll.tointeger();
+  return rand() % (max + 1);
 }
 
 function check_secretareas(){
@@ -491,6 +490,82 @@ function check_secretareas(){
     Text.fade_in(0.5);
     wait(5);
     Text.fade_out(0.5);
+}
+
+function set_weather(swamp){
+
+if(!state.daytime && state.weather > 0){
+	if(swamp == 0){noc.set_images("images/background/nightsky_bottom.png","images/background/nightsky_bottom.png","images/background/nightsky_bottom.png");}
+	if(swamp == 1){pozadi.set_images("images/background/nightsky_bottom.png","images/background/nightsky_bottom.png","images/background/nightsky_bottom.png");}
+}
+if(state.daytime && state.weather > 0){
+	if(swamp == 0){noc.set_images("levels/narre2/images/background/night/nightsky_bottom-night.png","levels/narre2/images/background/night/nightsky_bottom-night.png","levels/narre2/images/background/night/nightsky_bottom-night.png");}
+	if(swamp == 1){pozadi.set_images("levels/narre2/images/background/night/nightsky_bottom-night.png","levels/narre2/images/background/night/nightsky_bottom-night.png","levels/narre2/images/background/night/nightsky_bottom-night.png");}
+}
+if(!state.daytime && state.weather == 1){settings.set_ambient_light(0.9,0.9,0.9);}
+if(!state.daytime && state.weather > 1){settings.set_ambient_light(0.75,0.75,0.75);}
+
+
+if(state.weather == 0){
+    WEATH_1.set_enabled(false);
+    WEATH_2.set_enabled(false);
+}
+if(state.weather == 1){
+    WEATH_2.set_enabled(false);
+}
+while(state.weather == 3 && state.daytime){
+    wait(4);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.2,0.2,0.2);
+    wait(10);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.2,0.2,0.2);
+    wait(2);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.2,0.2,0.2);
+    wait(11);
+}
+while(state.weather == 3 && !state.daytime){
+    wait(4);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.75,0.75,0.75);
+    wait(10);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.75,0.75,0.75);
+    wait(2);
+    WEATH_3.thunder();
+    wait(2);
+    WEATH_3.lightning();
+    settings.set_ambient_light(1,1,1);
+    wait(0.35);
+    settings.set_ambient_light(0.75,0.75,0.75);
+    wait(11);
+}
+}
+
+function change_weather(){
+state.weather <- random(4);
+if(state.weather > 3){state.weather <- 0;}
 }
 
 function go_underground(under){
@@ -503,4 +578,4 @@ function go_underground(under){
   if(!state.daytime && !state.underground){InnerDarkness.fade(0,1)};
 }
 
-go_underground(state.underground);
+
