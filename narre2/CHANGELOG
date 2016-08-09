@@ -1,10 +1,17 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 55
+
+-fixed various bugs
+-all water can now be electrified by lightnings
+-added images for electrified antarctic/sulphuric/muddy water
+
 BETA 54
 
 -added weather
 -added NightCloudy background
 -renamed level 'The Bridges' to 'Bridges'
+-at least SuperTux 0.5.0-rc1 is now required
 
 BETA 53
 
@@ -92,6 +99,7 @@ BETA 48
 -added cutscene to level 'A Sneaky Cliff'
 -added Muddy Water
 -added Mud
+-Swimming branch has to be included now
 -updated Czech translations
 
 BETA 47

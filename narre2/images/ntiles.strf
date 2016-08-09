@@ -687,6 +687,15 @@
       1990 1991 0    0
       1992 1993 0    0
       1994 1995 0    0
+      217  218  238  219
+      221  222  223  224
+      241  226  227  228
+      229  230  231  232
+      234  235  240  236
+      220  225  239  233
+      237  0    0    0
+      4015 4016 4017 4018
+      4019 0    0    0
     )
   )
   (tilegroup
@@ -1736,6 +1745,34 @@
     )
     (image "../../../images/tiles/blocks/block_vert.png")
   )
+
+  (tiles
+    (width 5)
+    (height 5)
+    (ids
+      217 218 238 219 220
+      221 222 223 224 225
+      241 226 227 228 239
+      229 230 231 232 233
+      234 235 240 236 237
+    )
+    (attributes
+      1042 1026 1026 1026 1042
+      1026 1026 1042 1026 1026
+      1026 1042 1024 1042 1026
+      1026 1026 1042 1026 1026
+      1042 1026 1026 1026 1042
+    )
+    (datas
+      2 0 0 0 0
+      2 1 3 2 3
+      2 0 0 1 3
+      2 3 2 0 3
+      1 1 1 1 3
+    )
+    (images "../../../images/tiles/blocks/spikes-all.png")
+  )
+
   (tiles
     (width 4)
     (height 5)
@@ -5279,4 +5316,32 @@
     (images "../../../images/creatures/penny/penny.png")
   )
 
+  (tiles
+    (width 4)
+    (height 1)
+    (ids
+      4015 4016 4017 4018
+    )
+    (attributes
+      1536 1536 1536 1536
+    )
+    (image
+      "tiles/antarctic_electrified/ele1.png"
+      "tiles/antarctic_electrified/ele2.png"
+      "tiles/antarctic_electrified/ele3.png"
+      "tiles/antarctic_electrified/ele4.png"
+      "tiles/antarctic_electrified/ele5.png"
+      "tiles/antarctic_electrified/ele6.png"
+      "tiles/antarctic_electrified/ele7.png"
+      "tiles/antarctic_electrified/ele8.png"
+    )
+    (fps 16)
+  )
+  (tile
+    (id 4019)
+    (images
+      "tiles/antarctic_electrified/ele.png")
+    (water #t)
+    (hurts #t)
+    )
 )

@@ -145,7 +145,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 7728)
@@ -362,7 +362,7 @@ Text.fade_out(1);
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -99)
     )
     (spawnpoint
       (name "main")
@@ -372,7 +372,7 @@ Text.fade_out(1);
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #f)

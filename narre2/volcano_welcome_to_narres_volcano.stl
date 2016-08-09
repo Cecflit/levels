@@ -81,7 +81,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 8864)
@@ -241,7 +241,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -99)
     )
     (spawnpoint
       (name "main")
@@ -251,7 +251,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #t)

@@ -81,6 +81,11 @@ if (!("beforechange" in state)) {
  state.beforechange <- 0;
 }
 
+//Check whether scripted water electrifying is needed or not (resets in worldmap's init script)
+if (!("scelectrify" in state)) {
+ state.scelectrify <- false;
+}
+
 //Reached Worlds
 if (!("forest" in state)) {
  state.forest <- false;
@@ -514,53 +519,67 @@ if(state.weather == 1){
     WEATH_2.set_enabled(false);
 }
 while(state.weather == 3 && state.daytime){
-    wait(4);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.2,0.2,0.2);
-    wait(10);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.2,0.2,0.2);
-    wait(2);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.2,0.2,0.2);
-    wait(11);
+    wait(12);
 }
 while(state.weather == 3 && !state.daytime){
-    wait(4);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.75,0.75,0.75);
-    wait(10);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.75,0.75,0.75);
-    wait(2);
+    wait((random(8)+2));
     WEATH_3.thunder();
     wait(2);
     WEATH_3.lightning();
     settings.set_ambient_light(1,1,1);
-    wait(0.35);
+    if(state.scelectrify){waterstrike(swamp)
+    }else wait(0.35);
     settings.set_ambient_light(0.75,0.75,0.75);
-    wait(11);
+    wait(12);
 }
+}
+
+function waterstrike(over){
+elewater.fade(1,0);
+if(over == 1)elewaterover.fade(1,0);
+wait(0.35);
+elewater.fade(0,0);
+if(over == 1)elewaterover.fade(0,0);
 }
 
 function change_weather(){
