@@ -3415,10 +3415,10 @@
       2029 2030 2031
     )
     (attributes
-      1 1 1
-      1 1 1
-      1 1 1
-      1 1 1
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
     )
     (image "../../../images/tiles/forest/exit/outhouse.png")
   )

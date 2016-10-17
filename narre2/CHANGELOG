@@ -1,5 +1,13 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 56
+
+-added level 'Zigzag' to the StoneCave
+-renamed level 'Down the Frozen Cave' to 'Down a Frozen Cave'
+-fixed layer bug in level 'Down a Frozen Cave'
+-fixed a translation string
+-updated Czech translatons
+
 BETA 55
 
 -fixed various bugs

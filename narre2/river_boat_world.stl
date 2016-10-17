@@ -361,7 +361,7 @@ Tux.add_bonus(\"fireflower\");")
       (y 544)
     )
     (particles-rain
-      (name "WEATH_3")
+      (name "WEATH_2")
       (z-pos -3)
     )
     (scripttrigger

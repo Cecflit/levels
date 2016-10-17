@@ -76,12 +76,6 @@ msgstr "pokud běžně ve hrách sbíráš ocenění,\nasi budeš chtít získat
 msgid "what all you can get. Fine, enough of\ntalking, let's get started!"
 msgstr "moje ocenění\" v této úrovni a přečti\nsi, co všechno můžeš získat. Fajn,\ndost mluvení, pojďme na to!"
 
-#: data/levels/narre2/mountains_welcome_to_narres_mountains.stl:WhoKnows
-msgid ""
-"-Icicles\n"
-"#You have just entered really frosty mountains in high altitude. Icicles in these heights are firmly fixed to the ceiling, so they won't fall on your head. But they are still very sharp, so don't disregard them. You can still force them to fall by shooting them by ice bullet or warming them by fire bullet."
-msgstr "-Rampouchy\n#Právě jsi vstoupil do opravdu mrazivých hor vysoko nad mořem. Rampouchy jsou v těchto výškách pevně přimrzlé ke stropu, takže ti nespadnou na hlavu. Ale pořád jsou dost ostré, takže je nepodceňuj. Pořád je můžeš shodit sestřelením ledovou střelou nebo ohřátím ohnivou střelou."
-
 #: data/levels/narre2/iceberg_welcome_to_narres_iceberg.stl:3
 msgid "Welcome to the Freezing Iceberg"
 msgstr "Vítej na Mrazivém Ledovci"
@@ -95,7 +89,7 @@ msgid "Frozen Hills"
 msgstr "Zmrzlé kopce"
 
 #: data/levels/narre2/iceberg_down_the_frozen_cave.stl:3
-msgid "Down the Frozen Cave"
+msgid "Down a Frozen Cave"
 msgstr "Dolů zmrzlou jeskyní"
 
 #: data/levels/narre2/iceberg_just_another_snowy_day.stl:3
@@ -855,7 +849,7 @@ msgstr "levels/narre2/speech/icicle_3_czech.ogg"
 msgid "levels/narre2/speech/icicle_4.ogg"
 msgstr "levels/narre2/speech/icicle_4_czech.ogg"
 
-msgid "This is checkpoint."
+msgid "This is a checkpoint."
 msgstr "Tohle je uložovák."
 
 msgid "You can activate this checkpoint\nand then, if you die, you'll be\nrespawned here."
@@ -1056,3 +1050,7 @@ msgstr "Hořící mosty"
 #: data/levels/narre2/river_spiky_blocks.stl:3
 msgid "Spiky Blocks"
 msgstr "Bodlákové bloky"
+
+#: data/levels/narre2/stonecave_zigzag.stl:3
+msgid "Zigzag"
+msgstr "Cikcak"

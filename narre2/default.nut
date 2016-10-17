@@ -431,6 +431,26 @@ if (!("w14_lceilcoll_s1" in state)) {
  state.w14_lceilcoll_s1 <- false;
 }
 
+//StoneCave, level Zigzag, secret area 1
+if (!("w14_lzigzag_s1" in state)) {
+ state.w14_lzigzag_s1 <- false;
+}
+
+//StoneCave, level Zigzag, secret area 2
+if (!("w14_lzigzag_s2" in state)) {
+ state.w14_lzigzag_s2 <- false;
+}
+
+//StoneCave, level Zigzag, secret area 3
+if (!("w14_lzigzag_s3" in state)) {
+ state.w14_lzigzag_s3 <- false;
+}
+
+//StoneCave, level Zigzag, secret area 4
+if (!("w14_lzigzag_s4" in state)) {
+ state.w14_lzigzag_s4 <- false;
+}
+
 //Meadows, level A Wavy Terrain, secret area 1
 if (!("w15_lwavy_s1" in state)) {
  state.w14_lwavy_s1 <- false;
@@ -585,6 +605,22 @@ if(over == 1)elewaterover.fade(0,0);
 function change_weather(){
 state.weather <- random(4);
 if(state.weather > 3){state.weather <- 0;}
+}
+
+function random_bonus(){
+ran <- ((random(4)) + 1);
+if(ran==1){Tux.add_coins(50);
+wait(0.05);
+play_sound("sounds/coin.wav");
+wait(0.05);
+play_sound("sounds/coin.wav");}
+if(ran==2){Tux.add_bonus("fireflower");
+play_sound("sounds/fire-flower.wav");}
+if(ran==3)Tux.add_coins(100);
+if(ran==4){Tux.add_bonus("iceflower");
+play_sound("sounds/fire-flower.wav");}
+if(ran==5){Tux.add_bonus("grow");
+play_sound("sounds/grow.ogg");}
 }
 
 function go_underground(under){
