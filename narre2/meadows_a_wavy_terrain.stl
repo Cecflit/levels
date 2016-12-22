@@ -8,16 +8,16 @@
   (sector
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -100)
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -100)
     )
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -100)
     )
     (name "main")
     (music "music/forest.ogg")
@@ -693,7 +693,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (tilemap
       (solid #t)
       (alpha 0)
-      (z-pos 0)
+      (z-pos -100)
       (name "SecretMessage")
       (width 558)
       (height 128)
@@ -967,7 +967,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 0)
+      (z-pos -100)
       (name "BgDecorations")
       (width 558)
       (height 128)

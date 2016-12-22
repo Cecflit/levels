@@ -452,7 +452,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos -71)
+      (z-pos -72)
       (name "cavebkg")
       (width 512)
       (height 128)
@@ -726,7 +726,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos -72)
+      (z-pos -71)
       (name "spikes")
       (width 512)
       (height 128)

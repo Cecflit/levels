@@ -112,6 +112,10 @@ msgstr "Vítej ve Vulkánu Smrti"
 msgid "Welcome to the Swamp of Ghosts"
 msgstr "Vítej v Bažině Duchů"
 
+#: data/levels/narre2/meadows_stripy_structure.stl:3
+msgid "Stripy Structure"
+msgstr "Pruhovaná struktura"
+
 #: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:77
 msgid ""
 "-Green Wisps\n"

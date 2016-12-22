@@ -8,16 +8,16 @@
   (sector
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -70)
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -70)
     )
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -70)
     )
     (name "main")
     (music "music/forest2.ogg")
@@ -34,7 +34,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para2.png")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
-      (layer -2)
+      (layer -92)
     )
     (background
       (name "zadni")
@@ -42,7 +42,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para3.png")
       (image-bottom "images/background/forest_para3_bottom.png")
-      (layer -3)
+      (layer -93)
     )
     (background
       (name "noc")
@@ -50,7 +50,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
-      (layer -4)
+      (layer -94)
     )
     (bonusblock
       (script "")
@@ -189,7 +189,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
     )
     (firefly
       (x 9232)
-      (y 499.2929)
+      (y 499)
     )
     (gradient
       (top_color 0 0.3137255 1)
@@ -290,8 +290,8 @@ Text.fade_out(1);
       (button #f)
       (width 32)
       (height 32.00006)
-      (x 9231.523)
-      (y 499.4224)
+      (x 9232)
+      (y 499)
     )
     (secretarea
       (script "if(!state.w2_loverglade_s1){

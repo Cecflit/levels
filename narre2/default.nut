@@ -461,6 +461,11 @@ if (!("w15_lplainflowers_s1" in state)) {
  state.w15_lplainflowers_s1 <- false;
 }
 
+//Meadows, level Stripy Structure, secret area 1
+if (!("w15_lstripy_s1" in state)) {
+ state.w15_lstripy_s1 <- false;
+}
+
 //Geysers, level Welcome to the Sulphur Geysers, secret area 1
 if (!("w16_lwelcomegeysers_s1" in state)) {
  state.w15_lwelcomegeysers_s1 <- false;

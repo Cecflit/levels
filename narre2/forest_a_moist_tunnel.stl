@@ -6,19 +6,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
-    (particles-clouds
-      (name "WEATH_1")
-      (z-pos 0)
-    )
-    (particles-rain
-      (name "WEATH_2")
-      (z-pos 0)
-    )
-    (thunderstorm
-      (running #f)
-      (name "WEATH_3")
-      (layer 0)
-    )
     (name "main")
     (music "music/forest2.ogg")
     (init-script "   if(state.daytime){
@@ -29,28 +16,28 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
 }set_weather(0);")
     (ambient-light 1 1 1)
     (background
-      (name "predni")
       (speed 0.5)
+      (name "predni")
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para2.png")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
-      (layer -2)
+      (layer -92)
     )
     (background
-      (name "zadni")
       (speed 0.2)
+      (name "zadni")
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para3.png")
       (image-bottom "images/background/forest_para3_bottom.png")
-      (layer -3)
+      (layer -93)
     )
     (background
-      (name "noc")
       (speed 0)
+      (name "noc")
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
-      (layer -4)
+      (layer -94)
     )
     (bonusblock
       (script "")
@@ -95,6 +82,10 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (height 668)
       (x 10976)
       (y 672)
+    )
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos -70)
     )
     (firefly
       (x 8448)
@@ -211,6 +202,10 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (x 11633.68)
       (y 700.4508)
     )
+    (particles-rain
+    (name "WEATH_2")
+    (z-pos -70)
+    )
     (scripttrigger
       (script "Tux.kill(true);")
       (button #f)
@@ -305,6 +300,11 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (stumpy
       (x 14248.41)
       (y 2027.03)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer -70)
     )
     (tilemap
       (solid #t)
