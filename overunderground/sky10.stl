@@ -269,7 +269,7 @@
       )
     )
     (platform
-      (name "MaxTeufelSS")
+      (name "mt")
       (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
@@ -605,7 +605,7 @@
       (y 692)
     )
     (scripttrigger
-      (script "MaxTeufelSS.start_moving()")
+      (script "mt.start_moving()")
       (button #f)
       (width 124)
       (height 12)
