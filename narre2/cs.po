@@ -1053,8 +1053,12 @@ msgstr "Hořící mosty"
 
 #: data/levels/narre2/river_spiky_blocks.stl:3
 msgid "Spiky Blocks"
-msgstr "Bodlákové bloky"
+msgstr "Bloky s bodláky"
 
 #: data/levels/narre2/stonecave_zigzag.stl:3
 msgid "Zigzag"
 msgstr "Cikcak"
+
+#: data/levels/narre2/geysers_a_bit_deeper_puddles.stl:3
+msgid "A Bit Deeper Puddles"
+msgstr "Trochu hlubší kaluže"
