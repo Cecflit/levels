@@ -1062,3 +1062,7 @@ msgstr "Cikcak"
 #: data/levels/narre2/geysers_a_bit_deeper_puddles.stl:3
 msgid "A Bit Deeper Puddles"
 msgstr "Trochu hlubší kaluže"
+
+#: data/levels/narre2/fortress_lavapolinium.stl:3
+msgid "Lavatrampolinium"
+msgstr "Lávatrampolínium"
