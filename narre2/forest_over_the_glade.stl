@@ -450,7 +450,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 4)
+      (z-pos -68)
       (name "ExitBG")
       (width 512)
       (height 35)
@@ -494,7 +494,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 5)
+      (z-pos -60)
       (name "BGBranches")
       (width 512)
       (height 35)
@@ -538,7 +538,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 7)
+      (z-pos -55)
       (name "RightBGBranches")
       (path
         (node
@@ -632,7 +632,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 10)
+      (z-pos -53)
       (name "Bonuses")
       (width 512)
       (height 35)
@@ -676,7 +676,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -69)
       (name "DyryZadi")
       (width 512)
       (height 35)

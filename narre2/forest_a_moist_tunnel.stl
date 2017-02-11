@@ -387,7 +387,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -69)
       (name "HolesBG")
       (width 512)
       (height 70)
@@ -466,7 +466,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 2)
+      (z-pos -68)
       (name "BackgroundTrees")
       (width 512)
       (height 70)
@@ -624,7 +624,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 5)
+      (z-pos -67)
       (name "BackgroundBranches")
       (path
         (node
@@ -794,7 +794,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 10)
+      (z-pos -66)
       (name "Bonuses&Spikes&SolidDecorations")
       (width 512)
       (height 70)

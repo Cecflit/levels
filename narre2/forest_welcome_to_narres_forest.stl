@@ -260,7 +260,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #f)
-      (z-pos 2)
+      (z-pos -68)
       (name "BGD")
       (width 512)
       (height 35)
@@ -392,7 +392,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -60)
       (name "bonuses")
       (width 512)
       (height 35)
@@ -436,7 +436,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -60)
       (name "Branch")
       (path
         (node
@@ -452,7 +452,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -60)
       (name "secret")
       (path
         (node
@@ -512,7 +512,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -69)
       (name "tozeleny")
       (width 512)
       (height 35)

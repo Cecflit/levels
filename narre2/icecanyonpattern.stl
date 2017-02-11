@@ -1095,4 +1095,5 @@ Text.fade_out(1);
       (y 1696)
     )
   )
+  (tileset "levels/narre2/images/ntiles.strf")
 )

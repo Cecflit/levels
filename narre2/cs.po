@@ -1065,4 +1065,8 @@ msgstr "Trochu hlubší kaluže"
 
 #: data/levels/narre2/fortress_lavapolinium.stl:3
 msgid "Lavatrampolinium"
-msgstr "Lávatrampolínium"
+msgstr "Lávotrampolínium"
+
+#: data/levels/narre2/matrix_lifts.stl:3
+msgid "Lifts"
+msgstr "Výtahy"
