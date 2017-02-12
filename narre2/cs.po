@@ -1008,7 +1008,7 @@ msgid "Boxes of Beams"
 msgstr "Paprskové krabice"
 
 #: data/levels/narre2/forest_moles_holes.stl:3
-msgid "Moles' Holes"
+msgid "Molehills"
 msgstr "Krtiny"
 
 #: data/levels/narre2/jungle_impenetrable_verdure.stl:3
@@ -1070,3 +1070,7 @@ msgstr "Lávotrampolínium"
 #: data/levels/narre2/matrix_lifts.stl:3
 msgid "Lifts"
 msgstr "Výtahy"
+
+#: data/levels/narre2/forest_tiny_cavern_of_soil.stl:3
+msgid "A Tiny Cavern of Soil"
+msgstr "Malá jeskyně z hlíny"
