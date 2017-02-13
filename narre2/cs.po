@@ -1074,3 +1074,7 @@ msgstr "Výtahy"
 #: data/levels/narre2/forest_tiny_cavern_of_soil.stl:3
 msgid "A Tiny Cavern of Soil"
 msgstr "Malá jeskyně z hlíny"
+
+#: data/levels/narre2/jungle_deeper_to_the_jungle.stl:3
+msgid "Deeper to the Jungle"
+msgstr "Hlouběji do džungle"
