@@ -457,67 +457,67 @@
       (x 13777.02)
       (y 1212.457)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 1179.394)
       (y 2239.117)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 1879.34)
       (y 2351.053)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 3312.233)
       (y 2057.347)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 4669.878)
       (y 1972.494)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 7030.201)
       (y 1006.587)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 7919.741)
       (y 743.5428)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 8219.554)
       (y 626.1631)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 9322.641)
       (y 754.8565)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 10715.64)
       (y 1002.344)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 11742.36)
       (y 1070.226)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 13129.7)
       (y 1238.518)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 14220.06)
       (y 1155.079)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 15427.8)
       (y 1309.229)
@@ -545,15 +545,9 @@ Text.fade_out(1);
     )
     (secretarea
       (fade-tilemap "Secret")
-      (script "if(!state.w3_lhillderground_s1){
-state.w3_lhillderground_s1 <- true;}
-if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
-
-//Text.fade_in(1);
-//play_sound(\"sounds/invincible_start.ogg\");
-//wait(2);
-//Text.fade_out(1);
-//}")
+      (script "if(!state.w4_lhillderground_s1){
+state.w4_lhillderground_s1 <- true;}
+if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (message "")
       (width 104)
       (height 32)
@@ -636,8 +630,8 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 6879.397)
-      (y 860.4806)
+      (x 6884)
+      (y 864)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")

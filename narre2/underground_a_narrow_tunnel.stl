@@ -493,87 +493,87 @@
       (x 14891.3)
       (y 1126.67)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 1517.189)
       (y 1195.115)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 1848.189)
       (y 1090.115)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 3958.974)
       (y 1264.889)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 2324.189)
       (y 1072.115)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 5233.452)
       (y 1567.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 6307.453)
       (y 2211.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 6831.453)
       (y 2341.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 7757.453)
       (y 2445.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 8427.453)
       (y 2597.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 9065.453)
       (y 2511.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 11227.45)
       (y 1281.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 9761.453)
       (y 2241.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 11159.45)
       (y 1313.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 12197.45)
       (y 1181.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 13321.45)
       (y 1097.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 14361.45)
       (y 1113.874)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 15237.45)
       (y 1111.874)
@@ -686,18 +686,18 @@ Text.fade_out(1);
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 9796)
-      (y 1888)
+      (x 9860)
+      (y 1824)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 10884)
-      (y 1184)
+      (x 12740)
+      (y 768)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 12324)
-      (y 832)
+      (x 12388)
+      (y 800)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")

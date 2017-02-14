@@ -1078,3 +1078,7 @@ msgstr "Malá jeskyně z hlíny"
 #: data/levels/narre2/jungle_deeper_to_the_jungle.stl:3
 msgid "Deeper to the Jungle"
 msgstr "Hlouběji do džungle"
+
+#: data/levels/narre2/underground_a_generic_tunnel.stl:3
+msgid "A Generic Tunnel"
+msgstr "Obecný tunel"

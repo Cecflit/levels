@@ -308,7 +308,12 @@ if (!("w3_lsneakycliff_s1" in state)) {
 
 //Underground, level A Hill Under the Ground, secret area 1
 if (!("w4_lhillderground_s1" in state)) {
- state.w3_lhillderground_s1 <- false;
+ state.w4_lhillderground_s1 <- false;
+}
+
+//Underground, level A Generic Tunnel, secret area 1
+if (!("w4_lgenerictunnel_s1" in state)) {
+ state.w4_lgenerictunnel_s1 <- false;
 }
 
 //Mountains, level Welcome to the High Mountains, secret area 1

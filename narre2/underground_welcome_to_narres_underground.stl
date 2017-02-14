@@ -407,52 +407,52 @@
       (x 12005)
       (y 616)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 1122)
       (y 708)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 2626)
       (y 772)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 4706)
       (y 548)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 5698)
       (y 420)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 7266)
       (y 548)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 8482)
       (y 676)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 10178)
       (y 644)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 11394)
       (y 516)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 12770)
       (y 580)
     )
-    (smartball
+    (walkingleaf
       (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
       (x 14658)
       (y 772)
@@ -555,22 +555,22 @@ Tux.activate();}")
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 2436)
+      (x 2852)
       (y 640)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 4644)
-      (y 256)
+      (x 4196)
+      (y 352)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 9380)
-      (y 416)
+      (x 9060)
+      (y 320)
     )
     (stalactite
       (sprite "levels/narre2/images/creatures/stone_stalactite/stone_stalactite.sprite")
-      (x 12868)
+      (x 13060)
       (y 448)
     )
     (stumpy

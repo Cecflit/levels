@@ -1,5 +1,11 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 63
+
+-walkingleaves in the Underground are no longer immune against icing
+-secret area in 'A Hill Under the Ground' now saves the variable properly
+-added level 'A Generic Tunnel' to the Underground
+
 BETA 62
 
 -added level 'Deeper to the Jungle' to the Jungle
