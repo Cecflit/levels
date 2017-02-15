@@ -349,15 +349,6 @@
       (x 14117)
       (y 776)
     )
-    (infoblock
-      (message (_ "-Dödleytree
-#Dödleytree is a rare kind of tree.
-#If you are lucky, you can find a dödleytree in underground, but it's not probable.
-#But as dödleytree is rare, its leaves are present everywhere.
-#They look like ordinary dead leaves, but they are alive and very nasty. Plus, you can't freeze them, they are frost-resistant."))
-      (x 832)
-      (y 640)
-    )
     (jumpy
       (sprite "images/creatures/jumpy/wooden.sprite")
       (x 1735)
@@ -407,56 +398,6 @@
       (x 12005)
       (y 616)
     )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 1122)
-      (y 708)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 2626)
-      (y 772)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 4706)
-      (y 548)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 5698)
-      (y 420)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 7266)
-      (y 548)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 8482)
-      (y 676)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 10178)
-      (y 644)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 11394)
-      (y 516)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 12770)
-      (y 580)
-    )
-    (walkingleaf
-      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
-      (x 14658)
-      (y 772)
-    )
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
 state.achievement_i_wont_die_anyway <- 3;
@@ -471,48 +412,6 @@ Text.fade_out(1);
       (height 32)
       (x 7424)
       (y 544)
-    )
-    (scripttrigger
-      (script "if(!state.dodleyinformation){
-Tux.deactivate();
-sector.Effect.sixteen_to_nine(1);
-wait(1);
-coverAround.fade(1,1);
-wait(1);
-Text.set_anchor_point(ANCHOR_BOTTOM);
-Text.set_pos(0,-78);
-Text.set_text(_(\"Dödleytrees are very rare trees.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_1.ogg\"));}
-if(state.subtitles){Text.fade_in(1);}
-wait(3);
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_2.ogg\"));}
-Text.set_text(_(\"It's known that one of these trees\\nis a boss of this island.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_3.ogg\"));}
-Text.set_text(_(\"It's on the other side of the island,\\nso you won't meet it soon.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_4.ogg\"));}
-Text.set_text(_(\"But even though Dödleytrees are rare,\\nthey produce a lot of leaves\"));
-wait(5);
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_5.ogg\"));}
-Text.set_text(_(\"which can be found all over the island.\\nThey look like ordinary dead leaves,\"));
-wait(5);
-if(state.voice){play_sound(_(\"levels/narre2/speech/dodley_information_6.ogg\"));}
-Text.set_text(_(\"but they are very nasty and\\nfrost-resistant. However, you\\ncan still squish them.\"));
-wait(5);
-if(state.subtitles){Text.fade_out(1);
-wait(1);}
-coverAround.fade(0,1);
-sector.Effect.four_to_three(1);
-wait(1);
-Text.set_anchor_point(ANCHOR_MIDDLE);
-state.dodleyinformation <- true;
-Tux.activate();}")
-      (button #f)
-      (width 32)
-      (height 492)
-      (x 768)
-      (y 288)
     )
     (sequencetrigger
       (sequence "endsequence")
@@ -903,6 +802,56 @@ Tux.activate();}")
       2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035
       2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035 2035
       )
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 1122)
+      (y 708)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 2626)
+      (y 772)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 4706)
+      (y 548)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 5698)
+      (y 420)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 7266)
+      (y 548)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 8482)
+      (y 676)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 10178)
+      (y 644)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 11394)
+      (y 516)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 12770)
+      (y 580)
+    )
+    (walkingleaf
+      (sprite "images/creatures/walkingleaf/walkingleaf.sprite")
+      (x 14658)
+      (y 772)
     )
   )
 )

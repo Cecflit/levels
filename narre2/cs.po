@@ -1,6 +1,6 @@
 # Czech translations for SuperTux Add-On (Narre's Multiworld)
-# Copyright (C) 2015 Jirka Paleček ("Narre") <nrrstttpt@gmail.com>
-# This file is distributed under the same license as SuperTux.
+# Copyright (C) 2017 Narre <narre@protonmail.com> / <nrrstttpt@gmail.com>
+# This file is distributed under the same licence as SuperTux.
 #
 msgid ""
 msgstr ""
@@ -418,15 +418,6 @@ msgstr "Svět lodiček"
 msgid "Ceiling Collapse"
 msgstr "Řítící se strop"
 
-#: data/levels/narre2/underground_welcome_to_narres_underground.stl:-WhoKnows-
-msgid ""
-"-Dödleytree\n"
-"#Dödleytree is a rare kind of tree.\n"
-"#If you are lucky, you can find a dödleytree in underground, but it's not probable.\n"
-"#But as dödleytree is rare, its leaves are present everywhere.\n"
-"#They look like ordinary dead leaves, but they are alive and very nasty. Plus, you can't freeze them, they are frost-resistant."
-msgstr "-Dödleystrom\n#Dödleystrom je vzácný druh stromu.\n#Budeš-li mít štěstí, nějaký můžeš najít v podzemí, ale není to pravděpodobné.\n#Ale jak je dödleystrom vzácný, jeho listy jsou všude.\n#Vypadají jako běžné uschlé listy, ale jsou až dost živé a nepříjemné. Navíc je nemůžeš zmrazit, jsou mrazuvzdorné."
-
 #: data/levels/narre2/meadows_a_wavy_terrain.stl:3
 msgid "A Wavy Terrain"
 msgstr "Vlnitý terén"
@@ -685,24 +676,6 @@ msgstr "Přenést do Matrixu"
 msgid "Warp to the Bonusland"
 msgstr "Přenést do Bonusvěta"
 
-msgid "levels/narre2/speech/dodley_information_1.ogg"
-msgstr "levels/narre2/speech/dodley_information_1_czech.ogg"
-
-msgid "levels/narre2/speech/dodley_information_2.ogg"
-msgstr "levels/narre2/speech/dodley_information_2_czech.ogg"
-
-msgid "levels/narre2/speech/dodley_information_3.ogg"
-msgstr "levels/narre2/speech/dodley_information_3_czech.ogg"
-
-msgid "levels/narre2/speech/dodley_information_4.ogg"
-msgstr "levels/narre2/speech/dodley_information_4_czech.ogg"
-
-msgid "levels/narre2/speech/dodley_information_5.ogg"
-msgstr "levels/narre2/speech/dodley_information_5_czech.ogg"
-
-msgid "levels/narre2/speech/dodley_information_6.ogg"
-msgstr "levels/narre2/speech/dodley_information_6_czech.ogg"
-
 msgid "levels/narre2/speech/treeguards_1.ogg"
 msgstr "levels/narre2/speech/treeguards_1_czech.ogg"
 
@@ -882,24 +855,6 @@ msgstr "Vidíš tu krtinu? Je v ní průchod.\nMěl by pro tebe být dost širok
 
 msgid "And if it wasn't, try to butt-jump\nonto that molehill to widen it."
 msgstr "A kdyby ne, zkus na tu krtinu\ndupnout, aby se rozšířil."
-
-msgid "Dödleytrees are very rare trees."
-msgstr "Dödleyovníky jsou velice vzácné stromy"
-
-msgid "It's known that one of these trees\nis a boss of this island."
-msgstr "Je známo, že jeden z těchto stromů\nje šéf tohoto ostrova."
-
-msgid "It's on the other side of the island,\nso you won't meet it soon."
-msgstr "Nachází se na druhé straně ostrova,\ntakže ho v nejbližší době nepotkáš."
-
-msgid "But even though Dödleytrees are rare,\nthey produce a lot of leaves"
-msgstr "Ale i když jsou dödleyovníky vzácné,\nprodukují spoustu listí,"
-
-msgid "which can be found all over the island.\nThey look like ordinary dead leaves,"
-msgstr "které můžete nalézt po celém ostrově.\nVypadá jako obyčejné uschlé listí,"
-
-msgid "but they are very nasty and\nfrost-resistant. However, you\ncan still squish them."
-msgstr "ale dokáže být velmi nepříjemné a\nje imunní vůči mrazu.\nNicméně ho můžeš stále zašlápnout."
 
 msgid "These are called Tree Guardians.\nThey usually live near these trees -\nthey guard the trees and the trees"
 msgstr "Tyhle potvory se jmenují Strážci stromů.\nVětšinou žijí poblíž těchto stromů -\nstráží je, a za oplátku je stromy"
@@ -1082,3 +1037,7 @@ msgstr "Hlouběji do džungle"
 #: data/levels/narre2/underground_a_generic_tunnel.stl:3
 msgid "A Generic Tunnel"
 msgstr "Obecný tunel"
+
+#: data/levels/narre2/mountains_not-so.high_mountain.stl:3
+msgid "A Not-So-High Mountain"
+msgstr "Nepříliš vysoká hora"
