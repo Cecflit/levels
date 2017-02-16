@@ -499,8 +499,8 @@ Tux.activate();}
     )
     (secretarea
       (script "secret.fade(1,0.5);
-if(!state.w8_ltreeguards_s1){
-state.w8_ltreeguards_s1 <- true;}
+if(!state.w9_ltreeguards_s1){
+state.w9_ltreeguards_s1 <- true;}
 if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
 
 //Text.fade_in(1);

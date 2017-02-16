@@ -1041,3 +1041,7 @@ msgstr "Obecný tunel"
 #: data/levels/narre2/mountains_not-so.high_mountain.stl:3
 msgid "A Not-So-High Mountain"
 msgstr "Nepříliš vysoká hora"
+
+#: data/levels/narre2/icecave_a_freezing_cave.stl:3
+msgid "A Freezing Cave"
+msgstr "Mrazivá jeskyně"
