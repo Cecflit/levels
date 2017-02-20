@@ -512,7 +512,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #f)
-      (z-pos -69)
+      (z-pos -71)
       (name "tozeleny")
       (width 512)
       (height 35)

@@ -401,7 +401,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos -75)
+      (z-pos -81)
       (name "HoleBackground")
       (width 512)
       (height 35)

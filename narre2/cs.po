@@ -1045,3 +1045,7 @@ msgstr "Nepříliš vysoká hora"
 #: data/levels/narre2/icecave_a_freezing_cave.stl:3
 msgid "A Freezing Cave"
 msgstr "Mrazivá jeskyně"
+
+#: data/levels/narre2/crystalcave_beauty_this_cave.stl:3
+msgid "The Beauty of This Cave"
+msgstr "Krása této jeskyně"

@@ -676,7 +676,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -69)
+      (z-pos -71)
       (name "DyryZadi")
       (width 512)
       (height 35)

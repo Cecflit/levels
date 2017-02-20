@@ -491,13 +491,13 @@
     )
     (icecrusher
       (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 4511.506)
-      (y 1245.92)
+      (x 4512.747)
+      (y 1247.868)
     )
     (icecrusher
       (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 7552.028)
-      (y 1630.248)
+      (y 1632.016)
     )
     (jumpy
       (x 2087)
