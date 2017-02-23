@@ -1053,3 +1053,7 @@ msgstr "Krása této jeskyně"
 #: data/levels/narre2/rocks_still_more_climbing.stl:3
 msgid "Still More Climbing"
 msgstr "Stále více šplhání"
+
+#: data/levels/narre2/icecanyon.stl:3
+msgid "A Slippery Surprise"
+msgstr "Kluzké překvapení"
