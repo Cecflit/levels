@@ -1,5 +1,17 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 69
+
+-renamed level 'Don't Fall to the Valley' to 'Penguins Don't Fly'
+-removed the valley from level 'Penguins Don't Fly'
+-the 'Penguins Do Fly' achievement now requires an airbonus
+-changed the content of the secret area in level 'Penguins Don't Fly' to an airflower
+-the 'To Find a Needle in a Haystack' achievement now works
+-fixed the secretarea in the level 'A Wavy Terrain'
+-added cutscene to level 'Penguins Don't Fly'
+-added level 'Show Me What I've Missed'
+-added white wisps
+
 BETA 68
 
 -added level 'A Slippery Surprise' to the IceCanyon

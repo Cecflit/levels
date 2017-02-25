@@ -6,19 +6,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (target-time 0)
   (sector
-    (particles-clouds
-      (name "WEATH_1")
-      (z-pos -70)
-    )
-    (particles-rain
-      (name "WEATH_2")
-      (z-pos -70)
-    )
-    (thunderstorm
-      (running #f)
-      (name "WEATH_3")
-      (layer -70)
-    )
     (name "main")
     (music "music/forest2.ogg")
     (init-script "   if(state.daytime){
@@ -29,24 +16,24 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
 }set_weather(0);")
     (ambient-light 1 1 1)
     (background
-      (name "predni")
       (speed 0.5)
+      (name "predni")
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para2.png")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
       (layer -93)
     )
     (background
-      (name "zadni")
       (speed 0.2)
+      (name "zadni")
       (image-top "images/background/transparent_up.png")
       (image "images/background/forest_para3.png")
       (image-bottom "images/background/forest_para3_bottom.png")
       (layer -94)
     )
     (background
-      (name "noc")
       (speed 0)
+      (name "noc")
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
@@ -115,6 +102,10 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
     (camera
       (mode "normal")
     )
+    (particles-clouds
+      (name "WEATH_1")
+      (z-pos -70)
+    )
     (firefly
       (x 8352)
       (y 544)
@@ -170,6 +161,10 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
       (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 5504)
       (y 96)
+    )
+    (particles-rain
+      (name "WEATH_2")
+      (z-pos -70)
     )
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
@@ -257,6 +252,11 @@ Tux.activate()")
       (sprite "images/objects/switch/right.sprite")
       (x 5595)
       (y 546)
+    )
+    (thunderstorm
+      (running #f)
+      (name "WEATH_3")
+      (layer -70)
     )
     (tilemap
       (solid #f)

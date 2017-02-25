@@ -805,6 +805,9 @@ msgstr "levels/narre2/speech/quicksand_1_czech.ogg"
 msgid "levels/narre2/speech/quicksand_2.ogg"
 msgstr "levels/narre2/speech/quicksand_2_czech.ogg"
 
+msgid "penguins_dont_fly_info.ogg"
+msgstr "penguins_dont_fly_info_czech.ogg"
+
 msgid "levels/narre2/speech/ceiling_1.ogg"
 msgstr "levels/narre2/speech/ceiling_1_czech.ogg"
 
@@ -826,6 +829,15 @@ msgstr "levels/narre2/speech/icicle_3_czech.ogg"
 msgid "levels/narre2/speech/icicle_4.ogg"
 msgstr "levels/narre2/speech/icicle_4_czech.ogg"
 
+msgid "levels/narre2/speech/whitewisp_information_1.ogg"
+msgstr "levels/narre2/speech/whitewisp_information_1_czech.ogg"
+
+msgid "levels/narre2/speech/whitewisp_information_2.ogg"
+msgstr "levels/narre2/speech/whitewisp_information_2_czech.ogg"
+
+msgid "levels/narre2/speech/whitewisp_information_3.ogg"
+msgstr "levels/narre2/speech/whitewisp_information_3_czech.ogg"
+
 msgid "This is a checkpoint."
 msgstr "Tohle je uložovák."
 
@@ -837,6 +849,18 @@ msgstr "Ale pokud chceš získat\nocenění za vyhýbání se uložovákům,\nne
 
 msgid "otherwise you shall dead-lock\nthis achievement. So, decide."
 msgstr "jinak bys toto ocenění trvale\nuzamkl. Takže se rozhodni."
+
+msgid "Sorry, mate, but penguins don't fly.\nYou should use a trampoline."
+msgstr "Promiň, ale tučňáci nelétají.\nMěl bys použít trampolínu."
+
+msgid "This is a white wisp.\nGood news is that these are\none of the good ones."
+msgstr "Toto je bílá bludička.\nDobrá zpráva je, že tyto\njsou jedny z těch dobrých."
+
+msgid "These wisps have the ability\nto reveal things you would\nhave otherwise missed."
+msgstr "Tyto bludičky mají schopnost\nodhalit věci, které bys\njinak přehlédl."
+
+msgid "So come on, what secret\ncan this one reveal?"
+msgstr "Tak pojď, co asi může\ntato odhalit?"
 
 msgid "Stop!"
 msgstr "Stůj!"
@@ -975,8 +999,8 @@ msgid "A Hill Under the Ground"
 msgstr "Kopec pod zemí"
 
 #: data/levels/narre2/mountains_dont_fall_to_the_valley.stl:3
-msgid "Don't Fall to the Valley"
-msgstr "Nespadni do údolí"
+msgid "Penguins Don't Fly"
+msgstr "Tučňáci nelétají"
 
 #: data/levels/narre2/icecave_sharp_spikes.stl:3
 msgid "Sharp Spikes"
@@ -1054,6 +1078,10 @@ msgstr "Krása této jeskyně"
 msgid "Still More Climbing"
 msgstr "Stále více šplhání"
 
-#: data/levels/narre2/icecanyon.stl:3
+#: data/levels/narre2/icecanyon_a_slippery_surprise.stl:3
 msgid "A Slippery Surprise"
 msgstr "Kluzké překvapení"
+
+#: data/levels/narre2/swamp_show_missed.stl:3
+msgid "Show Me What I've Missed"
+msgstr "Ukaž, co jsem přehlédl"

@@ -25,6 +25,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (background
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
+      (image "images/background/ghostforest_para.png")
       (image-bottom "images/background/black_800px.png")
       (layer -25)
     )
@@ -32,12 +33,13 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (mode "normal")
     )
     (particles-clouds
-      (z-pos 0)
+      (z-pos -10)
     )
     (particles-ghosts
       (z-pos -20)
     )
     (particles-rain
+      (z-pos -10)
     )
     (spawnpoint
       (name "main")
@@ -47,7 +49,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -10)
     )
     (tilemap
       (solid #t)
