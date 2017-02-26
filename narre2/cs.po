@@ -1085,3 +1085,7 @@ msgstr "Kluzké překvapení"
 #: data/levels/narre2/swamp_show_missed.stl:3
 msgid "Show Me What I've Missed"
 msgstr "Ukaž, co jsem přehlédl"
+
+#: data/levels/narre2/desert_flat_dry.stl:3
+msgid "Flat and Dry"
+msgstr "Plochá a vyschlá"

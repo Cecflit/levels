@@ -1,5 +1,9 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 70
+
+-added level 'Flat and Dry' to the Desert
+
 BETA 69
 
 -renamed level 'Don't Fall to the Valley' to 'Penguins Don't Fly'
@@ -9,7 +13,7 @@ BETA 69
 -the 'To Find a Needle in a Haystack' achievement now works
 -fixed the secretarea in the level 'A Wavy Terrain'
 -added cutscene to level 'Penguins Don't Fly'
--added level 'Show Me What I've Missed'
+-added level 'Show Me What I've Missed' to the Swamp
 -added white wisps
 
 BETA 68
