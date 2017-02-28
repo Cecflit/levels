@@ -1089,3 +1089,7 @@ msgstr "Ukaž, co jsem přehlédl"
 #: data/levels/narre2/desert_flat_dry.stl:3
 msgid "Flat and Dry"
 msgstr "Plochá a vyschlá"
+
+#: data/levels/narre2/volcano_frying_hot.stl:3
+msgid "Frying Hot"
+msgstr "Smažírna"
