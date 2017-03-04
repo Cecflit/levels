@@ -1093,3 +1093,7 @@ msgstr "Plochá a vyschlá"
 #: data/levels/narre2/volcano_frying_hot.stl:3
 msgid "Frying Hot"
 msgstr "Smažírna"
+
+#: data/levels/narre2/river_spikiness.stl:3
+msgid "Some Extra Spikiness"
+msgstr "Bodlákovost navíc"
