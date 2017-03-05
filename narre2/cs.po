@@ -1097,3 +1097,7 @@ msgstr "Smažírna"
 #: data/levels/narre2/river_spikiness.stl:3
 msgid "Some Extra Spikiness"
 msgstr "Bodlákovost navíc"
+
+#: data/levels/narre2/stonecave_ladder-jumping.stl:3
+msgid "Ladder Jumping"
+msgstr "Skákání po žebřících"
