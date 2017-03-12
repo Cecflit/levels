@@ -113,7 +113,7 @@ msgid "Welcome to the Swamp of Ghosts"
 msgstr "Vítej v Bažině Duchů"
 
 #: data/levels/narre2/meadows_stripy_structure.stl:3
-msgid "Stripy Structure"
+msgid "Striped Structure"
 msgstr "Pruhovaná struktura"
 
 #: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:77
@@ -1101,3 +1101,7 @@ msgstr "Bodlákovost navíc"
 #: data/levels/narre2/stonecave_ladder-jumping.stl:3
 msgid "Ladder Jumping"
 msgstr "Skákání po žebřících"
+
+#: data/levels/narre2/stonecave_ladder-jumping.stl:3
+msgid "A Green Plateau"
+msgstr "Zelená plošina"
