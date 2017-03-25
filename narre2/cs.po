@@ -1109,3 +1109,7 @@ msgstr "Zelená plošina"
 #: data/levels/narre2/geysers_sulphur_yellow.stl:3
 msgid "Sulphur Yellow"
 msgstr "Sírová žluť"
+
+#: data/levels/narre2/fortress_moving_spikes.stl:3
+msgid "Moving Spikes"
+msgstr "Pohybodláky"
