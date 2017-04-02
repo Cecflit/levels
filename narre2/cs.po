@@ -1113,3 +1113,7 @@ msgstr "Sírová žluť"
 #: data/levels/narre2/fortress_moving_spikes.stl:3
 msgid "Moving Spikes"
 msgstr "Pohybodláky"
+
+#: data/levels/narre2/matrix_pushers.stl:3
+msgid "Pushers"
+msgstr "Odhazovače"

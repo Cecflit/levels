@@ -1,6 +1,3 @@
-//Reset boats in worldmap
-//state.worlds.levels/narre2/worldmap\.stwm.sprite\-changes <- false;
-
 //Icicles Info Check
 if (!("icicleinformation" in state)) {
  state.icicleinformation <- false;
@@ -559,6 +556,11 @@ if (!("w18_lboxbeam_s1" in state)) {
  state.w18_lboxbeam_s1 <- false;
 }
 
+//Matrix, level Pushers, secret area 1
+if (!("w18_lpushers_s1" in state)) {
+ state.w18_lpushers_s1 <- false;
+}
+
 //Worldmap (underground and caves)
 if(! ("underground" in state)){
 	state.underground <- false;
@@ -570,7 +572,7 @@ function random(max) {
 
 function check_secretareas(){
 
-    if(state.w17_lmovings_s1 && state.w15_lgrplateau_s1 && state.w14_lladderjump_s1 && state.w10_lshowme_s1 && state.w1_lfrozenhills_s1 && state.w1_lfrozenhills_s2 && state.w1_ldownfrozencave_s1 && state.w1_ldownfrozencave_s2 && state.w1_ljustanothersnowyday_s1 && state.w1_ljustanothersnowyday_s2 && state.w1_licypath_s1 && state.w2_lwelcomeforest_s1 && state.w2_loverglade_s1 && state.w2_lmoisttunnel_s1 && state.w2_lmolehole_s1 && state.w3_lwelcomejungle_s1 && state.w3_lsneakycliff_s1 && state.w4_lhillderground_s1 && state.w4_lgenerictunnel_s1 && state.w5_lwelcomemountains_s1 && state.w5_lreallyhigh_s1 && state.w5_ldontvalley_s1 && state.w6_lfrozendepth_s1 && state.w6_lfrozendepth_s2 && state.w6_lspikes_s1 && state.w6_lfreezingcave_s1 && state.w7_lwelcomecrystal_s1 && state.w7_ldiamondssector_s1 && state.w8_llakevalley_s1 && state.w9_ltreeguards_s1 && state.w10_lmuddylakes_s1 && state.w10_lmuddylakes_s2 && state.w11_lwelcomedesert_s1 && state.w11_lsandcave_s1 && state.w11_lnoshade_s1 && state.w12_lwelcomevolcano_s1 && state.w12_lerupt_s1 && state.w12_lburnbridge_s1 && state.w13_lwelcomeriver_s1 && state.w13_lboatwrld_s1 && state.w13_lweird_s1 && state.w13_lspiky_s1 && state.w14_lwelcomenrwcave_s1 && state.w14_lceilcoll_s1 && state.w14_lzigzag_s1 && state.w14_lzigzag_s2 && state.w14_lzigzag_s3 && state.w14_lzigzag_s4 && state.w15_lwavy_s1 && state.w15_lplainflowers_s1 && state.w15_lstripy_s1 && state.w16_lwelcomegeysers_s1 && state.w17_lwelcomefort_s1 && state.w17_lspacedng_s1 && state.w17_lspacedng_s2 && state.w17_lflood_s1 && state.w17_llavapol_s1 && state.w18_lwelcomematr_s1 && state.w18_llasertraps_s1 && state.w18_llifts_s1 && state.w18_lboxbeam_s1 && !state.achievement_to_find_a_needle_in_a_haystack){
+    if(state.w18_lpushers_s1 && state.w17_lmovings_s1 && state.w15_lgrplateau_s1 && state.w14_lladderjump_s1 && state.w10_lshowme_s1 && state.w1_lfrozenhills_s1 && state.w1_lfrozenhills_s2 && state.w1_ldownfrozencave_s1 && state.w1_ldownfrozencave_s2 && state.w1_ljustanothersnowyday_s1 && state.w1_ljustanothersnowyday_s2 && state.w1_licypath_s1 && state.w2_lwelcomeforest_s1 && state.w2_loverglade_s1 && state.w2_lmoisttunnel_s1 && state.w2_lmolehole_s1 && state.w3_lwelcomejungle_s1 && state.w3_lsneakycliff_s1 && state.w4_lhillderground_s1 && state.w4_lgenerictunnel_s1 && state.w5_lwelcomemountains_s1 && state.w5_lreallyhigh_s1 && state.w5_ldontvalley_s1 && state.w6_lfrozendepth_s1 && state.w6_lfrozendepth_s2 && state.w6_lspikes_s1 && state.w6_lfreezingcave_s1 && state.w7_lwelcomecrystal_s1 && state.w7_ldiamondssector_s1 && state.w8_llakevalley_s1 && state.w9_ltreeguards_s1 && state.w10_lmuddylakes_s1 && state.w10_lmuddylakes_s2 && state.w11_lwelcomedesert_s1 && state.w11_lsandcave_s1 && state.w11_lnoshade_s1 && state.w12_lwelcomevolcano_s1 && state.w12_lerupt_s1 && state.w12_lburnbridge_s1 && state.w13_lwelcomeriver_s1 && state.w13_lboatwrld_s1 && state.w13_lweird_s1 && state.w13_lspiky_s1 && state.w14_lwelcomenrwcave_s1 && state.w14_lceilcoll_s1 && state.w14_lzigzag_s1 && state.w14_lzigzag_s2 && state.w14_lzigzag_s3 && state.w14_lzigzag_s4 && state.w15_lwavy_s1 && state.w15_lplainflowers_s1 && state.w15_lstripy_s1 && state.w16_lwelcomegeysers_s1 && state.w17_lwelcomefort_s1 && state.w17_lspacedng_s1 && state.w17_lspacedng_s2 && state.w17_lflood_s1 && state.w17_llavapol_s1 && state.w18_lwelcomematr_s1 && state.w18_llasertraps_s1 && state.w18_llifts_s1 && state.w18_lboxbeam_s1 && !state.achievement_to_find_a_needle_in_a_haystack){
 		Text.set_text(_("Achievement get!\n\nTo Find a Needle in a Haystack"));
 		state.achievement_to_find_a_needle_in_a_haystack <- true;
 		Text.fade_in(1);
