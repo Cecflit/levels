@@ -1117,3 +1117,7 @@ msgstr "Pohybodláky"
 #: data/levels/narre2/matrix_pushers.stl:3
 msgid "Pushers"
 msgstr "Odhazovače"
+
+#: data/levels/narre2/iceberg_pipe_jumping.stl:3
+msgid "Pipe Jumping"
+msgstr "Skákání po trubkách"
