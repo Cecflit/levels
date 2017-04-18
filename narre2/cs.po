@@ -1121,3 +1121,7 @@ msgstr "Odhazovače"
 #: data/levels/narre2/iceberg_pipe_jumping.stl:3
 msgid "Pipe Jumping"
 msgstr "Skákání po trubkách"
+
+#: data/levels/narre2/forest_forest_spring.stl:3
+msgid "A Forest Spring"
+msgstr "Lesní studánka"
