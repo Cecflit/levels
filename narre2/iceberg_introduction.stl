@@ -67,13 +67,13 @@ if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
       (y 896)
     )
     (infoblock
-      (message (_ "-More Sense than Luck
+      (message (_ "-More Brains than Luck
 #Win the final joust without single restart"))
       (x 3584)
       (y 896)
     )
     (infoblock
-      (message (_ "-More Luck than Sense
+      (message (_ "-More Luck than Brains
 #Jump into the dangerous hole and survive"))
       (x 3840)
       (y 896)
@@ -104,13 +104,13 @@ if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
     )
     (infoblock
       (message (_ "-Classic Sidescroller
-#Find the red flower from original Mario game"))
+#Find the red flower from the original Mario game"))
       (x 5120)
       (y 896)
     )
     (infoblock
       (message (_ "-Mercy
-#Spare the Tumbleweed boss as he gives up"))
+#Spare the Tumbleweed boss when he surrenders"))
       (x 5376)
       (y 896)
     )

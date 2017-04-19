@@ -543,12 +543,12 @@ msgid ""
 msgstr "-Líný inženýr\n#Oprav ten zatracený výtah a vyhni se schodišti"
 
 msgid ""
-"-More Sense than Luck\n"
+"-More Brains than Luck\n"
 "#Win the final joust without single restart"
 msgstr "-Více rozumu než štěstí\n#Vyhraj finální souboj bez jediného restartu"
 
 msgid ""
-"-More Luck than Sense\n"
+"-More Luck than Brains\n"
 "#Jump into the dangerous hole and survive"
 msgstr "-Více štěstí než rozumu\n#Skoč do nebezpečné díry a přežij"
 
@@ -574,12 +574,12 @@ msgstr "-Prostě to udělej\n#Proskoč v Matrixu zkrz lávopád"
 
 msgid ""
 "-Classic Sidescroller\n"
-"#Find the red flower from original Mario game"
+"#Find the red flower from the original Mario game"
 msgstr "-Klasická plošinovka\n#Najdi červenou květinu z originální hry Mario"
 
 msgid ""
 "-Mercy\n"
-"#Spare the Tumbleweed boss as he gives up"
+"#Spare the Tumbleweed boss when he surrenders"
 msgstr "-Milost\n#Ušetři šéfa Plevele když se vzdá"
 
 msgid "Leave"
@@ -1125,3 +1125,7 @@ msgstr "Skákání po trubkách"
 #: data/levels/narre2/forest_forest_spring.stl:3
 msgid "A Forest Spring"
 msgstr "Lesní studánka"
+
+#: data/levels/narre2/jungle_entering_the_tomb.stl:3
+msgid "Entering the Tomb"
+msgstr "Vstup do hrobky"
