@@ -1129,3 +1129,7 @@ msgstr "Lesní studánka"
 #: data/levels/narre2/jungle_entering_the_tomb.stl:3
 msgid "Entering the Tomb"
 msgstr "Vstup do hrobky"
+
+#: data/levels/narre2/underground_waterfalls.stl:3
+msgid "Underground Waterfalls"
+msgstr "Podzemní vodopády"
