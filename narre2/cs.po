@@ -1130,6 +1130,10 @@ msgstr "Lesní studánka"
 msgid "Entering the Tomb"
 msgstr "Vstup do hrobky"
 
-#: data/levels/narre2/underground_waterfalls.stl:3
+#: data/levels/narre2/underground_underground_waterfalls.stl:3
 msgid "Underground Waterfalls"
 msgstr "Podzemní vodopády"
+
+#: data/levels/narre2/mountains_a_steep_mountain.stl:3
+msgid "A Steep Mountain"
+msgstr "Strmá hora"

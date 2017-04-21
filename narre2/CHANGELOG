@@ -1,5 +1,9 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 82
+
+-added level 'A Steep Mountain' to the Mountains
+
 BETA 81
 
 -added level 'Underground Waterfalls' to the Underground
@@ -387,7 +391,7 @@ BETA 25
 -removed 'Snake' sprite from images
 -removed 'WalkingLeaf' sprite from images
 -removed useless images from other sprites
--changed all 'Jumpys' to 'Wooden Jumpys' ('SnowJumpys' kept)
+-changed all 'Jumpies' to 'Wooden Jumpies' ('SnowJumpies' kept)
 -renamed this file (0-CHANGES => CHANGELOG.txt) (openable also on OM (Operating Mess) Windows (it needs that *.txt))
 -replaced some fireflowers with iceflowers
 -fixed bug in worldmap - Rocks Main Building is now present
@@ -522,7 +526,7 @@ BETA 7
 
 BETA 6
 
--removed all images, which can be found in main 'images' folder. They are now loaded from there.
+-removed all images which can be found in main 'images' folder. They are now loaded from there.
 -added some images for 'Geysers'
 -added Volcano and Desert background
 
