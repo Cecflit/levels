@@ -1137,3 +1137,7 @@ msgstr "Podzemní vodopády"
 #: data/levels/narre2/mountains_a_steep_mountain.stl:3
 msgid "A Steep Mountain"
 msgstr "Strmá hora"
+
+#: data/levels/narre2/icecave_its_getting_a_bit_slippery.stl:3
+msgid "It's Getting a Bit Slippery"
+msgstr "Začíná to klouzat"
