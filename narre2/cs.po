@@ -1141,3 +1141,7 @@ msgstr "Strmá hora"
 #: data/levels/narre2/icecave_its_getting_a_bit_slippery.stl:3
 msgid "It's Getting a Bit Slippery"
 msgstr "Začíná to klouzat"
+
+#: data/levels/narre2/crystalcave_ruby_red.stl:3
+msgid "Ruby Red"
+msgstr "Rubínová červeň"
