@@ -361,15 +361,15 @@ Text.fade_out(1);
       (x 8704)
       (y 544)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 8)
       (height 668)
       (x 16372)
       (y 0)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"icecanyon_unstable_bridges.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 652)
       (x 15776)

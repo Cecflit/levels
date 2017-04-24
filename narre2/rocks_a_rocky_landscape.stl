@@ -149,25 +149,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (y 544)
     )
     (bonusblock
-      (script "Tux.deactivate();
-sector.Effect.sixteen_to_nine(1);
-Text.set_anchor_point(ANCHOR_BOTTOM);
-Text.set_pos(0,-78);
-Text.set_text(_(\"Jop, another information block. This one\\nsays: \\\"The code to the creator's\\nbrain is 363.\\\". Interesting, that's my\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/info_363_1.ogg\"));}
-if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/info_363_2.ogg\"));}
-Text.set_text(_(\"favourite number.\"));
-wait(7);
-if(state.subtitles){Text.fade_out(1);
-wait(1);}
-sector.Effect.four_to_three(1);
-wait(1);
-Text.set_anchor_point(ANCHOR_MIDDLE);
-Tux.activate();")
-      (contents "script")
-      (sprite "levels/narre2/images/objects/bonus_block/cutsceneblock.sprite")
+      (contents "explode")
       (x 8704)
       (y 256)
     )
@@ -384,15 +366,15 @@ Text.fade_out(1);
       (x 7712)
       (y 736)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"rocks_a_rocky_landscape.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 632)
       (x 15584)
       (y 32)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 8)
       (height 632)
       (x 16372)

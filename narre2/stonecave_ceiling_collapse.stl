@@ -658,15 +658,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 5024)
       (y 468)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"stonecave_ceiling_collapse.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 300)
       (x 15744)
       (y 468)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 18)
       (height 300)
       (x 16366)

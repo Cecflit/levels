@@ -270,15 +270,15 @@ Text.fade_out(1);
       (x 7744)
       (y 672)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"geysers_a_bit_deeper_puddles.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 904)
       (x 15776)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 28.5)
       (height 823.5)
       (x 16360.5)

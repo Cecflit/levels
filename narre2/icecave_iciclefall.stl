@@ -526,15 +526,15 @@ Text.fade_out(1);
       (x 6640)
       (y 2912)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"icecave_iciclefall.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 364)
       (x 15872)
       (y 3028)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 364)
       (x 16372)

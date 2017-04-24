@@ -198,15 +198,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 5760)
       (y 480)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"forest_welcome_to_narres_forest.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 460)
       (x 15680)
       (y 0)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 460)
       (x 16288)
@@ -512,7 +512,7 @@ Tux.activate()")
     )
     (tilemap
       (solid #f)
-      (z-pos -71)
+      (z-pos -69)
       (name "tozeleny")
       (width 512)
       (height 35)

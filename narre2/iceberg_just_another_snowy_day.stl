@@ -8,16 +8,16 @@
   (sector
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -194)
     )
     (particles-snow
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -194)
     )
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -194)
     )
     (name "main")
     (music "music/chipdisko.ogg")
@@ -32,7 +32,7 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
-      (layer -38)
+      (layer -199)
     )
     (bouncingsnowball
       (x 7029.479)
@@ -191,15 +191,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 2498.97)
       (y -10.32123)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"iceberg_just_another_snowy_day.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 588)
       (x 15680)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 60)
       (height 312)
       (x 16288)
@@ -249,7 +249,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (tilemap
       (solid #f)
       (speed 0.5)
-      (z-pos -36)
+      (z-pos -196)
       (width 512)
       (height 32)
       (tiles
@@ -290,7 +290,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     (tilemap
       (solid #f)
       (speed 0.2)
-      (z-pos -37)
+      (z-pos -197)
       (width 512)
       (height 32)
       (tiles
@@ -371,7 +371,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -193)
       (name "backdeco")
       (width 512)
       (height 32)
@@ -576,7 +576,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -35)
+      (z-pos -195)
       (name "poz")
       (width 512)
       (height 32)

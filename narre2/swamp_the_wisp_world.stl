@@ -219,15 +219,15 @@ Tux.activate();}")
       (x 1120)
       (y 32)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"swamp_the_wisp_world.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 748)
       (x 15648)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 748)
       (x 16256)

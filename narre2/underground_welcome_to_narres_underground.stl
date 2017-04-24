@@ -413,15 +413,15 @@ Text.fade_out(1);
       (x 7424)
       (y 544)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"underground_welcome_to_narres_underground.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 300)
       (x 14944)
       (y 436)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 328)
       (x 15732)

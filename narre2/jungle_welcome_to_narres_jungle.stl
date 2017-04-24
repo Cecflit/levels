@@ -935,15 +935,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 16800)
       (y 160)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"jungle_welcome_to_narres_jungle.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 168)
       (x 17408)
       (y 372)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 276)
       (x 17972)
@@ -1067,7 +1067,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -98)
       (name "BGTrees")
       (width 562)
       (height 35)
@@ -1111,7 +1111,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 2)
+      (z-pos -97)
       (name "BGBranches")
       (path
         (node
@@ -1161,7 +1161,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -90)
       (name "BGDecorations")
       (width 562)
       (height 35)
@@ -1299,7 +1299,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #t)
-      (z-pos 4)
+      (z-pos 0)
       (name "Bonuses")
       (width 562)
       (height 35)

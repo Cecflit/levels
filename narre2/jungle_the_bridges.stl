@@ -448,7 +448,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 7936)
@@ -882,15 +882,15 @@ Text.fade_out(1);
       (x 7936)
       (y 672)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"jungle_the_bridges.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 428)
       (x 15712)
       (y 404)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 428)
       (x 16372)
@@ -898,7 +898,7 @@ Text.fade_out(1);
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -99)
     )
     (spawnpoint
       (name "main")
@@ -924,7 +924,7 @@ Text.fade_out(1);
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #t)
@@ -1016,7 +1016,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos 4)
+      (z-pos -80)
       (name "BGTrees")
       (width 512)
       (height 35)
@@ -1104,7 +1104,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 5)
+      (z-pos -65)
       (name "BGBranches")
       (path
         (node
@@ -1154,7 +1154,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 10)
+      (z-pos -60)
       (name "BGRight")
       (path
         (node
@@ -1304,7 +1304,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos 3)
+      (z-pos -89)
       (name "Vines")
       (path
         (node
@@ -1353,7 +1353,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 2)
+      (z-pos -90)
       (name "Plants")
       (width 512)
       (height 35)
@@ -1397,7 +1397,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 15)
+      (z-pos 0)
       (name "Bonuses")
       (width 512)
       (height 35)

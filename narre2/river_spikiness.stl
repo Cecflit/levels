@@ -647,12 +647,20 @@ Text.fade_out(1);
       (x 8128)
       (y 288)
     )
-    (sequencetrigger
-      (sequence "")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_spikiness.stl\"][\"solved\"]<-true;endseq();")
+      (button #f)
       (width 32)
       (height 460)
       (x 15792)
       (y -12)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 15)
+      (height 404)
+      (x 16366)
+      (y 52)
     )
     (spawnpoint
       (name "main")

@@ -309,15 +309,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 8034.5)
       (y 253.5)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"forest_over_the_glade.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 716)
       (x 15648)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 716)
       (x 16256)
@@ -676,7 +676,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -71)
+      (z-pos -69)
       (name "DyryZadi")
       (width 512)
       (height 35)

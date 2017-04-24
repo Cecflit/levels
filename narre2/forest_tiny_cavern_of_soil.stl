@@ -355,15 +355,15 @@ Text.fade_out(1);
       (x 7648)
       (y 512)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"forest_tiny_cavern_of_soil.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 780)
       (x 15808)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 780)
       (x 16256)
@@ -401,7 +401,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos -81)
+      (z-pos -79)
       (name "HoleBackground")
       (width 512)
       (height 35)

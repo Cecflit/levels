@@ -527,15 +527,15 @@ Text.fade_out(1);
       (x 8000)
       (y 928)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"icecanyon_three_layers.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 1292)
       (x 15744)
       (y 0)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 1308)
       (x 16372)

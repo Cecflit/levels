@@ -265,15 +265,15 @@ Tux.activate();}")
       (x 5600)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"swamp_a_friendly_enemy.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 684)
       (x 15744)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 684)
       (x 16312.93)

@@ -192,15 +192,15 @@ Text.fade_out(1);
       (x 7584)
       (y 544)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 19.97949)
       (height 994.6274)
       (x 16364.02)
       (y -32)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"geysers_shallow_lakes.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 972)
       (x 15584)

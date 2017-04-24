@@ -254,15 +254,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 10816)
       (y 1152)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"forest_a_moist_tunnel.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 1964)
       (x 15808)
       (y 32)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 1980)
       (x 16308)
@@ -387,7 +387,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
     )
     (tilemap
       (solid #f)
-      (z-pos -71)
+      (z-pos -69)
       (name "HolesBG")
       (width 512)
       (height 70)

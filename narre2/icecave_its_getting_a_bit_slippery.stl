@@ -434,15 +434,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (x 14080)
       (y 306.7588)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"icecave_its_getting_a_bit_slippery.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 268)
       (x 15840)
       (y 692)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 11.99805)
       (height 272)
       (x 16370.3)

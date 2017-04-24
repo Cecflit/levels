@@ -690,15 +690,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (x 5396)
       (y 384)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"stonecave_ladder-jumping.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 268)
       (x 16000)
       (y 596)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12.9082)
       (height 268)
       (x 16371.09)

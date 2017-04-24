@@ -266,15 +266,15 @@ Tux.activate();}")
       (x 7424)
       (y 0)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"iceberg_welcome_to_narres_iceberg.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 908)
       (x 15488)
       (y -448)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 908)
       (x 16288)

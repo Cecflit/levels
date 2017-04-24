@@ -304,15 +304,15 @@ Text.fade_out(1);
       (x 7680)
       (y 576)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 556)
       (x 16372)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"meadows_welcome_to_narres_meadows.stl\"][\"solved\"]<-true;endseq();")
       (width 28)
       (height 504)
       (x 15872)

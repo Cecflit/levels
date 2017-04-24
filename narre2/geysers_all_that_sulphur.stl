@@ -372,15 +372,15 @@ Text.fade_out(1);
       (x 8145.226)
       (y 883.3676)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"geysers_all_that_sulphur.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 748)
       (x 15552)
       (y 64)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 10.5)
       (height 748)
       (x 16373)

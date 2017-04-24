@@ -392,15 +392,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 8096)
       (y 864)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"volcano_burning_bridges.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 620)
       (x 15712)
       (y 32)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 20.68555)
       (height 644.0416)
       (x 16364.73)

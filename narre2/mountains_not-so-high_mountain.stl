@@ -468,15 +468,15 @@ Text.fade_out(1);
       (x 10112)
       (y 5888)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"mountains_not-so-high_mountain.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 332)
       (x 15808)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 332)
       (x 16352)

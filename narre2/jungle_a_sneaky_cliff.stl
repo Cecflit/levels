@@ -650,7 +650,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 5904.67)
@@ -1668,15 +1668,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (x 9108.5)
       (y 1079)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"jungle_a_sneaky_cliff.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 524)
       (x 15840)
       (y 564)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 20)
       (height 524)
       (x 16362)
@@ -1684,7 +1684,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -99)
     )
     (spawnpoint
       (name "main")
@@ -1754,7 +1754,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #t)
@@ -1872,7 +1872,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #f)
-      (z-pos 2)
+      (z-pos -98)
       (name "Background")
       (width 512)
       (height 105)
@@ -1986,7 +1986,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #f)
-      (z-pos 8)
+      (z-pos -69)
       (name "BGTrees")
       (width 512)
       (height 105)
@@ -2100,7 +2100,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #t)
-      (z-pos 9)
+      (z-pos -68)
       (name "BGLeftBranches")
       (path
         (node
@@ -2170,7 +2170,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #t)
-      (z-pos 10)
+      (z-pos -65)
       (name "BGRightBranches")
       (path
         (node
@@ -2806,8 +2806,8 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #t)
-      (z-pos 6)
-      (name "GroundVendure")
+      (z-pos -80)
+      (name "GroundVerdure")
       (width 512)
       (height 105)
       (tiles
@@ -2920,7 +2920,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
     )
     (tilemap
       (solid #f)
-      (z-pos 7)
+      (z-pos -70)
       (name "Vines")
       (path
         (node

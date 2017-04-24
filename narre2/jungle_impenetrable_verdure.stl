@@ -625,7 +625,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 8704)
@@ -1142,22 +1142,22 @@ Text.fade_out(1);
       (x 8704)
       (y 608)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"jungle_impenetrable_verdure.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 364)
       (x 17184)
       (y 340)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 380)
       (x 17972)
       (y 352)
     )
     (particles-rain
-      (z-pos 0)
+      (z-pos -99)
       (name "WEATH_2")
     )
     (spawnpoint
@@ -1196,7 +1196,7 @@ Text.fade_out(1);
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #t)
@@ -1294,7 +1294,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos 2)
+      (z-pos -98)
       (name "BGTrees")
       (width 562)
       (height 35)
@@ -1338,7 +1338,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 5)
+      (z-pos -70)
       (name "BGBranches")
       (path
         (node
@@ -1388,7 +1388,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -90)
       (name "BGDecorations")
       (width 562)
       (height 35)
@@ -1526,7 +1526,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 6)
+      (z-pos 0)
       (name "Bonuses")
       (width 562)
       (height 35)
@@ -1614,7 +1614,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 4)
+      (z-pos -89)
       (name "BGLeft")
       (path
         (node

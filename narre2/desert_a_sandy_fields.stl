@@ -346,15 +346,15 @@ Text.fade_out(1);
       (x 7360)
       (y 576)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 620)
       (x 16352)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"desert_a_sandy_fields.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 620)
       (x 15584)

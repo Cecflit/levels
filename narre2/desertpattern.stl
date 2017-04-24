@@ -193,15 +193,15 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (x 12544)
       (y 576)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"kokotpycacara\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 844)
       (x 15744)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 13.61523)
       (height 844)
       (x 16370.38)

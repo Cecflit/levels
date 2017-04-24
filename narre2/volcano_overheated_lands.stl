@@ -346,15 +346,15 @@ Text.fade_out(1);
       (x 7728)
       (y 832)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"volcano_overheated_lands.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 844)
       (x 15680)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 12)
       (height 844)
       (x 16372)

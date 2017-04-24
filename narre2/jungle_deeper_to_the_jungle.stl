@@ -437,7 +437,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-clouds
       (name "WEATH_1")
-      (z-pos 0)
+      (z-pos -99)
     )
     (firefly
       (x 7216)
@@ -817,7 +817,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (particles-rain
       (name "WEATH_2")
-      (z-pos 0)
+      (z-pos -99)
     )
     (scripttrigger
       (script "if(state.achievement_i_wont_die_anyway == 1){
@@ -834,15 +834,15 @@ Text.fade_out(1);
       (x 7216)
       (y 352)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"jungle_deeper_to_the_jungle.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 332)
       (x 17504)
       (y 372)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 13.61523)
       (height 338.364)
       (x 17968.97)
@@ -868,11 +868,11 @@ Text.fade_out(1);
     (thunderstorm
       (running #f)
       (name "WEATH_3")
-      (layer 0)
+      (layer -99)
     )
     (tilemap
       (solid #f)
-      (z-pos 1)
+      (z-pos -80)
       (name "BGTrees")
       (width 562)
       (height 35)
@@ -916,7 +916,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 3)
+      (z-pos -67)
       (name "BGBranches")
       (path
         (node
@@ -966,7 +966,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 4)
+      (z-pos -61)
       (name "BGDecorations")
       (width 562)
       (height 35)
@@ -1104,7 +1104,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #t)
-      (z-pos 2)
+      (z-pos -70)
       (name "BGLeft")
       (path
         (node
@@ -1380,7 +1380,7 @@ Text.fade_out(1);
     )
     (tilemap
       (solid #f)
-      (z-pos 5)
+      (z-pos -60)
       (name "Vines")
       (path
         (node

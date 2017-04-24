@@ -57,7 +57,7 @@ zadni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/images
     )
     (tilemap
       (solid #f)
-      (z-pos -85)
+      (z-pos -75)
       (name "HoleBackground")
       (width 512)
       (height 35)

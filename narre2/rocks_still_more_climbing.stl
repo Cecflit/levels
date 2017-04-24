@@ -365,15 +365,15 @@ Text.fade_out(1);
       (x 7936)
       (y 1568)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"rocks_still_more_climbing.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 396)
       (x 15808)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 18.56543)
       (height 396)
       (x 16365.43)

@@ -754,15 +754,15 @@ Text.fade_out(1);
       (x 8000)
       (y 3200)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"crystalcave_beauty_this_cave.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 428)
       (x 15712)
       (y 2676)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 13)
       (height 431)
       (x 16372)

@@ -312,15 +312,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 12224)
       (y 320)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_weird_lampy_something.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 448.8394)
       (x 16015.83)
       (y 0)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 31.99902)
       (height 448.8394)
       (x 16359.83)

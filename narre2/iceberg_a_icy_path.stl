@@ -76,30 +76,7 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
       (x 14720)
       (y 512)
     )
-    (bonusblock
-      (script "Tux.deactivate();
-sector.Effect.sixteen_to_nine(1);
-Text.set_anchor_point(ANCHOR_BOTTOM);
-Text.set_pos(0,-78);
-Text.set_text(_(\"Hmm.. I think I can smell some tasty\\ninformation. This block is hiding it.\\nLet me read it. It says: \\\"Some\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/info_666_1.ogg\"));}
-if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/info_666_2.ogg\"));}
-Text.set_text(_(\"superstitious people believe, that 666\\nis the devil's number.\\\" Okay, I bet\\nyou've known this already, but it\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/info_666_3.ogg\"));}
-Text.set_text(_(\"might be useful ayway.\"));
-wait(7);
-if(state.subtitles){Text.fade_out(1);
-wait(1);}
-sector.Effect.four_to_three(1);
-wait(1);
-Text.set_anchor_point(ANCHOR_MIDDLE);
-Tux.activate();")
-      (count -1)
-      (contents "script")
-      (sprite "levels/narre2/images/objects/bonus_block/cutsceneblock.sprite")
+    (coin
       (x 5840)
       (y 800)
     )
@@ -225,15 +202,15 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (x 11296)
       (y -12)
     )
-    (sequencetrigger
-      (sequence "endsequence")
+    (scripttrigger
+      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"iceberg_a_icy_path.stl\"][\"solved\"]<-true;endseq();")
       (width 32)
       (height 468)
       (x 15552)
       (y 20)
     )
-    (sequencetrigger
-      (sequence "stoptux")
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
       (width 32)
       (height 468)
       (x 16288)
