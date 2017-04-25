@@ -1145,3 +1145,7 @@ msgstr "Rubínová červeň"
 #: data/levels/narre2/rocks_exploring_the_lake.stl:3
 msgid "Exploring the Lake"
 msgstr "Průzkum jezera"
+
+#: data/levels/narre2/icecanyon_fairly_frosty_place.stl:3
+msgid "A Fairly Frosty Place"
+msgstr "Vcelku mrazivé místo"

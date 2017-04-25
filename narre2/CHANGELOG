@@ -1,10 +1,15 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 86
+
+-added general notification images (intended for future use)
+-added level 'A Fairly Frosty Place' to the IceCanyon
+
 BETA 85
 
 -fixed various bugs
 -removed Final Info blocks and cutscenes
--added achievement 'Grand Traveller'
+-added achievement 'The Grand Traveller'
 -added level 'Exploring the Lake' to the Rocks
 -updated Czech translations
 
