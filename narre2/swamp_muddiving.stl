@@ -88,7 +88,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (bonusblock
       (script "")
       (contents "explode")
-      (sprite "images/objects/bonus_block/invisibleblock.sprite")
+      (sprite "images/objects/bonus_block/hiddenbonus.sprite")
       (x 9056)
       (y 416)
     )

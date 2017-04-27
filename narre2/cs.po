@@ -1150,6 +1150,10 @@ msgstr "Průzkum jezera"
 msgid "A Fairly Frosty Place"
 msgstr "Vcelku mrazivé místo"
 
-#: data/levels/narre2/icecanyon_fairly_frosty_place.stl:3
+#: data/levels/narre2/swamp_muddiving.stl:3
 msgid "Muddiving"
 msgstr "Blátoplavba"
+
+#: data/levels/narre2/desert_b_quicksand_puddles.stl:3
+msgid "Quicksand Puddles"
+msgstr "Louže tekutého písku"
