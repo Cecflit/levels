@@ -1157,3 +1157,7 @@ msgstr "Blátoplavba"
 #: data/levels/narre2/desert_b_quicksand_puddles.stl:3
 msgid "Quicksand Puddles"
 msgstr "Louže tekutého písku"
+
+#: data/levels/narre2/volcano_a_burnt_plateau.stl:3
+msgid "A Burnt Plateau"
+msgstr "Spálená plošina"
