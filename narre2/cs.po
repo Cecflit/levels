@@ -1161,3 +1161,7 @@ msgstr "Louže tekutého písku"
 #: data/levels/narre2/volcano_a_burnt_plateau.stl:3
 msgid "A Burnt Plateau"
 msgstr "Spálená plošina"
+
+#: data/levels/narre2/river_yet_another_rotten_bridge.stl:3
+msgid "Yet Another Rotten Bridge"
+msgstr "Další shnilý most"
