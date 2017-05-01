@@ -1165,3 +1165,7 @@ msgstr "Spálená plošina"
 #: data/levels/narre2/river_yet_another_rotten_bridge.stl:3
 msgid "Yet Another Rotten Bridge"
 msgstr "Další shnilý most"
+
+#: data/levels/narre2/stonecave_stonecrushers.stl:3
+msgid "Rock Crushers"
+msgstr "Kamenodrtiči"
