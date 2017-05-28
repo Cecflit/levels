@@ -578,6 +578,11 @@ if (!("w15_lgrplateau_s1" in state)) {
  state.w15_lgrplateau_s1 <- false;
 }
 
+//Meadows, level Burning the Way, secret area 1
+if (!("w15_lburningway_s1" in state)) {
+ state.w15_lburningway_s1 <- false;
+}
+
 //Geysers, level Welcome to the Sulphur Geysers, secret area 1
 if (!("w16_lwelcomegeysers_s1" in state)) {
  state.w16_lwelcomegeysers_s1 <- false;

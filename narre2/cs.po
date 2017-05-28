@@ -1169,3 +1169,7 @@ msgstr "Další shnilý most"
 #: data/levels/narre2/stonecave_stonecrushers.stl:3
 msgid "Rock Crushers"
 msgstr "Kamenodrtiči"
+
+#: data/levels/narre2/meadows_burning_the_way.stl:3
+msgid "Burning the Way"
+msgstr "Propalování cesty"
