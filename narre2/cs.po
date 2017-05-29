@@ -1173,3 +1173,7 @@ msgstr "Kamenodrtiči"
 #: data/levels/narre2/meadows_burning_the_way.stl:3
 msgid "Burning the Way"
 msgstr "Propalování cesty"
+
+#: data/levels/narre2/geysers_more_of_the_steamy_world.stl:3
+msgid "More of the Steamy World"
+msgstr "Více ze světa par"
