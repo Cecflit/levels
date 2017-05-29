@@ -5,7 +5,7 @@ lose_request <- false;
 is_lost <- false;
 x_offset <- 0;
 y_offset <- 0;
-code <- [0,1,4,4,1,1,1,3];
+code <- [4,0,4,4,1,1,1,3];
 
 function display_number(x, y, num) {
   if (num == 0) {
