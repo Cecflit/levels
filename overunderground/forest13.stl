@@ -219,6 +219,10 @@ barabizny.tint_fade(0,0.3,0.3,0.3,1)")
       (x 10880)
       (y 1248)
     )
+    (firefly
+      (x 7552)
+      (y 992)
+    )
     (haywire
       (x 997)
       (y 328)
@@ -1281,7 +1285,7 @@ rournik.goto_node(1)
 wait(4)
 Level.spawn(\"kokos\",\"trololo\")
 sector.Tux.activaate()")
-    (ambient-light 1 1 1)
+    (ambient-light 0.2509804 0.2509804 0.2509804)
     (background
       (speed 0.5)
       (image "images/tiles/forest/underground/background1.png")
@@ -1410,6 +1414,16 @@ sector.Tux.activaate()")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (torch
+      (sprite "images/objects/torch/torch1.sprite")
+      (x 880)
+      (y 740)
+    )
+    (torch
+      (sprite "images/objects/torch/torch2.sprite")
+      (x 784)
+      (y 740)
     )
   )
   (sector
