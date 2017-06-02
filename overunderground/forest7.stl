@@ -11,7 +11,7 @@
     (init-script "if (state.overunderground.forest_gate) {
 	forest_gate.fade(0,0);
 } else {
-	Text.set_text(_(\"If you can't finish this level,\\nit's your problem.\"));
+	Text.set_text(_(\"Look for a lever located\\nsomewhere near the tower.\"));
 	Text.fade_in(0.2);
 }")
     (ambient-light 1 1 1)

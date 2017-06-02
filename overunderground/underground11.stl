@@ -11,7 +11,7 @@
     (init-script "if (state.overunderground.underground_gate) {
 	rournik.fade(0,0);
 } else {
-	Text.set_text(_(\"If you can't finish this level,\\nit's your problem.\"));
+	Text.set_text(_(\"Look for a lever located\\nin a forest village.\"));
 	Text.fade_in(0.2);
 }")
     (ambient-light 0.2509804 0.2509804 0.2509804)
