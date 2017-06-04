@@ -1177,3 +1177,7 @@ msgstr "Propalování cesty"
 #: data/levels/narre2/geysers_more_of_the_steamy_world.stl:3
 msgid "More of the Steamy World"
 msgstr "Více ze světa par"
+
+#: data/levels/narre2/fortress_exploring_the_dungeons.stl:3
+msgid "Exploring the Dungeons"
+msgstr "Průzkum sklepení"
