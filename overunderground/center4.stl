@@ -38,10 +38,6 @@
       (sprite "images/objects/keys/n_outline.png")
     )
     (decal
-      (x 864)
-      (y 800)
-    )
-    (decal
       (x 896)
       (y 832)
       (sprite "images/objects/door/door-0.png")
