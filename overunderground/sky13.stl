@@ -8,11 +8,11 @@
   (sector
     (name "main")
     (music "music/wisphunt.music")
-    (init-script "if (state.overunderground.sky_gaate) {
+    (init-script "if (state.overunderground.sky_gate) {
   paprsek.fade(0,0)
   paprsek2.fade(0,0)
 } else {
-  Text.set_text(_(\"Turn off the beam\\nlocated in the underground.\"))
+  Text.set_text(_(\"Turn off the beam source\\nlocated in the underground.\"))
   Text.fade_in(0.2)
 }")
     (ambient-light 0.2509804 0.2509804 0.2509804)
@@ -1488,7 +1488,7 @@
       (solid #f)
       (draw-target "lightmap")
       (z-pos 0)
-      (name "paprsek1")
+      (name "paprsek")
       (path
         (node
           (x 608)
