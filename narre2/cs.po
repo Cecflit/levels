@@ -1181,3 +1181,7 @@ msgstr "Více ze světa par"
 #: data/levels/narre2/fortress_exploring_the_dungeons.stl:3
 msgid "Exploring the Dungeons"
 msgstr "Průzkum sklepení"
+
+#: data/levels/narre2/matrix_laser_run.stl:3
+msgid "Laser Run"
+msgstr "Běh mezi lasery"
