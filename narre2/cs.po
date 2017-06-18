@@ -1185,3 +1185,7 @@ msgstr "Průzkum sklepení"
 #: data/levels/narre2/matrix_laser_run.stl:3
 msgid "Laser Run"
 msgstr "Běh mezi lasery"
+
+#: data/levels/narre2/iceberg_plains_of_ice.stl:3
+msgid "Plains of Ice"
+msgstr "Ledové pláně"
