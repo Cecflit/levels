@@ -1189,3 +1189,7 @@ msgstr "Běh mezi lasery"
 #: data/levels/narre2/iceberg_plains_of_ice.stl:3
 msgid "Plains of Ice"
 msgstr "Ledové pláně"
+
+#: data/levels/narre2/forest_running_through_the_woods.stl:3
+msgid "Running through the Woods"
+msgstr "Běh lesem"
