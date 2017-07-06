@@ -811,6 +811,7 @@
       (y 34)
     )
     (level
+      (name "jungle15.stl")
       (color 1 1 1)
       (sprite "images/worldmap/common/torch.sprite")
       (x 85)
@@ -900,13 +901,6 @@
       (color 1 1 1)
       (x 83)
       (y 47)
-    )
-    (level
-      (name "jungle15.stl")
-      (color 1 1 1)
-      (sprite "images/worldmap/common/torch.sprite")
-      (x 85)
-      (y 38)
     )
     (level
       (color 1 1 1)
