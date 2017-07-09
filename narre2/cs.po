@@ -1193,3 +1193,7 @@ msgstr "Ledové pláně"
 #: data/levels/narre2/forest_running_through_the_woods.stl:3
 msgid "Running through the Woods"
 msgstr "Běh lesem"
+
+#: data/levels/narre2/jungle_spiky_bushes.stl:3
+msgid "Thorny Bushes"
+msgstr "Trnité keře"

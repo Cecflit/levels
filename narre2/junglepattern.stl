@@ -32,7 +32,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (mode "normal")
     )
     (particles-clouds
-      (z-pos -97)
+      (z-pos -99)
     )
     (gradient
       (top_color 0 0.6366369 1)
