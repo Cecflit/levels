@@ -1197,3 +1197,7 @@ msgstr "Běh lesem"
 #: data/levels/narre2/jungle_spiky_bushes.stl:3
 msgid "Thorny Bushes"
 msgstr "Trnité keře"
+
+#: data/levels/narre2/underground_buried_ruins.stl:3
+msgid "Buried Ruins"
+msgstr "Pohřbené ruiny"
