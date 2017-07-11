@@ -1201,3 +1201,7 @@ msgstr "Trnité keře"
 #: data/levels/narre2/underground_buried_ruins.stl:3
 msgid "Buried Ruins"
 msgstr "Pohřbené ruiny"
+
+#: data/levels/narre2/mountains_high_in_the_sky.stl:3
+msgid "High in the Sky"
+msgstr "Vysoko v nebi"
