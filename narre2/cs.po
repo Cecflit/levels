@@ -1205,3 +1205,7 @@ msgstr "Pohřbené ruiny"
 #: data/levels/narre2/mountains_high_in_the_sky.stl:3
 msgid "High in the Sky"
 msgstr "Vysoko v nebi"
+
+#: data/levels/narre2/icecave_spikes_and_icecrushers.stl:3
+msgid "Spikes and Ice Crushers"
+msgstr "Bodláky a ledoví drtiči"
