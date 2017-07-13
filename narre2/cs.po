@@ -1209,3 +1209,7 @@ msgstr "Vysoko v nebi"
 #: data/levels/narre2/icecave_spikes_and_icecrushers.stl:3
 msgid "Spikes and Ice Crushers"
 msgstr "Bodláky a ledoví drtiči"
+
+#: data/levels/narre2/crystalcave_a_citrine_section.stl:3
+msgid "The Citrine Section"
+msgstr "Citrínová sekce"
