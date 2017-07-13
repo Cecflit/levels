@@ -903,12 +903,6 @@
       (y 47)
     )
     (level
-      (color 1 1 1)
-      (sprite "images/worldmap/common/torch.sprite")
-      (x 86)
-      (y 34)
-    )
-    (level
       (name "center3.stl")
       (color 1 1 1)
       (x 52)
