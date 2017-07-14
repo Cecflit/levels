@@ -1213,3 +1213,7 @@ msgstr "Bodláky a ledoví drtiči"
 #: data/levels/narre2/crystalcave_a_citrine_section.stl:3
 msgid "The Citrine Section"
 msgstr "Citrínová sekce"
+
+#: data/levels/narre2/rocks_an_underwater_cave.stl:3
+msgid "An Underwater Cave"
+msgstr "Podvodní jeskyně"
