@@ -1217,3 +1217,7 @@ msgstr "Citrínová sekce"
 #: data/levels/narre2/rocks_an_underwater_cave.stl:3
 msgid "An Underwater Cave"
 msgstr "Podvodní jeskyně"
+
+#: data/levels/narre2/icecanyon_an_isle_of_ice.stl:3
+msgid "An Isle of Ice"
+msgstr "Ostrůvek z ledu"
