@@ -1,15 +1,15 @@
-function add_key(key)
+function add_key(keyes)
 {
   local keys = state.overunderground;
-  keys[key] = true;
-  //update_keys();
+  keys[keyes] = true;
+  update_keys();
 }
 
-function toggle_key(key)
+function toggle_key(keyes)
 {
   local keys = state.overunderground;
-  keys[key] = !keys[key];
-  //update_keys();
+  keys[keyes] = !keys[keyes];
+  update_keys();
 }
 
 /*
@@ -45,31 +45,45 @@ foreach(name in ["underground", "forest", "sky", "jungle",
     keys[name] <- false;
 }
 
+local key_sprites = [
+  {id = "underground", sprite = "earth"},
+  {id = "forest", sprite = "water"},
+  {id = "sky", sprite = "air"},
+  {id = "jungle", sprite = "fire"}
+  ];
+
 /// this function updates the key images (call this if tux has collected a key)
-/*function update_keys()
+function update_keys()
 {
-	local keys = state.overunderground;
-	foreach(name in ["air", "earth", "wood", "fire", "water"])
+	foreach(key_sprite in key_sprites)
 	{
-	  key[name].set_action(keys[name] ? "display" : "outline");
+	  key[key_sprite.id].set_action(keys[key_sprite.id] ? "display" : "outline");
 	}
-}*/
+}
+
+function collect_key(keyes) {
+  add_key(keyes);
+  Tux.deactivate();
+  wait(0.5);
+  Tux.do_cheer();
+  end_level();
+}
 
 if(! ("key" in this))
  key <- {};
 
-/*local x = 10;
+local x = 10;
 local y = 10;
 
-foreach(name in ["air", "earth", "wood", "fire", "water"])
+foreach(key_sprite in key_sprites)
 {
-  if(! (name in key) ) {
-    key[name] <- FloatingImage("images/objects/keys/key_" + name + ".sprite");
-    key[name].set_anchor_point(ANCHOR_TOP_LEFT);
-    key[name].set_pos(x, y);
-    key[name].set_visible(true);
+  if(! (key_sprite.id in key) ) {
+    key[key_sprite.id] <- FloatingImage("images/objects/keys/key_" + key_sprite.sprite + ".sprite");
+    key[key_sprite.id].set_anchor_point(ANCHOR_TOP_LEFT);
+    key[key_sprite.id].set_pos(x, y);
+    key[key_sprite.id].set_visible(true);
   }
   x += 30;
 }
 
-update_keys();*/
+update_keys();
