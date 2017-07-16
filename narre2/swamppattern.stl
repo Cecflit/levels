@@ -53,7 +53,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (tilemap
       (solid #t)
-      (z-pos 100)
+      (z-pos 200)
       (name "Path")
       (width 512)
       (height 35)
@@ -97,7 +97,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (tilemap
       (solid #t)
-      (z-pos 95)
+      (z-pos 195)
       (name "Mud")
       (width 512)
       (height 35)
@@ -142,7 +142,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (tilemap
       (solid #t)
       (alpha 0)
-      (z-pos 106)
+      (z-pos 206)
       (name "elewaterover")
       (width 512)
       (height 35)
@@ -186,7 +186,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (tilemap
       (solid #t)
-      (z-pos 105)
+      (z-pos 205)
       (name "mudover")
       (width 512)
       (height 35)
@@ -231,7 +231,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     (tilemap
       (solid #t)
       (alpha 0)
-      (z-pos 96)
+      (z-pos 196)
       (name "elewater")
       (width 512)
       (height 35)

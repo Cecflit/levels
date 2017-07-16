@@ -1221,3 +1221,7 @@ msgstr "Podvodní jeskyně"
 #: data/levels/narre2/icecanyon_an_isle_of_ice.stl:3
 msgid "An Isle of Ice"
 msgstr "Ostrůvek z ledu"
+
+#: data/levels/narre2/swamp_a_wisp_overload.stl:3
+msgid "A Wisp Overload"
+msgstr "Přebludičkováno"
