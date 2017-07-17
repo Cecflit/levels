@@ -194,14 +194,7 @@ predni.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
       (y 648)
     )
     (scripttrigger
-      (script "if(state.achievement_i_wont_die_anyway == 1){
-state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
-Text.fade_in(1);
-play_sound(\"sounds/explosion.wav\");
-wait(2);
-Text.fade_out(1);
-}")
+      (script "lock_wontdie();")
       (button #f)
       (width 32)
       (height 32)
