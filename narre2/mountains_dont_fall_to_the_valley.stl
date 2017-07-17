@@ -438,12 +438,15 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
     )
     (scripttrigger
       (script "if (!jezibaba_snehurka && !state.achievement_penguins_do_fly){
-Text.set_text(_(\"Achievement get!\\n\\nPenguins Do Fly\"));
-state.achievement_penguins_do_fly <- true;
-Text.fade_in(1);
-play_sound(\"sounds/invincible_start.ogg\");
-wait(2);
-Text.fade_out(1);
+		state.achievement_penguins_do_fly <- true;
+		ach_img <- FloatingImage(\"levels/narre2/images/notifications/penguins_do_fly/achievement.png\");
+		ach_img.set_anchor_point(ANCHOR_TOP_RIGHT);
+		ach_img.set_pos(-20, 35);
+		ach_img.fade_in(0.5);
+		wait(0.05);
+		play_sound(\"levels/narre2/sound/notification.wav\");
+		wait(5);
+		ach_img.fade_out(0.5);
 }")
       (button #f)
       (width 1372)
@@ -452,14 +455,7 @@ Text.fade_out(1);
       (y 1696)
     )
     (scripttrigger
-      (script "if(state.achievement_i_wont_die_anyway == 1){
-state.achievement_i_wont_die_anyway <- 3;
-Text.set_text(_(\"Bad luck! You dead-locked an\\nachievement.\\nI Won't Die Anyway\"));
-Text.fade_in(1);
-play_sound(\"sounds/explosion.wav\");
-wait(2);
-Text.fade_out(1);
-}")
+      (script "lock_wontdie();")
       (button #f)
       (width 32)
       (height 32)

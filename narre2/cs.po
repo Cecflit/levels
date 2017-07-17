@@ -19,62 +19,33 @@ msgid "Narre's Multiworld"
 msgstr "Narreho Multisvět"
 
 #: INTRODUCTION
-msgid "Oh, hello, stranger, welcome to the \nNarre's Multiworld! So, you want to\nbeat all the levels here? Well, let me"
-msgstr "Jej, vítej, cizinče, vítej v Narreho\nMultisvětě! Takže, ty bys chtěl dokončit\nvšechny zdejší úrovně? Dobrá, nech mne"
 
-msgid "introduce you this world. This is Narre's\nMultiworld. It's the longest adventure\nin SuperTux yet - it has 18"
-msgstr "tedy představit ti tento svět. Tohle je\nNarreho Multisvět. Je to nejdelší\ndobrodružství v celém světě SuperTuxe -"
+msgid "Hello player. Welcome to the Narre's\nMultiworld, the longest adventure in\nSuperTux yet. To fully complete this"
+msgstr "Vítej hráči. Vítej v Narreho Multi-\nsvětě, zatím nejdelším dobrodružství\nv této hře. Abys plně dokončil tento"
 
-msgid "environments (20 levels + 1 secret\nlevel each) and 4 bonus environments\n(5 levels each). This plus intro and"
-msgstr "má 18 prostředí (20 úrovní + jedna\ntajná úroveň v každém) a 4 bonusová\nprostředí (5 úrovní v každém) Tohle a"
+msgid "world, you must finish all its four\nhundred levels. And you can also try\nto get all the achievements if you"
+msgstr "svět, musíš dokončit všech jeho čtyři\nsta úrovní. A taky můžeš zkusit získat\nvšechna ocenění, jestli se na to"
 
-msgid "Bonus Fork make total amount of 400\nlevels. No, you won't complete it within\none day. And it's not just that - this"
-msgstr "intro s Bonusovým Rozcestníkem\ndohromady dává 400 úrovní. Ne,\nnedokončíš je za jeden den. A nejen"
+msgid "feel like doing it. Before you start\nthough, you should know the story: Tux\nand Penny were having a picnic with"
+msgstr "cítíš. Nicméně předtím, něž začneš,\nbys měl znát celý příběh, který říká:\nTux a Penny měli piknik se svými"
 
-msgid "whole world has a story, so let me tell\nyou... Tux and Penny were having a nice\ntime with their neighbours, when,"
-msgstr "to - tento svět má svůj příběh, takže\nmě nech ti ho říct... Tux a Penny si\nužívali hezké chvíle se svými sousedy,"
+msgid "their neighbours when, suddenly, the\nneighbours disappeared. More creatures\ndisappeared over the next few weeks"
+msgstr "sousedy, když, znenadání, jejich\nsousedé zmizeli. Více stvoření zmizelo\nběhem několika dalších týdnů"
 
-msgid "suddenly, they disappeared. What the\nbloody hell is happening here? Tux\nasked. Within next few weeks, a lot"
-msgstr "když, najednou, zmizeli. Co se to ksakru\nděje? Zeptal se Tux. Během několika\ndalších týdnů zmizelo spoustu dalších"
+msgid "and when Penny disappered too, Tux\nhad already made his decision. He will\nfind out what is going on, he will save"
+msgstr "a když zmizela i Penny, Tux byl\nuž rozhodnutý. Zjistí, co se to děle,\nzachrání všechna zmizelá stvoření"
 
-msgid "more creatures disappeared. And it was\nnot just the good ones - ALL the\ncreatures were being kidnapped. One"
-msgstr "tvorů. A nebyli to jen ti dobří -\nVŠECHNA stvoření byla unášena.\nJednoho dne zmizela i Penny. Přímo"
+msgid "every disappeared creature and he will\nstop this madness. He will go to the\nMatrix, the only thing that has the"
+msgstr "a bude to právě on, kdo skončí\ntohle šílenství. Půjde do Matrixu,\njediné věci, která má dost síly na to"
 
-msgid "day, Penny disappeared too. Right in the\nfront of Tux. That was the last thing -\nTux made his decision and prepared to"
-msgstr "před Tuxovým zrakem. To byla poslední\nkapka - Tux učinil své rozhodnutí\na začal se připravovat na svou novou"
+msgid "power to cause such thing, and you,\nyou will help Tux in every situation,\ntricky or not. You have been chosen,"
+msgstr "něco takového udělat, a ty, ty\npomůžeš Tuxovi v každé situaci, zrádné\nnebo ne. Už jsi byl vybrán,"
 
-msgid "his new journey. Journey to the Matrix,\nthe only thing that has the power to do\nthat. But Matrix is far away and there"
-msgstr "výpravu. Výpravu do Matrixu, jediné\nvěci, která má tu moc něco takového\nudělat. Ale Matrix je opravdu daleko a"
+msgid "there is no way back."
+msgstr "není cesty zpět."
 
-msgid "are still many badguys left. This won't\nbe easy. It won't be easy at all. And\nyou, stranger, you will help Tux in every"
-msgstr "pořád ještě zbývá dost zlejšků. Tohle\nnebude jednoduché. Tohle nebude vůbec\njednoduché. A ty, cizinče, ty pomůžeš"
-
-msgid "situation. There's no way back. Now,\nI'll tell you all the information you will\nneed during the journey. First af all,"
-msgstr "Tuxovi v každé situaci. Není cesty zpět.\nTeď mě nech říct ti všechny informace,\nkteré budeš během výpravy potřebovat"
-
-msgid "defeating such powerful machine as the\nMatrix isn't going to be easy. Matrix is\nnot strong though, it's extremely"
-msgstr "znát. Za prvé, poražení tak mocného\nstroje jako je Matrix nebude\njednoduché. Ale Matrix není nijak silný,"
-
-msgid "logical machine, so all you will need to\ndefeat it is a lot of information. You\ncan find some info at the end of the"
-msgstr "je to extrémně logický stroj, takže\nvšechno, co budeš k jeho poražení\npotřebovat, jsou spousty informací."
-
-msgid "dead-ending paths, so don't miss it.\nSecond thing you might find useful is\nthis one: At the end of every island,"
-msgstr "Nějaké info můžeš najít na konci\nslepých uliček, takže to nemiň. Druhá\nvěc, která by mohla být užitečná je: Na"
-
-msgid "there is a boss you must defeat to get\nto the next island. Each of these\nbosses holds an innocent creature you"
-msgstr "konci každého ostrova žije šéf daného\nostrova, kterého musíš porazit, aby ses\nmohl dostat na další ostrov. Každý"
-
-msgid "can save. It's not necessary, but I\nknow you want to be nice. Another thing\nyou might wanna know something about"
-msgstr "z těchto šéfů drží nevinného tvora,\nkterého můžeš zachránit. Ačkoliv to není\nnezbytné, vím, že chceš být hodný."
-
-msgid "is achievements. Okay, this has nothing\nto do with the story, but if you usually\ncollect achievements in games, you might"
-msgstr "Další věc, o níž bys mohl chtít něco\nvědět, jsou ocenění. Budiž, tohle není\nnic, co má co dělat s příběhem, ale"
-
-msgid "also want to collect these. So, if you\nwant so, go to \"Show Me My\nAchievements\" in this level and read"
-msgstr "pokud běžně ve hrách sbíráš ocenění,\nasi budeš chtít získat i tato. Takže,\npokud máš zájem, jdi do \"Ukázat"
-
-msgid "what all you can get. Fine, enough of\ntalking, let's get started!"
-msgstr "moje ocenění\" v této úrovni a přečti\nsi, co všechno můžeš získat. Fajn,\ndost mluvení, pojďme na to!"
+msgid "\n               Good luck."
+msgstr "\n            Hodně štěstí."
 
 #: data/levels/narre2/iceberg_welcome_to_narres_iceberg.stl:3
 msgid "Welcome to the Freezing Iceberg"
@@ -752,36 +723,6 @@ msgstr "levels/narre2/speech/intro_8_czech.ogg"
 
 msgid "levels/narre2/speech/intro_9.ogg"
 msgstr "levels/narre2/speech/intro_9_czech.ogg"
-
-msgid "levels/narre2/speech/intro_10.ogg"
-msgstr "levels/narre2/speech/intro_10_czech.ogg"
-
-msgid "levels/narre2/speech/intro_11.ogg"
-msgstr "levels/narre2/speech/intro_11_czech.ogg"
-
-msgid "levels/narre2/speech/intro_12.ogg"
-msgstr "levels/narre2/speech/intro_12_czech.ogg"
-
-msgid "levels/narre2/speech/intro_13.ogg"
-msgstr "levels/narre2/speech/intro_13_czech.ogg"
-
-msgid "levels/narre2/speech/intro_14.ogg"
-msgstr "levels/narre2/speech/intro_14_czech.ogg"
-
-msgid "levels/narre2/speech/intro_15.ogg"
-msgstr "levels/narre2/speech/intro_15_czech.ogg"
-
-msgid "levels/narre2/speech/intro_16.ogg"
-msgstr "levels/narre2/speech/intro_16_czech.ogg"
-
-msgid "levels/narre2/speech/intro_17.ogg"
-msgstr "levels/narre2/speech/intro_17_czech.ogg"
-
-msgid "levels/narre2/speech/intro_18.ogg"
-msgstr "levels/narre2/speech/intro_18_czech.ogg"
-
-msgid "levels/narre2/speech/intro_19.ogg"
-msgstr "levels/narre2/speech/intro_19_czech.ogg"
 
 msgid "levels/narre2/speech/sneaky_cliff.ogg"
 msgstr "levels/narre2/speech/sneaky_cliff_czech.ogg"

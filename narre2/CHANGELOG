@@ -1,5 +1,12 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 106
+
+-achievement text changed to notifications (uses FloatingImages instead of Text)
+-shortened the introduction
+-introduction now uses FloatingImages instead of tilemaps
+-updated Czech translations
+
 BETA 105
 
 -added level 'A Wisp Overload' to the Swamp
