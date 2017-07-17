@@ -10,7 +10,7 @@
     (music "music/bossattack.ogg")
     (ambient-light 1 1 1)
     (background
-      (speed 0.5)
+      (speed 0)
       (image "images/background/nightsky_top.png")
     )
     (camera
