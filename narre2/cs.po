@@ -1166,3 +1166,7 @@ msgstr "Ostrůvek z ledu"
 #: data/levels/narre2/swamp_a_wisp_overload.stl:3
 msgid "A Wisp Overload"
 msgstr "Přebludičkováno"
+
+#: data/levels/narre2/desert_c_a_small_oasis.stl:3
+msgid "A Small Oasis"
+msgstr "Malá oáza"
