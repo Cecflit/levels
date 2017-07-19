@@ -1170,3 +1170,7 @@ msgstr "Přebludičkováno"
 #: data/levels/narre2/desert_c_a_small_oasis.stl:3
 msgid "A Small Oasis"
 msgstr "Malá oáza"
+
+#: data/levels/narre2/volcano_lava_lakes.stl:3
+msgid "Lava Lakes"
+msgstr "Lávová jezera"
