@@ -202,10 +202,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "N2")
+      (spawnpoint "A")
+      (x 64)
+      (y 768)
+    )
+    (door
+      (sector "N1")
+      (spawnpoint "A")
+      (x 800)
+      (y 1408)
+    )
+    (door
+      (sector "NH")
+      (spawnpoint "A")
+      (x 1440)
+      (y 768)
+    )
+    (door
+      (sector "NB")
+      (spawnpoint "A")
+      (x 736)
       (y 96)
+    )
+    (spawnpoint
+      (name "2")
+      (x 64)
+      (y 800)
+    )
+    (spawnpoint
+      (name "B")
+      (x 736)
+      (y 128)
+    )
+    (spawnpoint
+      (name "H")
+      (x 1440)
+      (y 800)
+    )
+    (spawnpoint
+      (name "1")
+      (x 800)
+      (y 1440)
     )
     (tilemap
       (solid #f)
@@ -392,10 +431,54 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NJ")
+      (spawnpoint "B")
+      (x 64)
+      (y 704)
+    )
+    (door
+      (sector "NA")
+      (spawnpoint "B")
+      (x 512)
+      (y 1408)
+    )
+    (door
+      (sector "NC")
+      (spawnpoint "B")
+      (x 512)
+      (y 96)
+    )
+    (door
+      (sector "NF")
+      (spawnpoint "B")
+      (x 2272)
+      (y 736)
+    )
     (spawnpoint
       (name "main")
-      (x 96)
-      (y 96)
+      (x 576)
+      (y 736)
+    )
+    (spawnpoint
+      (name "A")
+      (x 512)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "J")
+      (x 64)
+      (y 736)
+    )
+    (spawnpoint
+      (name "C")
+      (x 512)
+      (y 128)
+    )
+    (spawnpoint
+      (name "F")
+      (x 2272)
+      (y 768)
     )
     (tilemap
       (solid #f)
@@ -582,10 +665,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "N3")
+      (spawnpoint "C")
       (x 96)
+      (y 640)
+    )
+    (door
+      (sector "N4")
+      (spawnpoint "C")
+      (x 736)
+      (y 64)
+    )
+    (door
+      (sector "ND")
+      (spawnpoint "C")
+      (x 1440)
+      (y 736)
+    )
+    (door
+      (sector "NB")
+      (spawnpoint "C")
+      (x 672)
+      (y 1376)
+    )
+    (spawnpoint
+      (name "3")
+      (x 96)
+      (y 672)
+    )
+    (spawnpoint
+      (name "4")
+      (x 736)
       (y 96)
+    )
+    (spawnpoint
+      (name "D")
+      (x 1440)
+      (y 768)
+    )
+    (spawnpoint
+      (name "B")
+      (x 672)
+      (y 1408)
     )
     (tilemap
       (solid #f)
@@ -772,10 +894,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NC")
+      (spawnpoint "D")
       (x 96)
+      (y 576)
+    )
+    (door
+      (sector "NL")
+      (spawnpoint "D")
+      (x 704)
       (y 96)
+    )
+    (door
+      (sector "NE")
+      (spawnpoint "D")
+      (x 1440)
+      (y 608)
+    )
+    (door
+      (sector "NH")
+      (spawnpoint "D")
+      (x 768)
+      (y 2208)
+    )
+    (spawnpoint
+      (name "L")
+      (x 704)
+      (y 128)
+    )
+    (spawnpoint
+      (name "C")
+      (x 96)
+      (y 608)
+    )
+    (spawnpoint
+      (name "E")
+      (x 1440)
+      (y 640)
+    )
+    (spawnpoint
+      (name "H")
+      (x 768)
+      (y 2240)
     )
     (tilemap
       (solid #f)
@@ -1037,10 +1198,48 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "ND")
+      (spawnpoint "E")
       (x 96)
+      (y 704)
+    )
+    (door
+      (sector "N5")
+      (x 736)
+      (y 64)
+    )
+    (door
+      (sector "N6")
+      (spawnpoint "E")
+      (x 1472)
+      (y 800)
+    )
+    (door
+      (sector "NF")
+      (spawnpoint "E")
+      (x 800)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "D")
+      (x 96)
+      (y 736)
+    )
+    (spawnpoint
+      (name "5")
+      (x 736)
       (y 96)
+    )
+    (spawnpoint
+      (name "6")
+      (x 1472)
+      (y 832)
+    )
+    (spawnpoint
+      (name "F")
+      (x 800)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -1227,10 +1426,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NB")
+      (spawnpoint "F")
       (x 96)
+      (y 736)
+    )
+    (door
+      (sector "NE")
+      (spawnpoint "F")
+      (x 1728)
       (y 96)
+    )
+    (door
+      (sector "NN")
+      (spawnpoint "F")
+      (x 2240)
+      (y 768)
+    )
+    (door
+      (sector "NG")
+      (spawnpoint "F")
+      (x 1696)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "B")
+      (x 96)
+      (y 768)
+    )
+    (spawnpoint
+      (name "E")
+      (x 1728)
+      (y 128)
+    )
+    (spawnpoint
+      (name "N")
+      (x 2240)
+      (y 800)
+    )
+    (spawnpoint
+      (name "G")
+      (x 1696)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -1417,10 +1655,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "NH")
+      (spawnpoint "G")
+      (x 64)
+      (y 768)
+    )
+    (door
+      (sector "NF")
+      (spawnpoint "G")
+      (x 800)
       (y 96)
+    )
+    (door
+      (sector "N7")
+      (spawnpoint "G")
+      (x 1440)
+      (y 768)
+    )
+    (door
+      (sector "N8")
+      (spawnpoint "G")
+      (x 800)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "H")
+      (x 64)
+      (y 800)
+    )
+    (spawnpoint
+      (name "F")
+      (x 800)
+      (y 128)
+    )
+    (spawnpoint
+      (name "7")
+      (x 1440)
+      (y 800)
+    )
+    (spawnpoint
+      (name "8")
+      (x 800)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -1607,10 +1884,49 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "ND")
+      (spawnpoint "H")
+      (x 736)
+      (y 64)
+    )
+    (door
+      (sector "NA")
+      (spawnpoint "H")
       (x 96)
+      (y 1760)
+    )
+    (door
+      (sector "NP")
+      (spawnpoint "H")
+      (x 800)
+      (y 2208)
+    )
+    (door
+      (sector "NG")
+      (spawnpoint "H")
+      (x 1440)
+      (y 1728)
+    )
+    (spawnpoint
+      (name "D")
+      (x 736)
       (y 96)
+    )
+    (spawnpoint
+      (name "A")
+      (x 96)
+      (y 1792)
+    )
+    (spawnpoint
+      (name "P")
+      (x 800)
+      (y 2240)
+    )
+    (spawnpoint
+      (name "G")
+      (x 1440)
+      (y 1760)
     )
     (tilemap
       (solid #f)
@@ -1872,10 +2188,38 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NQ")
+      (spawnpoint "I")
       (x 96)
+      (y 832)
+    )
+    (door
+      (sector "N2")
+      (spawnpoint "I")
+      (x 736)
+      (y 64)
+    )
+    (door
+      (sector "N1")
+      (spawnpoint "I")
+      (x 1440)
+      (y 864)
+    )
+    (spawnpoint
+      (name "Q")
+      (x 96)
+      (y 864)
+    )
+    (spawnpoint
+      (name "2")
+      (x 736)
       (y 96)
+    )
+    (spawnpoint
+      (name "1")
+      (x 1440)
+      (y 896)
     )
     (tilemap
       (solid #f)
@@ -2062,10 +2406,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NQ")
+      (spawnpoint "J")
       (x 96)
-      (y 96)
+      (y 832)
+    )
+    (door
+      (sector "NB")
+      (spawnpoint "J")
+      (x 1472)
+      (y 832)
+    )
+    (spawnpoint
+      (name "Q")
+      (x 96)
+      (y 864)
+    )
+    (spawnpoint
+      (name "B")
+      (x 1472)
+      (y 864)
     )
     (tilemap
       (solid #f)
@@ -2252,10 +2613,38 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "NS")
+      (spawnpoint "K")
+      (x 768)
       (y 96)
+    )
+    (door
+      (sector "N4")
+      (spawnpoint "K")
+      (x 1472)
+      (y 896)
+    )
+    (door
+      (sector "N3")
+      (spawnpoint "K")
+      (x 768)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "S")
+      (x 768)
+      (y 128)
+    )
+    (spawnpoint
+      (name "4")
+      (x 1472)
+      (y 928)
+    )
+    (spawnpoint
+      (name "3")
+      (x 768)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -2442,10 +2831,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "ND")
+      (spawnpoint "L")
+      (x 800)
+      (y 1376)
+    )
+    (door
+      (sector "NS")
+      (spawnpoint "L")
+      (x 768)
       (y 96)
+    )
+    (spawnpoint
+      (name "S")
+      (x 768)
+      (y 128)
+    )
+    (spawnpoint
+      (name "D")
+      (x 800)
+      (y 1408)
     )
     (tilemap
       (solid #f)
@@ -2632,10 +3038,38 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "NS")
+      (spawnpoint "M")
+      (x 704)
       (y 96)
+    )
+    (door
+      (sector "N5")
+      (spawnpoint "M")
+      (x 96)
+      (y 768)
+    )
+    (door
+      (sector "N6")
+      (spawnpoint "M")
+      (x 768)
+      (y 1408)
+    )
+    (spawnpoint
+      (name "S")
+      (x 704)
+      (y 128)
+    )
+    (spawnpoint
+      (name "5")
+      (x 96)
+      (y 800)
+    )
+    (spawnpoint
+      (name "6")
+      (x 768)
+      (y 1440)
     )
     (tilemap
       (solid #f)
@@ -2822,10 +3256,27 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NF")
+      (spawnpoint "N")
+      (x 64)
+      (y 768)
+    )
+    (door
+      (sector "NR")
+      (spawnpoint "N")
+      (x 1440)
+      (y 864)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "F")
+      (x 64)
+      (y 800)
+    )
+    (spawnpoint
+      (name "R")
+      (x 1440)
+      (y 896)
     )
     (tilemap
       (solid #f)
@@ -3012,10 +3463,38 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "N7")
+      (spawnpoint "O")
+      (x 768)
+      (y 32)
+    )
+    (door
+      (sector "N8")
+      (spawnpoint "O")
+      (x 64)
+      (y 768)
+    )
+    (door
+      (sector "NR")
+      (spawnpoint "O")
+      (x 1472)
+      (y 864)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "7")
+      (x 768)
+      (y 64)
+    )
+    (spawnpoint
+      (name "8")
+      (x 64)
+      (y 800)
+    )
+    (spawnpoint
+      (name "R")
+      (x 1472)
+      (y 896)
     )
     (tilemap
       (solid #f)
@@ -3202,9 +3681,25 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NH")
+      (spawnpoint "P")
+      (x 768)
+      (y 64)
+    )
+    (door
+      (spawnpoint "TODO_CA_SKY")
+      (x 736)
+      (y 1408)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
+      (name "center")
+      (x 736)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "H")
+      (x 768)
       (y 96)
     )
     (tilemap
@@ -3392,10 +3887,36 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NJ")
+      (spawnpoint "Q")
+      (x 1472)
+      (y 384)
+    )
+    (door
+      (sector "NI")
+      (x 1408)
+      (y 3936)
+    )
+    (door
+      (spawnpoint "TODO_I_SKY")
+      (x 704)
+      (y 4608)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "J")
+      (x 1472)
+      (y 416)
+    )
+    (spawnpoint
+      (name "I")
+      (x 1408)
+      (y 3968)
+    )
+    (spawnpoint
+      (name "center")
+      (x 704)
+      (y 4640)
     )
     (tilemap
       (solid #f)
@@ -3882,10 +4403,36 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NN")
+      (spawnpoint "R")
+      (x 64)
+      (y 416)
+    )
+    (door
+      (sector "NO")
+      (x 64)
+      (y 4000)
+    )
+    (door
+      (spawnpoint "TODO_II_SKY")
+      (x 768)
+      (y 4608)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "N")
+      (x 64)
+      (y 448)
+    )
+    (spawnpoint
+      (name "O")
+      (x 64)
+      (y 4032)
+    )
+    (spawnpoint
+      (name "center")
+      (x 768)
+      (y 4640)
     )
     (tilemap
       (solid #f)
@@ -4372,10 +4919,49 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NK")
+      (spawnpoint "S")
+      (x 448)
+      (y 1440)
+    )
+    (door
+      (sector "NL")
+      (spawnpoint "S")
+      (x 3584)
+      (y 1472)
+    )
+    (door
+      (sector "NM")
+      (spawnpoint "S")
+      (x 7424)
+      (y 1440)
+    )
+    (door
+      (sector "NT")
+      (spawnpoint "S")
+      (x 3616)
+      (y 128)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "K")
+      (x 448)
+      (y 1472)
+    )
+    (spawnpoint
+      (name "L")
+      (x 3584)
+      (y 1504)
+    )
+    (spawnpoint
+      (name "T")
+      (x 3616)
+      (y 160)
+    )
+    (spawnpoint
+      (name "M")
+      (x 7424)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -4562,10 +5148,16 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NS")
+      (spawnpoint "T")
+      (x 736)
+      (y 1440)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "S")
+      (x 736)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -4752,10 +5344,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NA")
+      (spawnpoint "1")
+      (x 768)
+      (y 64)
+    )
+    (door
+      (sector "NI")
+      (spawnpoint "1")
       (x 96)
+      (y 896)
+    )
+    (spawnpoint
+      (name "A")
+      (x 768)
       (y 96)
+    )
+    (spawnpoint
+      (name "I")
+      (x 96)
+      (y 928)
     )
     (tilemap
       (solid #f)
@@ -4942,10 +5551,27 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NA")
+      (spawnpoint "2")
+      (x 1408)
+      (y 704)
+    )
+    (door
+      (sector "NI")
+      (spawnpoint "2")
+      (x 672)
+      (y 1440)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "A")
+      (x 1408)
+      (y 736)
+    )
+    (spawnpoint
+      (name "I")
+      (x 672)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -5132,10 +5758,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
+    (door
+      (sector "NK")
+      (spawnpoint "3")
+      (x 704)
       (y 96)
+    )
+    (door
+      (sector "NC")
+      (spawnpoint "3")
+      (x 1440)
+      (y 800)
+    )
+    (spawnpoint
+      (name "K")
+      (x 704)
+      (y 128)
+    )
+    (spawnpoint
+      (name "C")
+      (x 1440)
+      (y 832)
     )
     (tilemap
       (solid #f)
@@ -5322,10 +5965,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NK")
+      (spawnpoint "4")
       (x 96)
-      (y 96)
+      (y 640)
+    )
+    (door
+      (sector "NC")
+      (spawnpoint "4")
+      (x 800)
+      (y 1408)
+    )
+    (spawnpoint
+      (name "K")
+      (x 96)
+      (y 672)
+    )
+    (spawnpoint
+      (name "C")
+      (x 800)
+      (y 1440)
     )
     (tilemap
       (solid #f)
@@ -5512,10 +6172,27 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NE")
+      (spawnpoint "5")
+      (x 736)
+      (y 1408)
+    )
+    (door
+      (sector "NM")
+      (spawnpoint "5")
+      (x 1472)
+      (y 736)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+      (name "M")
+      (x 1472)
+      (y 768)
+    )
+    (spawnpoint
+      (name "E")
+      (x 736)
+      (y 1440)
     )
     (tilemap
       (solid #f)
@@ -5702,9 +6379,26 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NE")
+      (spawnpoint "6")
       (x 96)
+      (y 768)
+    )
+    (door
+      (sector "NM")
+      (spawnpoint "6")
+      (x 768)
+      (y 64)
+    )
+    (spawnpoint
+      (name "E")
+      (x 96)
+      (y 800)
+    )
+    (spawnpoint
+      (name "M")
+      (x 768)
       (y 96)
     )
     (tilemap
@@ -5892,10 +6586,27 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
+    (door
+      (sector "NG")
+      (spawnpoint "7")
       (x 96)
-      (y 96)
+      (y 672)
+    )
+    (door
+      (sector "NO")
+      (spawnpoint "7")
+      (x 800)
+      (y 1440)
+    )
+    (spawnpoint
+      (name "G")
+      (x 96)
+      (y 704)
+    )
+    (spawnpoint
+      (name "O")
+      (x 800)
+      (y 1472)
     )
     (tilemap
       (solid #f)
@@ -6082,10 +6793,27 @@
     (camera
       (mode "normal")
     )
+    (door
+      (sector "NG")
+      (spawnpoint "8")
+      (x 608)
+      (y 64)
+    )
+    (door
+      (sector "NO")
+      (spawnpoint "8")
+      (x 1472)
+      (y 928)
+    )
     (spawnpoint
-      (name "main")
-      (x 96)
+      (name "G")
+      (x 608)
       (y 96)
+    )
+    (spawnpoint
+      (name "O")
+      (x 1472)
+      (y 960)
     )
     (tilemap
       (solid #f)
