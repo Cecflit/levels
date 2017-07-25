@@ -198,7 +198,11 @@
   (sector
     (name "PA")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
     (camera
       (mode "normal")
     )
@@ -426,7 +430,12 @@
   (sector
     (name "PB")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -659,7 +668,12 @@
   (sector
     (name "PC")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -888,7 +902,12 @@
   (sector
     (name "PD")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -1192,7 +1211,12 @@
   (sector
     (name "PE")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -1421,7 +1445,12 @@
   (sector
     (name "PF")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -1655,7 +1684,12 @@
   (sector
     (name "PG")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -1884,7 +1918,12 @@
   (sector
     (name "PH")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -2187,7 +2226,12 @@
   (sector
     (name "PI")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -2405,7 +2449,12 @@
   (sector
     (name "PJ")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -2612,7 +2661,12 @@
   (sector
     (name "PK")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -2830,7 +2884,12 @@
   (sector
     (name "PN")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -3037,7 +3096,12 @@
   (sector
     (name "PM")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -3255,7 +3319,12 @@
   (sector
     (name "PL")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -3462,7 +3531,12 @@
   (sector
     (name "PO")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -3680,7 +3754,12 @@
   (sector
     (name "PP")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -3886,7 +3965,12 @@
   (sector
     (name "PQ")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -4403,7 +4487,12 @@
   (sector
     (name "PR")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -4920,7 +5009,12 @@
   (sector
     (name "PS")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -5148,7 +5242,12 @@
   (sector
     (name "PT")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -5344,7 +5443,12 @@
   (sector
     (name "P1")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -5551,7 +5655,12 @@
   (sector
     (name "P2")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -5758,7 +5867,12 @@
   (sector
     (name "P3")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -5965,7 +6079,12 @@
   (sector
     (name "P4")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -6172,7 +6291,12 @@
   (sector
     (name "P5")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -6379,7 +6503,12 @@
   (sector
     (name "P6")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -6586,7 +6715,12 @@
   (sector
     (name "P7")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )
@@ -6793,7 +6927,12 @@
   (sector
     (name "P8")
     (music "music/jewels.music")
-    (ambient-light 1 1 1)
+    (ambient-light 0.5 0.5 0.5)
+    (background
+      (speed 0.5)
+      (image "images/tiles/forest/underground/background1.png")
+    )
+
     (camera
       (mode "normal")
     )

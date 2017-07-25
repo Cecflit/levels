@@ -199,6 +199,10 @@
     (name "LA")
     (music "music/forest.music")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
+    )
     (camera
       (mode "normal")
     )
@@ -430,6 +434,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LF")
@@ -739,6 +746,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LD")
@@ -965,6 +975,12 @@
     (name "LD")
     (music "music/forest.music")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
+    )
     (camera
       (mode "normal")
     )
@@ -1194,6 +1210,10 @@
     (name "LE")
     (music "music/forest.music")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
+    )
     (camera
       (mode "normal")
     )
@@ -1425,6 +1445,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LE")
@@ -1734,6 +1759,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LF")
@@ -1963,6 +1991,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LG")
@@ -2192,6 +2225,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "L1")
@@ -2410,6 +2446,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LB")
@@ -2617,6 +2656,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LS")
@@ -2835,6 +2877,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LS")
@@ -3042,6 +3089,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LS")
@@ -3260,6 +3310,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LR")
@@ -3467,6 +3520,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "L8")
@@ -3685,6 +3741,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LH")
@@ -3891,6 +3952,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LJ")
@@ -4108,6 +4172,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LN")
@@ -4325,6 +4392,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LT")
@@ -5154,6 +5226,11 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LS")
@@ -5350,6 +5427,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LA")
@@ -5557,6 +5637,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LA")
@@ -5764,6 +5847,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LC")
@@ -5971,6 +6057,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (door
       (sector "LC")
@@ -6178,6 +6267,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LM")
@@ -6385,6 +6477,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LM")
@@ -6592,6 +6687,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LG")
@@ -6799,6 +6897,9 @@
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
+    )    (background
+      (speed 0.5)
+      (image "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (door
       (sector "LG")
