@@ -1470,6 +1470,11 @@
       (x 1696)
       (y 1472)
     )
+    (spawnpoint
+      (name "main")
+      (x 1568)
+      (y 800)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -3688,7 +3693,7 @@
       (y 64)
     )
     (door
-      (spawnpoint "TODO_CA_SKY")
+      (spawnpoint "TODO_SA_SKY")
       (x 736)
       (y 1408)
     )
