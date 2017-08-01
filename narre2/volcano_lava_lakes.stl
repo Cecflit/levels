@@ -313,9 +313,16 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (x 16368.45)
       (y 614.1365)
     )
+
+
     (short_fuse
       (x 651.0379)
       (y 819.2254)
+    )
+
+    (short_fuse
+      (x 521)
+      (y 770)
     )
     (short_fuse
       (x 853.2705)

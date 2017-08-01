@@ -211,17 +211,22 @@ if (!("achievement_lazy_engineer" in state)) {
  state.achievement_lazy_engineer <- false;
 }
 
-//Immortality Confirmed (Complete the escaping challenge without single death)
+//Immortality Confirmed (Finish any river level during thunderstorm)
 if (!("achievement_immortality_confirmed" in state)) {
  state.achievement_immortality_confirmed <- false;
 }
 
-//More Sense than Luck (Win the final joust without single restart)
+//Speeding Fine (Complete the escaping challenge)
+if (!("achievement_speeding_fine" in state)) {
+ state.achievement_speeding_fine <- false;
+}
+
+//Encyclopaedist (Win the final joust without one single mistake)
 if (!("achievement_more_sense_than_luck" in state)) {
  state.achievement_more_sense_than_luck <- false;
 }
 
-//More Luck than Sense (Jump into the dangerous hole and survive)
+//More Luck than Brains (Jump into the dangerous hole and survive)
 if (!("achievement_more_luck_than_sense" in state)) {
  state.achievement_more_luck_than_sense <- false;
 }
@@ -241,7 +246,7 @@ if (!("achievement_penguins_do_fly" in state)) {
  state.achievement_penguins_do_fly <- false;
 }
 
-//Just Do It (Jump through the lavafall in the Matrix)
+//An Unconvincing Illusion (Don't let the Matrix trick you)
 if (!("achievement_just_do_it" in state)) {
  state.achievement_just_do_it <- false;
 }
@@ -259,6 +264,31 @@ if (!("achievement_mercy" in state)) {
 //The Grand Traveller (Finish every single level)
 if (!("achievement_grand_traveller" in state)) {
  state.achievement_grand_traveller <- false;
+}
+
+//Cat Eye (Go through the dark tunnel and survive)
+if (!("achievement_cat_eye" in state)) {
+ state.achievement_cat_eye <- false;
+}
+
+//Fish Finger (Finish the lava survival challenge)
+if (!("achievement_fish_finger" in state)) {
+ state.achievement_fish_finger <- false;
+}
+
+//Wind Rider (Finish the wind riding challenge)
+if (!("achievement_wind_rider" in state)) {
+ state.achievement_wind_rider <- false;
+}
+
+//Toilet Cleaner (Finish the pipe maze challenge)
+if (!("achievement_toilet_cleaner" in state)) {
+ state.achievement_toilet_cleaner <- false;
+}
+
+//Rabbit Foot (Finish the rising lava challenge)
+if (!("achievement_rabbit_foot" in state)) {
+ state.achievement_rabbit_foot <- false;
 }
 
 //Secret areas:
@@ -846,6 +876,45 @@ if(state.vsechnojeudelany){
 		ach_img.fade_out(0.5);
 	}
 }}
+
+function checkalllevelsdone(){
+
+state.vsechnojeudelany <- true;
+foreach(lvl in state.worlds["levels/narre2/worldmap.stwm"]["levels"]){
+	state.vsechnojeudelany <- state.vsechnojeudelany && lvl.solved
+	}
+if(state.vsechnojeudelany){return true;}else{return false;}
+
+}
+
+function give_ach_immor(){
+
+state.achievement_immortality_confirmed <- true;
+		ach_img <- FloatingImage("levels/narre2/images/notifications/immortality/achievement.png");
+		ach_img.set_anchor_point(ANCHOR_TOP_RIGHT);
+		ach_img.set_pos(-20, 35);
+		ach_img.fade_in(0.5);
+		wait(0.05);
+		play_sound("levels/narre2/sound/notification.wav");
+		wait(5);
+		ach_img.fade_out(0.5);
+
+}
+
+function give_ach_immor_travel(){
+
+state.achievement_grand_traveller <- true;
+state.achievement_immortality_confirmed <- true;
+		ach_img <- FloatingImage("levels/narre2/images/notifications/the_grand_traveller/immortality.png");
+		ach_img.set_anchor_point(ANCHOR_TOP_RIGHT);
+		ach_img.set_pos(-20, 35);
+		ach_img.fade_in(0.5);
+		wait(0.05);
+		play_sound("levels/narre2/sound/notification.wav");
+		wait(5);
+		ach_img.fade_out(0.5);
+
+}
 
 //Make all boats visible in the worldmap
 

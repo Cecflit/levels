@@ -233,18 +233,15 @@ wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"This is a checkpoint.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_1.ogg\"));}
+if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint.ogg\"));}
 if(state.subtitles){Text.fade_in(1);}
-wait(3);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_2.ogg\"));}
-Text.set_text(_(\"You can activate this checkpoint\\nand then, if you die, you'll be\\nrespawned here.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_3.ogg\"));}
-Text.set_text(_(\"But if you want to get\\nthe achievement for avoiding\\ncheckpoints, you can't touch it,\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/checkpoint_information_4.ogg\"));}
-Text.set_text(_(\"otherwise you shall dead-lock\\nthis achievement. So, decide.\"));
-wait(5);
+wait(1.32);
+Text.set_text(_(\"You can activate this checkpoint\\nand then, if you die, you'll\\nrespawn here.\"));5.1
+wait(3.9);
+Text.set_text(_(\"But if you want to get\\nthe achievement for avoiding\\ncheckpoints, you can't touch it,\"));9.15
+wait(4.05);
+Text.set_text(_(\"otherwise you shall dead-lock\\nthis achievement. So, decide.\"));13.2
+wait(4.1);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 coverAround.fade(0,1);

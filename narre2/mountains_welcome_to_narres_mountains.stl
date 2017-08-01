@@ -324,18 +324,15 @@ wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"Do you see the icicle here? It might\\nseem pretty dangerous, but these\\nmountains are in fact so cold that\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/icicle.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_2.ogg\"));}
+wait(4.5);
 Text.set_text(_(\"the icicles here are solidly frozen onto\\nthe ceiling and they won't fall as\\neasily as they would in warmer places.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_3.ogg\"));}
+wait(5.73);
 Text.set_text(_(\"That doesn't mean that they're not\\nsharp though - if you want to get rid\\nof them, you can force them to fall by\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/icicle_4.ogg\"));}
-Text.set_text(_(\"shooting them with ice or fire bullets.\"));
-wait(7);
+wait(4.87);
+Text.set_text(_(\"shooting them with an ice or\\na fire bullet.\"));
+wait(2.1);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);

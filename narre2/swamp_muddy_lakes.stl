@@ -292,18 +292,15 @@ sector.Effect.sixteen_to_nine(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"Stop! This, my dear friend, is mud. A\\nwhole lake of it. It is not as innocent\\nas the muddy water you've seen before.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/mud_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/mud.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
 wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/mud_2.ogg\"));}
 Text.set_text(_(\"If you jump into mud, you die. You can\\ntheoretically run over short distances\\nin it, you know what are swamps known\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/mud_3.ogg\"));}
+wait(6.9);
 Text.set_text(_(\"for though. Don't risk, it's not worth it.\\nAnd by the way, not all creatures die\\nin mud. Ghost flames, for example,\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/mud_4.ogg\"));}
+wait(7.1);
 Text.set_text(_(\"live in it.\\nAnd they aren't very pleasant either.\"));
-wait(7);
+wait(2.9);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 Camera.set_mode(\"normal\");

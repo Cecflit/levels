@@ -221,6 +221,14 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (layer -10)
     )
     (tilemap
+      (solid #f)
+      (z-pos 0)
+      (name "elewaterover")
+      (width 1)
+      (height 1)
+      (tiles
+      0))
+    (tilemap
       (solid #t)
       (z-pos 200)
       (name "Path")

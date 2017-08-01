@@ -288,16 +288,14 @@ sector.Effect.sixteen_to_nine(1);
 wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"This is a white wisp.\\nGood news is that these are\\none of the good ones.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/whitewisp_information_1.ogg\"));}
+Text.set_text(_(\"This is a white wisp.\\nGood news is that this kind\\nis one of the good ones.\"));
+if(state.voice){play_sound(\"levels/narre2/speech/whitewisp.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/whitewisp_information_2.ogg\"));}
-Text.set_text(_(\"These wisps have the ability\\nto reveal things you would\\nhave otherwise missed.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/whitewisp_information_3.ogg\"));}
-Text.set_text(_(\"So come on, what secret\\ncan this one reveal?\"));
 wait(4);
+Text.set_text(_(\"These wisps have the ability\\nto reveal things you would\\notherwise have missed.\"));
+wait(4);
+Text.set_text(_(\"So come on, what secret\\ncan this one reveal?\"));
+wait(2.5);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);

@@ -223,7 +223,18 @@ check_secretareas();
       (y 180)
     )
     (scripttrigger
-      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_spiky_blocks.stl\"][\"solved\"]<-true;endseq();")
+            (script "
+state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_spiky_blocks.stl\"][\"solved\"]<-true;
+if(state.weather == 3 && !state.achievement_immortality_confirmed){
+	sector.Tux.trigger_sequence(\"endsequence\");
+	if(state.achievement_grand_traveller || (!state.achievement_grand_traveller && !(checkalllevelsdone()))){
+		give_ach_immor();
+}else if(!state.achievement_grand_traveller && checkalllevelsdone()){
+	give_ach_immor_travel();
+	}
+}else{
+endseq();
+}")
       (width 32)
       (height 428)
       (x 15808)

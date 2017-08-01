@@ -181,13 +181,12 @@ Camera.scroll_to(4740, 450, 2);
 wait(3);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"This, my dear friend, is quicksand.\\nIt's a home for creature known as\\nSkelehand, which can, surprisingly, kill\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_1.ogg\"));}
+Text.set_text(_(\"This, my dear friend, is quicksand.\\nIt's the home for a creature known as\\nSkelehand, which can, surprisingly, kill\"));
+if(state.voice){play_sound(\"levels/narre2/speech/quicksand.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/quicksand_2.ogg\"));}
+wait(6);
 Text.set_text(_(\"you. And the quicksand itself isn't very\\nfriendly either. It's pretty much a\\ndesert version of mud. So, be careful.\"));
-wait(7);
+wait(6.56);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 Camera.scroll_to(3492, 452, 2);

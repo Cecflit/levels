@@ -273,15 +273,13 @@ wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"Whoops! This way seems to be blocked.\\nYou went so far and now, you can\\ngive it u... No, wait, there is a way.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/molehill.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_2.ogg\"));}
-Text.set_text(_(\"Do you see the molehill? There is\\na tunnel in it. It should be wide\\nenough for you.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/molehill_3.ogg\"));}
-Text.set_text(_(\"And if it wasn't, try to butt-jump\\nonto that molehill to widen it.\"));
-wait(7);
+wait(7.94);
+Text.set_text(_(\"Do you see the molehill? There is\\na tunnel in it. It should be wide\\nenough for you.\"));11.5
+wait(3.56);
+Text.set_text(_(\"And if it weren't, try to butt-jump\\nonto that molehill to widen it.\"));15.2
+wait(3.7);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);

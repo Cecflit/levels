@@ -1,5 +1,59 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 109
+
+-voice can no longer be translated because of issues with timing
+-slightly changed the Ceiling Collapse cutscene
+-slightly changed the Checkpoint cutscene
+-slightly changed the Solidly Frozen Icicles cutscene
+-slightly changed the Quicksand and Skelehand cutscene
+-slightly changed the Sneaky Cliff Cutscene
+-slightly changed the Tree Guardians Cutscene
+-slightly changed the White Wisp Cutscene
+-added voice narration for the introduction
+-added voice narration for the Blue Wisp cutscene
+-added voice narration for the Ceiling Collapse cutscene
+-added voice narration for the Checkpoint cutscene
+-added voice narration for the Green Wisp cutscene
+-added voice narration for the Red Wisp cutscene
+-added voice narration for the Solidly Frozen Icicles cutscene
+-added voice narration for the Mud cutscene
+-added voice narration for the Penguins Don't Fly cutscene
+-added voice narration for the Quicksand and Skelehand cutscene
+-added voice narration for the Sneaky Cliff Cutscene
+-added voice narration for the Tree Guardians Cutscene
+-added voice narration for the White Wisp Cutscene
+-fixed a bug in level 'A Wisp Overload'
+-removed achievement 'Nobody Is Going to Die Today' as the 'Creature Saving' thingy won't be implemented
+-added achievement 'Cat Eye' which cannot be unlocked yet (intended for future use)
+-added achievement 'Immortality Confirmed', the old one with this name is now renamed
+-added achievement 'Fish Finger' which cannot be unlocked yet (intended for future use)
+-added achievement 'Wind Rider' which cannot be unlocked yet (intended for future use)
+-added achievement 'Toilet Cleaner' which cannot be unlocked yet (intended for future use)
+-added achievement 'Rabbit Foot' which cannot be unlocked yet (intended for future use)
+-renamed achievement 'Just Do It' to 'An Unconvincing Illusion', it's description has been changed not to give everything away
+-renamed achievement 'More Brains Than Luck' to 'Encyclopaedist'
+-renamed achievement 'Immortality Confirmed' to 'Speeding Fine'
+-added notification image for unlocking 'The Grand Traveller' and 'Immortality Confirmed' at the same time
+-added notification image for unlocking 'Immortality Confirmed'
+-slightly changed the Swamp island
+-added a secret place to the Jungle
+-added a secret place to the Underground
+-added a secret place to the Mountains
+-added a secret place to the IceCave
+-added a secret place to the CrystalCave
+-added a secret place to the Rocks
+-added a secret place to the IceCanyon
+-added a secret place to the Swamp
+-added a secret place to the Desert
+-added a secret place to the River
+-added a secret place to the StoneCave
+-added a secret place to the Meadows
+-added a secret place to the Geysers
+-added a secret place to the Fortress
+-added a secret place to the Matrix
+-updated Czech translations
+
 BETA 108
 
 -added level 'Lava Lakes' to the Volcano
@@ -12,7 +66,10 @@ BETA 106
 
 -achievement text changed to notifications (uses FloatingImages instead of Text)
 -shortened the introduction
--introduction now uses FloatingImages instead of tilemaps
+-removed the 'Creature Saving' thingy that wasn't even implemented yet (it was only mentioned in the old introduction)
+-removed the 'Map' animation
+-removed the 'Vanishing Penny' animation
+-changed the 'Vanishing Neighbours' animation to Floating Images
 -updated Czech translations
 
 BETA 105
@@ -317,7 +374,7 @@ BETA 49
 -added Journey animation
 -added Vanishing Neighbours animation
 -added Vanishing Penny animation
--added animations to the introduction (optimalised for 1360/1366 × 768, any resolution ≥ 1024 × 768 won't be a problem though)
+-added animations to the introduction (optimised for 1360/1366 × 768, any resolution ≥ 1024 × 768 won't be a problem though)
 -added a lake into the Rocks
 -fixed the stalactites in level 'Down the Frozen Cave'
 -fixed several bugs throughout the whole Multiworld
@@ -346,7 +403,7 @@ BETA 48
 -added cutscene to level 'A Sneaky Cliff'
 -added Muddy Water
 -added Mud
--Swimming branch has to be included now
+-Swimming is now required, which means that this add-on won't be released until swimming is a feature in unaltered SuperTux
 -updated Czech translations
 
 BETA 47
@@ -499,7 +556,7 @@ BETA 25
 -added infoblock to level 'Welcome to Narre's Underground'
 -MrRockies are no longer freezable because they are in 'StoneCave', where are stalactites with stone sprite
 -added infoblock to level 'Welcome to Narre's Mountains'
--stalactites in Mountains and IceCanyon now cannot fall without shooting them
+-stalactites in Mountains and IceCanyon now cannot fall without being shot
 -removed 'Snake' sprite from images
 -removed 'WalkingLeaf' sprite from images
 -removed useless images from other sprites
@@ -507,7 +564,7 @@ BETA 25
 -renamed this file (0-CHANGES => CHANGELOG.txt) (openable also on OM (Operating Mess) Windows (it needs that *.txt))
 -replaced some fireflowers with iceflowers
 -fixed bug in worldmap - Rocks Main Building is now present
--added secret place to Volcano
+-added a secret place to the Volcano
 -added background tiles to holes in level 'A Wavy Terrain'
 -fixed bug in level 'Welcome to Narre's CrystalCave' - Crystallos are no longer falling to the holes with spikes
 -changed old spikes to new unisolid spikes in all tiles.strf using levels (IceSpikes and IceFortressSpikes kept)
@@ -543,7 +600,7 @@ BETA 20
 BETA 19
 
 -added secret places to Iceberg and Forest
--added level 'A Sandy Fields' to the Desert
+-added level 'Sandy Fields' to the Desert
 
 BETA 18
 
@@ -553,11 +610,11 @@ BETA 18
 BETA 17
 
 -added level 'A Rocky Landscape' to the Rocks
--added level 'Unstable Bridge' to the IceCanyon
+-added level 'Unstable Bridges' to the IceCanyon
 
 BETA 16
 
--fixed bugs in level 'A Really High Mountain' - Secret area is no longer making problems, stalactites are now visible, bonusblock sprites are now working
+-fixed bugs in level 'A Really High Mountain' - Secret area is no longer causing problems, stalactites are now visible, bonusblock sprites are now working
 -added level 'The Frozen Depth' to the IceCave
 -added level 'Cave of Emeralds' to the CrystalCave
 -All spikes are now deadly on one touch [Tux.kill(true)]
@@ -571,14 +628,14 @@ BETA 15
 BETA 14
 
 -added level 'The Chasm of Eternal Fall' to the Underground
--improved graphics of 'Snowmountain' environment
+-improved graphics of 'Snowmountain' environment, the original tiles will be used in the Fortress level
 -added world 'IceCanyon' to the Main Game
 -decreased size of 'The Rocks' island
 -fixed some bugs in worldmap
 -improved graphics of 'Geysers' environment
 -added level 'Welcome to Narre's IceCanyon' to the IceCanyon
 -added more colours of pipes
--added opened pipes
+-added open pipes
 
 BETA 13
 
@@ -591,16 +648,18 @@ BETA 12
 -added paralax background to all 'Forest' levels
 -added tile paralax background to all 'Iceberg' levels
 -added level 'Over the Glade' to the Forest
+-added a secret place to the Forest
 
 BETA 11
 
--fixed bugs in level 'Welcome to Narre's Matrix - Top blocks of the long laser pass are no longer reachable, ducking is no longer making problems
+-fixed bugs in level 'Welcome to Narre's Matrix - Top blocks of the long laser pass are no longer reachable, ducking is no longer causing problems
 -fixed bugs in level 'An Icy Path' - Clouds are now rendered correctly, information has now blue font
 -added Snow game tiles for slippery ice
--removed Danger signs from level 'An Icy Path' - slippery ice is now recognizable
+-removed Danger signs from level 'An Icy Path' - slippery ice is now recognisable
 -added new sprite for WalkingLeaf for Underground world
 -added tile paralax background to level 'Frozen Hills'
 -fixed bugs in the second secret area of level 'Frozen Hills'
+-added a secret place to the Iceberg
 
 BETA 10
 
@@ -618,7 +677,7 @@ BETA 9
 
 BETA 8
 
--fixed some bugs in new worldmap
+-fixed some bugs in the new worldmap
 -decreased size of 'The Rocks' island
 -fixed bugs in level 'Welcome to Narre's Jungle' - All enemies are now killable, all trees are now connected to the treetops.
 -added level 'Welcome to Narre's StoneCave' to the StoneCave
@@ -633,7 +692,7 @@ BETA 7
 -added background tiles to holes in the Iceberg levels
 -added new powerup 'Fireup'
 -changed sprite of stalactites to stone stalactites in level 'Welcome to Narre's Underground'
--added level 'Welcome to Narre's River to the River
+-added level 'Welcome to Narre's River' to the River
 -fixed bugs in level 'Welcome to Narre's Jungle' - Path images are now present, all vines are now climbable
 
 BETA 6
@@ -670,7 +729,7 @@ BETA 1
 -added level 'Welcome to Narre's Iceberg' to the Iceberg
 -added level 'Frozen Hills' to the Iceberg
 -added level 'Down the Frozen Cave' to the Iceberg
--added level 'Just another snowy day' to the Iceberg
+-added level 'Just Another Snowy Day' to the Iceberg
 -added level 'An Icy Path' to the Iceberg
 -added level 'Welcome to Narre's Forest' to the Forest
 -added level 'Welcome to Narre's Volcano' to the Volcano

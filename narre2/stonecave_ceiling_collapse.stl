@@ -604,15 +604,13 @@ wait(2);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"Stop!\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/ceiling_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/ceiling.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
+wait(0.5);
+Text.set_text(_(\"The ceiling in this cave isn't very stable.\\nIt could block your way or,\\nworse, fall on your head.\"));
+wait(6);
+Text.set_text(_(\"So, don't be rash and\\nwatch your steps!\"));
 wait(3);
-if(state.voice){play_sound(_(\"levels/narre2/speech/ceiling_2.ogg\"));}
-Text.set_text(_(\"Ceiling in this cave is not very stable.\\nIt could block your way, or,\\nworse, fall on your head.\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/ceiling_3.ogg\"));}
-Text.set_text(_(\"So, don't be furious and\\nwatch your steps!\"));
-wait(5);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 FallMeShow.fade(1,1);

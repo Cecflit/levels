@@ -471,9 +471,9 @@ wait(3);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"Sorry mate, but penguins don't fly.\\nYou should use a trampoline.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/penguins_dont_fly_info.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/airtux.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
+wait(3.41579);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 Camera.scroll_to(12000, 832, 2);

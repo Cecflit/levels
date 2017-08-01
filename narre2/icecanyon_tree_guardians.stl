@@ -467,14 +467,12 @@ sector.Effect.sixteen_to_nine(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"These are called Tree Guardians.\\nThey usually live near these trees -\\nthey guard the trees and the trees\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/treeguards_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/treeguards.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/treeguards_2.ogg\"));}
+wait(6);
 Text.set_text(_(\"hide them and protect them against\\nheat. Symbiosis. They are still\\nagainst you though, so don't\"));
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/treeguards_3.ogg\"));}
-Text.set_text(_(\"be afraid of squishing them. But be\\ncareful - as long as they walk near the\\ntree, they are immune against fireballs.\"));
+wait(5.1);
+Text.set_text(_(\"be afraid of squishing them. But be\\ncareful - as long as they walk near the\\ntree, they are immune to fireballs.\"));
 wait(7);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}

@@ -306,7 +306,18 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (y 320)
     )
     (scripttrigger
-      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_weird_lampy_something.stl\"][\"solved\"]<-true;endseq();")
+      (script "
+state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_weird_lampy_something.stl\"][\"solved\"]<-true;
+if(state.weather == 3 && !state.achievement_immortality_confirmed){
+	sector.Tux.trigger_sequence(\"endsequence\");
+	if(state.achievement_grand_traveller || (!state.achievement_grand_traveller && !(checkalllevelsdone()))){
+		give_ach_immor();
+}else if(!state.achievement_grand_traveller && checkalllevelsdone()){
+	give_ach_immor_travel();
+	}
+}else{
+endseq();
+}")
       (width 32)
       (height 448.8394)
       (x 16015.83)

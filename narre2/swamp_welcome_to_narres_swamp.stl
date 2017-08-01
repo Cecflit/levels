@@ -163,12 +163,11 @@ wait(1);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
 Text.set_text(_(\"This is a wisp. Wisps are pretty\\nunpleasant creatures. The green ones\\nare not really dangerous, but they can\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/green_wisp_1.ogg\"));}
+if(state.voice){play_sound(\"levels/narre2/speech/green_wisp.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/green_wisp_2.ogg\"));}
+wait(6.17);
 Text.set_text(_(\"warp you back and make your journey\\nlonger. Not very pleasant, is it? But do\\nnot worry, there are worse ones to come.\"));
-wait(7);
+wait(5.93);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 sector.Effect.four_to_three(1);

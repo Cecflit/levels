@@ -1617,10 +1617,10 @@ Camera.scroll_to(1952, 320, 1);
 wait(2);
 Text.set_anchor_point(ANCHOR_BOTTOM);
 Text.set_pos(0,-78);
-Text.set_text(_(\"Hmm, this doesn't seem like the right way.\"));
-if(state.voice){play_sound(_(\"levels/narre2/speech/sneaky_cliff.ogg\"));}
+Text.set_text(_(\"Hmm, this doesn't seem to be the right\\nway.\"));
+if(state.voice){play_sound(\"levels/narre2/speech/sneaky_cliff.ogg\");}
 if(state.subtitles){Text.fade_in(1);}
-wait(7);
+wait(2.51);
 if(state.subtitles){Text.fade_out(1);
 wait(1);}
 Camera.scroll_to(1443, 450, 1);

@@ -474,22 +474,22 @@ msgstr "Získáno ocenění!\n\nCestovatel"
 
 #: Introduction
 msgid ""
-"-Legend\n"
+"-Achievements\n"
 "!images/tiles/signs/danger.png\n"
 "*This achievement is dead-locked"
-msgstr "-Legenda\n!images/tiles/signs/danger.png\n*Toto ocenění je trvale uzamčeno"
+msgstr "-Ocenění\n!images/tiles/signs/danger.png\n*Toto ocenění je trvale uzamčeno"
 
 msgid ""
-"-Legend\n"
+"-Achievements\n"
 "!images/tiles/signs/color_cyan.png\n"
 "*This achievement is available"
-msgstr "-Legenda\n!images/tiles/signs/color_cyan.png\n*Toto ocenění je dostupné"
+msgstr "-Ocenění\n!images/tiles/signs/color_cyan.png\n*Toto ocenění je dostupné"
 
 msgid ""
-"-Legend\n"
+"-Achievements\n"
 "!images/tiles/signs/color_yellow.png\n"
-"*You've got this achievement"
-msgstr "-Legenda\n!images/tiles/signs/color_yellow.png\n*Toto ocenění je získané"
+"*This achievement is unlocked"
+msgstr "-Ocenění\n!images/tiles/signs/color_yellow.png\n*Toto ocenění je získané"
 
 msgid ""
 "-To Find a Needle in a Haystack\n"
@@ -498,8 +498,8 @@ msgstr "-Najít jehlu v kupce sena\n#Najdi všechny tajné skrýše a úrovně"
 
 msgid ""
 "-Immortality Confirmed\n"
-"#Finish the escaping challenge"
-msgstr "-Nesmrtelnost potvrzena\n#Dokonči utíkací výzvu"
+"#Finish any river level during thunderstorm"
+msgstr "-Nesmrtelnost potvrzena\n#Dokonči jakoukoliv říční úroveň za bouřky"
 
 msgid ""
 "-No Second Chances\n"
@@ -517,19 +517,14 @@ msgid ""
 msgstr "-Líný inženýr\n#Oprav ten zatracený výtah a vyhni se schodišti"
 
 msgid ""
-"-More Brains than Luck\n"
-"#Win the final joust without single mistake"
-msgstr "-Více rozumu než štěstí\n#Vyhraj finální souboj bez jediné chyby"
+"-Encyclopaedist\n"
+"#Win the final joust without one single mistake"
+msgstr "-Encyklopedista\n#Vyhraj finální souboj bez jediné chyby"
 
 msgid ""
 "-More Luck than Brains\n"
 "#Jump into the dangerous hole and survive"
 msgstr "-Více štěstí než rozumu\n#Skoč do nebezpečné díry a přežij"
-
-msgid ""
-"-Nobody's going to die today\n"
-"#Do not let anyone die during the whole story"
-msgstr "-Dnes nikdo nezemře\n#Nenech během celého příběhu nikoho zemřít"
 
 msgid ""
 "-All Roads Lead to the Arena\n"
@@ -542,9 +537,9 @@ msgid ""
 msgstr "-Tučňáci létají\n#Přeskoč tu velkou díru bez použití trampolíny"
 
 msgid ""
-"-Just Do It\n"
-"#Jump through the lavafall in the Matrix"
-msgstr "-Prostě to udělej\n#Proskoč v Matrixu zkrz lávopád"
+"-An Unconvincing Illusion\n"
+"#Don't let the Matrix trick you"
+msgstr "-Nepříliš přesvědčivá iluze\n#Nenech Matrix, aby tě zmátl"
 
 msgid ""
 "-Classic Sidescroller\n"
@@ -560,6 +555,36 @@ msgid""
 "-The Grand Traveller\n"
 "#Finish every single level"
 msgstr"-Cestovatel\n#Dokonči úplně všechny úrovně"
+
+msgid""
+"-Cat Eye\n"
+"#Go through the dark tunnel and survive"
+msgstr"-Kočičí zrak\n#Projdi tím tmavým tunelem a přežij"
+
+msgid""
+"-Speeding Fine\n"
+"#Finish the escaping challenge"
+msgstr"-Pirát silnic\n#Dokonči utíkací výzvu"
+
+msgid""
+"-Fish Finger\n"
+"#Finish the lava survival challenge"
+msgstr"-Rybí prst\n#Dokonči výzvu přežití v lávě"
+
+msgid""
+"-Wind Rider\n"
+"#Finish the wind riding challenge"
+msgstr"-Větrák\n#Dokonči větrnou výzvu"
+
+msgid""
+"-Toilet Cleaner\n"
+"#Finish the pipe maze challenge"
+msgstr"-Hajzlbába\n#Dokonči výzvu s potrubním bludištěm"
+
+msgid""
+"-Rabbit Foot\n"
+"#Finish the rising lava challenge"
+msgstr"-Králičí skokan\n#Dokonči výzvu se stoupáním lávy"
 
 msgid "Leave"
 msgstr "Odejít"
@@ -655,99 +680,6 @@ msgstr "Přenést do Matrixu"
 msgid "Warp to the Bonusland"
 msgstr "Přenést do Bonusvěta"
 
-msgid "levels/narre2/speech/treeguards_1.ogg"
-msgstr "levels/narre2/speech/treeguards_1_czech.ogg"
-
-msgid "levels/narre2/speech/treeguards_2.ogg"
-msgstr "levels/narre2/speech/treeguards_2_czech.ogg"
-
-msgid "levels/narre2/speech/treeguards_3.ogg"
-msgstr "levels/narre2/speech/treeguards_3_czech.ogg"
-
-msgid "levels/narre2/speech/mud_1.ogg"
-msgstr "levels/narre2/speech/mud_1_czech.ogg"
-
-msgid "levels/narre2/speech/mud_2.ogg"
-msgstr "levels/narre2/speech/mud_2_czech.ogg"
-
-msgid "levels/narre2/speech/mud_3.ogg"
-msgstr "levels/narre2/speech/mud_3_czech.ogg"
-
-msgid "levels/narre2/speech/mud_4.ogg"
-msgstr "levels/narre2/speech/mud_4_czech.ogg"
-
-msgid "levels/narre2/speech/green_wisp_1.ogg"
-msgstr "levels/narre2/speech/green_wisp_1_czech.ogg"
-
-msgid "levels/narre2/speech/green_wisp_2.ogg"
-msgstr "levels/narre2/speech/green_wisp_2_czech.ogg"
-
-msgid "levels/narre2/speech/red_wisp_1.ogg"
-msgstr "levels/narre2/speech/red_wisp_1_czech.ogg"
-
-msgid "levels/narre2/speech/red_wisp_2.ogg"
-msgstr "levels/narre2/speech/red_wisp_2_czech.ogg"
-
-msgid "levels/narre2/speech/blue_wisp_1.ogg"
-msgstr "levels/narre2/speech/blue_wisp_1_czech.ogg"
-
-msgid "levels/narre2/speech/blue_wisp_2.ogg"
-msgstr "levels/narre2/speech/blue_wisp_2_czech.ogg"
-
-msgid "levels/narre2/speech/blue_wisp_3.ogg"
-msgstr "levels/narre2/speech/blue_wisp_3_czech.ogg"
-
-msgid "levels/narre2/speech/intro_1.ogg"
-msgstr "levels/narre2/speech/intro_1_czech.ogg"
-
-msgid "levels/narre2/speech/intro_2.ogg"
-msgstr "levels/narre2/speech/intro_2_czech.ogg"
-
-msgid "levels/narre2/speech/intro_3.ogg"
-msgstr "levels/narre2/speech/intro_3_czech.ogg"
-
-msgid "levels/narre2/speech/intro_4.ogg"
-msgstr "levels/narre2/speech/intro_4_czech.ogg"
-
-msgid "levels/narre2/speech/intro_5.ogg"
-msgstr "levels/narre2/speech/intro_5_czech.ogg"
-
-msgid "levels/narre2/speech/intro_6.ogg"
-msgstr "levels/narre2/speech/intro_6_czech.ogg"
-
-msgid "levels/narre2/speech/intro_7.ogg"
-msgstr "levels/narre2/speech/intro_7_czech.ogg"
-
-msgid "levels/narre2/speech/intro_8.ogg"
-msgstr "levels/narre2/speech/intro_8_czech.ogg"
-
-msgid "levels/narre2/speech/intro_9.ogg"
-msgstr "levels/narre2/speech/intro_9_czech.ogg"
-
-msgid "levels/narre2/speech/sneaky_cliff.ogg"
-msgstr "levels/narre2/speech/sneaky_cliff_czech.ogg"
-
-msgid "levels/narre2/speech/checkpoint_information_1.ogg"
-msgstr "levels/narre2/speech/checkpoint_information_1_czech.ogg"
-
-msgid "levels/narre2/speech/checkpoint_information_2.ogg"
-msgstr "levels/narre2/speech/checkpoint_information_2_czech.ogg"
-
-msgid "levels/narre2/speech/checkpoint_information_3.ogg"
-msgstr "levels/narre2/speech/checkpoint_information_3_czech.ogg"
-
-msgid "levels/narre2/speech/checkpoint_information_4.ogg"
-msgstr "levels/narre2/speech/checkpoint_information_4_czech.ogg"
-
-msgid "levels/narre2/speech/molehill_1.ogg"
-msgstr "levels/narre2/speech/molehill_1_czech.ogg"
-
-msgid "levels/narre2/speech/molehill_2.ogg"
-msgstr "levels/narre2/speech/molehill_2_czech.ogg"
-
-msgid "levels/narre2/speech/molehill_3.ogg"
-msgstr "levels/narre2/speech/molehill_3_czech.ogg"
-
 msgid "levels/narre2/speech/quicksand_1.ogg"
 msgstr "levels/narre2/speech/quicksand_1_czech.ogg"
 
@@ -757,40 +689,10 @@ msgstr "levels/narre2/speech/quicksand_2_czech.ogg"
 msgid "penguins_dont_fly_info.ogg"
 msgstr "penguins_dont_fly_info_czech.ogg"
 
-msgid "levels/narre2/speech/ceiling_1.ogg"
-msgstr "levels/narre2/speech/ceiling_1_czech.ogg"
-
-msgid "levels/narre2/speech/ceiling_2.ogg"
-msgstr "levels/narre2/speech/ceiling_2_czech.ogg"
-
-msgid "levels/narre2/speech/ceiling_3.ogg"
-msgstr "levels/narre2/speech/ceiling_3_czech.ogg"
-
-msgid "levels/narre2/speech/icicle_1.ogg"
-msgstr "levels/narre2/speech/icicle_1_czech.ogg"
-
-msgid "levels/narre2/speech/icicle_2.ogg"
-msgstr "levels/narre2/speech/icicle_2_czech.ogg"
-
-msgid "levels/narre2/speech/icicle_3.ogg"
-msgstr "levels/narre2/speech/icicle_3_czech.ogg"
-
-msgid "levels/narre2/speech/icicle_4.ogg"
-msgstr "levels/narre2/speech/icicle_4_czech.ogg"
-
-msgid "levels/narre2/speech/whitewisp_information_1.ogg"
-msgstr "levels/narre2/speech/whitewisp_information_1_czech.ogg"
-
-msgid "levels/narre2/speech/whitewisp_information_2.ogg"
-msgstr "levels/narre2/speech/whitewisp_information_2_czech.ogg"
-
-msgid "levels/narre2/speech/whitewisp_information_3.ogg"
-msgstr "levels/narre2/speech/whitewisp_information_3_czech.ogg"
-
 msgid "This is a checkpoint."
 msgstr "Tohle je uložovák."
 
-msgid "You can activate this checkpoint\nand then, if you die, you'll be\nrespawned here."
+msgid "You can activate this checkpoint\nand then, if you die, you'll\nrespawn here."
 msgstr "Pokud tento uložovák aktivuješ\na potom zemřeš, vrátíš se\nna tuto pozici."
 
 msgid "But if you want to get\nthe achievement for avoiding\ncheckpoints, you can't touch it,"
@@ -802,10 +704,10 @@ msgstr "jinak bys toto ocenění trvale\nuzamkl. Takže se rozhodni."
 msgid "Sorry mate, but penguins don't fly.\nYou should use a trampoline."
 msgstr "Promiň, ale tučňáci nelétají.\nMěl bys použít trampolínu."
 
-msgid "This is a white wisp.\nGood news is that these are\none of the good ones."
+msgid "This is a white wisp.\nGood news is that this kind\nis one of the good ones."
 msgstr "Toto je bílá bludička.\nDobrá zpráva je, že tyto\njsou jedny z těch dobrých."
 
-msgid "These wisps have the ability\nto reveal things you would\nhave otherwise missed."
+msgid "These wisps have the ability\nto reveal things you would\notherwise have missed."
 msgstr "Tyto bludičky mají schopnost\nodhalit věci, které bys\njinak přehlédl."
 
 msgid "So come on, what secret\ncan this one reveal?"
@@ -814,10 +716,10 @@ msgstr "Tak pojď, co asi může\ntato odhalit?"
 msgid "Stop!"
 msgstr "Stůj!"
 
-msgid "Ceiling in this cave is not very stable.\nIt could block your way, or,\nworse, fall on your head."
+msgid "The ceiling in this cave isn't very stable.\nIt could block your way or,\nworse, fall on your head."
 msgstr "Strop v této jeskyni není příliš pevný.\nMohl by ti zablokovat cestu, nebo,\nhůře, spadnout ti na hlavu."
 
-msgid "So, don't be furious and\nwatch your steps!"
+msgid "So, don't be rash and\nwatch your steps!"
 msgstr "Takže nebuď zbrklý a\ndívej se, kam šlapeš!"
 
 msgid "Whoops! This way seems to be blocked.\nYou went so far and now, you can\ngive it u... No, wait, there is a way."
@@ -826,7 +728,7 @@ msgstr "Jeejda! Tahle cesta je zablokovaná.\nDošel jsi tak daleko a teď, mů�
 msgid "Do you see the molehill? There is\na tunnel in it. It should be wide\nenough for you."
 msgstr "Vidíš tu krtinu? Je v ní průchod.\nMěl by pro tebe být dost široký."
 
-msgid "And if it wasn't, try to butt-jump\nonto that molehill to widen it."
+msgid "And if it weren't, try to butt-jump\nonto that molehill to widen it."
 msgstr "A kdyby ne, zkus na tu krtinu\ndupnout, aby se rozšířil."
 
 msgid "These are called Tree Guardians.\nThey usually live near these trees -\nthey guard the trees and the trees"
@@ -835,8 +737,8 @@ msgstr "Tyhle potvory se jmenují Strážci stromů.\nVětšinou žijí poblíž
 msgid "hide them and protect them against\nheat. Symbiosis. They are still\nagainst you though, so don't"
 msgstr "schovávají a chrání je před teplem.\nSymbióza. Pořád jsou ale proti\ntobě, takže se je neboj zašlápnout."
 
-msgid "be afraid of squishing them. But be\ncareful - as long as they walk near the\ntree, they are immune against fireballs."
-msgstr "Ale buď opatrný - dokud chodí kolem\nstromu, jsou imunní vůči ohnivým sřelám."
+msgid "be afraid of squishing them. But be\ncareful - as long as they walk near the\ntree, they are immune to fireballs."
+msgstr "Ale buď opatrný - dokud chodí kolem\nstromu, jsou imunní vůči ohnivým střelám."
 
 msgid "Stop! This, my dear friend, is mud. A\nwhole lake of it. It is not as innocent\nas the muddy water you've seen before."
 msgstr "Stůj! Tohle, můj milý příteli, je bláto.\nCelé jezero. Bláto není tak nevinné,\njako ta bahnitá voda, kterou jsi viděl"
@@ -850,7 +752,7 @@ msgstr "bažiny známy. Neriskuj, nestojí to za\nto. A mimochodem, ne všechno 
 msgid "live in it.\nAnd they aren't very pleasant either."
 msgstr "žije. A ten taky není zrovna dvakrát\npříjemný."
 
-msgid "This, my dear friend, is quicksand.\nIt's a home for creature known as\nSkelehand, which can, surprisingly, kill"
+msgid "This, my dear friend, is quicksand.\nIt's the home for a creature known as\nSkelehand, which can, surprisingly, kill"
 msgstr "Tohle, můj příteli, je tekutý písek.\nJe to domov pro stvoření známé jako\nKostiruka, která Tě může, překvapivě,"
 
 msgid "you. And the quicksand itself isn't very\nfriendly either. It's pretty much a\ndesert version of mud. So, be careful."
@@ -868,7 +770,7 @@ msgstr "Pamatuješ, jak jsem ti řekl, že\njsou i horší bludičky než ty zel
 msgid "This is a red wisp. Okay, these can't\nwarp you back, but they are a bit more\ndangerous. How can I say it. THEY BITE."
 msgstr "Tohle je červená bludička. Fajn, tyhle\ntě nemohou přenést zpět, ale i tak jsou\nnebezpečnější. Jak to říct. KOUŠOU."
 
-msgid "Do you remember as I told you that\nwisps weren't pretty pleasant? Well, this\nkind is. Although wisps aren't usually"
+msgid "Do you remember as I told you that\nwisps weren't very pleasant? Well, this\nkind is. Although wisps aren't usually"
 msgstr "Pamatuješ, jak jsem ti řekl, že bludičky\nnejsou moc příjemné? Nu, tenhle typ\nje. Ačkoliv bludičky nejsou většinou"
 
 msgid "very nice, the blue ones somewhat are.\nThey can't warp you forward or kill\nall your enemies, but they are pretty"
@@ -877,7 +779,7 @@ msgstr "moc fajn, ty modré tak nějak jsou.\nNemůžou tě přenést dopředu �
 msgid "useful. They can give you some coins or\na flower. So come on, try it, what does\nthis one have?"
 msgstr "užitečné. Mohou ti dát nějaké mince či\ndokonce květinu. No tak, zkus to, co\nmá tahle?"
 
-msgid "Hmm, this doesn't seem like the right way."
+msgid "Hmm, this doesn't seem to be the right\nway."
 msgstr "Hmm, tohle nevypadá jako správná cesta."
 
 msgid "Do you see the icicle here? It might\nseem pretty dangerous, but these\nmountains are in fact so cold that"
@@ -889,7 +791,7 @@ msgstr "že zde rampouchy pevně přimrzly ke\nstropu a rozhodně nespadnou tak\
 msgid "That doesn't mean that they're not\nsharp though - if you want to get rid\nof them, you can force them to fall by"
 msgstr "To ale neznamená, že nejsou ostré -\njestliže se jich chceš zbavit, můžeš\nje shodit sestřelením ledovou"
 
-msgid "shooting them with ice or fire bullets."
+msgid "shooting them with an ice or\na fire bullet."
 msgstr "nebo ohnivou střelou."
 
 msgid "might be useful ayway."

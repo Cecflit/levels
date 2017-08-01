@@ -25,7 +25,12 @@ if(state.achievement_i_wont_die_anyway == 3){deadcheckpoints.fade(1,0);}
 if(state.achievement_nobodys_going_to_die_today == 3){deadsurvivors.fade(1,0);}
 if(state.achievement_mercy == 3){deadmercy.fade(1,0);}
 if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
-")
+if(state.achievement_cat_eye){cateye.fade(1,0);}
+if(state.achievement_speeding_fine){speedfine.fade(1,0);}
+if(state.achievement_fish_finger){fishfing.fade(1,0);}
+if(state.achievement_wind_rider){windride.fade(1,0);}
+if(state.achievement_toilet_cleaner){toilet.fade(1,0);}
+if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
@@ -43,9 +48,9 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (y 896)
     )
     (infoblock
-      (message (_ "-Immortality Confirmed
+      (message (_ "-Speeding Fine
 #Finish the escaping challenge"))
-      (x 2560)
+      (x 5888)
       (y 896)
     )
     (infoblock
@@ -67,8 +72,8 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (y 896)
     )
     (infoblock
-      (message (_ "-More Brains than Luck
-#Win the final joust without single mistake"))
+      (message (_ "-Encyclopaedist
+#Win the final joust without one single mistake"))
       (x 3584)
       (y 896)
     )
@@ -76,12 +81,6 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (message (_ "-More Luck than Brains
 #Jump into the dangerous hole and survive"))
       (x 3840)
-      (y 896)
-    )
-    (infoblock
-      (message (_ "-Nobody's going to die today
-#Do not let anyone die during the whole story"))
-      (x 4096)
       (y 896)
     )
     (infoblock
@@ -97,8 +96,8 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (y 896)
     )
     (infoblock
-      (message (_ "-Just Do It
-#Jump through the lavafall in the Matrix"))
+      (message (_ "-An Unconvincing Illusion
+#Don't let the Matrix trick you"))
       (x 4864)
       (y 896)
     )
@@ -111,27 +110,27 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
     (infoblock
       (message (_ "-Mercy
 #Spare the Tumbleweed boss when he surrenders"))
-      (x 5376)
+      (x 4096)
       (y 896)
     )
     (infoblock
-      (message (_ "-Legend
+      (message (_ "-Achievements
 !images/tiles/signs/danger.png
 *This achievement is dead-locked"))
       (x 2048)
       (y 896)
     )
     (infoblock
-      (message (_ "-Legend
+      (message (_ "-Achievements
 !images/tiles/signs/color_cyan.png
 *This achievement is available"))
       (x 2112)
       (y 896)
     )
     (infoblock
-      (message (_ "-Legend
+      (message (_ "-Achievements
 !images/tiles/signs/color_yellow.png
-*You've got this achievement"))
+*This achievement is unlocked"))
       (x 2176)
       (y 896)
     )
@@ -139,6 +138,42 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (message (_ "-The Grand Traveller
 #Finish every single level"))
       (x 5632)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Cat Eye
+#Go through the dark tunnel and survive"))
+      (x 5376)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Immortality Confirmed
+#Finish any river level during thunderstorm"))
+      (x 2560)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Fish Finger
+#Finish the lava survival challenge"))
+      (x 6144)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Wind Rider
+#Finish the wind riding challenge"))
+      (x 6400)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Toilet Cleaner
+#Finish the pipe maze challenge"))
+      (x 6656)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Rabbit Foot
+#Finish the rising lava challenge"))
+      (x 6912)
       (y 896)
     )
     (spawnpoint
@@ -409,7 +444,7 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (name "mercy")
       (path
         (node
-          (x 5360)
+          (x 4080)
           (y 960)
         )
       )
@@ -482,24 +517,6 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (path
         (node
           (x 4336)
-          (y 960)
-        )
-      )
-      (width 2)
-      (height 2)
-      (tiles
-      1731 1732
-      1733 1734
-      )
-    )
-    (tilemap
-      (solid #f)
-      (alpha 0)
-      (z-pos -1)
-      (name "survivors")
-      (path
-        (node
-          (x 4080)
           (y 960)
         )
       )
@@ -643,7 +660,7 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
       (name "deadmercy")
       (path
         (node
-          (x 5360)
+          (x 4080)
           (y 960)
         )
       )
@@ -675,29 +692,119 @@ if(state.achievement_grand_traveller){grandtraveller.fade(1,0);}
     (tilemap
       (solid #f)
       (alpha 0)
-      (z-pos 0)
-      (name "deadsurvivors")
+      (z-pos -1)
+      (name "grandtraveller")
       (path
         (node
-          (x 4080)
+          (x 5616)
           (y 960)
         )
       )
       (width 2)
       (height 2)
       (tiles
-      1628 1629
-      1630 1631
+      1731 1732
+      1733 1734
       )
     )
     (tilemap
       (solid #f)
       (alpha 0)
       (z-pos -1)
-      (name "grandtraveller")
+      (name "cateye")
       (path
         (node
-          (x 5616)
+          (x 5360)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "speedfine")
+      (path
+        (node
+          (x 5872)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "toilet")
+      (path
+        (node
+          (x 6640)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "windride")
+      (path
+        (node
+          (x 6384)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "fishfing")
+      (path
+        (node
+          (x 6128)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "rabbit")
+      (path
+        (node
+          (x 6896)
           (y 960)
         )
       )
@@ -757,18 +864,16 @@ set_weather(0);")
 
 Text.set_text(_(\"Hello player. Welcome to the Narre's\\nMultiworld, the longest adventure in\\nSuperTux yet. To fully complete this\"));
 
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_1.ogg\"))}
+if(state.voice){play_sound(\"levels/narre2/speech/intro.ogg\")}
 if(state.subtitles){Text.fade_in(1);}
 
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_2.ogg\"))}
+wait(6.6);
 Text.set_text(_(\"world, you must finish all its four\\nhundred levels. And you can also try\\nto get all the achievements if you\"));
 
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_3.ogg\"))}
+wait(6);
 Text.set_text(_(\"feel like doing it. Before you start\\nthough, you should know the story: Tux\\nand Penny were having a picnic with\"));
 
-wait(4);
+wait(4.5);
 
 		igloo <- FloatingImage(\"levels/narre2/images/map/with.png\");
 		igloo.set_anchor_point(ANCHOR_MIDDLE);
@@ -781,31 +886,26 @@ wait(4);
 		igloo.fade_out(0.5);
 
 
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_4.ogg\"))}
+
 Text.set_text(_(\"their neighbours when, suddenly, the\\nneighbours disappeared. More creatures\\ndisappeared over the next few weeks\"));
 
 		lone.fade_in(0.5);
 		wait(3);
 		lone.fade_out(0.5);
 
-wait(4);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_5.ogg\"))}
+wait(3.5);
 Text.set_text(_(\"and when Penny disappered too, Tux\\nhad already made his decision. He will\\nfind out what is going on, he will save\"));
 
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_6.ogg\"))}
+wait(7.2);
 Text.set_text(_(\"every disappeared creature and he will\\nstop this madness. He will go to the\\nMatrix, the only thing that has the\"));
 
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_7.ogg\"))}
+wait(7.1);
 Text.set_text(_(\"power to cause such thing, and you,\\nyou will help Tux in every situation,\\ntricky or not. You have been chosen,\"));
 
-wait(7);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_8.ogg\"))}
+wait(7.6);
 Text.set_text(_(\"there is no way back.\"));
 
-wait(3);
-if(state.voice){play_sound(_(\"levels/narre2/speech/intro_9.ogg\"))}
+wait(2);
 Text.set_text(_(\"\\n               Good luck.\"));
 
 wait(3);

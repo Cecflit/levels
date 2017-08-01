@@ -22,8 +22,8 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
       (layer -100)
     )
     (background
-      (speed 0)
       (name "noc")
+      (speed 0)
       (image "images/background/BlueRock_Forest/blue-top.jpg")
       (layer -300)
     )
@@ -260,6 +260,33 @@ Tux.add_bonus(\"fireflower\");")
       (x 7248)
       (y 416)
     )
+    (scripttrigger
+      (script "
+state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_welcome_to_narres_river.stl\"][\"solved\"]<-true;
+if(state.weather == 3 && !state.achievement_immortality_confirmed){
+	sector.Tux.trigger_sequence(\"endsequence\");
+	if(state.achievement_grand_traveller || (!state.achievement_grand_traveller && !(checkalllevelsdone()))){
+		give_ach_immor();
+}else if(!state.achievement_grand_traveller && checkalllevelsdone()){
+	give_ach_immor_travel();
+	}
+}else{
+endseq();
+}")
+      (button #f)
+      (width 32)
+      (height 524)
+      (x 15744)
+      (y -76)
+    )
+    (scripttrigger
+      (script "sector.Tux.trigger_sequence(\"stoptux\")")
+      (button #f)
+      (width 24)
+      (height 476)
+      (x 16372)
+      (y -32)
+    )
     (secretarea
       (script "if(!state.w13_lwelcomeriver_s1){
 state.w13_lwelcomeriver_s1 <- true;}
@@ -275,20 +302,6 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}
       (height 44)
       (x 2944)
       (y 852)
-    )
-    (scripttrigger
-      (script "state.worlds[\"levels/narre2/worldmap.stwm\"][\"levels\"][\"river_welcome_to_narres_river.stl\"][\"solved\"]<-true;endseq();")
-      (width 32)
-      (height 524)
-      (x 15744)
-      (y -76)
-    )
-    (scripttrigger
-      (script "sector.Tux.trigger_sequence(\"stoptux\")")
-      (width 24)
-      (height 476)
-      (x 16372)
-      (y -32)
     )
     (spawnpoint
       (name "main")
