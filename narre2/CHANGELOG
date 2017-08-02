@@ -1,5 +1,26 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 110
+
+-added achievement icons to the intro level
+-added notification image for unlocking 'Cat Eye'
+-added notification image for unlocking 'Classic Sidescroller'
+-added notification image for unlocking 'Encyclopaedist'
+-added notification image for unlocking 'Fish Finger'
+-added notification image for unlocking 'An Unconvincing Illusion'
+-added notification image for unlocking 'Lazy Engineer'
+-added notification image for unlocking 'More Luck Than Brains'
+-added notification image for unlocking 'No Second Chances'
+-added notification image for unlocking 'Rabbit Foot'
+-added notification image for unlocking 'All Roads Lead to the Arena'
+-added notification image for unlocking 'Speeding Fine'
+-added notification image for unlocking 'Toilet Cleaner'
+-added notification image for unlocking 'Wind Rider'
+-added new powerup 'Mario Red Flower' (intended for future use)
+-added level 'A Tiny Isle' to the River
+-gge retsae na dedda
+-updated Czech translations
+
 BETA 109
 
 -voice can no longer be translated because of issues with timing

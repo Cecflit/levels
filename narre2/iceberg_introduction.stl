@@ -43,72 +43,84 @@ if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
     )
     (infoblock
       (message (_ "-To Find a Needle in a Haystack
+!levels/narre2/images/notifications/to_find_a_needle_in_a_haystack/icon.png
 #Find all secret levels and areas"))
       (x 2304)
       (y 896)
     )
     (infoblock
       (message (_ "-Speeding Fine
+!levels/narre2/images/notifications/speed/icon.png
 #Finish the escaping challenge"))
       (x 5888)
       (y 896)
     )
     (infoblock
       (message (_ "-No Second Chances
+!levels/narre2/images/notifications/no_second_chances/icon.png
 #Destroy the Matrix after releasing all kidnapped creatures"))
       (x 2816)
       (y 896)
     )
     (infoblock
       (message (_ "-I Won't Die Anyway
+!levels/narre2/images/notifications/i_wont_die_anyway/icon.png
 #Avoid all checkpoints"))
       (x 3072)
       (y 896)
     )
     (infoblock
       (message (_ "-Lazy Engineer
+!levels/narre2/images/notifications/lazy_engineer/icon.png
 #Repair that bloody lift and avoid the staircase"))
       (x 3328)
       (y 896)
     )
     (infoblock
       (message (_ "-Encyclopaedist
+!levels/narre2/images/notifications/encyclopaedist/icon.png
 #Win the final joust without one single mistake"))
       (x 3584)
       (y 896)
     )
     (infoblock
       (message (_ "-More Luck than Brains
+!levels/narre2/images/notifications/more_luck/icon.png
 #Jump into the dangerous hole and survive"))
       (x 3840)
       (y 896)
     )
     (infoblock
       (message (_ "-All Roads Lead to the Arena
+!levels/narre2/images/notifications/roads_arena/icon.png
 #Try to avoid the Yeti"))
       (x 4352)
       (y 896)
     )
     (infoblock
       (message (_ "-Penguins Do Fly
+!levels/narre2/images/notifications/penguins_do_fly/icon.png
 #Jump over that great hole without using a trampoline"))
       (x 4608)
       (y 896)
     )
     (infoblock
       (message (_ "-An Unconvincing Illusion
+!levels/narre2/images/notifications/illusion/icon.png
 #Don't let the Matrix trick you"))
       (x 4864)
       (y 896)
     )
     (infoblock
       (message (_ "-Classic Sidescroller
+!levels/narre2/images/notifications/classic_sidescroller/icon.png
 #Find the red flower from the original Mario game"))
       (x 5120)
       (y 896)
     )
     (infoblock
       (message (_ "-Mercy
+!levels/narre2/images/notifications/mercy/icon.png
 #Spare the Tumbleweed boss when he surrenders"))
       (x 4096)
       (y 896)
@@ -136,42 +148,49 @@ if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
     )
     (infoblock
       (message (_ "-The Grand Traveller
+!levels/narre2/images/notifications/the_grand_traveller/icon.png
 #Finish every single level"))
       (x 5632)
       (y 896)
     )
     (infoblock
       (message (_ "-Cat Eye
+!levels/narre2/images/notifications/cat_eye/icon.png
 #Go through the dark tunnel and survive"))
       (x 5376)
       (y 896)
     )
     (infoblock
       (message (_ "-Immortality Confirmed
+!levels/narre2/images/notifications/immortality/icon.png
 #Finish any river level during thunderstorm"))
       (x 2560)
       (y 896)
     )
     (infoblock
       (message (_ "-Fish Finger
+!levels/narre2/images/notifications/fish_finger/icon.png
 #Finish the lava survival challenge"))
       (x 6144)
       (y 896)
     )
     (infoblock
       (message (_ "-Wind Rider
+!levels/narre2/images/notifications/wind_rider/icon.png
 #Finish the wind riding challenge"))
       (x 6400)
       (y 896)
     )
     (infoblock
       (message (_ "-Toilet Cleaner
+!levels/narre2/images/notifications/toilet_cleaner/icon.png
 #Finish the pipe maze challenge"))
       (x 6656)
       (y 896)
     )
     (infoblock
       (message (_ "-Rabbit Foot
+!levels/narre2/images/notifications/rabbit_foot/icon.png
 #Finish the rising lava challenge"))
       (x 6912)
       (y 896)
