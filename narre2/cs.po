@@ -1090,3 +1090,11 @@ msgstr "Lávová jezera"
 #: data/levels/narre2/river_a_tiny_isle.stl:3
 msgid "A Tiny Isle"
 msgstr "Ostrůvek"
+
+#: data/levels/narre2/stonecave_ladderspike.stl:3
+msgid "Spikes on Ladders"
+msgstr "Bodláky na žebřících"
+
+#: data/levels/narre2/meadows_flowery_flatlands.stl:3
+msgid "Flowery Flatlands"
+msgstr "Květinatá rovina"
