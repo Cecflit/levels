@@ -1098,3 +1098,11 @@ msgstr "Bodláky na žebřících"
 #: data/levels/narre2/meadows_flowery_flatlands.stl:3
 msgid "Flowery Flatlands"
 msgstr "Květinatá rovina"
+
+#: data/levels/narre2/geysers_hot_springs.stl:3
+msgid "Hot Springs"
+msgstr "Vřídla"
+
+#: data/levels/narre2/fortress_dont_jump_into_spikes.stl:3
+msgid "Don't Jump into Spikes"
+msgstr "Neskákej do bodláků"

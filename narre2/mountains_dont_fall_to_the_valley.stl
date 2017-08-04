@@ -442,6 +442,7 @@ pozadi.set_images(\"images/background/transparent_up.png\",\"levels/narre2/image
 		ach_img <- FloatingImage(\"levels/narre2/images/notifications/penguins_do_fly/achievement.png\");
 		ach_img.set_anchor_point(ANCHOR_TOP_RIGHT);
 		ach_img.set_pos(-20, 35);
+		ach_img.set_layer(800);
 		ach_img.fade_in(0.5);
 		wait(0.05);
 		play_sound(\"levels/narre2/sound/notification.wav\");

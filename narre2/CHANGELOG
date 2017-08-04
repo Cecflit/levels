@@ -1,5 +1,11 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 112
+
+-added level 'Hot Springs' to the Geysers
+-added level 'Don't Jump into Spikes' to the Fortress
+-notifications now show over ambient light
+
 BETA 111
 
 -added level 'Spikes on Ladders' to the StoneCave
