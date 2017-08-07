@@ -1106,3 +1106,7 @@ msgstr "Vřídla"
 #: data/levels/narre2/fortress_dont_jump_into_spikes.stl:3
 msgid "Don't Jump into Spikes"
 msgstr "Neskákej do bodláků"
+
+#: data/levels/narre2/matrix_escape_the_wall.stl:3
+msgid "Escape the Wall"
+msgstr "Útěk před zdí"
