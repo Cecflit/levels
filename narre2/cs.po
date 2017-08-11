@@ -1110,3 +1110,7 @@ msgstr "Neskákej do bodláků"
 #: data/levels/narre2/matrix_escape_the_wall.stl:3
 msgid "Escape the Wall"
 msgstr "Útěk před zdí"
+
+#: data/levels/narre2/iceberg_a_massive_glacier.stl:3
+msgid "A Massive Glacier"
+msgstr "Masivní ledovec"
