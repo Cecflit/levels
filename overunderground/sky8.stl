@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "An adventure for the golden nugget"))
+  (name (_ "An Adventure for the Golden Nugget"))
   (author "Hume2")
   (tileset "images/tiles.strf")
   (contact "Nemám zájem, aby mě někdo otravoval.")

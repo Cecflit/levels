@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The cave of skulls"))
+  (name (_ "The Cave of Skulls"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

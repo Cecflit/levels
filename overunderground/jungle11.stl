@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The jungle of ghosts"))
+  (name (_ "The Jungle of Ghosts"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

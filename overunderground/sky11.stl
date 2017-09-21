@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Sunset in the sky"))
+  (name (_ "Sunset in the Sky"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

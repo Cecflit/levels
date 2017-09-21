@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Flying chunks"))
+  (name (_ "Flying Chunks"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

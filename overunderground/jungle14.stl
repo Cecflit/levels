@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Hostile foliage"))
+  (name (_ "Hostile Foliage"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

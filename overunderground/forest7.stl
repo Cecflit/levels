@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Somewhere else in the forest"))
+  (name (_ "Somewhere Else in the Forest"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

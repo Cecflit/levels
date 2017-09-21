@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Insane terrain"))
+  (name (_ "Insane Terrain"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

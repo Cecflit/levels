@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Midnight at the lake"))
+  (name (_ "Midnight at the Lake"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

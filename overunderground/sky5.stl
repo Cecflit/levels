@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Just cool!"))
+  (name (_ "Just Cool!"))
   (author "Hume")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "GPL 2+ / CC-by-sa 3.0")

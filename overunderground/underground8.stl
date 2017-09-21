@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The source of beam"))
+  (name (_ "The Source of Beam"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Vertical lands"))
+  (name (_ "Vertical Lands"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

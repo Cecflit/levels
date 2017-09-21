@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Cave chaos"))
+  (name (_ "Cave Chaos"))
   (author "Hume")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

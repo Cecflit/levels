@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "An adventure in the dark forest"))
+  (name (_ "An Adventure in the Dark Forest"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA 4.0")

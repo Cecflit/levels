@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Don't you have a torch?"))
+  (name (_ "Don't you Have a Torch?"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

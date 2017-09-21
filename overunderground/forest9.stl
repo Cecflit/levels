@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Old pass"))
+  (name (_ "Old Pass"))
   (author "Hume2")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

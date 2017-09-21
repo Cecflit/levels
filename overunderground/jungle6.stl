@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Overgrown hills"))
+  (name (_ "Overgrown Hills"))
   (author "Hume")
   (tileset "images/tiles.strf")
   (contact "Nemám zájem, aby mě někdo otravoval.")

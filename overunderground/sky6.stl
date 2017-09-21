@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Air and snow"))
+  (name (_ "Air and Snow"))
   (author "Hume")
   (contact "Nemám zájem, aby mě někdo otravoval.")
   (license "CC-BY-SA")

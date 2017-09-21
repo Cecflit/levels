@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Tiny jungle caves"))
+  (name (_ "Tiny Jungle Caves"))
   (author "Hume2")
   (tileset "images/tiles.strf")
   (contact "Nemám zájem, aby mě někdo otravoval.")
