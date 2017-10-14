@@ -38,7 +38,7 @@ msgstr "a když zmizela i Penny, Tux byl\nuž rozhodnutý. Zjistí, co se to dě
 msgid "every disappeared creature and he will\nstop this madness. He will go to the\nMatrix, the only thing that has the"
 msgstr "a bude to právě on, kdo skončí\ntohle šílenství. Půjde do Matrixu,\njediné věci, která má dost síly na to"
 
-msgid "power to cause such thing, and you,\nyou will help Tux in every situation,\ntricky or not. You have been chosen,"
+msgid "power to cause such a thing, and you,\nyou will help Tux in every situation,\ntricky or not. You have been chosen,"
 msgstr "něco takového udělat, a ty, ty\npomůžeš Tuxovi v každé situaci, zrádné\nnebo ne. Už jsi byl vybrán,"
 
 msgid "there is no way back."
@@ -84,7 +84,7 @@ msgid "Welcome to the Swamp of Ghosts"
 msgstr "Vítej v Bažině Duchů"
 
 #: data/levels/narre2/meadows_stripy_structure.stl:3
-msgid "Striped Structure"
+msgid "Stripped Structure"
 msgstr "Pruhovaná struktura"
 
 #: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:77
@@ -1114,3 +1114,7 @@ msgstr "Útěk před zdí"
 #: data/levels/narre2/iceberg_a_massive_glacier.stl:3
 msgid "A Massive Glacier"
 msgstr "Masivní ledovec"
+
+#: data/levels/narre2/forest_heavy_rocks.stl:3
+msgid "Heavy Rocks"
+msgstr "Těžké kameny"

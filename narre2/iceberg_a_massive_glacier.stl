@@ -15,6 +15,7 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
     (ambient-light 1 1 1)
     (background
       (speed 0)
+      (name "noc")
       (image-top "images/background/transparent_up.png")
       (image "images/background/transparent_up.png")
       (image-bottom "images/background/transparent_up.png")
@@ -68,6 +69,7 @@ noc.set_images(\"images/background/nightsky_top.png\",\"images/background/nights
       (y 2653.639)
     )
     (particles-clouds
+      (name "WEATH_1")
       (z-pos -1)
     )
     (decal
@@ -267,6 +269,7 @@ if(!state.achievement_to_find_a_needle_in_a_haystack){check_secretareas();}")
       (y 1447.665)
     )
     (particles-snow
+      (name "WEATH_2")
       (z-pos -1)
     )
     (spawnpoint

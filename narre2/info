@@ -1,10 +1,10 @@
 ;;Narre's Multiworld
-;;version b114
+;;version b115
 
 
 (supertux-level-subset
   (title (_ "Narre's Multiworld"))
-  (description (_ "Narre's Multi Environment World"))
+  (description (_ "A world of eighteen environments, four bonus environments and four hundred levels that had not been created carelessly"))
   (levelset #f)
   (hide-from-contribs #f)
 )

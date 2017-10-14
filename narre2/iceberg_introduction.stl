@@ -919,7 +919,7 @@ wait(7.2);
 Text.set_text(_(\"every disappeared creature and he will\\nstop this madness. He will go to the\\nMatrix, the only thing that has the\"));
 
 wait(7.1);
-Text.set_text(_(\"power to cause such thing, and you,\\nyou will help Tux in every situation,\\ntricky or not. You have been chosen,\"));
+Text.set_text(_(\"power to cause such a thing, and you,\\nyou will help Tux in every situation,\\ntricky or not. You have been chosen,\"));
 
 wait(7.6);
 Text.set_text(_(\"there is no way back.\"));
