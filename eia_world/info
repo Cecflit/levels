@@ -1,0 +1,5 @@
+(supertux-level-subset
+  (title (_ "EIA World"))
+  (description "A Worldmap by Hume2 and Ondra CI")
+  (levelset #t)
+)
