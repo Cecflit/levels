@@ -30,7 +30,8 @@ if(state.achievement_speeding_fine){speedfine.fade(1,0);}
 if(state.achievement_fish_finger){fishfing.fade(1,0);}
 if(state.achievement_wind_rider){windride.fade(1,0);}
 if(state.achievement_toilet_cleaner){toilet.fade(1,0);}
-if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
+if(state.achievement_rabbit_foot){rabbit.fade(1,0);}
+if(state.achievement_water_bird){wabird.fade(1,0);}")
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
@@ -193,6 +194,13 @@ if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
 !levels/narre2/images/notifications/rabbit_foot/icon.png
 #Finish the rising lava challenge"))
       (x 6912)
+      (y 896)
+    )
+    (infoblock
+      (message (_ "-Water Bird
+!levels/narre2/images/notifications/water_bird/icon.png
+#Finish the swimming challenge"))
+      (x 7168)
       (y 896)
     )
     (spawnpoint
@@ -824,6 +832,24 @@ if(state.achievement_rabbit_foot){rabbit.fade(1,0);}")
       (path
         (node
           (x 6896)
+          (y 960)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      1731 1732
+      1733 1734
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos -1)
+      (name "wabird")
+      (path
+        (node
+          (x 7152)
           (y 960)
         )
       )

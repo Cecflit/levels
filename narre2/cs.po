@@ -1122,3 +1122,7 @@ msgstr "Těžké kameny"
 #: data/levels/narre2/jungle_tomb_exploration.stl:3
 msgid "Tomb Exploration"
 msgstr "Průzkum hrobky"
+
+#: data/levels/narre2/underground_a_dark_tunnel.stl:3
+msgid "A Dark Tunnel"
+msgstr "Tmavý tunel"
