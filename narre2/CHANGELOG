@@ -1,9 +1,14 @@
 SUPERTUX ADDON: NARRE'S MULTIWORLD - CHANGELOG
 
+BETA 118
+
+-added level 'Snowy Peaks' to the Mountains
+-removed an uncollectable coin from 'A Dark Tunnel'
+
 BETA 117
 
 -added achievement 'Water Bird' which cannot be unlocked yet (intended for future use)
--added level 'A Narrow Tunnel' to the Underground
+-added level 'A Dark Tunnel' to the Underground
 -achievement 'Cat Eye' can now be unlocked
 
 BETA 116

@@ -1126,3 +1126,7 @@ msgstr "Průzkum hrobky"
 #: data/levels/narre2/underground_a_dark_tunnel.stl:3
 msgid "A Dark Tunnel"
 msgstr "Tmavý tunel"
+
+#: data/levels/narre2/mountains_snowy_peaks.stl:3
+msgid "Snowy Peaks"
+msgstr "Zasněžené vrcholy"
