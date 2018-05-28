@@ -1134,3 +1134,7 @@ msgstr "Zasněžené vrcholy"
 #: data/levels/narre2/icecave_a_tunnel_of_frost.stl:3
 msgid "A Tunnel of Frost"
 msgstr "Tunel mrazu"
+
+#: data/levels/narre2/crystalcave_topaz_yellow.stl:3
+msgid "Topaz Yellow"
+msgstr "Topazová žluť"

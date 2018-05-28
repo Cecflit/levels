@@ -622,7 +622,7 @@
     )
     (powerup
       (script "Tux.add_coins(100)
-Tux.add_bonus(\"Fireflower\")")
+Tux.add_bonus(\"fireflower\")")
       (sprite "levels/narre2/images/powerups/fireup.sprite")
       (x 9952)
       (y 2016)
