@@ -84,8 +84,8 @@ msgid "Welcome to the Swamp of Ghosts"
 msgstr "Vítej v Bažině Duchů"
 
 #: data/levels/narre2/meadows_stripy_structure.stl:3
-msgid "Stripped Structure"
-msgstr "Pruhovaná struktura"
+msgid "Stripes of Land"
+msgstr "Pruhy země"
 
 #: data/levels/narre2/swamp_welcome_to_narres_swamp.stl:77
 msgid ""
@@ -1130,3 +1130,7 @@ msgstr "Tmavý tunel"
 #: data/levels/narre2/mountains_snowy_peaks.stl:3
 msgid "Snowy Peaks"
 msgstr "Zasněžené vrcholy"
+
+#: data/levels/narre2/icecave_a_tunnel_of_frost.stl:3
+msgid "A Tunnel of Frost"
+msgstr "Tunel mrazu"
