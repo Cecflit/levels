@@ -1138,3 +1138,7 @@ msgstr "Tunel mrazu"
 #: data/levels/narre2/crystalcave_topaz_yellow.stl:3
 msgid "Topaz Yellow"
 msgstr "Topazová žluť"
+
+#: data/levels/narre2/rocks_rock_solid.stl:3
+msgid "Rock Solid"
+msgstr "Pevné skály"
