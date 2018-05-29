@@ -1142,3 +1142,7 @@ msgstr "Topazová žluť"
 #: data/levels/narre2/rocks_rock_solid.stl:3
 msgid "Rock Solid"
 msgstr "Pevné skály"
+
+#: data/levels/narre2/icecanyon_more_snow_platforms.stl:3
+msgid "More Snow Platforms"
+msgstr "Další sněžné plošiny"
