@@ -1146,3 +1146,7 @@ msgstr "Pevné skály"
 #: data/levels/narre2/icecanyon_more_snow_platforms.stl:3
 msgid "More Snow Platforms"
 msgstr "Další sněžné plošiny"
+
+#: data/levels/narre2/swamp_a_muddy_swampland.stl:3
+msgid "A Muddy Swampland"
+msgstr "Blátivá bažina"
