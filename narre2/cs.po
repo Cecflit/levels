@@ -1150,3 +1150,7 @@ msgstr "Další sněžné plošiny"
 #: data/levels/narre2/swamp_a_muddy_swampland.stl:3
 msgid "A Muddy Swampland"
 msgstr "Blátivá bažina"
+
+#: data/levels/narre2/desert_d_a_field_of_cacti.stl:3
+msgid "A Field of Cacti"
+msgstr "Pole kaktusů"
