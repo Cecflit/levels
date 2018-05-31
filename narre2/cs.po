@@ -1154,3 +1154,7 @@ msgstr "Blátivá bažina"
 #: data/levels/narre2/desert_d_a_field_of_cacti.stl:3
 msgid "A Field of Cacti"
 msgstr "Pole kaktusů"
+
+#: data/levels/narre2/volcano_warmth_from_the_core.stl:3
+msgid "Warmth from the Core"
+msgstr "Teplo z jádra"
