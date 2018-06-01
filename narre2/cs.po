@@ -1162,3 +1162,7 @@ msgstr "Teplo z jádra"
 #: data/levels/narre2/river_wet_water.stl:3
 msgid "Wet Water"
 msgstr "Mokrá voda"
+
+#: data/levels/narre2/stonecave_stone_zone.stl:3
+msgid "Stone Zone"
+msgstr "Šutrozóna"
