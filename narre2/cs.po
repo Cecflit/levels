@@ -1158,3 +1158,7 @@ msgstr "Pole kaktusů"
 #: data/levels/narre2/volcano_warmth_from_the_core.stl:3
 msgid "Warmth from the Core"
 msgstr "Teplo z jádra"
+
+#: data/levels/narre2/river_wet_water.stl:3
+msgid "Wet Water"
+msgstr "Mokrá voda"
