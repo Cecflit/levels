@@ -820,8 +820,8 @@ msgid "Still Getting Deeper"
 msgstr "Stále hloub a hloub"
 
 #: data/levels/narre2/meadows_plains_of_flowers.stl:3
-msgid "Plain of Flowers"
-msgstr "Pláň květin"
+msgid "Plains of Flowers"
+msgstr "Pláně květin"
 
 #: data/levels/narre2/geysers_shallow_lakes.stl:3
 msgid "Shallow Lakes"
@@ -1166,3 +1166,7 @@ msgstr "Mokrá voda"
 #: data/levels/narre2/stonecave_stone_zone.stl:3
 msgid "Stone Zone"
 msgstr "Šutrozóna"
+
+#: data/levels/narre2/meadows_land_of_hay.stl:3
+msgid "Land of Hay"
+msgstr "Země sena"
