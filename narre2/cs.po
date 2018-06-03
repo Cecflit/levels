@@ -1170,3 +1170,7 @@ msgstr "Šutrozóna"
 #: data/levels/narre2/meadows_land_of_hay.stl:3
 msgid "Land of Hay"
 msgstr "Země sena"
+
+#: data/levels/narre2/geysers_land_of_hot.stl:3
+msgid "Land of Hot"
+msgstr "Země horka"
