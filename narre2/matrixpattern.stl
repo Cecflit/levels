@@ -33,6 +33,11 @@ wait(1.5);
     (camera
       (mode "normal")
     )
+    (spawnpoint
+      (name "main")
+      (x 256)
+      (y 704)
+    )
     (tilemap
       (solid #t)
       (z-pos 100)

@@ -1178,3 +1178,7 @@ msgstr "Země horka"
 #: data/levels/narre2/fortress_traps.stl:3
 msgid "Traps"
 msgstr "Pasti"
+
+#: data/levels/narre2/matrix_digital_instanity.stl:3
+msgid "Digital Insanity"
+msgstr "Digitální šílenství"
