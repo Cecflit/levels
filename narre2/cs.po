@@ -1174,3 +1174,7 @@ msgstr "Země sena"
 #: data/levels/narre2/geysers_land_of_hot.stl:3
 msgid "Land of Hot"
 msgstr "Země horka"
+
+#: data/levels/narre2/fortress_traps.stl:3
+msgid "Traps"
+msgstr "Pasti"

@@ -64,6 +64,7 @@ settings.set_ambient_light(0.75,0.75,0.75);}")
       (mode "normal")
     )
     (darttrap
+      (direction "left")
       (initial-delay 0)
       (fire-delay 3)
       (ammo -1)
